@@ -38,7 +38,7 @@ function render(){
   if(!c){$('#empty').textContent=wrongOnly?'沒有錯題，繼續保持。':'此教材尚無題目。';return;}
   const pos=visibleIds.indexOf(currentId);const r=record();
   $('#case-number').textContent=`CASE ${String(pos+1).padStart(2,'0')}`;
-  $('#case-state').textContent=r.checked?'已作答':'觀察 · 作答';
+  $('#case-state').textContent=r.checked?'✓':'';
   $('#question-position').textContent=`${pos+1} / ${visibleIds.length}`;
   $('#prev-case').disabled=pos===0;$('#next-case').disabled=pos===visibleIds.length-1;
   fields.forEach(f=>{ const v=r.answers?.[f];$(`#${f}`).value=typeof v==='string'?v:''; });
@@ -49,13 +49,17 @@ function renderFeedback(){
   for(const f of fields){
     const field=$(`[data-field="${f}"]`),feedback=field.querySelector('.feedback');
     field.classList.toggle('correct',!!g?.[f]);field.classList.toggle('incorrect',!!g&&!g[f]);
-    field.querySelector('.result').textContent=g?(g[f]?'✓ 正確':'✕ 再看看'):'';
+    const result=field.querySelector('.result');
+    result.replaceChildren();
+    if(g){const symbol=document.createElement('span');symbol.setAttribute('aria-hidden','true');symbol.textContent=g[f]?'✓':'✕';const label=document.createElement('span');label.className='sr-only';label.textContent=g[f]?'正確':'錯誤';result.append(symbol,label);result.title=label.textContent;}else result.removeAttribute('title');
     $(`#${f}`).setAttribute('aria-invalid',String(!!g&&!g[f]));
     feedback.replaceChildren();
     if(!g)continue;
     if(f==='description'&&g.missing.length){const p=document.createElement('p');p.className='missing';p.textContent=`缺少關鍵字：${g.missing.join(' · ')}`;feedback.append(p);}
     const details=document.createElement('details');details.open=!g[f];
-    const summary=document.createElement('summary');summary.textContent='完整答案';details.append(summary);
+    const summary=document.createElement('summary');summary.innerHTML='<span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+    const updateSummary=()=>{const label=details.open?'收合詳解':'顯示詳解';summary.querySelector('span').textContent=label;summary.setAttribute('aria-label',label);};
+    details.addEventListener('toggle',updateSummary);updateSummary();details.append(summary);
     const answer=document.createElement('div');answer.className='answer-text';
     if(f==='description'){
       for(const part of highlightedParts(c.description,c.keywords)){const el=document.createElement(part.highlighted?'mark':'span');el.textContent=part.text;answer.append(el);}
@@ -68,16 +72,55 @@ function renderFeedback(){
     }
     feedback.append(details);
   }
-  $('#score').textContent=g?`${fields.filter(f=>g[f]).length} / 3 欄正確`:'三欄分別計分';
-  $('#retry').hidden=!g;$('#check').textContent=g?'再次檢查 ↗':'檢查答案 ↗';
+  $('#score').textContent=g?`${fields.filter(f=>g[f]).length} / 3`:'';
+  $('#retry').hidden=!g;$('#check').setAttribute('aria-label',g?'再次檢查':'檢查答案');$('#check').title=g?'再次檢查':'檢查答案';$('#check').textContent=g?'再次檢查':'檢查答案';
 }
 function answers(){return Object.fromEntries(fields.map(f=>[f,$(`#${f}`).value]));}
-$('#answer-form').addEventListener('submit',e=>{e.preventDefault();records[currentId]={answers:answers(),checked:true};save();renderFeedback();updateStats();$('#case-state').textContent='已作答';});
-$('#answer-form').addEventListener('input',()=>{records[currentId]={answers:answers(),checked:false};save();renderFeedback();updateStats();$('#case-state').textContent='觀察 · 作答';});
+$('#answer-form').addEventListener('submit',e=>{e.preventDefault();records[currentId]={answers:answers(),checked:true};save();renderFeedback();updateStats();$('#case-state').textContent='✓';});
+$('#answer-form').addEventListener('input',()=>{records[currentId]={answers:answers(),checked:false};save();renderFeedback();updateStats();$('#case-state').textContent='';});
 $('#retry').onclick=()=>{records[currentId]={answers:{},checked:false};save();render();$('#organ').focus();};
-$('#lesson').onchange=e=>{lesson=e.target.value;selectList();};
+$('#lesson').onchange=e=>{lesson=e.target.value;syncLessonMenu();selectList();};
+const lessonTrigger=$('#lesson-trigger'),lessonMenu=$('#lesson-menu');
+function closeLessonMenu(restoreFocus=false){lessonMenu.hidden=true;lessonTrigger.setAttribute('aria-expanded','false');if(restoreFocus)lessonTrigger.focus();}
+function syncLessonMenu(){
+  $('#lesson-label').textContent=$('#lesson').selectedOptions[0].textContent;
+  for(const button of lessonMenu.children)button.setAttribute('aria-checked',String(button.dataset.value===lesson));
+}
+for(const option of $('#lesson').options){
+  const button=document.createElement('button');button.type='button';button.role='menuitemradio';button.dataset.value=option.value;
+  const label=document.createElement('span');label.textContent=option.textContent;button.append(label);
+  const tick=document.createElement('span');tick.className='lesson-tick';tick.setAttribute('aria-hidden','true');tick.textContent='✓';button.append(tick);
+  button.onclick=()=>{$('#lesson').value=option.value;$('#lesson').dispatchEvent(new Event('change'));closeLessonMenu(true);};
+  lessonMenu.append(button);
+}
+syncLessonMenu();
+function openLessonMenu(){lessonMenu.hidden=false;lessonTrigger.setAttribute('aria-expanded','true');lessonMenu.querySelector('[aria-checked="true"]').focus();}
+lessonTrigger.onclick=()=>{if(lessonMenu.hidden)openLessonMenu();else closeLessonMenu();};
+lessonTrigger.addEventListener('keydown',e=>{if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();openLessonMenu();}});
+lessonMenu.addEventListener('keydown',e=>{
+  const buttons=[...lessonMenu.children],index=buttons.indexOf(document.activeElement);
+  if(e.key==='Escape'){e.preventDefault();closeLessonMenu(true);}
+  else if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();buttons[(index+(e.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length].focus();}
+  else if(e.key==='Home'||e.key==='End'){e.preventDefault();buttons[e.key==='Home'?0:buttons.length-1].focus();}
+});
+document.addEventListener('click',e=>{if(!e.target.closest('.lesson-picker'))closeLessonMenu();});
+document.addEventListener('focusin',e=>{if(!e.target.closest('.lesson-picker'))closeLessonMenu();});
 $('#wrong-only').onclick=()=>{wrongOnly=!wrongOnly;$('#wrong-only').setAttribute('aria-pressed',String(wrongOnly));selectList();};
-$('#shuffle').onclick=()=>{for(let i=order.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]];}selectList(null);};
+let shuffleFeedbackTimer;
+$('#shuffle').onclick=()=>{
+  clearTimeout(shuffleFeedbackTimer);
+  const eligible=order.filter(id=>{const c=bank.find(c=>c.id===id);return (lesson==='all'||String(c.lesson)===lesson)&&(!wrongOnly||isWrong(c));});
+  if(eligible.length>1){
+    for(let i=eligible.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[eligible[i],eligible[j]]=[eligible[j],eligible[i]];}
+    // Always show a different first case so the action has a visible result.
+    if(eligible[0]===currentId)[eligible[0],eligible[1]]=[eligible[1],eligible[0]];
+    const included=new Set(eligible);let i=0;order=order.map(id=>included.has(id)?eligible[i++]:id);
+    selectList(null);
+  }
+  $('#shuffle-label').textContent=eligible.length>1?'已打亂':eligible.length===1?'只有一題':'沒有題目';
+  $('#shuffle').classList.add('shuffle-done');
+  shuffleFeedbackTimer=setTimeout(()=>{$('#shuffle-label').textContent='隨機';$('#shuffle').classList.remove('shuffle-done');},2200);
+};
 function moveCase(delta){
   // Keep an active wrong-question round stable while corrections are being entered.
   const id=visibleIds[visibleIds.indexOf(currentId)+delta];if(!id)return;
