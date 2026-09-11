@@ -11,9 +11,8 @@
   <script type="module" src="assets/app.js"></script>
 </head>
 <body>
-  <header class="header"><a class="brand" href="./" aria-label="Micro 首頁"><span class="brand-icon" aria-hidden="true">m</span>micro<span class="brand-dot">.</span></a><span id="saved" class="saved" role="status"></span></header>
+  <header class="header"><a class="brand" href="./" aria-label="Micro 首頁"><span class="brand-icon" aria-hidden="true">m</span>micro<span class="brand-dot">.</span></a><h1 class="header-title">切片練習</h1><div class="progress" aria-live="polite"><span id="completed">0 / 6</span><span class="sr-only">題完成</span></div><span id="saved" class="saved" role="status"></span></header>
   <main>
-    <div class="heading"><div><h1>切片練習</h1></div><div class="progress"><span id="completed">0 / 6</span><span class="sr-only">題完成</span></div></div>
     <div class="toolbar"><div class="filters"><div class="lesson-picker"><button id="lesson-trigger" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="lesson-menu"><span id="lesson-label">全部教材</span><svg aria-hidden="true" viewBox="0 0 20 20"><path d="m5 7.5 5 5 5-5"/></svg></button><div id="lesson-menu" role="menu" aria-label="選擇教材" hidden></div><select id="lesson" aria-label="教材" hidden><option value="all">全部教材</option><option value="1">Cell injury · 01</option><option value="2">Cell injury · 02</option></select></div><button id="wrong-only" class="chip" aria-pressed="false" aria-label="只看錯題" title="只看錯題">錯題<span id="wrong-count">0</span></button></div><button id="shuffle" class="text-button" aria-label="隨機排序" title="隨機排序"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h3c4 0 8 12 12 12h3m-4-4 4 4-4 4M3 18h3c2 0 4-3 6-6s4-6 6-6h3m-4-4 4 4-4 4"/></svg><span id="shuffle-label" role="status" aria-live="polite">隨機</span></button></div>
     <section id="exercise" aria-label="切片題目" hidden>
       <div class="case-meta"><span id="case-number"></span><span id="case-state"></span></div>

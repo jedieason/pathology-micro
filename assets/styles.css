@@ -73,3 +73,16 @@ button>svg,.feedback summary svg{display:block;width:22px;height:22px;fill:none;
 .feedback summary:hover{background:transparent;color:#68578f}
 .feedback .answer-text{margin-top:2px}
 .feedback details[open]{padding-bottom:12px}
+
+/* Keep the practice title and live progress in the top bar. */
+.header{gap:24px;position:relative}
+.header-title{font-size:20px;font-weight:550;letter-spacing:.5px;white-space:nowrap}
+.header .progress{margin-left:auto;white-space:nowrap}
+.header .saved:not(:empty){position:absolute;right:40px;top:100%;margin-top:6px;font-size:12px}
+main{padding-top:28px}
+@media(max-width:600px){
+  .header{gap:14px;padding:0 18px}
+  .header-title{font-size:16px;letter-spacing:0}
+  .header .progress>span:first-child{font-size:16px}
+  main{padding-top:24px}
+}
