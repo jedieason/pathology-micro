@@ -1,0 +1,64 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {readFileSync,mkdirSync} from 'node:fs';
+const require=createRequire(import.meta.url);
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const {cases}=JSON.parse(readFileSync(new URL('../data/cases.json',import.meta.url)));
+const base=process.env.BASE_URL||'http://127.0.0.1:8080';
+const browser=await chromium.launch({headless:true,...(process.env.CHROME_EXECUTABLE?{executablePath:process.env.CHROME_EXECUTABLE}:{})});
+mkdirSync('.test-results',{recursive:true});
+const errors=[];
+try{
+ const context=await browser.newContext({viewport:{width:1440,height:1200}});
+ const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(base);await page.waitForSelector('#exercise:not([hidden])');
+ await page.locator('#slide').evaluate(img=>img.decode());
+ assert.equal(await page.locator('#dots button').count(),5);
+ assert.equal(await page.locator('.feedback details').count(),0);
+ await page.screenshot({path:'.test-results/desktop.png',fullPage:true});
+ const original=await page.locator('#slide').getAttribute('src');
+ await page.click('#next-image');assert.notEqual(await page.locator('#slide').getAttribute('src'),original);
+ await page.click('#prev-image');assert.equal(await page.locator('#slide').getAttribute('src'),original);
+ await page.locator('.viewer').focus();await page.keyboard.press('ArrowLeft');assert.match(await page.locator('#image-count').textContent(),/05/);
+ await page.click('#open-image');assert.equal(await page.locator('#zoom-dialog').evaluate(d=>d.open),true);await page.keyboard.press('Escape');
+ await page.fill('#organ',' KIDNEY! ');await page.fill('#diagnosis','wrong');await page.fill('#description','Preserved cellular outlines. Coagulative-necrosis.');await page.click('#check');
+ assert.match(await page.locator('#score').textContent(),/2 \/ 3/);
+ assert.equal(await page.locator('[data-field=diagnosis] details').evaluate(e=>e.open),true);
+ assert.equal(await page.locator('[data-field=organ] details').evaluate(e=>e.open),false);
+ await page.locator('[data-field=description] summary').click();assert.equal(await page.locator('mark').count(),2);
+ await page.screenshot({path:'.test-results/desktop-graded.png',fullPage:true});
+ await page.reload();await page.waitForSelector('#exercise:not([hidden])');assert.match(await page.locator('#score').textContent(),/2 \/ 3/);
+ assert.equal(await page.inputValue('#organ'),' KIDNEY! ');
+ await page.click('#wrong-only');assert.equal(await page.locator('#question-position').textContent(),'1 / 1');
+ await page.fill('#diagnosis',cases[0].diagnosis);await page.click('#check');assert.match(await page.locator('#score').textContent(),/3 \/ 3/);
+ await page.click('#wrong-only');await page.click('#wrong-only');assert.equal(await page.locator('#empty').isVisible(),true);
+ await page.click('#wrong-only');await page.selectOption('#lesson','2');assert.equal(await page.locator('#question-position').textContent(),'1 / 4');
+ // Visit every photo and verify that the browser can decode it.
+ for(const c of cases){for(const item of c.images){await page.evaluate(async src=>{const i=new Image();i.src=src;await i.decode();if(!i.naturalWidth)throw Error(src);},item.src);}}
+ await page.click('#reset');await page.click('#reset-cancel');assert.equal(await page.locator('#reset-dialog').evaluate(d=>d.open),false);
+ await page.click('#reset');await page.click('#reset-confirm');assert.equal(await page.evaluate(()=>localStorage.getItem('micro-practice-v1')),'{}');
+ await page.click('#shuffle');assert.equal(await page.locator('#question-position').textContent(),'1 / 4');
+ // A project Pages URL must preserve the repository prefix for all resources.
+ const project=await context.newPage();
+ await project.route('**/repository/**',async route=>{const url=route.request().url().replace('/repository/','/');const response=await route.fetch({url});await route.fulfill({response});});
+ await project.goto(base+'/repository/');await project.waitForSelector('#exercise:not([hidden])');await project.locator('#slide').evaluate(i=>i.decode());
+ assert.match(await project.locator('#slide').evaluate(i=>i.currentSrc),/\/repository\/assets\//);
+ await project.close();await context.close();
+ const mobile=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,deviceScaleFactor:2});
+ const m=await mobile.newPage();m.on('pageerror',e=>errors.push(e.message));await m.goto(base);await m.waitForSelector('#exercise:not([hidden])');await m.locator('#slide').evaluate(i=>i.decode());
+ assert.equal(await m.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+ await m.screenshot({path:'.test-results/mobile.png',fullPage:true});
+ const before=await m.locator('#slide').getAttribute('src');
+ const cdp=await mobile.newCDPSession(m);
+ await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:300,y:350}]});
+ await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:120,y:360}]});
+ await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+ assert.notEqual(await m.locator('#slide').getAttribute('src'),before);
+ await m.fill('#organ','Kidney');await m.fill('#diagnosis','Acute tubular necrosis');await m.fill('#description','coagulative necrosis');await m.click('#check');
+ assert.match(await m.locator('#score').textContent(),/2 \/ 3/);assert.match(await m.locator('.missing').textContent(),/preserved cellular outlines/);
+ assert.equal(await m.locator('[data-field=description] details').evaluate(d=>d.open),true);
+ await m.screenshot({path:'.test-results/mobile-graded.png',fullPage:true});
+ await m.setViewportSize({width:320,height:740});assert.equal(await m.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+ assert.deepEqual(errors,[]);await mobile.close();
+ console.log('PASS: desktop/mobile, 30 image decodes, carousel, swipe, zoom, independent grading, highlights, persistence, wrong-only, filters, reset, shuffle, repository subpath, no page errors.');
+}finally{await browser.close();}
