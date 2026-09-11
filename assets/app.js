@@ -105,20 +105,20 @@ lessonMenu.addEventListener('keydown',e=>{
 document.addEventListener('click',e=>{if(!e.target.closest('.lesson-picker'))closeLessonMenu();});
 document.addEventListener('focusin',e=>{if(!e.target.closest('.lesson-picker'))closeLessonMenu();});
 $('#wrong-only').onclick=()=>{wrongOnly=!wrongOnly;$('#wrong-only').setAttribute('aria-pressed',String(wrongOnly));selectList();};
-let shuffleFeedbackTimer;
+let shuffled=false;
 $('#shuffle').onclick=()=>{
-  clearTimeout(shuffleFeedbackTimer);
-  const eligible=order.filter(id=>{const c=bank.find(c=>c.id===id);return (lesson==='all'||String(c.lesson)===lesson)&&(!wrongOnly||isWrong(c));});
-  if(eligible.length>1){
-    for(let i=eligible.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[eligible[i],eligible[j]]=[eligible[j],eligible[i]];}
-    // Always show a different first case so the action has a visible result.
-    if(eligible[0]===currentId)[eligible[0],eligible[1]]=[eligible[1],eligible[0]];
-    const included=new Set(eligible);let i=0;order=order.map(id=>included.has(id)?eligible[i++]:id);
-    selectList(null);
+  shuffled=!shuffled;
+  order=bank.map(c=>c.id);
+  if(shuffled){
+    for(let i=order.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]];}
+    const eligible=order.filter(id=>{const c=bank.find(c=>c.id===id);return (lesson==='all'||String(c.lesson)===lesson)&&(!wrongOnly||isWrong(c));});
+    if(eligible.length>1&&eligible[0]===currentId){const a=order.indexOf(eligible[0]),b=order.indexOf(eligible[1]);[order[a],order[b]]=[order[b],order[a]];}
   }
-  $('#shuffle-label').textContent=eligible.length>1?'已打亂':eligible.length===1?'只有一題':'沒有題目';
-  $('#shuffle').classList.add('shuffle-done');
-  shuffleFeedbackTimer=setTimeout(()=>{$('#shuffle-label').textContent='隨機';$('#shuffle').classList.remove('shuffle-done');},2200);
+  $('#shuffle-label').textContent=shuffled?'已隨機':'隨機';
+  $('#shuffle').classList.toggle('shuffle-done',shuffled);
+  $('#shuffle').setAttribute('aria-pressed',String(shuffled));
+  $('#shuffle').title=shuffled?'恢復原始順序':'隨機排序';
+  selectList(null);
 };
 function moveCase(delta){
   // Keep an active wrong-question round stable while corrections are being entered.

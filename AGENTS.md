@@ -7,3 +7,4 @@
 - 網站為純靜態 GitHub Pages，所有資源路徑支援 repository 子路徑。
 - `data/cases.json` 為網站的題庫。`scripts/extract_materials.py` 只用於原始兩份教材的重建，會覆寫題庫，新增資料後勿直接執行。
 - 更改題庫或判分後執行 `npm test`；更改互動後在 HTTP 伺服器檢查桌面和手機。
+- 使用者要求：後續修改完成並驗證後直接 commit，只提交本次相關檔案；push 依當次明確要求執行。
