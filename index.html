@@ -11,7 +11,7 @@
   <script type="module" src="assets/app.js"></script>
 </head>
 <body>
-  <header class="header"><a class="brand" href="./" aria-label="Micro 首頁"><span class="brand-icon" aria-hidden="true">m</span>micro<span class="brand-dot">.</span></a><div class="progress" aria-live="polite"><span id="completed">0 / 6</span><span class="sr-only">題完成</span></div><span id="saved" class="saved" role="status"></span></header>
+  <header class="header"><a class="brand" href="./" aria-label="Micro 首頁"><span class="brand-icon" aria-hidden="true">m</span>micro<span class="brand-dot">.</span></a><button id="reset" class="text-button" aria-label="重設紀錄" title="重設紀錄"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 10v7m4-7v7"/></svg></button><span id="saved" class="saved" role="status"></span></header>
   <main>
     <div class="toolbar"><div class="filters"><div class="lesson-picker"><button id="lesson-trigger" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="lesson-menu"><span id="lesson-label">全部教材</span><svg aria-hidden="true" viewBox="0 0 20 20"><path d="m5 7.5 5 5 5-5"/></svg></button><div id="lesson-menu" role="menu" aria-label="選擇教材" hidden></div><select id="lesson" aria-label="教材" hidden><option value="all">全部教材</option><option value="1">Cell injury · 01</option><option value="2">Cell injury · 02</option></select></div><button id="wrong-only" class="chip" aria-pressed="false" aria-label="只看錯題" title="只看錯題">錯題<span id="wrong-count">0</span></button></div><button id="shuffle" class="text-button" aria-label="隨機排序" title="隨機排序"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h3c4 0 8 12 12 12h3m-4-4 4 4-4 4M3 18h3c2 0 4-3 6-6s4-6 6-6h3m-4-4 4 4-4 4"/></svg><span id="shuffle-label" role="status" aria-live="polite">隨機</span></button></div>
     <section id="exercise" aria-label="切片題目" hidden>
@@ -32,7 +32,6 @@
       <nav class="question-nav" aria-label="切換題目"><button id="prev-case" class="text-button" aria-label="上一題" title="上一題"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><span id="question-position"></span><button id="next-case" class="text-button" aria-label="下一題" title="下一題"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></nav>
     </section>
     <div id="empty" class="empty" role="status">正在載入切片…</div>
-    <footer><button id="reset" class="text-button" aria-label="重設紀錄" title="重設紀錄"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 10v7m4-7v7"/></svg></button></footer>
   </main>
   <dialog id="zoom-dialog" aria-label="放大切片"><div class="zoom-toolbar"><span id="zoom-count"></span><div><button id="zoom-prev" aria-label="放大模式上一張">‹</button><button id="zoom-next" aria-label="放大模式下一張">›</button><button id="zoom-close" aria-label="關閉放大">✕</button></div></div><div class="zoom-body"><img id="zoom-image" alt="放大的病理組織切片"></div></dialog>
   <dialog id="reset-dialog" class="reset-dialog"><h2>重新開始練習？</h2><p>將清除此裝置的作答與錯題紀錄。</p><div><button id="reset-cancel" class="text-button">取消</button><button id="reset-confirm" class="primary">清除紀錄</button></div></dialog>

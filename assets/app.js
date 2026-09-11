@@ -11,7 +11,6 @@ const record = () => records[currentId] || {};
 const isWrong = c => {const r=records[c.id]; return r?.checked && fields.some(f=>!grade(c,r.answers)[f]);};
 function updateStats(){
   const scoped=bank.filter(c=>lesson==='all'||String(c.lesson)===lesson);
-  $('#completed').textContent=`${scoped.filter(c=>records[c.id]?.checked).length} / ${scoped.length}`;
   $('#wrong-count').textContent=scoped.filter(isWrong).length;
 }
 function selectList(preferred=currentId){
