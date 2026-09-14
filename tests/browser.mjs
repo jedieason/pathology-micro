@@ -32,9 +32,19 @@ try{
  await page.click('#wrong-only');assert.equal(await page.locator('#question-position').textContent(),'1 / 1');
  await page.fill('#diagnosis',cases[0].diagnosis);await page.click('#check');assert.match(await page.locator('#score').textContent(),/3 \/ 3/);
  await page.click('#wrong-only');await page.click('#wrong-only');assert.equal(await page.locator('#empty').isVisible(),true);
- await page.click('#wrong-only');await page.selectOption('#lesson','2');assert.equal(await page.locator('#question-position').textContent(),'1 / 4');
+ await page.click('#wrong-only');await page.click('#lesson-trigger');await page.locator('#lesson-menu [data-value="2"]').click();assert.equal(await page.locator('#question-position').textContent(),'1 / 4');
  // Visit every photo and verify that the browser can decode it.
  for(const c of cases){for(const item of c.images){await page.evaluate(async src=>{const i=new Image();i.src=src;await i.decode();if(!i.naturalWidth)throw Error(src);},item.src);}}
+ // New lesson is selectable through the visible menu and exposes its keyword provenance.
+ await page.click('#lesson-trigger');await page.locator('#lesson-menu [data-value="3"]').click();
+ assert.equal(await page.locator('#question-position').textContent(),'1 / 4');
+ const added=cases.filter(c=>c.lesson===3);
+ await page.fill('#organ',added[0].organ);await page.fill('#diagnosis',added[0].diagnosis);
+ await page.fill('#description',added[0].description);await page.click('#check');
+ assert.match(await page.locator('#score').textContent(),/3 \/ 3/);
+ await page.locator('[data-field=description] summary').click();
+ assert.match(await page.locator('[data-field=description]').textContent(),/由 AI 選定/);
+ await page.screenshot({path:'.test-results/lesson3-desktop.png',fullPage:true});
  await page.click('#reset');await page.click('#reset-cancel');assert.equal(await page.locator('#reset-dialog').evaluate(d=>d.open),false);
  await page.click('#reset');await page.click('#reset-confirm');assert.equal(await page.evaluate(()=>localStorage.getItem('micro-practice-v1')),'{}');
  await page.click('#shuffle');assert.equal(await page.locator('#question-position').textContent(),'1 / 4');
@@ -58,7 +68,11 @@ try{
  assert.match(await m.locator('#score').textContent(),/2 \/ 3/);assert.match(await m.locator('.missing').textContent(),/preserved cellular outlines/);
  assert.equal(await m.locator('[data-field=description] details').evaluate(d=>d.open),true);
  await m.screenshot({path:'.test-results/mobile-graded.png',fullPage:true});
+ await m.click('#lesson-trigger');await m.locator('#lesson-menu [data-value="3"]').click();
+ assert.equal(await m.locator('#question-position').textContent(),'1 / 4');
+ await m.locator('#slide').evaluate(i=>i.decode());
+ await m.screenshot({path:'.test-results/lesson3-mobile.png',fullPage:true});
  await m.setViewportSize({width:320,height:740});assert.equal(await m.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
  assert.deepEqual(errors,[]);await mobile.close();
- console.log('PASS: desktop/mobile, 30 image decodes, carousel, swipe, zoom, independent grading, highlights, persistence, wrong-only, filters, reset, shuffle, repository subpath, no page errors.');
+ console.log('PASS: desktop/mobile, all image decodes, carousel, swipe, zoom, independent grading, highlights, persistence, wrong-only, filters, reset, shuffle, repository subpath, no page errors.');
 }finally{await browser.close();}

@@ -632,6 +632,393 @@
           "sourceImageSha256": "f531524069d3e338ea076ebbed2b6484a81c0451989dd9b235a97cffa5730a45"
         }
       ]
+    },
+    {
+      "id": "PA0220",
+      "lesson": 3,
+      "organ": "Prostate",
+      "diagnosis": "Nodular hyperplasia",
+      "description": "1. Nodules of cystically dilated hyperplastic glands",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "cystically dilated",
+          "accepted": [
+            "cystically dilated"
+          ]
+        },
+        {
+          "text": "hyperplastic glands",
+          "accepted": [
+            "hyperplastic glands"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260914 Cell Injury and adaptation (3).pdf",
+        "answerPage": 12,
+        "pageRange": [
+          2,
+          12
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0220/01.webp",
+          "page": 8,
+          "imageIndex": 0,
+          "xref": 47,
+          "bbox": [
+            32.10900115966797,
+            99.510986328125,
+            609.1090087890625,
+            515.510986328125
+          ],
+          "width": 577,
+          "height": 416,
+          "sourceImageSha256": "05121574ea477f758bb4709acef04379bcdf61fd12308eb7fb0a66261594d0fa"
+        },
+        {
+          "src": "assets/images/pa0220/02.webp",
+          "page": 9,
+          "imageIndex": 0,
+          "xref": 50,
+          "bbox": [
+            -7.873999857110903e-05,
+            0.0,
+            707.1299438476562,
+            500.5
+          ],
+          "width": 912,
+          "height": 645,
+          "sourceImageSha256": "61b0b194573d9965ec46be5535699383218f721c665597595d858f8cf190c6d9"
+        },
+        {
+          "src": "assets/images/pa0220/03.webp",
+          "page": 10,
+          "imageIndex": 0,
+          "xref": 53,
+          "bbox": [
+            0.0,
+            0.0,
+            642.780029296875,
+            500.5
+          ],
+          "width": 735,
+          "height": 572,
+          "sourceImageSha256": "1fcf3571548982a6d4cdbe61fee2f63656697063d530c732ab6fe89a2df061e7"
+        },
+        {
+          "src": "assets/images/pa0220/04.webp",
+          "page": 11,
+          "imageIndex": 0,
+          "xref": 56,
+          "bbox": [
+            0.0,
+            0.0,
+            678.0,
+            500.5
+          ],
+          "width": 833,
+          "height": 615,
+          "sourceImageSha256": "5d0b44e5d3f5ced26f0af3bd774197b789e694855dd524a2992abc78a36703c6"
+        }
+      ]
+    },
+    {
+      "id": "PA0074",
+      "lesson": 3,
+      "organ": "Liver",
+      "diagnosis": "Steatosis (fatty change)",
+      "description": "1. Lipid droplets in hepatocytes",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "Lipid droplets",
+          "accepted": [
+            "Lipid droplets"
+          ]
+        },
+        {
+          "text": "hepatocytes",
+          "accepted": [
+            "hepatocytes"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260914 Cell Injury and adaptation (3).pdf",
+        "answerPage": 22,
+        "pageRange": [
+          13,
+          22
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0074/01.webp",
+          "page": 19,
+          "imageIndex": 0,
+          "xref": 82,
+          "bbox": [
+            0.0,
+            -0.0001220703125,
+            724.219970703125,
+            539.9998779296875
+          ],
+          "width": 1137,
+          "height": 848,
+          "sourceImageSha256": "7b254f3e1699dd1c09b7a82723f3e30192ee6b6564560060847a3d654be47163"
+        },
+        {
+          "src": "assets/images/pa0074/02.webp",
+          "page": 20,
+          "imageIndex": 0,
+          "xref": 85,
+          "bbox": [
+            0.9402700066566467,
+            -0.0001220703125,
+            724.2202758789062,
+            539.9998779296875
+          ],
+          "width": 845,
+          "height": 631,
+          "sourceImageSha256": "889807819e7e189d5d127b57e7ff9f0aef799788bf7023cb1ee2d1f7eab193dc"
+        },
+        {
+          "src": "assets/images/pa0074/03.webp",
+          "page": 21,
+          "imageIndex": 0,
+          "xref": 88,
+          "bbox": [
+            -7.873999857110903e-05,
+            -0.0001220703125,
+            724.2199096679688,
+            539.9998779296875
+          ],
+          "width": 867,
+          "height": 646,
+          "sourceImageSha256": "ef697011fe2afdb1260c9e73117bfde1e9502b6fcc53caaf02db9849985225e2"
+        }
+      ]
+    },
+    {
+      "id": "PA0017",
+      "lesson": 3,
+      "organ": "Lung",
+      "diagnosis": "Anthracosis",
+      "description": "1. Dark black pigments in macrophages/histiocytes",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "Dark black pigments",
+          "accepted": [
+            "Dark black pigments"
+          ]
+        },
+        {
+          "text": "macrophages/histiocytes",
+          "accepted": [
+            "macrophages/histiocytes"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260914 Cell Injury and adaptation (3).pdf",
+        "answerPage": 32,
+        "pageRange": [
+          23,
+          32
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0017/01.webp",
+          "page": 26,
+          "imageIndex": 0,
+          "xref": 103,
+          "bbox": [
+            142.77999877929688,
+            28.7239990234375,
+            692.97998046875,
+            445.9540100097656
+          ],
+          "width": 902,
+          "height": 684,
+          "sourceImageSha256": "ac901d1668c45cbb7e1b88247ee1c1ef47ae57e924300f111204885e47c087e9"
+        },
+        {
+          "src": "assets/images/pa0017/02.webp",
+          "page": 27,
+          "imageIndex": 0,
+          "xref": 106,
+          "bbox": [
+            0.0,
+            -6.103515625e-05,
+            724.219970703125,
+            539.9999389648438
+          ],
+          "width": 1136,
+          "height": 847,
+          "sourceImageSha256": "4141f66680630b0a5f3a0fa36ba39018929e4be6ec868c4dedc6942fb573fbfe"
+        },
+        {
+          "src": "assets/images/pa0017/03.webp",
+          "page": 29,
+          "imageIndex": 0,
+          "xref": 111,
+          "bbox": [
+            0.0,
+            -0.0001220703125,
+            724.219970703125,
+            539.9998779296875
+          ],
+          "width": 1405,
+          "height": 1048,
+          "sourceImageSha256": "a9de8f00c6db858289c51706eda2f784f47f459060284c9644549c96ae4e6b3b"
+        },
+        {
+          "src": "assets/images/pa0017/04.webp",
+          "page": 31,
+          "imageIndex": 0,
+          "xref": 118,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "c6b666aa32db4f065f767ee58866459a1e6175c2f8094c8addf7ea92c61317a1"
+        }
+      ]
+    },
+    {
+      "id": "PA0144",
+      "lesson": 3,
+      "organ": "Skin",
+      "diagnosis": "Intradermal (melanocytic) nevus",
+      "description": "1. Nests & cords of proliferative melanocytes\n2. Brown-black melanin pigmentation\n3. (Adipocytic metaplasia)",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "proliferative melanocytes",
+          "accepted": [
+            "proliferative melanocytes"
+          ]
+        },
+        {
+          "text": "melanin pigmentation",
+          "accepted": [
+            "melanin pigmentation"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260914 Cell Injury and adaptation (3).pdf",
+        "answerPage": 48,
+        "pageRange": [
+          34,
+          48
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0144/01.webp",
+          "page": 42,
+          "imageIndex": 0,
+          "xref": 155,
+          "bbox": [
+            47.73899841308594,
+            25.480010986328125,
+            659.739013671875,
+            408.08001708984375
+          ],
+          "width": 1558,
+          "height": 974,
+          "sourceImageSha256": "628d064b287484101c1f0c88ded9e488d1fbe74622e87a672f6e2fed7a40eb24"
+        },
+        {
+          "src": "assets/images/pa0144/02.webp",
+          "page": 43,
+          "imageIndex": 2,
+          "xref": 160,
+          "bbox": [
+            174.1999969482422,
+            40.847015380859375,
+            491.17999267578125,
+            520.18701171875
+          ],
+          "width": 820,
+          "height": 1240,
+          "sourceImageSha256": "12bcdcfca0dcabd4746804c8c06ef1c17d327a3d853892e534b76150378798ba"
+        },
+        {
+          "src": "assets/images/pa0144/03.webp",
+          "page": 44,
+          "imageIndex": 1,
+          "xref": 163,
+          "bbox": [
+            161.77999877929688,
+            39.347015380859375,
+            515.4500122070312,
+            520.18701171875
+          ],
+          "width": 922,
+          "height": 1254,
+          "sourceImageSha256": "8dfa4ca1ae665280e5b584d5d29b39036329de30bb015e72f877768d0fe8a80c"
+        },
+        {
+          "src": "assets/images/pa0144/04.webp",
+          "page": 45,
+          "imageIndex": 0,
+          "xref": 166,
+          "bbox": [
+            468.8800048828125,
+            18.186981201171875,
+            887.1199951171875,
+            480.09698486328125
+          ],
+          "width": 1082,
+          "height": 1195,
+          "sourceImageSha256": "40667ebd1ddf428950bb6535f54cd6d6e53b8a71c503b5c9cee6a6dac7a0c0ba"
+        },
+        {
+          "src": "assets/images/pa0144/05.webp",
+          "page": 45,
+          "imageIndex": 1,
+          "xref": 167,
+          "bbox": [
+            18.739990234375,
+            94.989990234375,
+            468.8800048828125,
+            480.0999755859375
+          ],
+          "width": 1253,
+          "height": 1024,
+          "sourceImageSha256": "021f60439e18d6bfae2060924b4d88df1a22372e0746d0b40e049bf3fcb94ecb"
+        },
+        {
+          "src": "assets/images/pa0144/06.webp",
+          "page": 47,
+          "imageIndex": 0,
+          "xref": 173,
+          "bbox": [
+            37.88999938964844,
+            28.722991943359375,
+            649.8900146484375,
+            476.9530029296875
+          ],
+          "width": 1704,
+          "height": 1248,
+          "sourceImageSha256": "2b111f11984c37c407933b47d360bf0298368e7dc703ee6f38a6a99bd7e0e2ac"
+        }
+      ]
     }
   ]
 }
