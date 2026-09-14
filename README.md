@@ -1,6 +1,6 @@
 # Micro · 病理切片刷題
 
-極簡的靜態網頁，使用三份 Cell injury and adaptation 教材建立 **10 題、47 張切片**。不需後端或前端建置工具。
+極簡的靜態網頁，使用四份 Cell injury and adaptation 教材建立 **14 題、62 張切片**。不需後端或前端建置工具。
 
 ## 本機使用
 
@@ -97,3 +97,12 @@ python3 scripts/import_lesson3.py --keywords data/imports/lesson3-keywords.json
 ```
 
 匯入程式只追加新病例；若病例 ID 已存在會停止，避免覆寫答案。不帶 `--keywords` 時只輸出待確認資料，不修改正式題庫。
+
+### 教材 4 匯入
+
+新增 4 題、15 張切片；原檔放在 `pdf/`。答案表包含原教材明確黃色填色矩形與底線標記，完全依教材標記建置必答關鍵字。原有教材的答案與關鍵字不變。
+
+```sh
+python3 scripts/import_lesson4.py
+```
+

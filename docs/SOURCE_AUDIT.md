@@ -65,3 +65,31 @@
 - 45 頁左右兩張都是實際切片，分別取 index 0、1。46 頁為混合正常皮下脂肪比較及低倍定位圖，排除；47 頁保留病例的脂肪化生視野。
 
 沒有未釐清的病例對應。Description 無塗黃的判分問題已依使用者授權處理。可重現匯入腳本為 `scripts/import_lesson3.py`，片語存於 `data/imports/lesson3-keywords.json`，不執行舊重建程式。
+
+## 教材 4（2026-09-14 匯入）
+
+來源：`pdf/病理學 Micro｜0911 Cell Injury and adaptation (4).pdf`，51 頁。逐頁渲染核對，並列出每頁內嵌圖片尺寸、bbox（PDF 點座標）及 xref；四個病例的完整答案均採答案表。
+
+**第 18、29、41、48 頁答案表具有明確的黃色填色矩形（draw fill = (1.0, 1.0, 0.0)）與底線標記。** 直接採用原教材黃色關鍵字，無需自行推測或授權設定必答片語。
+
+| 病例 | 病例頁區間 | 取圖頁碼（imageIndex 從 0 起） | 答案頁 | 原教材黃色必答片語 |
+| --- | --- | --- | --- | --- |
+| PA0208 | 12–18 | 15:0, 16:0, 17:0 | 18 | ceroid-laden macrophages |
+| PA0211 | 23–30 | 26:0, 27:0, 28:0 | 29 | hemosiderin |
+| PA0214 | 31–41 | 35:0, 36:0, 37:0, 38:0, 39:0, 40:0 | 41 | Green-brown bile pigments；Portal edema；ductular reaction；neutrophil |
+| PA0216 | 42–48 | 45:0, 46:0, 47:0 | 48 | Brown-black malaria pigments |
+
+共新增 4 題、15 張原始內嵌切片，所有原始影像 SHA-256 均不同。輸出沿用等比例 WebP、quality 94、長邊最多 2000 px，不放大。逐圖與原頁對照，無診斷文字及正常對照混入；未重寫教材或修補組織。
+
+### 排除與取圖判斷
+
+- 1–8 頁為 Melanocytic nevus supplement、9 頁為 Prostate nodular hyperplasia supplement，均為補充範例且無答案表，排除。
+- 10、11 頁為封面與 Intracellular accumulation 總覽清單。
+- 14、25 頁為 gross 大體標本照片，排除。
+- 19–22 頁為既有 PA0335 之複習（[Review]）與 Ceroid / Lipofuscin 比較表，無獨立答案表，不重複建題或修改既有題庫。
+- 30 頁位於 PA0211 答案頁後，為無標籤之對照示例圖，排除。
+- 33、34、43、44 頁為 Robbins 機轉圖、課本插圖示意，排除。
+- 49–51 頁為 Take home message 與結尾總結。
+
+可重現匯入腳本為 `scripts/import_lesson4.py`，不執行舊重建程式。
+

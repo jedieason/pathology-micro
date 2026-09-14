@@ -1019,6 +1019,353 @@
           "sourceImageSha256": "2b111f11984c37c407933b47d360bf0298368e7dc703ee6f38a6a99bd7e0e2ac"
         }
       ]
+    },
+    {
+      "id": "PA0208",
+      "lesson": 4,
+      "organ": "Large intestine",
+      "diagnosis": "Melanosis coli",
+      "description": "1. Yellow-brown ceroid-laden macrophages in the \nlamina propria",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "ceroid-laden macrophages",
+          "accepted": [
+            "ceroid-laden macrophages"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0911 Cell Injury and adaptation (4).pdf",
+        "answerPage": 18,
+        "pageRange": [
+          12,
+          18
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0208/01.webp",
+          "page": 15,
+          "imageIndex": 0,
+          "xref": 69,
+          "bbox": [
+            0.0,
+            0.0,
+            724.0499877929688,
+            439.7799987792969
+          ],
+          "width": 893,
+          "height": 542,
+          "sourceImageSha256": "1a198cbb6480f7d359f204d5db3fb709096d6512033a044a341a2d24f5b9b736"
+        },
+        {
+          "src": "assets/images/pa0208/02.webp",
+          "page": 16,
+          "imageIndex": 0,
+          "xref": 72,
+          "bbox": [
+            -7.873999857110903e-05,
+            0.00323486328125,
+            724.2199096679688,
+            540.0032348632812
+          ],
+          "width": 884,
+          "height": 659,
+          "sourceImageSha256": "e794823b00197bfb74be76669e16a88bbdd0e456f826d3ff7d316627dbaa3171"
+        },
+        {
+          "src": "assets/images/pa0208/03.webp",
+          "page": 17,
+          "imageIndex": 0,
+          "xref": 75,
+          "bbox": [
+            -7.873999857110903e-05,
+            0.0050048828125,
+            724.2199096679688,
+            501.385009765625
+          ],
+          "width": 909,
+          "height": 630,
+          "sourceImageSha256": "96fae4ce3eef00dfd0244b0098d90c8bef43bf7ad4a98066cabaf4604e4ff253"
+        }
+      ]
+    },
+    {
+      "id": "PA0211",
+      "lesson": 4,
+      "organ": "Liver",
+      "diagnosis": "Hemosiderosis",
+      "description": "1. Golden yellow-brown, refractile hemosiderin\naccumulation in hepatocytes",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "hemosiderin",
+          "accepted": [
+            "hemosiderin"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0911 Cell Injury and adaptation (4).pdf",
+        "answerPage": 29,
+        "pageRange": [
+          23,
+          30
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0211/01.webp",
+          "page": 26,
+          "imageIndex": 0,
+          "xref": 109,
+          "bbox": [
+            0.0,
+            -6.103515625e-05,
+            724.219970703125,
+            539.9999389648438
+          ],
+          "width": 907,
+          "height": 676,
+          "sourceImageSha256": "43ee172ce7d7482daf48a7bac0261f8c951c097a1229f4ecbc09ba8f90d6ff4b"
+        },
+        {
+          "src": "assets/images/pa0211/02.webp",
+          "page": 27,
+          "imageIndex": 0,
+          "xref": 112,
+          "bbox": [
+            0.0,
+            -0.0001220703125,
+            724.219970703125,
+            539.9998779296875
+          ],
+          "width": 894,
+          "height": 666,
+          "sourceImageSha256": "ca7fb1d71cf41021af88c5328621bff0c858b71c98c83b93471c421aadde466d"
+        },
+        {
+          "src": "assets/images/pa0211/03.webp",
+          "page": 28,
+          "imageIndex": 0,
+          "xref": 115,
+          "bbox": [
+            0.0,
+            -0.0001220703125,
+            724.219970703125,
+            539.9998779296875
+          ],
+          "width": 895,
+          "height": 668,
+          "sourceImageSha256": "bc346bbe9fdaff37ef4cc9bc233999becf188cee5427ac2153bce7a6fcf855bd"
+        }
+      ]
+    },
+    {
+      "id": "PA0214",
+      "lesson": 4,
+      "organ": "Liver",
+      "diagnosis": "Obstructive cholestasis",
+      "description": "1. Green-brown bile pigments in hepatocytes and \ndilated canaliculi\n2. Portal edema, prominent ductular reaction & \nneutrophil infiltration (“pericholangitis”) (triad of \nobstructive cholestasis)\n3. Swelling of periportal hepatocytes (“feathery \ndegeneration”)",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Green-brown bile pigments",
+          "accepted": [
+            "Green-brown bile pigments"
+          ]
+        },
+        {
+          "text": "Portal edema",
+          "accepted": [
+            "Portal edema"
+          ]
+        },
+        {
+          "text": "ductular reaction",
+          "accepted": [
+            "ductular reaction"
+          ]
+        },
+        {
+          "text": "neutrophil",
+          "accepted": [
+            "neutrophil"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0911 Cell Injury and adaptation (4).pdf",
+        "answerPage": 41,
+        "pageRange": [
+          31,
+          41
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0214/01.webp",
+          "page": 35,
+          "imageIndex": 0,
+          "xref": 135,
+          "bbox": [
+            108.51000213623047,
+            34.5,
+            526.510009765625,
+            505.5
+          ],
+          "width": 836,
+          "height": 942,
+          "sourceImageSha256": "1c5c5d3c9cc4b5433895325ea322dd1e69e27bb40cf0fffc75fe506e086418c2"
+        },
+        {
+          "src": "assets/images/pa0214/02.webp",
+          "page": 36,
+          "imageIndex": 0,
+          "xref": 138,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "7e9bdc5a383e83ec12bef1e0f63df190f62692c83b720fd20f174a8589a57bad"
+        },
+        {
+          "src": "assets/images/pa0214/03.webp",
+          "page": 37,
+          "imageIndex": 0,
+          "xref": 141,
+          "bbox": [
+            0.0007086599944159389,
+            -0.00018310546875,
+            717.1907348632812,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "bfac9e3a6c69f933f157a74eb945d2b7f1f921a2a1accc689ed08b2ef12f30fe"
+        },
+        {
+          "src": "assets/images/pa0214/04.webp",
+          "page": 38,
+          "imageIndex": 0,
+          "xref": 144,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "f2294f9b83d83ea84dbd74553c9fb8d4d378aeccdc966828501e561bf2335973"
+        },
+        {
+          "src": "assets/images/pa0214/05.webp",
+          "page": 39,
+          "imageIndex": 0,
+          "xref": 147,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "e02224d8ca20d86d375d0a0852a94ca128c680a1e0a5e85a7924d4676c283d1c"
+        },
+        {
+          "src": "assets/images/pa0214/06.webp",
+          "page": 40,
+          "imageIndex": 0,
+          "xref": 150,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "1fb1bab6314051de76f9e2d26c1bf56f69c185865428be40b1da71fd9d805ba6"
+        }
+      ]
+    },
+    {
+      "id": "PA0216",
+      "lesson": 4,
+      "organ": "Liver",
+      "diagnosis": "Malaria pigment",
+      "description": "1. Brown-black malaria pigments in macrophages \nand hepatocytes",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Brown-black malaria pigments",
+          "accepted": [
+            "Brown-black malaria pigments"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0911 Cell Injury and adaptation (4).pdf",
+        "answerPage": 48,
+        "pageRange": [
+          42,
+          48
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0216/01.webp",
+          "page": 45,
+          "imageIndex": 0,
+          "xref": 167,
+          "bbox": [
+            51.62300109863281,
+            98.6820068359375,
+            588.6229858398438,
+            441.31201171875
+          ],
+          "width": 1146,
+          "height": 731,
+          "sourceImageSha256": "2ba93eb7c9c958d98df2cda5caa666e5ab6dbad95d93bcc5f288d47400998556"
+        },
+        {
+          "src": "assets/images/pa0216/02.webp",
+          "page": 46,
+          "imageIndex": 0,
+          "xref": 170,
+          "bbox": [
+            1.4062000513076782,
+            -0.000244140625,
+            718.59619140625,
+            539.999755859375
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "4b403506dcafe34e6d16e96252db1b5bebfeddde16681e86a4a0830c9883da09"
+        },
+        {
+          "src": "assets/images/pa0216/03.webp",
+          "page": 47,
+          "imageIndex": 0,
+          "xref": 173,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "0d61b9206dec2fe9d259cfcffe0db616a87d63d31e72e423b1edec93952a3a08"
+        }
+      ]
     }
   ]
 }
