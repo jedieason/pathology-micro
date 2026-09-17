@@ -1,6 +1,6 @@
 # Micro · 病理切片刷題
 
-極簡的靜態網頁，使用四份 Cell injury and adaptation 教材建立 **14 題、62 張切片**。不需後端或前端建置工具。
+極簡的靜態網頁，使用 Cell injury and adaptation 與 Inflammation 教材建立 **18 題、86 張切片**。不需後端或前端建置工具。
 
 ## 本機使用
 

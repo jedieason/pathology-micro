@@ -1366,6 +1366,495 @@
           "sourceImageSha256": "0d61b9206dec2fe9d259cfcffe0db616a87d63d31e72e423b1edec93952a3a08"
         }
       ]
+    },
+    {
+      "id": "PA0270",
+      "lesson": 5,
+      "organ": "Appendix",
+      "diagnosis": "Acute suppurative appendicitis",
+      "description": "1. Mucosal and mural neutrophil infiltration, involving muscularis propria\n2. Mucosal ulceration\n3. Luminal and mural abscess\n4. Fibrinous inflammation on the serosal surface",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Mucosal and mural neutrophil infiltration, involving muscularis propria",
+          "accepted": [
+            "Mucosal and mural neutrophil infiltration, involving muscularis propria"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260918 Inflammation.pdf",
+        "answerPage": 28,
+        "pageRange": [
+          14,
+          28
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0270/01.webp",
+          "page": 18,
+          "imageIndex": 0,
+          "xref": 97,
+          "bbox": [
+            66.33399963378906,
+            84.70001220703125,
+            452.583984375,
+            392.95001220703125
+          ],
+          "width": 515,
+          "height": 411,
+          "sourceImageSha256": "1317f1ee9d89c2c2f953d7d9f9bde754ea2e205acf4d0459b7c418f8f054e018"
+        },
+        {
+          "src": "assets/images/pa0270/02.webp",
+          "page": 19,
+          "imageIndex": 0,
+          "xref": 101,
+          "bbox": [
+            -7.873999857110903e-05,
+            -6.103515625e-05,
+            711.3699340820312,
+            539.9999389648438
+          ],
+          "width": 906,
+          "height": 688,
+          "sourceImageSha256": "339fbd2bb2fb6e5239835af58f1a29ca25b82e16784d25469e1dccc26098d79f"
+        },
+        {
+          "src": "assets/images/pa0270/03.webp",
+          "page": 20,
+          "imageIndex": 0,
+          "xref": 104,
+          "bbox": [
+            0.0,
+            -0.00421142578125,
+            724.219970703125,
+            539.8358154296875
+          ],
+          "width": 888,
+          "height": 662,
+          "sourceImageSha256": "4604ff7ff9f48e7a66af2831f41671a1b56cf444234924a6b38501e3a3994316"
+        },
+        {
+          "src": "assets/images/pa0270/04.webp",
+          "page": 23,
+          "imageIndex": 2,
+          "xref": 115,
+          "bbox": [
+            -2.2887999875820242e-05,
+            43.876007080078125,
+            712.3300170898438,
+            496.1260070800781
+          ],
+          "width": 1900,
+          "height": 1206,
+          "sourceImageSha256": "f648092bf2b9fddf6c0ddac4f67030ae9c467f5bc265ff1dcac0bad9cfa029a1"
+        },
+        {
+          "src": "assets/images/pa0270/05.webp",
+          "page": 26,
+          "imageIndex": 0,
+          "xref": 127,
+          "bbox": [
+            -1.15910005569458,
+            -6.103515625e-05,
+            724.2208862304688,
+            539.9999389648438
+          ],
+          "width": 865,
+          "height": 644,
+          "sourceImageSha256": "bc9df75ec19244fb8f8f0a1012c9040c2249da2ed65f9263ba9e3d93a257841f"
+        },
+        {
+          "src": "assets/images/pa0270/06.webp",
+          "page": 27,
+          "imageIndex": 0,
+          "xref": 130,
+          "bbox": [
+            0.0,
+            -6.103515625e-05,
+            722.5800170898438,
+            539.9999389648438
+          ],
+          "width": 906,
+          "height": 677,
+          "sourceImageSha256": "79d3cfebf4c5b4288e442ff5556a06d6c5ce0de7bc1d17f37e42594c1e8f4ede"
+        }
+      ]
+    },
+    {
+      "id": "PA0044",
+      "lesson": 5,
+      "organ": "Maxillary sinus",
+      "diagnosis": "Chronic sinusitis",
+      "description": "1. Submucosal mixed inflammatory cell infiltrate of \nlymphocytes, plasma cells, and eosinophils\n2. Submucosal edema\n3. Basement membrane thickening (本片僅局部有)",
+      "notes": "*Organ: Maxillary sinus（教材附註：“Nasal cavity / paranasal sinus / sinonasal tract”）",
+      "keywords": [
+        {
+          "text": "mixed",
+          "accepted": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "edema",
+          "accepted": [
+            "edema"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260918 Inflammation.pdf",
+        "answerPage": 45,
+        "pageRange": [
+          29,
+          45
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0044/01.webp",
+          "page": 31,
+          "imageIndex": 0,
+          "xref": 139,
+          "bbox": [
+            34.5629997253418,
+            13.8890380859375,
+            646.56298828125,
+            526.1090087890625
+          ],
+          "width": 1288,
+          "height": 1078,
+          "sourceImageSha256": "a8e57d6de61dfbacefac7734fcf1331a97cb4827967369cb1d9e198e3a4d810f"
+        },
+        {
+          "src": "assets/images/pa0044/02.webp",
+          "page": 32,
+          "imageIndex": 0,
+          "xref": 142,
+          "bbox": [
+            177.48995971679688,
+            -0.360107421875,
+            418.2699890136719,
+            539.9999389648438
+          ],
+          "width": 1930,
+          "height": 860,
+          "sourceImageSha256": "982a82574fa6e207b9ca4d9f82ca361dfeb918162b86ed467e72126eb2f8ec08"
+        },
+        {
+          "src": "assets/images/pa0044/03.webp",
+          "page": 36,
+          "imageIndex": 0,
+          "xref": 155,
+          "bbox": [
+            -7.6289998105494305e-06,
+            -6.103515625e-05,
+            724.2100219726562,
+            539.9999389648438
+          ],
+          "width": 1676,
+          "height": 1250,
+          "sourceImageSha256": "778012daa423796e5341f4529ad4a2068b6bad352b6103724eee2ad3ff2fbe23"
+        },
+        {
+          "src": "assets/images/pa0044/04.webp",
+          "page": 37,
+          "imageIndex": 0,
+          "xref": 158,
+          "bbox": [
+            78.66899871826172,
+            -6.103515625e-05,
+            677.9990234375,
+            539.9999389648438
+          ],
+          "width": 1394,
+          "height": 1256,
+          "sourceImageSha256": "112862da74cc9ebfea4e8b2471653abde7552803736fa8feef843a6e93de0949"
+        },
+        {
+          "src": "assets/images/pa0044/05.webp",
+          "page": 40,
+          "imageIndex": 0,
+          "xref": 166,
+          "bbox": [
+            22.966999053955078,
+            58.6510009765625,
+            724.2169799804688,
+            474.1510009765625
+          ],
+          "width": 1870,
+          "height": 1108,
+          "sourceImageSha256": "af40efcf418a0245a4789e3d4e7da2ebf1a8a2ad20eb0ae7fd3a404b08f32186"
+        },
+        {
+          "src": "assets/images/pa0044/06.webp",
+          "page": 43,
+          "imageIndex": 0,
+          "xref": 175,
+          "bbox": [
+            0.0,
+            0.0,
+            724.219970703125,
+            540.0
+          ],
+          "width": 1446,
+          "height": 1079,
+          "sourceImageSha256": "07d348acad6f68f10ce55f4734ee29a900989e7a674f012b763459b405566468"
+        }
+      ]
+    },
+    {
+      "id": "PA0143",
+      "lesson": 5,
+      "organ": "Skin",
+      "diagnosis": "Suture granuloma",
+      "description": "1. Center: Suture\n2. Periphery: Granulomatous inflammation\n   1. (Epithelioid) Macrophages/histiocytes\n   2. Multinucleated giant cells\n   3. Lymphocytes, plasma cells\n   4. Fibrosis/scar\n3. Other finding: Fat necrosis",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Center: Suture",
+          "accepted": [
+            "Center: Suture"
+          ]
+        },
+        {
+          "text": "Periphery: Granulomatous inflammation",
+          "accepted": [
+            "Periphery: Granulomatous inflammation"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260918 Inflammation.pdf",
+        "answerPage": 57,
+        "pageRange": [
+          46,
+          57
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0143/01.webp",
+          "page": 49,
+          "imageIndex": 0,
+          "xref": 190,
+          "bbox": [
+            171.24000549316406,
+            116.04000854492188,
+            670.5,
+            404.3200378417969
+          ],
+          "width": 762,
+          "height": 440,
+          "sourceImageSha256": "c1286ae13cf68c77ef091df5a2951f470bd9a4a508344853365162a387df1255"
+        },
+        {
+          "src": "assets/images/pa0143/02.webp",
+          "page": 50,
+          "imageIndex": 0,
+          "xref": 193,
+          "bbox": [
+            40.303001403808594,
+            52.962982177734375,
+            919.6929931640625,
+            503.38299560546875
+          ],
+          "width": 1722,
+          "height": 882,
+          "sourceImageSha256": "9a866b6bc3fa77f3e7c52091a8e5a1263b83338d0d13befb9f7471d0eccb0042"
+        },
+        {
+          "src": "assets/images/pa0143/03.webp",
+          "page": 51,
+          "imageIndex": 0,
+          "xref": 196,
+          "bbox": [
+            0.0,
+            62.196990966796875,
+            825.3900146484375,
+            491.2669982910156
+          ],
+          "width": 2000,
+          "height": 1040,
+          "sourceImageSha256": "df62afc2db3956c81199e220b7b711e94fd7da96f83fb9399fb13b50648ed840"
+        },
+        {
+          "src": "assets/images/pa0143/04.webp",
+          "page": 52,
+          "imageIndex": 0,
+          "xref": 199,
+          "bbox": [
+            0.0,
+            28.57000732421875,
+            715.1599731445312,
+            500.5
+          ],
+          "width": 1870,
+          "height": 1234,
+          "sourceImageSha256": "9bb520e409b5e74a06010023dfbbcf7dc25d5309674aa4b886bbea728be36cf8"
+        },
+        {
+          "src": "assets/images/pa0143/05.webp",
+          "page": 53,
+          "imageIndex": 0,
+          "xref": 202,
+          "bbox": [
+            0.0,
+            68.39999389648438,
+            473.260009765625,
+            438.3800048828125
+          ],
+          "width": 1448,
+          "height": 1132,
+          "sourceImageSha256": "9d2a5d14830d3de636053e4cb71337db9b79c8b3df7817d886250c1d736d5f26"
+        },
+        {
+          "src": "assets/images/pa0143/06.webp",
+          "page": 56,
+          "imageIndex": 0,
+          "xref": 216,
+          "bbox": [
+            17.913000106811523,
+            63.33099365234375,
+            512.7529907226562,
+            451.9309997558594
+          ],
+          "width": 1342,
+          "height": 1054,
+          "sourceImageSha256": "8894dcd0caf1007968ffd6fb05bf6687afdf062a8139a67a3434a9eecb08a122"
+        }
+      ]
+    },
+    {
+      "id": "PA0202",
+      "lesson": 5,
+      "organ": "Stomach",
+      "diagnosis": "Chronic ulcer",
+      "description": "1. Mucosa defect with fibrinous necrosis and \nneutrophil\n2. Granulation tissue\n3. Fibrosis/scar\n4. Other finding: Fibrinous inflammation on the serosal \nsurface",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "fibrinous necrosis",
+          "accepted": [
+            "fibrinous necrosis"
+          ]
+        },
+        {
+          "text": "Granulation tissue",
+          "accepted": [
+            "Granulation tissue"
+          ]
+        },
+        {
+          "text": "Fibrosis/scar",
+          "accepted": [
+            "Fibrosis/scar"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260918 Inflammation.pdf",
+        "answerPage": 73,
+        "pageRange": [
+          58,
+          73
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0202/01.webp",
+          "page": 63,
+          "imageIndex": 0,
+          "xref": 237,
+          "bbox": [
+            13.817999839782715,
+            13.8170166015625,
+            698.9080200195312,
+            528.7269897460938
+          ],
+          "width": 914,
+          "height": 687,
+          "sourceImageSha256": "695f6016da0d868e0a38c1dff7115a95c31804fcaa0e5b03520a2fdf9e15a505"
+        },
+        {
+          "src": "assets/images/pa0202/02.webp",
+          "page": 64,
+          "imageIndex": 0,
+          "xref": 240,
+          "bbox": [
+            0.0,
+            0.0,
+            960.0,
+            474.1600036621094
+          ],
+          "width": 1645,
+          "height": 813,
+          "sourceImageSha256": "797e39602343d41d891f18726d8438c0bf346390e386e9392d150614ff320458"
+        },
+        {
+          "src": "assets/images/pa0202/03.webp",
+          "page": 66,
+          "imageIndex": 0,
+          "xref": 245,
+          "bbox": [
+            0.0,
+            -0.00030517578125,
+            724.219970703125,
+            542.4296875
+          ],
+          "width": 894,
+          "height": 670,
+          "sourceImageSha256": "42cbc8d45ebd42a3bad4246f0bb2aa91a83fd2164becbb9ceda1dce255f0be4b"
+        },
+        {
+          "src": "assets/images/pa0202/04.webp",
+          "page": 67,
+          "imageIndex": 0,
+          "xref": 248,
+          "bbox": [
+            0.0,
+            52.96002197265625,
+            501.9700012207031,
+            439.95001220703125
+          ],
+          "width": 1624,
+          "height": 1252,
+          "sourceImageSha256": "f2f9f1be2a13879e88a06492cbb84d0a838fb3a0f1c5dfcb9ec9648dca0c039b"
+        },
+        {
+          "src": "assets/images/pa0202/05.webp",
+          "page": 69,
+          "imageIndex": 0,
+          "xref": 254,
+          "bbox": [
+            -2.2887999875820242e-05,
+            -0.0001220703125,
+            724.219970703125,
+            539.9998779296875
+          ],
+          "width": 1668,
+          "height": 1244,
+          "sourceImageSha256": "8507d1be6d29b05d4b6e675ccf7112d92d0c4134d9406cc8d9da652aac3eed22"
+        },
+        {
+          "src": "assets/images/pa0202/06.webp",
+          "page": 71,
+          "imageIndex": 0,
+          "xref": 259,
+          "bbox": [
+            0.0,
+            57.409881591796875,
+            720.25,
+            539.9998779296875
+          ],
+          "width": 891,
+          "height": 597,
+          "sourceImageSha256": "fa4a5c676d7ae5d62c9fa3a36b4dc87c47823c2bb5323bb83c4032e81507f3c3"
+        }
+      ]
     }
   ]
 }

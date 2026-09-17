@@ -93,3 +93,32 @@
 
 可重現匯入腳本為 `scripts/import_lesson4.py`，不執行舊重建程式。
 
+## 教材 5（2026-09-18 匯入）
+
+來源：`pdf/Microteaching_20260918 Inflammation.pdf`，74 頁。逐頁渲染核對，並列出每頁內嵌圖片尺寸、bbox（PDF 點座標）及 xref；四個病例的完整答案均採答案表。
+
+- **第 28 頁（PA0270）**：`Mucosal and mural neutrophil infiltration, involving muscularis propria` 跨兩行皆具有黃色填色與底線標記，依規定合併為單一必答片語。
+- **第 45 頁（PA0044）**：答案表有明確的黃色填色矩形 `mixed` 與 `edema`。Organ 欄位原包含第二行引號附註，主答案設為 `Maxillary sinus`，附註移至 `notes` 提示。
+- **第 57 頁（PA0143）**：答案表有明確的黃色填色矩形與底線 `Center: Suture` 與 `Periphery: Granulomatous inflammation`，依規定包含前綴全字必答。
+- **第 73 頁（PA0202）**：答案表無黃色螢光標記。經使用者明確授權，由 AI 選定消化性潰瘍基底三層核心病理特徵（`fibrinous necrosis`、`Granulation tissue`、`Fibrosis/scar`）作為必答關鍵字，並於 `notes` 與 `source.keywordBasis` 標明來源。
+
+| 病例 | 病例頁區間 | 取圖頁碼（imageIndex 從 0 起） | 答案頁 | 必答片語 |
+| --- | --- | --- | --- | --- |
+| PA0270 | 14–28 | 18:0, 19:0, 20:0, 23:2, 26:0, 27:0 | 28 | Mucosal and mural neutrophil infiltration, involving muscularis propria |
+| PA0044 | 29–45 | 31:0, 32:0, 36:0, 37:0, 40:0, 43:0 | 45 | mixed；edema |
+| PA0143 | 46–57 | 49:0, 50:0, 51:0, 52:0, 53:0, 56:0 | 57 | Center: Suture；Periphery: Granulomatous inflammation |
+| PA0202 | 58–73 | 63:0, 64:0, 66:0, 67:0, 69:0, 71:0 | 73 | fibrinous necrosis；Granulation tissue；Fibrosis/scar |
+
+共新增 4 題、24 張原始內嵌切片，所有原始影像 SHA-256 均不同。輸出沿用等比例 WebP、quality 94、長邊最多 2000 px，不放大。逐圖與原頁對照，無診斷文字及正常對照混入；未重寫教材或修補組織。
+
+### 排除與取圖判斷
+
+- 1–12 頁為 Cell injury 補充與既有病例（PA0211、PA0214、PA0216）複習，排除。
+- 13 頁為單元封面標題；74 頁為 Caseating vs Fibrinous necrosis 比較表。
+- 16、59、60 頁為 gross 大體標本照片，排除。
+- 17 頁（闌尾）、41 頁下半（無基底膜增厚對照）、54 頁上半（正常真皮層）、61–62 頁（正常胃黏膜）為正常組織對照，排除。
+- 18 頁圖 1（闌尾取材剖面圖）、24 頁（發炎細胞示意圖）、55 頁圖 2（纖維母細胞活化示意）為教材示意圖，排除。
+- 34、39、42 頁為 PA0044 重複全景圖（xref 149），65、68、70 頁為 PA0202 重複全景圖（xref 237），排除。
+
+可重現匯入腳本為 `scripts/import_lesson5.py`，不執行舊重建程式。
+
