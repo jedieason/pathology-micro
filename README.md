@@ -1,6 +1,6 @@
 # Micro · 病理切片刷題
 
-極簡的靜態網頁，使用 Cell injury and adaptation 與 Inflammation 教材建立 **18 題、86 張切片**。不需後端或前端建置工具。
+極簡的靜態網頁，使用 Cell injury and adaptation、Inflammation 與 Hemodynamic derangement 教材建立 **23 題、112 張切片**。不需後端或前端建置工具。
 
 ## 本機使用
 
@@ -104,5 +104,21 @@ python3 scripts/import_lesson3.py --keywords data/imports/lesson3-keywords.json
 
 ```sh
 python3 scripts/import_lesson4.py
+```
+
+### 教材 5 匯入
+
+新增 4 題、24 張切片；原檔放在 `pdf/`。答案表依教材原標記及 PA0202 AI 選定關鍵字建置。
+
+```sh
+python3 scripts/import_lesson5.py
+```
+
+### 教材 6 匯入
+
+新增 5 題、26 張切片；原檔放在 `pdf/`。答案表未塗黃，經使用者授權由 AI 依核心特徵選定必答關鍵字，完整答案有明確註記。原有教材的答案與關鍵字不變。
+
+```sh
+python3 scripts/import_lesson6.py
 ```
 

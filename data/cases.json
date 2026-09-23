@@ -1855,6 +1855,588 @@
           "sourceImageSha256": "fa4a5c676d7ae5d62c9fa3a36b4dc87c47823c2bb5323bb83c4032e81507f3c3"
         }
       ]
+    },
+    {
+      "id": "PA0008",
+      "lesson": 6,
+      "organ": "Spleen",
+      "diagnosis": "Congestive splenomegaly",
+      "description": "1. Red pulp expansion\n2. Red pulp congestion (& fibrosis)\n3. Dilated sinusoids",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材答案表螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "Red pulp expansion",
+          "accepted": [
+            "Red pulp expansion"
+          ]
+        },
+        {
+          "text": "Red pulp congestion",
+          "accepted": [
+            "Red pulp congestion"
+          ]
+        },
+        {
+          "text": "Dilated sinusoids",
+          "accepted": [
+            "Dilated sinusoids"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0923 Hemodynamic derangement.pdf",
+        "answerPage": 16,
+        "pageRange": [
+          4,
+          16
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0008/01.webp",
+          "page": 15,
+          "imageIndex": 0,
+          "xref": 71,
+          "bbox": [
+            0.0,
+            -1.52587890625e-05,
+            327.54998779296875,
+            247.79998779296875
+          ],
+          "width": 1224,
+          "height": 926,
+          "sourceImageSha256": "217019069b21e0a7f0a0898f244685e7d13951fea21462b224224433e36bb630"
+        },
+        {
+          "src": "assets/images/pa0008/02.webp",
+          "page": 10,
+          "imageIndex": 0,
+          "xref": 55,
+          "bbox": [
+            26.15999984741211,
+            28.71099853515625,
+            677.989990234375,
+            529.5910034179688
+          ],
+          "width": 1127,
+          "height": 866,
+          "sourceImageSha256": "986f97f7e83ebe90e9b75a954074d6e9e33ba8f7acbf6fdcc03e85ff19f6e128"
+        },
+        {
+          "src": "assets/images/pa0008/03.webp",
+          "page": 11,
+          "imageIndex": 1,
+          "xref": 58,
+          "bbox": [
+            400.1099853515625,
+            133.24301147460938,
+            934.6699829101562,
+            442.9030456542969
+          ],
+          "width": 1488,
+          "height": 862,
+          "sourceImageSha256": "27ca218ed9d051ec5f6bec91401b8261a53d572f0de37efe4a5a3218565c63ed"
+        },
+        {
+          "src": "assets/images/pa0008/04.webp",
+          "page": 12,
+          "imageIndex": 0,
+          "xref": 61,
+          "bbox": [
+            48.941001892089844,
+            77.5830078125,
+            750.6009521484375,
+            500.51300048828125
+          ],
+          "width": 1435,
+          "height": 865,
+          "sourceImageSha256": "912ccbbec2eec8ae6c11583dfe159ad2865b4bc79df563857a2ef8e9bcd7a57a"
+        },
+        {
+          "src": "assets/images/pa0008/05.webp",
+          "page": 15,
+          "imageIndex": 1,
+          "xref": 72,
+          "bbox": [
+            327.54998779296875,
+            95.99993896484375,
+            855.1099853515625,
+            539.9999389648438
+          ],
+          "width": 1407,
+          "height": 1184,
+          "sourceImageSha256": "aaed33a89eec5dbac5b4e11ede749565ecea7a2b8c841bc3eb9a92f199b6f136"
+        }
+      ]
+    },
+    {
+      "id": "PA0059",
+      "lesson": 6,
+      "organ": "Anus",
+      "diagnosis": "Hemorrhoid",
+      "description": "1. Dilated and congested submucosal vessels\n2. Thrombosis\n3. Organization & recanalization",
+      "notes": "本題必答關鍵字由 AI 選定；Organization & recanalization 亦接受 and 拼寫。",
+      "keywords": [
+        {
+          "text": "Dilated and congested submucosal vessels",
+          "accepted": [
+            "Dilated and congested submucosal vessels"
+          ]
+        },
+        {
+          "text": "Thrombosis",
+          "accepted": [
+            "Thrombosis"
+          ]
+        },
+        {
+          "text": "Organization & recanalization",
+          "accepted": [
+            "Organization & recanalization",
+            "Organization and recanalization"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0923 Hemodynamic derangement.pdf",
+        "answerPage": 30,
+        "pageRange": [
+          17,
+          30
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0059/01.webp",
+          "page": 20,
+          "imageIndex": 0,
+          "xref": 90,
+          "bbox": [
+            28.34600067138672,
+            36.39801025390625,
+            723.5960083007812,
+            493.2279968261719
+          ],
+          "width": 1146,
+          "height": 753,
+          "sourceImageSha256": "4b86eec65ae637d794a3a07d9981169adbb8eaffc3f4669b3dffa34ddf87ba03"
+        },
+        {
+          "src": "assets/images/pa0059/02.webp",
+          "page": 21,
+          "imageIndex": 0,
+          "xref": 93,
+          "bbox": [
+            4.166900157928467,
+            60.75,
+            900.536865234375,
+            476.2200012207031
+          ],
+          "width": 1564,
+          "height": 725,
+          "sourceImageSha256": "388df6e3ea2aea666736d1afde53dda8d12092cbed7c8682cae5023583584a3d"
+        },
+        {
+          "src": "assets/images/pa0059/03.webp",
+          "page": 22,
+          "imageIndex": 0,
+          "xref": 101,
+          "bbox": [
+            142.1300048828125,
+            66.58987426757812,
+            867.4000244140625,
+            539.9998779296875
+          ],
+          "width": 1319,
+          "height": 861,
+          "sourceImageSha256": "500e4dc48ed34354437042a3bbc1d46b1a37533cf868390a884570125689d5f0"
+        },
+        {
+          "src": "assets/images/pa0059/04.webp",
+          "page": 25,
+          "imageIndex": 0,
+          "xref": 110,
+          "bbox": [
+            29.9060001373291,
+            68.02700805664062,
+            867.406005859375,
+            527.3569946289062
+          ],
+          "width": 1565,
+          "height": 858,
+          "sourceImageSha256": "b167e0033b6b696c5d45890344ed1e5742273bf4e6386f09b6224036d1f99849"
+        },
+        {
+          "src": "assets/images/pa0059/05.webp",
+          "page": 26,
+          "imageIndex": 0,
+          "xref": 113,
+          "bbox": [
+            0.6519700288772583,
+            52.610992431640625,
+            861.7319946289062,
+            528.1510009765625
+          ],
+          "width": 1559,
+          "height": 861,
+          "sourceImageSha256": "fb123a3165bc427af775c443517b7e741ba74ec14be814132db81197681001ba"
+        },
+        {
+          "src": "assets/images/pa0059/06.webp",
+          "page": 28,
+          "imageIndex": 0,
+          "xref": 119,
+          "bbox": [
+            0.0,
+            63.3798828125,
+            836.7000122070312,
+            539.9998779296875
+          ],
+          "width": 1522,
+          "height": 867,
+          "sourceImageSha256": "2f662debe0025dfe1c3bbf2bff9d4abec7ddc29666103515e763bf5a6c4962fc"
+        }
+      ]
+    },
+    {
+      "id": "PA0076",
+      "lesson": 6,
+      "organ": "Liver",
+      "diagnosis": "Nutmeg liver",
+      "description": "1. Centrilobular [zone 3] congestion (本片主要finding)\n2. Centrilobular [zone 3] hepatocyte necrosis (本片僅局部有)",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材答案表螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "Centrilobular [zone 3] congestion",
+          "accepted": [
+            "Centrilobular [zone 3] congestion",
+            "Centrilobular congestion",
+            "zone 3 congestion"
+          ]
+        },
+        {
+          "text": "Centrilobular [zone 3] hepatocyte necrosis",
+          "accepted": [
+            "Centrilobular [zone 3] hepatocyte necrosis",
+            "Centrilobular hepatocyte necrosis",
+            "Centrilobular necrosis",
+            "zone 3 necrosis",
+            "hepatocyte necrosis"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0923 Hemodynamic derangement.pdf",
+        "answerPage": 38,
+        "pageRange": [
+          31,
+          38
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0076/01.webp",
+          "page": 35,
+          "imageIndex": 0,
+          "xref": 140,
+          "bbox": [
+            16.726999282836914,
+            11.63201904296875,
+            700.3670043945312,
+            514.1820068359375
+          ],
+          "width": 912,
+          "height": 670,
+          "sourceImageSha256": "8d8515472519fe2c92852a64bb9a12abb05fa5018e47352eb1bfb8173f568f4d"
+        },
+        {
+          "src": "assets/images/pa0076/02.webp",
+          "page": 36,
+          "imageIndex": 0,
+          "xref": 143,
+          "bbox": [
+            28.36400032043457,
+            13.094024658203125,
+            698.9140014648438,
+            516.364013671875
+          ],
+          "width": 894,
+          "height": 671,
+          "sourceImageSha256": "1d2a6bdd5aed9d1d25cbf51518b491121da2981a1fbc5543429a41a385e81551"
+        },
+        {
+          "src": "assets/images/pa0076/03.webp",
+          "page": 37,
+          "imageIndex": 0,
+          "xref": 146,
+          "bbox": [
+            16.0,
+            9.4520263671875,
+            694.5499877929688,
+            522.1820068359375
+          ],
+          "width": 905,
+          "height": 684,
+          "sourceImageSha256": "e6c17cebccc82baa72ef1ecd28e3b1d758ef98cff91a48c211d37705a0742a00"
+        }
+      ]
+    },
+    {
+      "id": "PA0215",
+      "lesson": 6,
+      "organ": "Liver",
+      "diagnosis": "Cardiac sclerosis",
+      "description": "1. Centrilobular congestion\n2. Centrilobular hepatocyte fibrosis",
+      "notes": "本題必答關鍵字由 AI 選定；Centrilobular hepatocyte fibrosis 亦接受教材投影片標記之 Centrilobular fibrosis。",
+      "keywords": [
+        {
+          "text": "Centrilobular congestion",
+          "accepted": [
+            "Centrilobular congestion"
+          ]
+        },
+        {
+          "text": "Centrilobular hepatocyte fibrosis",
+          "accepted": [
+            "Centrilobular hepatocyte fibrosis",
+            "Centrilobular fibrosis"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0923 Hemodynamic derangement.pdf",
+        "answerPage": 51,
+        "pageRange": [
+          39,
+          51
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0215/01.webp",
+          "page": 41,
+          "imageIndex": 0,
+          "xref": 160,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "06aa9987002a3711b462024c7ea75121ebb81a8afaf6908ec907ee2507debe68"
+        },
+        {
+          "src": "assets/images/pa0215/02.webp",
+          "page": 43,
+          "imageIndex": 0,
+          "xref": 166,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "53f55cc84f19f3e2859514aa6873394411732ac9c1be3138c45727d8e9e42653"
+        },
+        {
+          "src": "assets/images/pa0215/03.webp",
+          "page": 44,
+          "imageIndex": 0,
+          "xref": 169,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "d609faef1fc3c09642a59bd58667f386e4df1f3bff654e5ae2d448641d6fed0b"
+        },
+        {
+          "src": "assets/images/pa0215/04.webp",
+          "page": 46,
+          "imageIndex": 0,
+          "xref": 175,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "d84e441537b1a50e7b508f2064b0237c30080073f27c3da03702a0f9dd01fba4"
+        },
+        {
+          "src": "assets/images/pa0215/05.webp",
+          "page": 47,
+          "imageIndex": 0,
+          "xref": 178,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "81f875c91478fc2758e65e8d5f543ce2c33d8a3ec7ca5b1d8ffe4357ff8cb254"
+        },
+        {
+          "src": "assets/images/pa0215/06.webp",
+          "page": 49,
+          "imageIndex": 0,
+          "xref": 184,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "ccd2947a2823e16ea3b7741db226b283cacd86eeda63304a1f9f7fb0f7d3350e"
+        }
+      ]
+    },
+    {
+      "id": "PA0096",
+      "lesson": 6,
+      "organ": "Kidney",
+      "diagnosis": "Infarct/Infarction",
+      "description": "1. Wedge-shaped coagulative necrosis\n- acute tubular necrosis\n2. Thrombosis",
+      "notes": "診斷依答案表保留原文 Infarct/Infarction。本題必答關鍵字由 AI 依核心特徵選定。",
+      "keywords": [
+        {
+          "text": "coagulative necrosis",
+          "accepted": [
+            "coagulative necrosis",
+            "Wedge-shaped coagulative necrosis"
+          ]
+        },
+        {
+          "text": "acute tubular necrosis",
+          "accepted": [
+            "acute tubular necrosis"
+          ]
+        },
+        {
+          "text": "Thrombosis",
+          "accepted": [
+            "Thrombosis"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0923 Hemodynamic derangement.pdf",
+        "answerPage": 63,
+        "pageRange": [
+          52,
+          63
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0096/01.webp",
+          "page": 57,
+          "imageIndex": 0,
+          "xref": 205,
+          "bbox": [
+            34.290000915527344,
+            19.189971923828125,
+            714.239990234375,
+            495.3599853515625
+          ],
+          "width": 545,
+          "height": 407,
+          "sourceImageSha256": "feb435a7c54cdba0710e7e6d46ddbf7a658090a9cc5b27b6e100f1d76e48f005"
+        },
+        {
+          "src": "assets/images/pa0096/02.webp",
+          "page": 58,
+          "imageIndex": 0,
+          "xref": 208,
+          "bbox": [
+            17.454999923706055,
+            10.910003662109375,
+            705.4550170898438,
+            520.0
+          ],
+          "width": 917,
+          "height": 679,
+          "sourceImageSha256": "9e7e7eace9ae047a28eab31ccaa9a918fe0463d187cef10cc83e6438b9a85249"
+        },
+        {
+          "src": "assets/images/pa0096/03.webp",
+          "page": 59,
+          "imageIndex": 0,
+          "xref": 211,
+          "bbox": [
+            14.545999526977539,
+            13.8179931640625,
+            706.18603515625,
+            517.8179931640625
+          ],
+          "width": 922,
+          "height": 672,
+          "sourceImageSha256": "5b00d13ba1ef5ff2e182ce4fe6ac889d3d8b773226de0f9f00c41ab643ca958d"
+        },
+        {
+          "src": "assets/images/pa0096/04.webp",
+          "page": 60,
+          "imageIndex": 0,
+          "xref": 214,
+          "bbox": [
+            16.726999282836914,
+            10.18402099609375,
+            691.636962890625,
+            516.364013671875
+          ],
+          "width": 900,
+          "height": 675,
+          "sourceImageSha256": "10f82e1a22539889a6dbd35d47a747ab57fa8f5548d8c0ae92331fa213c5bf90"
+        },
+        {
+          "src": "assets/images/pa0096/05.webp",
+          "page": 61,
+          "imageIndex": 0,
+          "xref": 217,
+          "bbox": [
+            24.43199920654297,
+            12.3590087890625,
+            696.7319946289062,
+            518.9089965820312
+          ],
+          "width": 896,
+          "height": 675,
+          "sourceImageSha256": "4f6709c086ba98e7e5abd49c79c1cf7252723c865c1f28c556d1a560b05f0cd9"
+        },
+        {
+          "src": "assets/images/pa0096/06.webp",
+          "page": 62,
+          "imageIndex": 0,
+          "xref": 220,
+          "bbox": [
+            30.63599967956543,
+            17.45501708984375,
+            688.7260131835938,
+            510.5450134277344
+          ],
+          "width": 877,
+          "height": 658,
+          "sourceImageSha256": "3143bbc73b53ca7327a3685ec9972d63099db5ad79cf980fb8caeb7b4bc9a195"
+        }
+      ]
     }
   ]
 }

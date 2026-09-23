@@ -122,3 +122,35 @@
 
 可重現匯入腳本為 `scripts/import_lesson5.py`，不執行舊重建程式。
 
+## 教材 6（2026-09-23 匯入）
+
+來源：`pdf/病理學 Micro｜0923 Hemodynamic derangement.pdf`，64 頁。逐頁渲染核對，並列出每頁內嵌圖片尺寸、bbox（PDF 點座標）及 xref；五個病例的完整答案均採答案表。
+
+**第 16、30、38、51、63 頁答案表無黃色螢光標記。經使用者授權，由 AI 仿照螢光筆邏輯依核心特徵選定必答關鍵字。** 關鍵字設定與投影片黃色標記（第 40 頁 `Centrilobular [zone 3] fibrosis`、第 53/55 頁 `coagulative necrosis`、第 64 頁 `Take Home Message` 各要點）具高度一致性。每題 `notes` 均標記說明，`source.keywordBasis` 記錄為 `ai-selected-user-authorized`。保留完整答案原文，不擴充無依據之同義詞。
+
+| 病例 | 病例頁區間 | 取圖頁碼（imageIndex 從 0 起） | 答案頁 | 必答片語 |
+| --- | --- | --- | --- | --- |
+| PA0008 | 4–16 | 15:0, 10:0, 11:1, 12:0, 15:1 | 16 | Red pulp expansion；Red pulp congestion；Dilated sinusoids |
+| PA0059 | 17–30 | 20:0, 21:0, 22:0, 25:0, 26:0, 28:0 | 30 | Dilated and congested submucosal vessels；Thrombosis；Organization & recanalization |
+| PA0076 | 31–38 | 35:0, 36:0, 37:0 | 38 | Centrilobular [zone 3] congestion；Centrilobular [zone 3] hepatocyte necrosis |
+| PA0215 | 39–51 | 41:0, 43:0, 44:0, 46:0, 47:0, 49:0 | 51 | Centrilobular congestion；Centrilobular hepatocyte fibrosis |
+| PA0096 | 52–63 | 57:0, 58:0, 59:0, 60:0, 61:0, 62:0 | 63 | coagulative necrosis；acute tubular necrosis；Thrombosis |
+
+共新增 5 題、26 張原始內嵌切片，所有原始影像 SHA-256 均不同。輸出沿用等比例 WebP、quality 94、長邊最多 2000 px，不放大。逐圖與原頁對照，無診斷文字及正常對照混入；未重寫教材或修補組織。
+
+### 排除與取圖判斷
+
+- 1 頁為前次 PA0202 複習與拼字提醒；2 頁為單元封面；3 頁為 Case List；64 頁為 Take Home Message 總結。
+- 5 頁右側為 spleen 大體標本照片，排除。
+- 7 頁（KMU 解剖脾臟圖）、8 頁（ExpertPath 正常脾臟）、9 頁圖 1（正常脾臟對照）、11 頁圖 0（正常脾臟對照）、33 頁（正常肝小葉 zone 示意背景圖）為正常組織或解剖示意，排除。
+- 13 頁（VijayPatho 脾臟手繪示意圖）、18 頁（痔瘡解剖示意圖）、19 頁（ExpertPath 痔瘡組織示意）、29 頁（Fate of thrombus 流程圖）、32 頁（門脈分流手繪圖）、34 頁圖 0, 1（Robbins 11e 圖 4.3 豆蔻肝與肉豆蔻果實）、53 頁圖 0, 1（Robbins 梗塞楔形示意）、54 頁（手繪腎血管與梗塞示意）、56 頁（Toronto Notes ATN 流程圖）為教學插圖與流程圖，排除。
+- 14 頁為文獻引用 Gamna-Gandy body 帶箭頭照片，非 NTU microteaching 切片，排除。
+- 50 頁與 49 頁共用 xref 184，只收錄一次。
+- PA0008 第 15 頁收錄 index 0（全景定位圖）與 index 1（Gamna-Gandy body 特寫），原頁之矩形定位框為 PowerPoint 向量形狀，抽取之原生圖檔完全無遮擋或圈線標記。
+- PA0059 第 21 頁為肛門直腸交界移行上皮，對於器官辨識為關鍵視野，完整收錄。
+- PA0215 第 41–49 頁投影片上的文字方塊及第 46 頁綠色劃線均為 PowerPoint 覆蓋向量物件，原生抽取影像乾淨清晰，無文字烙印。
+- PA0096 診斷依答案表保留原文 `Infarct/Infarction`。
+
+可重現匯入腳本為 `scripts/import_lesson6.py`，不執行舊重建程式。
+
+
