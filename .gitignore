@@ -7,3 +7,17 @@
 # Source PDFs / materials
 pdf/
 *.pdf
+
+# Android build outputs & IDE
+.gradle/
+build/
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/*.iml
+android/local.properties
+android/*.jks
+android/*.keystore
+*.hprof
+

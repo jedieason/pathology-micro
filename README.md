@@ -122,3 +122,23 @@ python3 scripts/import_lesson5.py
 python3 scripts/import_lesson6.py
 ```
 
+## Android 原生 App 與 Google Play 發布
+
+本專案提供與網頁版完全一致的原生 Android 應用程式（基於 Kotlin + Jetpack Compose），支援與 GitHub 遠端儲存庫的題庫與切片影像即時同步。
+
+### 專案路徑
+- **Android 專案代碼**：`android/`
+  - 可直接使用 Android Studio 開啟 `android/` 資料夾進行開發與除錯。
+  - 建置指令：`./android/gradlew -p android assembleRelease bundleRelease`
+  - 測試指令：`./android/gradlew -p android test`
+
+### Google Play Store 上架發布套件
+所有上架所需的套件與圖檔素材已整理至 `play_store_package/` 資料夾：
+- `app-release.aab`：已簽署之 Android App Bundle（Google Play Console 正式上傳套件）。
+- `app-release.apk`：已簽署之 APK 檔案（供實體手機側載測試）。
+- `app-icon-512.png`：512x512 高解析度商店圖示。
+- `feature-graphic-1024x500.png`：1024x500 宣傳主題橫幅。
+- `release-keystore.jks` 與 `KEYSTORE_INFO.txt`：發布簽署金鑰與密碼資訊。
+- `PLAY_STORE_METADATA.md`：商店中繼資料、中英文說明、隱私權政策與完整上架送審流程。
+
+

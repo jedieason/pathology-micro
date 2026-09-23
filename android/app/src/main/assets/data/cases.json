@@ -1,0 +1,2442 @@
+{
+  "version": 1,
+  "title": "Cell injury and adaptation",
+  "cases": [
+    {
+      "id": "PA0097",
+      "lesson": 1,
+      "organ": "Kidney",
+      "diagnosis": "Acute tubular necrosis",
+      "description": "1. Tubular epithelial coagulative necrosis\n   ① Dead cells with preserved cellular outlines\n   ② Cytoplasmic eosinophilia, may glassy appearance, may vacuolated\n   ③ Nuclear changes: karyolysis, pyknosis, karyorrhexis\n2. An Inflammatory infiltrate",
+      "notes": "*Acute tubular injury/necrosis\nmainly in proximal convoluted tubule(本片distal也很嚴重)",
+      "keywords": [
+        {
+          "text": "coagulative necrosis",
+          "accepted": [
+            "coagulative necrosis"
+          ]
+        },
+        {
+          "text": "preserved cellular outlines",
+          "accepted": [
+            "preserved cellular outlines"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260910_Cell Injury and adaptation (1) (2).pdf",
+        "answerPage": 21
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0097/01.webp",
+          "page": 15,
+          "imageIndex": 0,
+          "xref": 72,
+          "bbox": [
+            132.32000732421875,
+            28.72900390625,
+            629.510009765625,
+            514.8690185546875
+          ],
+          "width": 596,
+          "height": 583,
+          "sourceImageSha256": "06e4500845e3c741817850ac14f6b96ecf4719036232ef58daa0bcf14d9e8015"
+        },
+        {
+          "src": "assets/images/pa0097/02.webp",
+          "page": 16,
+          "imageIndex": 0,
+          "xref": 75,
+          "bbox": [
+            24.231000900268555,
+            8.997039794921875,
+            708.9210205078125,
+            515.0770263671875
+          ],
+          "width": 913,
+          "height": 675,
+          "sourceImageSha256": "5967414a6cdb162945979754079dc403c31c996f72229c17ef81f2a4a5bb4220"
+        },
+        {
+          "src": "assets/images/pa0097/03.webp",
+          "page": 17,
+          "imageIndex": 0,
+          "xref": 78,
+          "bbox": [
+            18.0,
+            12.460968017578125,
+            711.0,
+            507.46099853515625
+          ],
+          "width": 924,
+          "height": 660,
+          "sourceImageSha256": "16510a5da0f2cfd0253af7dbd66844bad5176732bee338908598ce97635e5fe8"
+        },
+        {
+          "src": "assets/images/pa0097/04.webp",
+          "page": 19,
+          "imageIndex": 0,
+          "xref": 83,
+          "bbox": [
+            20.07699966430664,
+            16.613983154296875,
+            697.467041015625,
+            504.1239929199219
+          ],
+          "width": 903,
+          "height": 650,
+          "sourceImageSha256": "3ad83ebdc198cc3cfe1bd814ae55578f4b048010d9acd672652c10ef9d46aa82"
+        },
+        {
+          "src": "assets/images/pa0097/05.webp",
+          "page": 20,
+          "imageIndex": 0,
+          "xref": 86,
+          "bbox": [
+            10.385000228881836,
+            13.1510009765625,
+            705.4650268554688,
+            498.46099853515625
+          ],
+          "width": 927,
+          "height": 647,
+          "sourceImageSha256": "8d541419a92f54be1ada7edc0daee7efe8517cbf295b264af6f113863641ce0a"
+        }
+      ]
+    },
+    {
+      "id": "PA0313",
+      "lesson": 1,
+      "organ": "Intestine/colon",
+      "diagnosis": "Necrotizing enterocolitis",
+      "description": "1. Coagulative necrosis with hemorrhage – mucosal and transmural (impending perforation)\n2. Chronic changes: strictures, crypt distortion, reactive epithelial cells (本片無)",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Coagulative necrosis with hemorrhage",
+          "accepted": [
+            "Coagulative necrosis with hemorrhage"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260910_Cell Injury and adaptation (1) (2).pdf",
+        "answerPage": 29
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0313/01.webp",
+          "page": 26,
+          "imageIndex": 0,
+          "xref": 101,
+          "bbox": [
+            0.0,
+            33.5989990234375,
+            960.0,
+            506.39898681640625
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "aa218c40891797f4619739b32360316838a184ad9faf3feca94e3b114ba57973"
+        },
+        {
+          "src": "assets/images/pa0313/02.webp",
+          "page": 27,
+          "imageIndex": 0,
+          "xref": 104,
+          "bbox": [
+            0.0,
+            33.5989990234375,
+            960.0,
+            506.39898681640625
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "2dca84671ff42856e15631d5b9c4e1ca09e23b1dba10629b077afcb88d7a626e"
+        },
+        {
+          "src": "assets/images/pa0313/03.webp",
+          "page": 28,
+          "imageIndex": 0,
+          "xref": 107,
+          "bbox": [
+            0.0,
+            33.5989990234375,
+            960.0,
+            506.39898681640625
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "8a97b9b529e59fc823c957c5931c4ab029c4a75ec015aa7c23019a1ad36ea2f3"
+        },
+        {
+          "src": "assets/images/pa0313/04.webp",
+          "page": 30,
+          "imageIndex": 0,
+          "xref": 112,
+          "bbox": [
+            217.07000732421875,
+            7.07073974609375,
+            742.9299926757812,
+            532.9307250976562
+          ],
+          "width": 1042,
+          "height": 1042,
+          "sourceImageSha256": "ae4aceb4ca135c7068d54dc10349ab55ba36889b4be65952f39ebb7a65b13eb1"
+        }
+      ]
+    },
+    {
+      "id": "PA0335",
+      "lesson": 2,
+      "organ": "Heart",
+      "diagnosis": "Myocardial infarction, healed",
+      "description": "1. Multifocal fibrosis replacing myocytes (比較久遠的變化, remote)\n   With slightly increased mononuclear inflammatory cells\n2. Granulation tissue, focal (不太好找; 比較近期的變化, recent)\n   Neovascularization (capillary proliferation), hemorrhage\n3. Myocyte vacuolization\n   Especially subendocardial areas (sublethal ischemic changes)\n4. Hypertrophic changes of cardiomyocytes (病人的背景)\n   Increased cell and nuclear size",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "fibrosis",
+          "accepted": [
+            "fibrosis"
+          ]
+        },
+        {
+          "text": "Granulation tissue",
+          "accepted": [
+            "Granulation tissue"
+          ]
+        },
+        {
+          "text": "vacuolization",
+          "accepted": [
+            "vacuolization"
+          ]
+        },
+        {
+          "text": "Hypertrophic",
+          "accepted": [
+            "Hypertrophic"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260911_Cell Injury and adaptation (2)_0910renew (1).pdf",
+        "answerPage": 15
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0335/01.webp",
+          "page": 9,
+          "imageIndex": 0,
+          "xref": 47,
+          "bbox": [
+            0.0,
+            64.04986572265625,
+            960.0,
+            539.9998779296875
+          ],
+          "width": 2000,
+          "height": 992,
+          "sourceImageSha256": "0b3c1cf1363a56d990bdc305a8a85544cef412215d9a36d4526ba77b0b63d067"
+        },
+        {
+          "src": "assets/images/pa0335/02.webp",
+          "page": 10,
+          "imageIndex": 0,
+          "xref": 50,
+          "bbox": [
+            0.0,
+            32.0269775390625,
+            960.0,
+            507.97698974609375
+          ],
+          "width": 2000,
+          "height": 992,
+          "sourceImageSha256": "6609c6286b0ec6d4fe7be9098437c71802144efd58f52d2b990ae54cd614bae1"
+        },
+        {
+          "src": "assets/images/pa0335/03.webp",
+          "page": 11,
+          "imageIndex": 0,
+          "xref": 53,
+          "bbox": [
+            0.0,
+            32.0269775390625,
+            960.0,
+            507.97698974609375
+          ],
+          "width": 2000,
+          "height": 992,
+          "sourceImageSha256": "0f837be972182991fc47e28d4062be041e1bf9728b215e1c6e2550636cf223ab"
+        },
+        {
+          "src": "assets/images/pa0335/04.webp",
+          "page": 12,
+          "imageIndex": 0,
+          "xref": 56,
+          "bbox": [
+            0.0,
+            32.0269775390625,
+            960.0,
+            507.97698974609375
+          ],
+          "width": 2000,
+          "height": 992,
+          "sourceImageSha256": "689b57ccd6ff19474b4be04d71f361ca513b8ea7b09a91a8ca0cc88e75aba357"
+        },
+        {
+          "src": "assets/images/pa0335/05.webp",
+          "page": 13,
+          "imageIndex": 0,
+          "xref": 59,
+          "bbox": [
+            0.0,
+            32.0269775390625,
+            960.0,
+            507.97698974609375
+          ],
+          "width": 2000,
+          "height": 992,
+          "sourceImageSha256": "7f9c2b18c074d4d56fa6766df64d686f2986e9472a27bc423254a78fe893931d"
+        },
+        {
+          "src": "assets/images/pa0335/06.webp",
+          "page": 14,
+          "imageIndex": 0,
+          "xref": 62,
+          "bbox": [
+            0.0,
+            32.0269775390625,
+            960.0,
+            507.97698974609375
+          ],
+          "width": 2000,
+          "height": 992,
+          "sourceImageSha256": "2c6fe75d489e8e3e52bee0da8f4b127a74a02b9134eb9543517a68d14c86b502"
+        }
+      ]
+    },
+    {
+      "id": "PA0162",
+      "lesson": 2,
+      "organ": "Cerebrum",
+      "diagnosis": "Encephalomalacia",
+      "description": "1. Focal liquefactive necrosis\n   Loss of the original structure → Loosening of the tissue\n2. Neutrophil infiltration or “microabscces” may be present\n3. Reactive gliosis\n4. Gitter cells\n   Histiocytes with phagocytosed myelin",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "liquefactive necrosis",
+          "accepted": [
+            "liquefactive necrosis"
+          ]
+        },
+        {
+          "text": "Loosening",
+          "accepted": [
+            "Loosening"
+          ]
+        },
+        {
+          "text": "microabscces",
+          "accepted": [
+            "microabscces",
+            "microabscess"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260911_Cell Injury and adaptation (2)_0910renew (1).pdf",
+        "answerPage": 31
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0162/01.webp",
+          "page": 22,
+          "imageIndex": 0,
+          "xref": 93,
+          "bbox": [
+            85.64399719238281,
+            17.52301025390625,
+            633.4639892578125,
+            501.9230041503906
+          ],
+          "width": 907,
+          "height": 802,
+          "sourceImageSha256": "adb172af00ae7682c4dca394c76c6abb94b4dcf76e05614aa5dc4daff695ae98"
+        },
+        {
+          "src": "assets/images/pa0162/02.webp",
+          "page": 24,
+          "imageIndex": 0,
+          "xref": 99,
+          "bbox": [
+            12.119000434875488,
+            12.8280029296875,
+            702.8890380859375,
+            501.14801025390625
+          ],
+          "width": 921,
+          "height": 651,
+          "sourceImageSha256": "2efb3fa4d4b46a25ccf2eaf862928522fd9be4b13b1a7868504cf66896b578b9"
+        },
+        {
+          "src": "assets/images/pa0162/03.webp",
+          "page": 27,
+          "imageIndex": 0,
+          "xref": 108,
+          "bbox": [
+            38.76900100708008,
+            20.772003173828125,
+            679.2589721679688,
+            510.31201171875
+          ],
+          "width": 854,
+          "height": 653,
+          "sourceImageSha256": "311354a39009251c2bcd48f497ec6a8591d20b86d3fc19ca5b7522e0d56b2486"
+        },
+        {
+          "src": "assets/images/pa0162/04.webp",
+          "page": 29,
+          "imageIndex": 0,
+          "xref": 114,
+          "bbox": [
+            25.614999771118164,
+            11.772003173828125,
+            699.9249877929688,
+            513.6920166015625
+          ],
+          "width": 899,
+          "height": 669,
+          "sourceImageSha256": "b05184f1b97c0e3ff54596574980bf29c8f11dc41f6543697879f0b5febfa246"
+        }
+      ]
+    },
+    {
+      "id": "PA0198",
+      "lesson": 2,
+      "organ": "Lung",
+      "diagnosis": "Caseating granulomatous inflammation",
+      "description": "1. Center: Caseous necrosis\n   A structureless collection of lysed cells & amorphous granular debris\n2. Periphery: Granulomatous inflammation\n   ① Epithelioid macrophages\n   ② Langhans giant cells\n   ③ Lymphocytes\n   ④ Fibrosis",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Center: Caseous necrosis",
+          "accepted": [
+            "Center: Caseous necrosis"
+          ]
+        },
+        {
+          "text": "Periphery: Granulomatous inflammation",
+          "accepted": [
+            "Periphery: Granulomatous inflammation"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260911_Cell Injury and adaptation (2)_0910renew (1).pdf",
+        "answerPage": 48
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0198/01.webp",
+          "page": 40,
+          "imageIndex": 0,
+          "xref": 145,
+          "bbox": [
+            39.44300079345703,
+            37.0,
+            385.9429931640625,
+            500.5
+          ],
+          "width": 462,
+          "height": 618,
+          "sourceImageSha256": "f0500630532c92e6d2b14e74da853a833e621444cb1e919f6135301b45a77835"
+        },
+        {
+          "src": "assets/images/pa0198/02.webp",
+          "page": 41,
+          "imageIndex": 0,
+          "xref": 149,
+          "bbox": [
+            22.222000122070312,
+            14.2230224609375,
+            708.4419555664062,
+            509.3330078125
+          ],
+          "width": 915,
+          "height": 660,
+          "sourceImageSha256": "88ebe36f2dd8aa48f34b74b679a4495f15bf413141b618c6962a07a24845bc98"
+        },
+        {
+          "src": "assets/images/pa0198/03.webp",
+          "page": 42,
+          "imageIndex": 0,
+          "xref": 152,
+          "bbox": [
+            22.5,
+            21.329986572265625,
+            697.5,
+            512.0
+          ],
+          "width": 900,
+          "height": 654,
+          "sourceImageSha256": "f8eddb921337dc74a819e258be5d712c9c16e1d9decd9b31877ac412588c9359"
+        },
+        {
+          "src": "assets/images/pa0198/04.webp",
+          "page": 44,
+          "imageIndex": 0,
+          "xref": 157,
+          "bbox": [
+            16.888999938964844,
+            17.774993896484375,
+            692.448974609375,
+            507.55499267578125
+          ],
+          "width": 901,
+          "height": 653,
+          "sourceImageSha256": "fc493611b1d834e63a19b0fbec9892dfe3b1b8cc392f93c611437d9dfa7651b4"
+        },
+        {
+          "src": "assets/images/pa0198/05.webp",
+          "page": 46,
+          "imageIndex": 0,
+          "xref": 163,
+          "bbox": [
+            12.444000244140625,
+            12.4429931640625,
+            701.333984375,
+            501.3330078125
+          ],
+          "width": 919,
+          "height": 652,
+          "sourceImageSha256": "54fe56b2035ade747a2dedac9545380335a136cfc32026a2915fcc960cf32f3a"
+        }
+      ]
+    },
+    {
+      "id": "PA0081",
+      "lesson": 2,
+      "organ": "Pancreas",
+      "diagnosis": "Fat necrosis",
+      "description": "1. Shadowy outlines of necrotic fat cells\n2. Basophilic calcium deposits\n3. Inflammation",
+      "notes": "*本片有 Acute interstitial pancreatitis (traumatic pancreatitis)\nacute inflammatory cell infiltrate into pancreatic parenchyma\nmostly in outer part\nhemorrhage (RBC and fibrin)\ntrauma: by clinical history",
+      "keywords": [
+        {
+          "text": "Shadowy outlines",
+          "accepted": [
+            "Shadowy outlines"
+          ]
+        },
+        {
+          "text": "calcium",
+          "accepted": [
+            "calcium"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260911_Cell Injury and adaptation (2)_0910renew (1).pdf",
+        "answerPage": 63
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0081/01.webp",
+          "page": 54,
+          "imageIndex": 0,
+          "xref": 187,
+          "bbox": [
+            82.46600341796875,
+            61.29998779296875,
+            668.6259765625,
+            500.5
+          ],
+          "width": 552,
+          "height": 414,
+          "sourceImageSha256": "f69865d618cfde16fbab2c69de7dbc0fed15cd9e8e448d30c3aaf10653bc12a7"
+        },
+        {
+          "src": "assets/images/pa0081/02.webp",
+          "page": 57,
+          "imageIndex": 0,
+          "xref": 195,
+          "bbox": [
+            18.861000061035156,
+            12.441986083984375,
+            694.2210083007812,
+            510.22198486328125
+          ],
+          "width": 900,
+          "height": 664,
+          "sourceImageSha256": "011ea78cde67ef272cab8d764d2e5a4dc0d940c95e0e430b8550375a81886aa8"
+        },
+        {
+          "src": "assets/images/pa0081/03.webp",
+          "page": 58,
+          "imageIndex": 0,
+          "xref": 198,
+          "bbox": [
+            28.444000244140625,
+            23.108978271484375,
+            696.884033203125,
+            520.8889770507812
+          ],
+          "width": 891,
+          "height": 664,
+          "sourceImageSha256": "ebc3b9d25a066541905ddf0e2d674e9ffb2cfcc3e1a0a21c0db2bf2d5f95130d"
+        },
+        {
+          "src": "assets/images/pa0081/04.webp",
+          "page": 59,
+          "imageIndex": 0,
+          "xref": 201,
+          "bbox": [
+            21.33300018310547,
+            19.55999755859375,
+            696.0029907226562,
+            512.0
+          ],
+          "width": 900,
+          "height": 657,
+          "sourceImageSha256": "390bdf22d21e62381acdd560a8291ddf4496692d8f3f7c8adca9c08f9dff99d1"
+        },
+        {
+          "src": "assets/images/pa0081/05.webp",
+          "page": 61,
+          "imageIndex": 0,
+          "xref": 206,
+          "bbox": [
+            21.33300018310547,
+            13.337005615234375,
+            690.6630249023438,
+            498.6669921875
+          ],
+          "width": 892,
+          "height": 647,
+          "sourceImageSha256": "3360fed30dd515e404bd44bd3e70e856e042fef3f9e3b6808d4d5b2fa66cfa47"
+        },
+        {
+          "src": "assets/images/pa0081/06.webp",
+          "page": 62,
+          "imageIndex": 0,
+          "xref": 209,
+          "bbox": [
+            10.666999816894531,
+            20.444000244140625,
+            705.7769775390625,
+            492.4440002441406
+          ],
+          "width": 927,
+          "height": 629,
+          "sourceImageSha256": "f531524069d3e338ea076ebbed2b6484a81c0451989dd9b235a97cffa5730a45"
+        }
+      ]
+    },
+    {
+      "id": "PA0220",
+      "lesson": 3,
+      "organ": "Prostate",
+      "diagnosis": "Nodular hyperplasia",
+      "description": "1. Nodules of cystically dilated hyperplastic glands",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "cystically dilated",
+          "accepted": [
+            "cystically dilated"
+          ]
+        },
+        {
+          "text": "hyperplastic glands",
+          "accepted": [
+            "hyperplastic glands"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260914 Cell Injury and adaptation (3).pdf",
+        "answerPage": 12,
+        "pageRange": [
+          2,
+          12
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0220/01.webp",
+          "page": 8,
+          "imageIndex": 0,
+          "xref": 47,
+          "bbox": [
+            32.10900115966797,
+            99.510986328125,
+            609.1090087890625,
+            515.510986328125
+          ],
+          "width": 577,
+          "height": 416,
+          "sourceImageSha256": "05121574ea477f758bb4709acef04379bcdf61fd12308eb7fb0a66261594d0fa"
+        },
+        {
+          "src": "assets/images/pa0220/02.webp",
+          "page": 9,
+          "imageIndex": 0,
+          "xref": 50,
+          "bbox": [
+            -7.873999857110903e-05,
+            0.0,
+            707.1299438476562,
+            500.5
+          ],
+          "width": 912,
+          "height": 645,
+          "sourceImageSha256": "61b0b194573d9965ec46be5535699383218f721c665597595d858f8cf190c6d9"
+        },
+        {
+          "src": "assets/images/pa0220/03.webp",
+          "page": 10,
+          "imageIndex": 0,
+          "xref": 53,
+          "bbox": [
+            0.0,
+            0.0,
+            642.780029296875,
+            500.5
+          ],
+          "width": 735,
+          "height": 572,
+          "sourceImageSha256": "1fcf3571548982a6d4cdbe61fee2f63656697063d530c732ab6fe89a2df061e7"
+        },
+        {
+          "src": "assets/images/pa0220/04.webp",
+          "page": 11,
+          "imageIndex": 0,
+          "xref": 56,
+          "bbox": [
+            0.0,
+            0.0,
+            678.0,
+            500.5
+          ],
+          "width": 833,
+          "height": 615,
+          "sourceImageSha256": "5d0b44e5d3f5ced26f0af3bd774197b789e694855dd524a2992abc78a36703c6"
+        }
+      ]
+    },
+    {
+      "id": "PA0074",
+      "lesson": 3,
+      "organ": "Liver",
+      "diagnosis": "Steatosis (fatty change)",
+      "description": "1. Lipid droplets in hepatocytes",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "Lipid droplets",
+          "accepted": [
+            "Lipid droplets"
+          ]
+        },
+        {
+          "text": "hepatocytes",
+          "accepted": [
+            "hepatocytes"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260914 Cell Injury and adaptation (3).pdf",
+        "answerPage": 22,
+        "pageRange": [
+          13,
+          22
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0074/01.webp",
+          "page": 19,
+          "imageIndex": 0,
+          "xref": 82,
+          "bbox": [
+            0.0,
+            -0.0001220703125,
+            724.219970703125,
+            539.9998779296875
+          ],
+          "width": 1137,
+          "height": 848,
+          "sourceImageSha256": "7b254f3e1699dd1c09b7a82723f3e30192ee6b6564560060847a3d654be47163"
+        },
+        {
+          "src": "assets/images/pa0074/02.webp",
+          "page": 20,
+          "imageIndex": 0,
+          "xref": 85,
+          "bbox": [
+            0.9402700066566467,
+            -0.0001220703125,
+            724.2202758789062,
+            539.9998779296875
+          ],
+          "width": 845,
+          "height": 631,
+          "sourceImageSha256": "889807819e7e189d5d127b57e7ff9f0aef799788bf7023cb1ee2d1f7eab193dc"
+        },
+        {
+          "src": "assets/images/pa0074/03.webp",
+          "page": 21,
+          "imageIndex": 0,
+          "xref": 88,
+          "bbox": [
+            -7.873999857110903e-05,
+            -0.0001220703125,
+            724.2199096679688,
+            539.9998779296875
+          ],
+          "width": 867,
+          "height": 646,
+          "sourceImageSha256": "ef697011fe2afdb1260c9e73117bfde1e9502b6fcc53caaf02db9849985225e2"
+        }
+      ]
+    },
+    {
+      "id": "PA0017",
+      "lesson": 3,
+      "organ": "Lung",
+      "diagnosis": "Anthracosis",
+      "description": "1. Dark black pigments in macrophages/histiocytes",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "Dark black pigments",
+          "accepted": [
+            "Dark black pigments"
+          ]
+        },
+        {
+          "text": "macrophages/histiocytes",
+          "accepted": [
+            "macrophages/histiocytes"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260914 Cell Injury and adaptation (3).pdf",
+        "answerPage": 32,
+        "pageRange": [
+          23,
+          32
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0017/01.webp",
+          "page": 26,
+          "imageIndex": 0,
+          "xref": 103,
+          "bbox": [
+            142.77999877929688,
+            28.7239990234375,
+            692.97998046875,
+            445.9540100097656
+          ],
+          "width": 902,
+          "height": 684,
+          "sourceImageSha256": "ac901d1668c45cbb7e1b88247ee1c1ef47ae57e924300f111204885e47c087e9"
+        },
+        {
+          "src": "assets/images/pa0017/02.webp",
+          "page": 27,
+          "imageIndex": 0,
+          "xref": 106,
+          "bbox": [
+            0.0,
+            -6.103515625e-05,
+            724.219970703125,
+            539.9999389648438
+          ],
+          "width": 1136,
+          "height": 847,
+          "sourceImageSha256": "4141f66680630b0a5f3a0fa36ba39018929e4be6ec868c4dedc6942fb573fbfe"
+        },
+        {
+          "src": "assets/images/pa0017/03.webp",
+          "page": 29,
+          "imageIndex": 0,
+          "xref": 111,
+          "bbox": [
+            0.0,
+            -0.0001220703125,
+            724.219970703125,
+            539.9998779296875
+          ],
+          "width": 1405,
+          "height": 1048,
+          "sourceImageSha256": "a9de8f00c6db858289c51706eda2f784f47f459060284c9644549c96ae4e6b3b"
+        },
+        {
+          "src": "assets/images/pa0017/04.webp",
+          "page": 31,
+          "imageIndex": 0,
+          "xref": 118,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "c6b666aa32db4f065f767ee58866459a1e6175c2f8094c8addf7ea92c61317a1"
+        }
+      ]
+    },
+    {
+      "id": "PA0144",
+      "lesson": 3,
+      "organ": "Skin",
+      "diagnosis": "Intradermal (melanocytic) nevus",
+      "description": "1. Nests & cords of proliferative melanocytes\n2. Brown-black melanin pigmentation\n3. (Adipocytic metaplasia)",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "proliferative melanocytes",
+          "accepted": [
+            "proliferative melanocytes"
+          ]
+        },
+        {
+          "text": "melanin pigmentation",
+          "accepted": [
+            "melanin pigmentation"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260914 Cell Injury and adaptation (3).pdf",
+        "answerPage": 48,
+        "pageRange": [
+          34,
+          48
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0144/01.webp",
+          "page": 42,
+          "imageIndex": 0,
+          "xref": 155,
+          "bbox": [
+            47.73899841308594,
+            25.480010986328125,
+            659.739013671875,
+            408.08001708984375
+          ],
+          "width": 1558,
+          "height": 974,
+          "sourceImageSha256": "628d064b287484101c1f0c88ded9e488d1fbe74622e87a672f6e2fed7a40eb24"
+        },
+        {
+          "src": "assets/images/pa0144/02.webp",
+          "page": 43,
+          "imageIndex": 2,
+          "xref": 160,
+          "bbox": [
+            174.1999969482422,
+            40.847015380859375,
+            491.17999267578125,
+            520.18701171875
+          ],
+          "width": 820,
+          "height": 1240,
+          "sourceImageSha256": "12bcdcfca0dcabd4746804c8c06ef1c17d327a3d853892e534b76150378798ba"
+        },
+        {
+          "src": "assets/images/pa0144/03.webp",
+          "page": 44,
+          "imageIndex": 1,
+          "xref": 163,
+          "bbox": [
+            161.77999877929688,
+            39.347015380859375,
+            515.4500122070312,
+            520.18701171875
+          ],
+          "width": 922,
+          "height": 1254,
+          "sourceImageSha256": "8dfa4ca1ae665280e5b584d5d29b39036329de30bb015e72f877768d0fe8a80c"
+        },
+        {
+          "src": "assets/images/pa0144/04.webp",
+          "page": 45,
+          "imageIndex": 0,
+          "xref": 166,
+          "bbox": [
+            468.8800048828125,
+            18.186981201171875,
+            887.1199951171875,
+            480.09698486328125
+          ],
+          "width": 1082,
+          "height": 1195,
+          "sourceImageSha256": "40667ebd1ddf428950bb6535f54cd6d6e53b8a71c503b5c9cee6a6dac7a0c0ba"
+        },
+        {
+          "src": "assets/images/pa0144/05.webp",
+          "page": 45,
+          "imageIndex": 1,
+          "xref": 167,
+          "bbox": [
+            18.739990234375,
+            94.989990234375,
+            468.8800048828125,
+            480.0999755859375
+          ],
+          "width": 1253,
+          "height": 1024,
+          "sourceImageSha256": "021f60439e18d6bfae2060924b4d88df1a22372e0746d0b40e049bf3fcb94ecb"
+        },
+        {
+          "src": "assets/images/pa0144/06.webp",
+          "page": 47,
+          "imageIndex": 0,
+          "xref": 173,
+          "bbox": [
+            37.88999938964844,
+            28.722991943359375,
+            649.8900146484375,
+            476.9530029296875
+          ],
+          "width": 1704,
+          "height": 1248,
+          "sourceImageSha256": "2b111f11984c37c407933b47d360bf0298368e7dc703ee6f38a6a99bd7e0e2ac"
+        }
+      ]
+    },
+    {
+      "id": "PA0208",
+      "lesson": 4,
+      "organ": "Large intestine",
+      "diagnosis": "Melanosis coli",
+      "description": "1. Yellow-brown ceroid-laden macrophages in the \nlamina propria",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "ceroid-laden macrophages",
+          "accepted": [
+            "ceroid-laden macrophages"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0911 Cell Injury and adaptation (4).pdf",
+        "answerPage": 18,
+        "pageRange": [
+          12,
+          18
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0208/01.webp",
+          "page": 15,
+          "imageIndex": 0,
+          "xref": 69,
+          "bbox": [
+            0.0,
+            0.0,
+            724.0499877929688,
+            439.7799987792969
+          ],
+          "width": 893,
+          "height": 542,
+          "sourceImageSha256": "1a198cbb6480f7d359f204d5db3fb709096d6512033a044a341a2d24f5b9b736"
+        },
+        {
+          "src": "assets/images/pa0208/02.webp",
+          "page": 16,
+          "imageIndex": 0,
+          "xref": 72,
+          "bbox": [
+            -7.873999857110903e-05,
+            0.00323486328125,
+            724.2199096679688,
+            540.0032348632812
+          ],
+          "width": 884,
+          "height": 659,
+          "sourceImageSha256": "e794823b00197bfb74be76669e16a88bbdd0e456f826d3ff7d316627dbaa3171"
+        },
+        {
+          "src": "assets/images/pa0208/03.webp",
+          "page": 17,
+          "imageIndex": 0,
+          "xref": 75,
+          "bbox": [
+            -7.873999857110903e-05,
+            0.0050048828125,
+            724.2199096679688,
+            501.385009765625
+          ],
+          "width": 909,
+          "height": 630,
+          "sourceImageSha256": "96fae4ce3eef00dfd0244b0098d90c8bef43bf7ad4a98066cabaf4604e4ff253"
+        }
+      ]
+    },
+    {
+      "id": "PA0211",
+      "lesson": 4,
+      "organ": "Liver",
+      "diagnosis": "Hemosiderosis",
+      "description": "1. Golden yellow-brown, refractile hemosiderin\naccumulation in hepatocytes",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "hemosiderin",
+          "accepted": [
+            "hemosiderin"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0911 Cell Injury and adaptation (4).pdf",
+        "answerPage": 29,
+        "pageRange": [
+          23,
+          30
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0211/01.webp",
+          "page": 26,
+          "imageIndex": 0,
+          "xref": 109,
+          "bbox": [
+            0.0,
+            -6.103515625e-05,
+            724.219970703125,
+            539.9999389648438
+          ],
+          "width": 907,
+          "height": 676,
+          "sourceImageSha256": "43ee172ce7d7482daf48a7bac0261f8c951c097a1229f4ecbc09ba8f90d6ff4b"
+        },
+        {
+          "src": "assets/images/pa0211/02.webp",
+          "page": 27,
+          "imageIndex": 0,
+          "xref": 112,
+          "bbox": [
+            0.0,
+            -0.0001220703125,
+            724.219970703125,
+            539.9998779296875
+          ],
+          "width": 894,
+          "height": 666,
+          "sourceImageSha256": "ca7fb1d71cf41021af88c5328621bff0c858b71c98c83b93471c421aadde466d"
+        },
+        {
+          "src": "assets/images/pa0211/03.webp",
+          "page": 28,
+          "imageIndex": 0,
+          "xref": 115,
+          "bbox": [
+            0.0,
+            -0.0001220703125,
+            724.219970703125,
+            539.9998779296875
+          ],
+          "width": 895,
+          "height": 668,
+          "sourceImageSha256": "bc346bbe9fdaff37ef4cc9bc233999becf188cee5427ac2153bce7a6fcf855bd"
+        }
+      ]
+    },
+    {
+      "id": "PA0214",
+      "lesson": 4,
+      "organ": "Liver",
+      "diagnosis": "Obstructive cholestasis",
+      "description": "1. Green-brown bile pigments in hepatocytes and \ndilated canaliculi\n2. Portal edema, prominent ductular reaction & \nneutrophil infiltration (“pericholangitis”) (triad of \nobstructive cholestasis)\n3. Swelling of periportal hepatocytes (“feathery \ndegeneration”)",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Green-brown bile pigments",
+          "accepted": [
+            "Green-brown bile pigments"
+          ]
+        },
+        {
+          "text": "Portal edema",
+          "accepted": [
+            "Portal edema"
+          ]
+        },
+        {
+          "text": "ductular reaction",
+          "accepted": [
+            "ductular reaction"
+          ]
+        },
+        {
+          "text": "neutrophil",
+          "accepted": [
+            "neutrophil"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0911 Cell Injury and adaptation (4).pdf",
+        "answerPage": 41,
+        "pageRange": [
+          31,
+          41
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0214/01.webp",
+          "page": 35,
+          "imageIndex": 0,
+          "xref": 135,
+          "bbox": [
+            108.51000213623047,
+            34.5,
+            526.510009765625,
+            505.5
+          ],
+          "width": 836,
+          "height": 942,
+          "sourceImageSha256": "1c5c5d3c9cc4b5433895325ea322dd1e69e27bb40cf0fffc75fe506e086418c2"
+        },
+        {
+          "src": "assets/images/pa0214/02.webp",
+          "page": 36,
+          "imageIndex": 0,
+          "xref": 138,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "7e9bdc5a383e83ec12bef1e0f63df190f62692c83b720fd20f174a8589a57bad"
+        },
+        {
+          "src": "assets/images/pa0214/03.webp",
+          "page": 37,
+          "imageIndex": 0,
+          "xref": 141,
+          "bbox": [
+            0.0007086599944159389,
+            -0.00018310546875,
+            717.1907348632812,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "bfac9e3a6c69f933f157a74eb945d2b7f1f921a2a1accc689ed08b2ef12f30fe"
+        },
+        {
+          "src": "assets/images/pa0214/04.webp",
+          "page": 38,
+          "imageIndex": 0,
+          "xref": 144,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "f2294f9b83d83ea84dbd74553c9fb8d4d378aeccdc966828501e561bf2335973"
+        },
+        {
+          "src": "assets/images/pa0214/05.webp",
+          "page": 39,
+          "imageIndex": 0,
+          "xref": 147,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "e02224d8ca20d86d375d0a0852a94ca128c680a1e0a5e85a7924d4676c283d1c"
+        },
+        {
+          "src": "assets/images/pa0214/06.webp",
+          "page": 40,
+          "imageIndex": 0,
+          "xref": 150,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "1fb1bab6314051de76f9e2d26c1bf56f69c185865428be40b1da71fd9d805ba6"
+        }
+      ]
+    },
+    {
+      "id": "PA0216",
+      "lesson": 4,
+      "organ": "Liver",
+      "diagnosis": "Malaria pigment",
+      "description": "1. Brown-black malaria pigments in macrophages \nand hepatocytes",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Brown-black malaria pigments",
+          "accepted": [
+            "Brown-black malaria pigments"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0911 Cell Injury and adaptation (4).pdf",
+        "answerPage": 48,
+        "pageRange": [
+          42,
+          48
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0216/01.webp",
+          "page": 45,
+          "imageIndex": 0,
+          "xref": 167,
+          "bbox": [
+            51.62300109863281,
+            98.6820068359375,
+            588.6229858398438,
+            441.31201171875
+          ],
+          "width": 1146,
+          "height": 731,
+          "sourceImageSha256": "2ba93eb7c9c958d98df2cda5caa666e5ab6dbad95d93bcc5f288d47400998556"
+        },
+        {
+          "src": "assets/images/pa0216/02.webp",
+          "page": 46,
+          "imageIndex": 0,
+          "xref": 170,
+          "bbox": [
+            1.4062000513076782,
+            -0.000244140625,
+            718.59619140625,
+            539.999755859375
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "4b403506dcafe34e6d16e96252db1b5bebfeddde16681e86a4a0830c9883da09"
+        },
+        {
+          "src": "assets/images/pa0216/03.webp",
+          "page": 47,
+          "imageIndex": 0,
+          "xref": 173,
+          "bbox": [
+            1.4062000513076782,
+            -0.00018310546875,
+            718.59619140625,
+            539.9998168945312
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "0d61b9206dec2fe9d259cfcffe0db616a87d63d31e72e423b1edec93952a3a08"
+        }
+      ]
+    },
+    {
+      "id": "PA0270",
+      "lesson": 5,
+      "organ": "Appendix",
+      "diagnosis": "Acute suppurative appendicitis",
+      "description": "1. Mucosal and mural neutrophil infiltration, involving muscularis propria\n2. Mucosal ulceration\n3. Luminal and mural abscess\n4. Fibrinous inflammation on the serosal surface",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Mucosal and mural neutrophil infiltration, involving muscularis propria",
+          "accepted": [
+            "Mucosal and mural neutrophil infiltration, involving muscularis propria"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260918 Inflammation.pdf",
+        "answerPage": 28,
+        "pageRange": [
+          14,
+          28
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0270/01.webp",
+          "page": 18,
+          "imageIndex": 0,
+          "xref": 97,
+          "bbox": [
+            66.33399963378906,
+            84.70001220703125,
+            452.583984375,
+            392.95001220703125
+          ],
+          "width": 515,
+          "height": 411,
+          "sourceImageSha256": "1317f1ee9d89c2c2f953d7d9f9bde754ea2e205acf4d0459b7c418f8f054e018"
+        },
+        {
+          "src": "assets/images/pa0270/02.webp",
+          "page": 19,
+          "imageIndex": 0,
+          "xref": 101,
+          "bbox": [
+            -7.873999857110903e-05,
+            -6.103515625e-05,
+            711.3699340820312,
+            539.9999389648438
+          ],
+          "width": 906,
+          "height": 688,
+          "sourceImageSha256": "339fbd2bb2fb6e5239835af58f1a29ca25b82e16784d25469e1dccc26098d79f"
+        },
+        {
+          "src": "assets/images/pa0270/03.webp",
+          "page": 20,
+          "imageIndex": 0,
+          "xref": 104,
+          "bbox": [
+            0.0,
+            -0.00421142578125,
+            724.219970703125,
+            539.8358154296875
+          ],
+          "width": 888,
+          "height": 662,
+          "sourceImageSha256": "4604ff7ff9f48e7a66af2831f41671a1b56cf444234924a6b38501e3a3994316"
+        },
+        {
+          "src": "assets/images/pa0270/04.webp",
+          "page": 23,
+          "imageIndex": 2,
+          "xref": 115,
+          "bbox": [
+            -2.2887999875820242e-05,
+            43.876007080078125,
+            712.3300170898438,
+            496.1260070800781
+          ],
+          "width": 1900,
+          "height": 1206,
+          "sourceImageSha256": "f648092bf2b9fddf6c0ddac4f67030ae9c467f5bc265ff1dcac0bad9cfa029a1"
+        },
+        {
+          "src": "assets/images/pa0270/05.webp",
+          "page": 26,
+          "imageIndex": 0,
+          "xref": 127,
+          "bbox": [
+            -1.15910005569458,
+            -6.103515625e-05,
+            724.2208862304688,
+            539.9999389648438
+          ],
+          "width": 865,
+          "height": 644,
+          "sourceImageSha256": "bc9df75ec19244fb8f8f0a1012c9040c2249da2ed65f9263ba9e3d93a257841f"
+        },
+        {
+          "src": "assets/images/pa0270/06.webp",
+          "page": 27,
+          "imageIndex": 0,
+          "xref": 130,
+          "bbox": [
+            0.0,
+            -6.103515625e-05,
+            722.5800170898438,
+            539.9999389648438
+          ],
+          "width": 906,
+          "height": 677,
+          "sourceImageSha256": "79d3cfebf4c5b4288e442ff5556a06d6c5ce0de7bc1d17f37e42594c1e8f4ede"
+        }
+      ]
+    },
+    {
+      "id": "PA0044",
+      "lesson": 5,
+      "organ": "Maxillary sinus",
+      "diagnosis": "Chronic sinusitis",
+      "description": "1. Submucosal mixed inflammatory cell infiltrate of \nlymphocytes, plasma cells, and eosinophils\n2. Submucosal edema\n3. Basement membrane thickening (本片僅局部有)",
+      "notes": "*Organ: Maxillary sinus（教材附註：“Nasal cavity / paranasal sinus / sinonasal tract”）",
+      "keywords": [
+        {
+          "text": "mixed",
+          "accepted": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "edema",
+          "accepted": [
+            "edema"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260918 Inflammation.pdf",
+        "answerPage": 45,
+        "pageRange": [
+          29,
+          45
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0044/01.webp",
+          "page": 31,
+          "imageIndex": 0,
+          "xref": 139,
+          "bbox": [
+            34.5629997253418,
+            13.8890380859375,
+            646.56298828125,
+            526.1090087890625
+          ],
+          "width": 1288,
+          "height": 1078,
+          "sourceImageSha256": "a8e57d6de61dfbacefac7734fcf1331a97cb4827967369cb1d9e198e3a4d810f"
+        },
+        {
+          "src": "assets/images/pa0044/02.webp",
+          "page": 32,
+          "imageIndex": 0,
+          "xref": 142,
+          "bbox": [
+            177.48995971679688,
+            -0.360107421875,
+            418.2699890136719,
+            539.9999389648438
+          ],
+          "width": 1930,
+          "height": 860,
+          "sourceImageSha256": "982a82574fa6e207b9ca4d9f82ca361dfeb918162b86ed467e72126eb2f8ec08"
+        },
+        {
+          "src": "assets/images/pa0044/03.webp",
+          "page": 36,
+          "imageIndex": 0,
+          "xref": 155,
+          "bbox": [
+            -7.6289998105494305e-06,
+            -6.103515625e-05,
+            724.2100219726562,
+            539.9999389648438
+          ],
+          "width": 1676,
+          "height": 1250,
+          "sourceImageSha256": "778012daa423796e5341f4529ad4a2068b6bad352b6103724eee2ad3ff2fbe23"
+        },
+        {
+          "src": "assets/images/pa0044/04.webp",
+          "page": 37,
+          "imageIndex": 0,
+          "xref": 158,
+          "bbox": [
+            78.66899871826172,
+            -6.103515625e-05,
+            677.9990234375,
+            539.9999389648438
+          ],
+          "width": 1394,
+          "height": 1256,
+          "sourceImageSha256": "112862da74cc9ebfea4e8b2471653abde7552803736fa8feef843a6e93de0949"
+        },
+        {
+          "src": "assets/images/pa0044/05.webp",
+          "page": 40,
+          "imageIndex": 0,
+          "xref": 166,
+          "bbox": [
+            22.966999053955078,
+            58.6510009765625,
+            724.2169799804688,
+            474.1510009765625
+          ],
+          "width": 1870,
+          "height": 1108,
+          "sourceImageSha256": "af40efcf418a0245a4789e3d4e7da2ebf1a8a2ad20eb0ae7fd3a404b08f32186"
+        },
+        {
+          "src": "assets/images/pa0044/06.webp",
+          "page": 43,
+          "imageIndex": 0,
+          "xref": 175,
+          "bbox": [
+            0.0,
+            0.0,
+            724.219970703125,
+            540.0
+          ],
+          "width": 1446,
+          "height": 1079,
+          "sourceImageSha256": "07d348acad6f68f10ce55f4734ee29a900989e7a674f012b763459b405566468"
+        }
+      ]
+    },
+    {
+      "id": "PA0143",
+      "lesson": 5,
+      "organ": "Skin",
+      "diagnosis": "Suture granuloma",
+      "description": "1. Center: Suture\n2. Periphery: Granulomatous inflammation\n   1. (Epithelioid) Macrophages/histiocytes\n   2. Multinucleated giant cells\n   3. Lymphocytes, plasma cells\n   4. Fibrosis/scar\n3. Other finding: Fat necrosis",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Center: Suture",
+          "accepted": [
+            "Center: Suture"
+          ]
+        },
+        {
+          "text": "Periphery: Granulomatous inflammation",
+          "accepted": [
+            "Periphery: Granulomatous inflammation"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260918 Inflammation.pdf",
+        "answerPage": 57,
+        "pageRange": [
+          46,
+          57
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0143/01.webp",
+          "page": 49,
+          "imageIndex": 0,
+          "xref": 190,
+          "bbox": [
+            171.24000549316406,
+            116.04000854492188,
+            670.5,
+            404.3200378417969
+          ],
+          "width": 762,
+          "height": 440,
+          "sourceImageSha256": "c1286ae13cf68c77ef091df5a2951f470bd9a4a508344853365162a387df1255"
+        },
+        {
+          "src": "assets/images/pa0143/02.webp",
+          "page": 50,
+          "imageIndex": 0,
+          "xref": 193,
+          "bbox": [
+            40.303001403808594,
+            52.962982177734375,
+            919.6929931640625,
+            503.38299560546875
+          ],
+          "width": 1722,
+          "height": 882,
+          "sourceImageSha256": "9a866b6bc3fa77f3e7c52091a8e5a1263b83338d0d13befb9f7471d0eccb0042"
+        },
+        {
+          "src": "assets/images/pa0143/03.webp",
+          "page": 51,
+          "imageIndex": 0,
+          "xref": 196,
+          "bbox": [
+            0.0,
+            62.196990966796875,
+            825.3900146484375,
+            491.2669982910156
+          ],
+          "width": 2000,
+          "height": 1040,
+          "sourceImageSha256": "df62afc2db3956c81199e220b7b711e94fd7da96f83fb9399fb13b50648ed840"
+        },
+        {
+          "src": "assets/images/pa0143/04.webp",
+          "page": 52,
+          "imageIndex": 0,
+          "xref": 199,
+          "bbox": [
+            0.0,
+            28.57000732421875,
+            715.1599731445312,
+            500.5
+          ],
+          "width": 1870,
+          "height": 1234,
+          "sourceImageSha256": "9bb520e409b5e74a06010023dfbbcf7dc25d5309674aa4b886bbea728be36cf8"
+        },
+        {
+          "src": "assets/images/pa0143/05.webp",
+          "page": 53,
+          "imageIndex": 0,
+          "xref": 202,
+          "bbox": [
+            0.0,
+            68.39999389648438,
+            473.260009765625,
+            438.3800048828125
+          ],
+          "width": 1448,
+          "height": 1132,
+          "sourceImageSha256": "9d2a5d14830d3de636053e4cb71337db9b79c8b3df7817d886250c1d736d5f26"
+        },
+        {
+          "src": "assets/images/pa0143/06.webp",
+          "page": 56,
+          "imageIndex": 0,
+          "xref": 216,
+          "bbox": [
+            17.913000106811523,
+            63.33099365234375,
+            512.7529907226562,
+            451.9309997558594
+          ],
+          "width": 1342,
+          "height": 1054,
+          "sourceImageSha256": "8894dcd0caf1007968ffd6fb05bf6687afdf062a8139a67a3434a9eecb08a122"
+        }
+      ]
+    },
+    {
+      "id": "PA0202",
+      "lesson": 5,
+      "organ": "Stomach",
+      "diagnosis": "Chronic ulcer",
+      "description": "1. Mucosa defect with fibrinous necrosis and \nneutrophil\n2. Granulation tissue\n3. Fibrosis/scar\n4. Other finding: Fibrinous inflammation on the serosal \nsurface",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "fibrinous necrosis",
+          "accepted": [
+            "fibrinous necrosis"
+          ]
+        },
+        {
+          "text": "Granulation tissue",
+          "accepted": [
+            "Granulation tissue"
+          ]
+        },
+        {
+          "text": "Fibrosis/scar",
+          "accepted": [
+            "Fibrosis/scar"
+          ]
+        }
+      ],
+      "source": {
+        "file": "Microteaching_20260918 Inflammation.pdf",
+        "answerPage": 73,
+        "pageRange": [
+          58,
+          73
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0202/01.webp",
+          "page": 63,
+          "imageIndex": 0,
+          "xref": 237,
+          "bbox": [
+            13.817999839782715,
+            13.8170166015625,
+            698.9080200195312,
+            528.7269897460938
+          ],
+          "width": 914,
+          "height": 687,
+          "sourceImageSha256": "695f6016da0d868e0a38c1dff7115a95c31804fcaa0e5b03520a2fdf9e15a505"
+        },
+        {
+          "src": "assets/images/pa0202/02.webp",
+          "page": 64,
+          "imageIndex": 0,
+          "xref": 240,
+          "bbox": [
+            0.0,
+            0.0,
+            960.0,
+            474.1600036621094
+          ],
+          "width": 1645,
+          "height": 813,
+          "sourceImageSha256": "797e39602343d41d891f18726d8438c0bf346390e386e9392d150614ff320458"
+        },
+        {
+          "src": "assets/images/pa0202/03.webp",
+          "page": 66,
+          "imageIndex": 0,
+          "xref": 245,
+          "bbox": [
+            0.0,
+            -0.00030517578125,
+            724.219970703125,
+            542.4296875
+          ],
+          "width": 894,
+          "height": 670,
+          "sourceImageSha256": "42cbc8d45ebd42a3bad4246f0bb2aa91a83fd2164becbb9ceda1dce255f0be4b"
+        },
+        {
+          "src": "assets/images/pa0202/04.webp",
+          "page": 67,
+          "imageIndex": 0,
+          "xref": 248,
+          "bbox": [
+            0.0,
+            52.96002197265625,
+            501.9700012207031,
+            439.95001220703125
+          ],
+          "width": 1624,
+          "height": 1252,
+          "sourceImageSha256": "f2f9f1be2a13879e88a06492cbb84d0a838fb3a0f1c5dfcb9ec9648dca0c039b"
+        },
+        {
+          "src": "assets/images/pa0202/05.webp",
+          "page": 69,
+          "imageIndex": 0,
+          "xref": 254,
+          "bbox": [
+            -2.2887999875820242e-05,
+            -0.0001220703125,
+            724.219970703125,
+            539.9998779296875
+          ],
+          "width": 1668,
+          "height": 1244,
+          "sourceImageSha256": "8507d1be6d29b05d4b6e675ccf7112d92d0c4134d9406cc8d9da652aac3eed22"
+        },
+        {
+          "src": "assets/images/pa0202/06.webp",
+          "page": 71,
+          "imageIndex": 0,
+          "xref": 259,
+          "bbox": [
+            0.0,
+            57.409881591796875,
+            720.25,
+            539.9998779296875
+          ],
+          "width": 891,
+          "height": 597,
+          "sourceImageSha256": "fa4a5c676d7ae5d62c9fa3a36b4dc87c47823c2bb5323bb83c4032e81507f3c3"
+        }
+      ]
+    },
+    {
+      "id": "PA0008",
+      "lesson": 6,
+      "organ": "Spleen",
+      "diagnosis": "Congestive splenomegaly",
+      "description": "1. Red pulp expansion\n2. Red pulp congestion (& fibrosis)\n3. Dilated sinusoids",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材答案表螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "Red pulp expansion",
+          "accepted": [
+            "Red pulp expansion"
+          ]
+        },
+        {
+          "text": "Red pulp congestion",
+          "accepted": [
+            "Red pulp congestion"
+          ]
+        },
+        {
+          "text": "Dilated sinusoids",
+          "accepted": [
+            "Dilated sinusoids"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0923 Hemodynamic derangement.pdf",
+        "answerPage": 16,
+        "pageRange": [
+          4,
+          16
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0008/01.webp",
+          "page": 15,
+          "imageIndex": 0,
+          "xref": 71,
+          "bbox": [
+            0.0,
+            -1.52587890625e-05,
+            327.54998779296875,
+            247.79998779296875
+          ],
+          "width": 1224,
+          "height": 926,
+          "sourceImageSha256": "217019069b21e0a7f0a0898f244685e7d13951fea21462b224224433e36bb630"
+        },
+        {
+          "src": "assets/images/pa0008/02.webp",
+          "page": 10,
+          "imageIndex": 0,
+          "xref": 55,
+          "bbox": [
+            26.15999984741211,
+            28.71099853515625,
+            677.989990234375,
+            529.5910034179688
+          ],
+          "width": 1127,
+          "height": 866,
+          "sourceImageSha256": "986f97f7e83ebe90e9b75a954074d6e9e33ba8f7acbf6fdcc03e85ff19f6e128"
+        },
+        {
+          "src": "assets/images/pa0008/03.webp",
+          "page": 11,
+          "imageIndex": 1,
+          "xref": 58,
+          "bbox": [
+            400.1099853515625,
+            133.24301147460938,
+            934.6699829101562,
+            442.9030456542969
+          ],
+          "width": 1488,
+          "height": 862,
+          "sourceImageSha256": "27ca218ed9d051ec5f6bec91401b8261a53d572f0de37efe4a5a3218565c63ed"
+        },
+        {
+          "src": "assets/images/pa0008/04.webp",
+          "page": 12,
+          "imageIndex": 0,
+          "xref": 61,
+          "bbox": [
+            48.941001892089844,
+            77.5830078125,
+            750.6009521484375,
+            500.51300048828125
+          ],
+          "width": 1435,
+          "height": 865,
+          "sourceImageSha256": "912ccbbec2eec8ae6c11583dfe159ad2865b4bc79df563857a2ef8e9bcd7a57a"
+        },
+        {
+          "src": "assets/images/pa0008/05.webp",
+          "page": 15,
+          "imageIndex": 1,
+          "xref": 72,
+          "bbox": [
+            327.54998779296875,
+            95.99993896484375,
+            855.1099853515625,
+            539.9999389648438
+          ],
+          "width": 1407,
+          "height": 1184,
+          "sourceImageSha256": "aaed33a89eec5dbac5b4e11ede749565ecea7a2b8c841bc3eb9a92f199b6f136"
+        }
+      ]
+    },
+    {
+      "id": "PA0059",
+      "lesson": 6,
+      "organ": "Anus",
+      "diagnosis": "Hemorrhoid",
+      "description": "1. Dilated and congested submucosal vessels\n2. Thrombosis\n3. Organization & recanalization",
+      "notes": "本題必答關鍵字由 AI 選定；Organization & recanalization 亦接受 and 拼寫。",
+      "keywords": [
+        {
+          "text": "Dilated and congested submucosal vessels",
+          "accepted": [
+            "Dilated and congested submucosal vessels"
+          ]
+        },
+        {
+          "text": "Thrombosis",
+          "accepted": [
+            "Thrombosis"
+          ]
+        },
+        {
+          "text": "Organization & recanalization",
+          "accepted": [
+            "Organization & recanalization",
+            "Organization and recanalization"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0923 Hemodynamic derangement.pdf",
+        "answerPage": 30,
+        "pageRange": [
+          17,
+          30
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0059/01.webp",
+          "page": 20,
+          "imageIndex": 0,
+          "xref": 90,
+          "bbox": [
+            28.34600067138672,
+            36.39801025390625,
+            723.5960083007812,
+            493.2279968261719
+          ],
+          "width": 1146,
+          "height": 753,
+          "sourceImageSha256": "4b86eec65ae637d794a3a07d9981169adbb8eaffc3f4669b3dffa34ddf87ba03"
+        },
+        {
+          "src": "assets/images/pa0059/02.webp",
+          "page": 21,
+          "imageIndex": 0,
+          "xref": 93,
+          "bbox": [
+            4.166900157928467,
+            60.75,
+            900.536865234375,
+            476.2200012207031
+          ],
+          "width": 1564,
+          "height": 725,
+          "sourceImageSha256": "388df6e3ea2aea666736d1afde53dda8d12092cbed7c8682cae5023583584a3d"
+        },
+        {
+          "src": "assets/images/pa0059/03.webp",
+          "page": 22,
+          "imageIndex": 0,
+          "xref": 101,
+          "bbox": [
+            142.1300048828125,
+            66.58987426757812,
+            867.4000244140625,
+            539.9998779296875
+          ],
+          "width": 1319,
+          "height": 861,
+          "sourceImageSha256": "500e4dc48ed34354437042a3bbc1d46b1a37533cf868390a884570125689d5f0"
+        },
+        {
+          "src": "assets/images/pa0059/04.webp",
+          "page": 25,
+          "imageIndex": 0,
+          "xref": 110,
+          "bbox": [
+            29.9060001373291,
+            68.02700805664062,
+            867.406005859375,
+            527.3569946289062
+          ],
+          "width": 1565,
+          "height": 858,
+          "sourceImageSha256": "b167e0033b6b696c5d45890344ed1e5742273bf4e6386f09b6224036d1f99849"
+        },
+        {
+          "src": "assets/images/pa0059/05.webp",
+          "page": 26,
+          "imageIndex": 0,
+          "xref": 113,
+          "bbox": [
+            0.6519700288772583,
+            52.610992431640625,
+            861.7319946289062,
+            528.1510009765625
+          ],
+          "width": 1559,
+          "height": 861,
+          "sourceImageSha256": "fb123a3165bc427af775c443517b7e741ba74ec14be814132db81197681001ba"
+        },
+        {
+          "src": "assets/images/pa0059/06.webp",
+          "page": 28,
+          "imageIndex": 0,
+          "xref": 119,
+          "bbox": [
+            0.0,
+            63.3798828125,
+            836.7000122070312,
+            539.9998779296875
+          ],
+          "width": 1522,
+          "height": 867,
+          "sourceImageSha256": "2f662debe0025dfe1c3bbf2bff9d4abec7ddc29666103515e763bf5a6c4962fc"
+        }
+      ]
+    },
+    {
+      "id": "PA0076",
+      "lesson": 6,
+      "organ": "Liver",
+      "diagnosis": "Nutmeg liver",
+      "description": "1. Centrilobular [zone 3] congestion (本片主要finding)\n2. Centrilobular [zone 3] hepatocyte necrosis (本片僅局部有)",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材答案表螢光標記（使用者授權）。",
+      "keywords": [
+        {
+          "text": "Centrilobular [zone 3] congestion",
+          "accepted": [
+            "Centrilobular [zone 3] congestion",
+            "Centrilobular congestion",
+            "zone 3 congestion"
+          ]
+        },
+        {
+          "text": "Centrilobular [zone 3] hepatocyte necrosis",
+          "accepted": [
+            "Centrilobular [zone 3] hepatocyte necrosis",
+            "Centrilobular hepatocyte necrosis",
+            "Centrilobular necrosis",
+            "zone 3 necrosis",
+            "hepatocyte necrosis"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0923 Hemodynamic derangement.pdf",
+        "answerPage": 38,
+        "pageRange": [
+          31,
+          38
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0076/01.webp",
+          "page": 35,
+          "imageIndex": 0,
+          "xref": 140,
+          "bbox": [
+            16.726999282836914,
+            11.63201904296875,
+            700.3670043945312,
+            514.1820068359375
+          ],
+          "width": 912,
+          "height": 670,
+          "sourceImageSha256": "8d8515472519fe2c92852a64bb9a12abb05fa5018e47352eb1bfb8173f568f4d"
+        },
+        {
+          "src": "assets/images/pa0076/02.webp",
+          "page": 36,
+          "imageIndex": 0,
+          "xref": 143,
+          "bbox": [
+            28.36400032043457,
+            13.094024658203125,
+            698.9140014648438,
+            516.364013671875
+          ],
+          "width": 894,
+          "height": 671,
+          "sourceImageSha256": "1d2a6bdd5aed9d1d25cbf51518b491121da2981a1fbc5543429a41a385e81551"
+        },
+        {
+          "src": "assets/images/pa0076/03.webp",
+          "page": 37,
+          "imageIndex": 0,
+          "xref": 146,
+          "bbox": [
+            16.0,
+            9.4520263671875,
+            694.5499877929688,
+            522.1820068359375
+          ],
+          "width": 905,
+          "height": 684,
+          "sourceImageSha256": "e6c17cebccc82baa72ef1ecd28e3b1d758ef98cff91a48c211d37705a0742a00"
+        }
+      ]
+    },
+    {
+      "id": "PA0215",
+      "lesson": 6,
+      "organ": "Liver",
+      "diagnosis": "Cardiac sclerosis",
+      "description": "1. Centrilobular congestion\n2. Centrilobular hepatocyte fibrosis",
+      "notes": "本題必答關鍵字由 AI 選定；Centrilobular hepatocyte fibrosis 亦接受教材投影片標記之 Centrilobular fibrosis。",
+      "keywords": [
+        {
+          "text": "Centrilobular congestion",
+          "accepted": [
+            "Centrilobular congestion"
+          ]
+        },
+        {
+          "text": "Centrilobular hepatocyte fibrosis",
+          "accepted": [
+            "Centrilobular hepatocyte fibrosis",
+            "Centrilobular fibrosis"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0923 Hemodynamic derangement.pdf",
+        "answerPage": 51,
+        "pageRange": [
+          39,
+          51
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0215/01.webp",
+          "page": 41,
+          "imageIndex": 0,
+          "xref": 160,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "06aa9987002a3711b462024c7ea75121ebb81a8afaf6908ec907ee2507debe68"
+        },
+        {
+          "src": "assets/images/pa0215/02.webp",
+          "page": 43,
+          "imageIndex": 0,
+          "xref": 166,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "53f55cc84f19f3e2859514aa6873394411732ac9c1be3138c45727d8e9e42653"
+        },
+        {
+          "src": "assets/images/pa0215/03.webp",
+          "page": 44,
+          "imageIndex": 0,
+          "xref": 169,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "d609faef1fc3c09642a59bd58667f386e4df1f3bff654e5ae2d448641d6fed0b"
+        },
+        {
+          "src": "assets/images/pa0215/04.webp",
+          "page": 46,
+          "imageIndex": 0,
+          "xref": 175,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "d84e441537b1a50e7b508f2064b0237c30080073f27c3da03702a0f9dd01fba4"
+        },
+        {
+          "src": "assets/images/pa0215/05.webp",
+          "page": 47,
+          "imageIndex": 0,
+          "xref": 178,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "81f875c91478fc2758e65e8d5f543ce2c33d8a3ec7ca5b1d8ffe4357ff8cb254"
+        },
+        {
+          "src": "assets/images/pa0215/06.webp",
+          "page": 49,
+          "imageIndex": 0,
+          "xref": 184,
+          "bbox": [
+            120.0,
+            -0.0028076171875,
+            840.0,
+            542.1171875
+          ],
+          "width": 1360,
+          "height": 1024,
+          "sourceImageSha256": "ccd2947a2823e16ea3b7741db226b283cacd86eeda63304a1f9f7fb0f7d3350e"
+        }
+      ]
+    },
+    {
+      "id": "PA0096",
+      "lesson": 6,
+      "organ": "Kidney",
+      "diagnosis": "Infarct/Infarction",
+      "description": "1. Wedge-shaped coagulative necrosis\n- acute tubular necrosis\n2. Thrombosis",
+      "notes": "診斷依答案表保留原文 Infarct/Infarction。本題必答關鍵字由 AI 依核心特徵選定。",
+      "keywords": [
+        {
+          "text": "coagulative necrosis",
+          "accepted": [
+            "coagulative necrosis",
+            "Wedge-shaped coagulative necrosis"
+          ]
+        },
+        {
+          "text": "acute tubular necrosis",
+          "accepted": [
+            "acute tubular necrosis"
+          ]
+        },
+        {
+          "text": "Thrombosis",
+          "accepted": [
+            "Thrombosis"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜0923 Hemodynamic derangement.pdf",
+        "answerPage": 63,
+        "pageRange": [
+          52,
+          63
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0096/01.webp",
+          "page": 57,
+          "imageIndex": 0,
+          "xref": 205,
+          "bbox": [
+            34.290000915527344,
+            19.189971923828125,
+            714.239990234375,
+            495.3599853515625
+          ],
+          "width": 545,
+          "height": 407,
+          "sourceImageSha256": "feb435a7c54cdba0710e7e6d46ddbf7a658090a9cc5b27b6e100f1d76e48f005"
+        },
+        {
+          "src": "assets/images/pa0096/02.webp",
+          "page": 58,
+          "imageIndex": 0,
+          "xref": 208,
+          "bbox": [
+            17.454999923706055,
+            10.910003662109375,
+            705.4550170898438,
+            520.0
+          ],
+          "width": 917,
+          "height": 679,
+          "sourceImageSha256": "9e7e7eace9ae047a28eab31ccaa9a918fe0463d187cef10cc83e6438b9a85249"
+        },
+        {
+          "src": "assets/images/pa0096/03.webp",
+          "page": 59,
+          "imageIndex": 0,
+          "xref": 211,
+          "bbox": [
+            14.545999526977539,
+            13.8179931640625,
+            706.18603515625,
+            517.8179931640625
+          ],
+          "width": 922,
+          "height": 672,
+          "sourceImageSha256": "5b00d13ba1ef5ff2e182ce4fe6ac889d3d8b773226de0f9f00c41ab643ca958d"
+        },
+        {
+          "src": "assets/images/pa0096/04.webp",
+          "page": 60,
+          "imageIndex": 0,
+          "xref": 214,
+          "bbox": [
+            16.726999282836914,
+            10.18402099609375,
+            691.636962890625,
+            516.364013671875
+          ],
+          "width": 900,
+          "height": 675,
+          "sourceImageSha256": "10f82e1a22539889a6dbd35d47a747ab57fa8f5548d8c0ae92331fa213c5bf90"
+        },
+        {
+          "src": "assets/images/pa0096/05.webp",
+          "page": 61,
+          "imageIndex": 0,
+          "xref": 217,
+          "bbox": [
+            24.43199920654297,
+            12.3590087890625,
+            696.7319946289062,
+            518.9089965820312
+          ],
+          "width": 896,
+          "height": 675,
+          "sourceImageSha256": "4f6709c086ba98e7e5abd49c79c1cf7252723c865c1f28c556d1a560b05f0cd9"
+        },
+        {
+          "src": "assets/images/pa0096/06.webp",
+          "page": 62,
+          "imageIndex": 0,
+          "xref": 220,
+          "bbox": [
+            30.63599967956543,
+            17.45501708984375,
+            688.7260131835938,
+            510.5450134277344
+          ],
+          "width": 877,
+          "height": 658,
+          "sourceImageSha256": "3143bbc73b53ca7327a3685ec9972d63099db5ad79cf980fb8caeb7b4bc9a195"
+        }
+      ]
+    }
+  ]
+}
