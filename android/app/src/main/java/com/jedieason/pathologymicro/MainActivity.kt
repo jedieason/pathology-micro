@@ -1,4 +1,4 @@
-package io.github.jedieason.pathologymicro
+package com.jedieason.pathologymicro
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -6,9 +6,9 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import io.github.jedieason.pathologymicro.data.repository.CaseRepository
-import io.github.jedieason.pathologymicro.ui.MicroScreen
-import io.github.jedieason.pathologymicro.ui.theme.MicroTheme
+import com.jedieason.pathologymicro.data.repository.CaseRepository
+import com.jedieason.pathologymicro.ui.MicroScreen
+import com.jedieason.pathologymicro.ui.theme.MicroTheme
 
 class MainActivity : ComponentActivity() {
 

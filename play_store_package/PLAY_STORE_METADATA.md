@@ -6,6 +6,9 @@
 
 ## 一、商店商品詳情 (Store Listing)
 
+### 0. 應用程式套件識別碼 (Package Name / Application ID)
+- **套件名稱**：`com.jedieason.pathologymicro`
+
 ### 1. 應用程式名稱 (App Title)
 - **繁體中文（台灣）**：`Micro — 病理切片練習`（15 字元 / 上限 30 字元）
 - **English (US)**：`Micro: Pathology Practice`（24 characters / max 30）

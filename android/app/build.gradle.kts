@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "io.github.jedieason.pathologymicro"
+    namespace = "com.jedieason.pathologymicro"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "io.github.jedieason.pathologymicro"
+        applicationId = "com.jedieason.pathologymicro"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

@@ -1,4 +1,4 @@
-package io.github.jedieason.pathologymicro.ui.components
+package com.jedieason.pathologymicro.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -21,8 +21,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import io.github.jedieason.pathologymicro.data.model.CaseImage
-import io.github.jedieason.pathologymicro.ui.theme.*
+import com.jedieason.pathologymicro.data.model.CaseImage
+import com.jedieason.pathologymicro.ui.theme.*
 
 @Composable
 fun ImageViewer(

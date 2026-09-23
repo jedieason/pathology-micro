@@ -19,5 +19,6 @@ android/*.iml
 android/local.properties
 android/*.jks
 android/*.keystore
+play_store_package/
 *.hprof
 

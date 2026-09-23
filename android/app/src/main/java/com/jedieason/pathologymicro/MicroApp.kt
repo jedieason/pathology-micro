@@ -1,4 +1,4 @@
-package io.github.jedieason.pathologymicro
+package com.jedieason.pathologymicro
 
 import android.app.Application
 

@@ -1,11 +1,11 @@
-package io.github.jedieason.pathologymicro.data.repository
+package com.jedieason.pathologymicro.data.repository
 
 import android.content.Context
 import android.content.SharedPreferences
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import io.github.jedieason.pathologymicro.data.model.CaseData
-import io.github.jedieason.pathologymicro.data.model.UserRecord
+import com.jedieason.pathologymicro.data.model.CaseData
+import com.jedieason.pathologymicro.data.model.UserRecord
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File

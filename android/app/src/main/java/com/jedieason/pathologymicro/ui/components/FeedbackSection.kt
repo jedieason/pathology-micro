@@ -1,4 +1,4 @@
-package io.github.jedieason.pathologymicro.ui.components
+package com.jedieason.pathologymicro.ui.components
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
@@ -20,10 +20,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.jedieason.pathologymicro.data.model.CaseItem
-import io.github.jedieason.pathologymicro.data.model.GradingResult
-import io.github.jedieason.pathologymicro.domain.grading.GradingEngine
-import io.github.jedieason.pathologymicro.ui.theme.*
+import com.jedieason.pathologymicro.data.model.CaseItem
+import com.jedieason.pathologymicro.data.model.GradingResult
+import com.jedieason.pathologymicro.domain.grading.GradingEngine
+import com.jedieason.pathologymicro.ui.theme.*
 
 @Composable
 fun FeedbackSection(

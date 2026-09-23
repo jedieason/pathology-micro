@@ -1,10 +1,10 @@
-package io.github.jedieason.pathologymicro.domain.grading
+package com.jedieason.pathologymicro.domain.grading
 
-import io.github.jedieason.pathologymicro.data.model.Answers
-import io.github.jedieason.pathologymicro.data.model.CaseItem
-import io.github.jedieason.pathologymicro.data.model.GradingResult
-import io.github.jedieason.pathologymicro.data.model.HighlightedSpan
-import io.github.jedieason.pathologymicro.data.model.Keyword
+import com.jedieason.pathologymicro.data.model.Answers
+import com.jedieason.pathologymicro.data.model.CaseItem
+import com.jedieason.pathologymicro.data.model.GradingResult
+import com.jedieason.pathologymicro.data.model.HighlightedSpan
+import com.jedieason.pathologymicro.data.model.Keyword
 import java.text.Normalizer
 
 object GradingEngine {

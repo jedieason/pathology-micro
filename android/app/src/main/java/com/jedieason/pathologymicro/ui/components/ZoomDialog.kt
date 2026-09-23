@@ -1,4 +1,4 @@
-package io.github.jedieason.pathologymicro.ui.components
+package com.jedieason.pathologymicro.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectTapGestures
@@ -25,9 +25,9 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import coil.compose.AsyncImage
-import io.github.jedieason.pathologymicro.data.model.CaseImage
-import io.github.jedieason.pathologymicro.ui.theme.TextDark
-import io.github.jedieason.pathologymicro.ui.theme.ViewerBackground
+import com.jedieason.pathologymicro.data.model.CaseImage
+import com.jedieason.pathologymicro.ui.theme.TextDark
+import com.jedieason.pathologymicro.ui.theme.ViewerBackground
 
 @Composable
 fun ZoomDialog(

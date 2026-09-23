@@ -1,4 +1,4 @@
-package io.github.jedieason.pathologymicro.ui
+package com.jedieason.pathologymicro.ui
 
 import android.widget.Toast
 import androidx.compose.foundation.background
@@ -28,15 +28,15 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.jedieason.pathologymicro.data.model.CaseItem
-import io.github.jedieason.pathologymicro.data.model.UserRecord
-import io.github.jedieason.pathologymicro.data.repository.CaseRepository
-import io.github.jedieason.pathologymicro.domain.grading.GradingEngine
-import io.github.jedieason.pathologymicro.ui.components.AnswerForm
-import io.github.jedieason.pathologymicro.ui.components.FeedbackSection
-import io.github.jedieason.pathologymicro.ui.components.ImageViewer
-import io.github.jedieason.pathologymicro.ui.components.ZoomDialog
-import io.github.jedieason.pathologymicro.ui.theme.*
+import com.jedieason.pathologymicro.data.model.CaseItem
+import com.jedieason.pathologymicro.data.model.UserRecord
+import com.jedieason.pathologymicro.data.repository.CaseRepository
+import com.jedieason.pathologymicro.domain.grading.GradingEngine
+import com.jedieason.pathologymicro.ui.components.AnswerForm
+import com.jedieason.pathologymicro.ui.components.FeedbackSection
+import com.jedieason.pathologymicro.ui.components.ImageViewer
+import com.jedieason.pathologymicro.ui.components.ZoomDialog
+import com.jedieason.pathologymicro.ui.theme.*
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -422,7 +422,7 @@ fun MicroScreen(
                     },
                     onRetry = {
                         val updated = records.toMutableMap()
-                        updated[currentCase.id] = UserRecord(answers = io.github.jedieason.pathologymicro.data.model.Answers(), checked = false)
+                        updated[currentCase.id] = UserRecord(answers = com.jedieason.pathologymicro.data.model.Answers(), checked = false)
                         records = updated
                         repository.saveRecords(updated)
                     }

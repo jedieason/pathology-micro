@@ -1,4 +1,4 @@
-package io.github.jedieason.pathologymicro.data.model
+package com.jedieason.pathologymicro.data.model
 
 import com.google.gson.annotations.SerializedName
 

@@ -1,4 +1,4 @@
-package io.github.jedieason.pathologymicro.ui.theme
+package com.jedieason.pathologymicro.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

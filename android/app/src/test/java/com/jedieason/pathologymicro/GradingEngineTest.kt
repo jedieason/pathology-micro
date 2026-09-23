@@ -1,9 +1,9 @@
-package io.github.jedieason.pathologymicro
+package com.jedieason.pathologymicro
 
-import io.github.jedieason.pathologymicro.data.model.Answers
-import io.github.jedieason.pathologymicro.data.model.CaseItem
-import io.github.jedieason.pathologymicro.data.model.Keyword
-import io.github.jedieason.pathologymicro.domain.grading.GradingEngine
+import com.jedieason.pathologymicro.data.model.Answers
+import com.jedieason.pathologymicro.data.model.CaseItem
+import com.jedieason.pathologymicro.data.model.Keyword
+import com.jedieason.pathologymicro.domain.grading.GradingEngine
 import org.junit.Assert.*
 import org.junit.Test
 

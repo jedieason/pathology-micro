@@ -1,4 +1,4 @@
-package io.github.jedieason.pathologymicro.ui.components
+package com.jedieason.pathologymicro.ui.components
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
@@ -13,9 +13,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.jedieason.pathologymicro.data.model.Answers
-import io.github.jedieason.pathologymicro.data.model.GradingResult
-import io.github.jedieason.pathologymicro.ui.theme.*
+import com.jedieason.pathologymicro.data.model.Answers
+import com.jedieason.pathologymicro.data.model.GradingResult
+import com.jedieason.pathologymicro.ui.theme.*
 
 @Composable
 fun AnswerForm(
