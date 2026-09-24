@@ -1,4 +1,4 @@
-import {grade, highlightedParts} from './grading.js';
+import {grade, highlightedParts, normalize} from './grading.js';
 const $ = s => document.querySelector(s);
 const fields = ['organ','diagnosis','description'];
 const storageKey = 'micro-practice-v1';
