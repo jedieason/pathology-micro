@@ -7,10 +7,10 @@ test('normalization ignores case, spacing, punctuation and fullwidth differences
   assert.equal(normalize(' Ｋｉｄｎｅｙ!\n'), 'kidney');
   assert.equal(normalize('Intestine / COLON'),normalize('Intestine/colon'));
 });
-test('exact organ and diagnosis do not accept partial answers or synonyms',()=>{
-  const c=cases[1];assert.equal(grade(c,{organ:'colon',diagnosis:'Necrotizing enterocolitis',description:''}).organ,false);
+test('exact organ and diagnosis do not accept unauthorized partial answers or synonyms',()=>{
   const heart=cases[2];assert.equal(grade(heart,{diagnosis:'Myocardial infarction, remote'}).diagnosis,false);
   assert.equal(grade(heart,{diagnosis:'MYOCARDIAL-infarction HEALED!!!'}).diagnosis,true);
+  const c=cases[1];assert.equal(grade(c,{organ:'stomach',diagnosis:'Necrotizing enterocolitis',description:''}).organ,false);
 });
 test('all three fields are scored independently',()=>{
  const c=cases[0]; const r=grade(c,{organ:'wrong',diagnosis:c.diagnosis,description:c.description});
@@ -32,6 +32,32 @@ test('source typo and explicitly reviewed correction are both accepted',()=>{
  assert.equal(grade(c,{description:'Liquefactive necrosis, loosening, microabscces'}).description,true);
 });
 test('multiple accepted answers for diagnosis or organ are supported when explicitly configured',()=>{
+  const pa0313=cases.find(c=>c.id==='PA0313');
+  assert.ok(pa0313);
+  assert.equal(grade(pa0313,{organ:'colon'}).organ,true);
+  assert.equal(grade(pa0313,{organ:'Intestine'}).organ,true);
+  assert.equal(grade(pa0313,{organ:'Intestine/colon'}).organ,true);
+
+  const pa0074=cases.find(c=>c.id==='PA0074');
+  assert.ok(pa0074);
+  assert.equal(grade(pa0074,{diagnosis:'Steatosis'}).diagnosis,true);
+  assert.equal(grade(pa0074,{diagnosis:'Fatty change'}).diagnosis,true);
+
+  const pa0144=cases.find(c=>c.id==='PA0144');
+  assert.ok(pa0144);
+  assert.equal(grade(pa0144,{diagnosis:'Intradermal nevus'}).diagnosis,true);
+  assert.equal(grade(pa0144,{diagnosis:'Intradermal melanocytic nevus'}).diagnosis,true);
+
+  const pa0017=cases.find(c=>c.id==='PA0017');
+  assert.ok(pa0017);
+  assert.equal(grade(pa0017,{description:'Dark black pigments in macrophages'}).description,true);
+  assert.equal(grade(pa0017,{description:'Dark black pigments in histiocytes'}).description,true);
+
+  const pa0202=cases.find(c=>c.id==='PA0202');
+  assert.ok(pa0202);
+  assert.equal(grade(pa0202,{description:'fibrinous necrosis, Granulation tissue, Fibrosis'}).description,true);
+  assert.equal(grade(pa0202,{description:'fibrinous necrosis, Granulation tissue, scar'}).description,true);
+
   const pa0096=cases.find(c=>c.id==='PA0096');
   assert.ok(pa0096, 'PA0096 should exist in cases');
   assert.equal(grade(pa0096,{diagnosis:'Infarct'}).diagnosis,true);

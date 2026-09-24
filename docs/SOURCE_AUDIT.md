@@ -34,7 +34,7 @@
 這兩份 PDF 沒有 PDF highlight annotations；黄色是投影片內容的一部分。關鍵字由渲染答案頁後逐項確認，不以粗體或文字抽取結果猜測。完整敘述保留英文與中文註記，只將項目符號和換行轉成網頁易讀格式。
 
 - PA0335 的答案是 `Myocardial infarction, healed`，不能被清單的 `remote` 覆蓋。
-- PA0313 的器官是完整的 `Intestine/colon`；斜線不表示此專案接受只填其中一個。
+- PA0313 的器官答案表為 `Intestine/colon`；題庫設定 `acceptedOrgan: ["Intestine", "colon", "Intestine/colon"]`，作答 `Intestine` 或 `colon` 均判定正確。
 - PA0162 完整答案維持教材 `microabscces`，`accepted` 明確增列 `microabscess`，並在展開答案顯示註記。
 - `Center:`、`Periphery:` 也塗黃，因此跟後方片語一起納入必答。
 - PA0081 第 63 頁表格下方的急性胰臟炎補充存於 `notes`，顯示但不額外計分。

@@ -109,9 +109,14 @@
       "id": "PA0313",
       "lesson": 1,
       "organ": "Intestine/colon",
+      "acceptedOrgan": [
+        "Intestine",
+        "colon",
+        "Intestine/colon"
+      ],
       "diagnosis": "Necrotizing enterocolitis",
       "description": "1. Coagulative necrosis with hemorrhage – mucosal and transmural (impending perforation)\n2. Chronic changes: strictures, crypt distortion, reactive epithelial cells (本片無)",
-      "notes": "",
+      "notes": "器官依答案表保留原文 Intestine/colon；作答 Intestine 或 colon 均可。",
       "keywords": [
         {
           "text": "Coagulative necrosis with hemorrhage",
@@ -731,8 +736,13 @@
       "lesson": 3,
       "organ": "Liver",
       "diagnosis": "Steatosis (fatty change)",
+      "acceptedDiagnosis": [
+        "Steatosis",
+        "Fatty change",
+        "Steatosis (fatty change)"
+      ],
       "description": "1. Lipid droplets in hepatocytes",
-      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）；診斷作答 Steatosis 或 Fatty change 均可。",
       "keywords": [
         {
           "text": "Lipid droplets",
@@ -810,7 +820,7 @@
       "organ": "Lung",
       "diagnosis": "Anthracosis",
       "description": "1. Dark black pigments in macrophages/histiocytes",
-      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）；macrophages/histiocytes 作答 macrophages 或 histiocytes 均可。",
       "keywords": [
         {
           "text": "Dark black pigments",
@@ -821,7 +831,9 @@
         {
           "text": "macrophages/histiocytes",
           "accepted": [
-            "macrophages/histiocytes"
+            "macrophages/histiocytes",
+            "macrophages",
+            "histiocytes"
           ]
         }
       ],
@@ -902,8 +914,13 @@
       "lesson": 3,
       "organ": "Skin",
       "diagnosis": "Intradermal (melanocytic) nevus",
+      "acceptedDiagnosis": [
+        "Intradermal nevus",
+        "Intradermal melanocytic nevus",
+        "Intradermal (melanocytic) nevus"
+      ],
       "description": "1. Nests & cords of proliferative melanocytes\n2. Brown-black melanin pigmentation\n3. (Adipocytic metaplasia)",
-      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）；診斷作答 Intradermal nevus 亦可。",
       "keywords": [
         {
           "text": "proliferative melanocytes",
@@ -1733,7 +1750,7 @@
       "organ": "Stomach",
       "diagnosis": "Chronic ulcer",
       "description": "1. Mucosa defect with fibrinous necrosis and \nneutrophil\n2. Granulation tissue\n3. Fibrosis/scar\n4. Other finding: Fibrinous inflammation on the serosal \nsurface",
-      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）。",
+      "notes": "本題必答關鍵字由 AI 選定，非原教材螢光標記（使用者授權）；Fibrosis/scar 作答 Fibrosis 或 scar 均可。",
       "keywords": [
         {
           "text": "fibrinous necrosis",
@@ -1750,7 +1767,9 @@
         {
           "text": "Fibrosis/scar",
           "accepted": [
-            "Fibrosis/scar"
+            "Fibrosis/scar",
+            "Fibrosis",
+            "scar"
           ]
         }
       ],
