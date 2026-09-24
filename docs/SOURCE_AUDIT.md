@@ -149,7 +149,7 @@
 - PA0008 第 15 頁收錄 index 0（全景定位圖）與 index 1（Gamna-Gandy body 特寫），原頁之矩形定位框為 PowerPoint 向量形狀，抽取之原生圖檔完全無遮擋或圈線標記。
 - PA0059 第 21 頁為肛門直腸交界移行上皮，對於器官辨識為關鍵視野，完整收錄。
 - PA0215 第 41–49 頁投影片上的文字方塊及第 46 頁綠色劃線均為 PowerPoint 覆蓋向量物件，原生抽取影像乾淨清晰，無文字烙印。
-- PA0096 診斷依答案表保留原文 `Infarct/Infarction`。
+- PA0096 診斷依答案表保留原文 `Infarct/Infarction`；題庫設定 `acceptedDiagnosis: ["Infarct", "Infarction", "Infract", "Infraction"]`，作答任一形式均判定正確。
 
 可重現匯入腳本為 `scripts/import_lesson6.py`，不執行舊重建程式。
 

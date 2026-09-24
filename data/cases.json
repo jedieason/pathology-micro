@@ -2313,8 +2313,14 @@
       "lesson": 6,
       "organ": "Kidney",
       "diagnosis": "Infarct/Infarction",
+      "acceptedDiagnosis": [
+        "Infarct",
+        "Infarction",
+        "Infract",
+        "Infraction"
+      ],
       "description": "1. Wedge-shaped coagulative necrosis\n- acute tubular necrosis\n2. Thrombosis",
-      "notes": "診斷依答案表保留原文 Infarct/Infarction。本題必答關鍵字由 AI 依核心特徵選定。",
+      "notes": "診斷依答案表保留原文 Infarct/Infarction；作答 Infarct 或 Infarction 均可。本題必答關鍵字由 AI 依核心特徵選定。",
       "keywords": [
         {
           "text": "coagulative necrosis",

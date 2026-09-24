@@ -167,4 +167,23 @@ class GradingEngineTest {
         assertEquals(text, reconstructed)
         assertEquals(2, parts.count { it.isHighlighted })
     }
+
+    @Test
+    fun accepted_diagnosis_allows_multiple_valid_answers() {
+        val testCase = CaseItem(
+            id = "PA0096",
+            lesson = 6,
+            organ = "Kidney",
+            diagnosis = "Infarct/Infarction",
+            acceptedDiagnosis = listOf("Infarct", "Infarction", "Infract", "Infraction"),
+            description = "coagulative necrosis",
+            keywords = listOf(Keyword(text = "coagulative necrosis", accepted = listOf("coagulative necrosis")))
+        )
+        assertTrue(GradingEngine.grade(testCase, Answers(diagnosis = "Infarct")).diagnosis)
+        assertTrue(GradingEngine.grade(testCase, Answers(diagnosis = "Infarction")).diagnosis)
+        assertTrue(GradingEngine.grade(testCase, Answers(diagnosis = "Infract")).diagnosis)
+        assertTrue(GradingEngine.grade(testCase, Answers(diagnosis = "infraction")).diagnosis)
+        assertTrue(GradingEngine.grade(testCase, Answers(diagnosis = "Infarct/Infarction")).diagnosis)
+        assertFalse(GradingEngine.grade(testCase, Answers(diagnosis = "Necrosis")).diagnosis)
+    }
 }

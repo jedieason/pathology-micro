@@ -26,8 +26,11 @@ object GradingEngine {
             }
         }.map { it.text }
 
-        val organCorrect = normOrgan.isNotEmpty() && normOrgan == normalize(caseItem.organ)
-        val diagCorrect = normDiag.isNotEmpty() && normDiag == normalize(caseItem.diagnosis)
+        val acceptedOrgans = (listOfNotNull(caseItem.organ) + (caseItem.acceptedOrgan ?: caseItem.acceptedOrgans ?: emptyList()))
+        val acceptedDiagnoses = (listOfNotNull(caseItem.diagnosis) + (caseItem.acceptedDiagnosis ?: caseItem.acceptedDiagnoses ?: emptyList()))
+
+        val organCorrect = normOrgan.isNotEmpty() && acceptedOrgans.any { normOrgan == normalize(it) }
+        val diagCorrect = normDiag.isNotEmpty() && acceptedDiagnoses.any { normDiag == normalize(it) }
         val descCorrect = normDesc.isNotEmpty() && caseItem.keywords.isNotEmpty() && missing.isEmpty()
 
         return GradingResult(

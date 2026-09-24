@@ -84,13 +84,14 @@ SPECS = [
         'Kidney',
         'Infarct/Infarction',
         '1. Wedge-shaped coagulative necrosis\n- acute tubular necrosis\n2. Thrombosis',
-        '診斷依答案表保留原文 Infarct/Infarction。本題必答關鍵字由 AI 依核心特徵選定。',
+        '診斷依答案表保留原文 Infarct/Infarction；作答 Infarct 或 Infarction 均可。本題必答關鍵字由 AI 依核心特徵選定。',
         [
             ('coagulative necrosis', ['coagulative necrosis', 'Wedge-shaped coagulative necrosis']),
             ('acute tubular necrosis', ['acute tubular necrosis']),
             ('Thrombosis', ['Thrombosis']),
         ],
         'ai-selected-user-authorized',
+        ['Infarct', 'Infarction', 'Infract', 'Infraction'],
     ),
 ]
 
@@ -107,7 +108,9 @@ def main():
     cases = []
     seen = set()
 
-    for cid, pages, answer, selections, organ, diagnosis, description, notes, keywords, kw_basis in SPECS:
+    for item in SPECS:
+        cid, pages, answer, selections, organ, diagnosis, description, notes, keywords, kw_basis = item[:10]
+        accepted_diag = item[10] if len(item) > 10 else None
         src_meta = dict(file=SOURCE, answerPage=answer, pageRange=pages)
         if kw_basis == 'ai-selected-user-authorized':
             src_meta['keywordBasis'] = 'ai-selected-user-authorized'
@@ -123,6 +126,8 @@ def main():
             source=src_meta,
             images=[],
         )
+        if accepted_diag:
+            case['acceptedDiagnosis'] = accepted_diag
 
         for n, (pn, index) in enumerate(selections, 1):
             info = doc[pn - 1].get_image_info(xrefs=True)[index]

@@ -20,9 +20,9 @@ npm start
 
 ## 判分規則
 
-先做 Unicode NFKC 正規化、轉小寫、移除非字母與數字。Organ 與 Diagnosis 必須與答案表完整一致，不接受同義詞或只填一部分。
+先做 Unicode NFKC 正規化、轉小寫、移除非字母與數字。Organ 與 Diagnosis 預設需與答案表完整一致，不接受未經定義的同義詞或只填一部分。
 
-例如 `Intestine / COLON` 等同 `Intestine/colon`；只填 `colon` 不通過。`Myocardial infarction, healed` 依答案表為準，標題頁的 `remote` 不是可接受答案。
+例如 `Intestine / COLON` 等同 `Intestine/colon`；只填 `colon` 不通過。`Myocardial infarction, healed` 依答案表為準，標題頁的 `remote` 不是可接受答案。若教材答案表本身以斜線表示多選一（如 `PA0096` 之 `Infarct/Infarction`），題庫透過 `acceptedDiagnosis` 明確允許填寫 `Infarct` 或 `Infarction`（亦含拼法容錯），皆判定為正確。
 
 Description 必須含有每一段黃色片語；片語間可以自由排序、補充文字，但片語本身正規化後需連續出現。不做語意判讀、否定句理解或單複數推論。肺病例的 `Center:`、`Periphery:` 也屬原稿黃色範圍，因此必答。
 

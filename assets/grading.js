@@ -2,11 +2,25 @@
 export function normalize(value) {
   return String(value ?? '').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
 }
+function getAccepted(canonical, explicit) {
+  const list = [];
+  if (canonical) list.push(canonical);
+  if (Array.isArray(explicit)) {
+    list.push(...explicit);
+  } else if (explicit) {
+    list.push(explicit);
+  }
+  return list;
+}
 export function grade(caseData, answers) {
   const missing = caseData.keywords.filter(keyword => !keyword.accepted.some(term => normalize(answers.description).includes(normalize(term))));
+  const acceptedOrgans = getAccepted(caseData.organ, caseData.acceptedOrgan || caseData.acceptedOrgans);
+  const acceptedDiagnoses = getAccepted(caseData.diagnosis, caseData.acceptedDiagnosis || caseData.acceptedDiagnoses);
+  const normOrgan = normalize(answers.organ);
+  const normDiag = normalize(answers.diagnosis);
   return {
-    organ: !!normalize(answers.organ) && normalize(answers.organ) === normalize(caseData.organ),
-    diagnosis: !!normalize(answers.diagnosis) && normalize(answers.diagnosis) === normalize(caseData.diagnosis),
+    organ: !!normOrgan && acceptedOrgans.some(term => normOrgan === normalize(term)),
+    diagnosis: !!normDiag && acceptedDiagnoses.some(term => normDiag === normalize(term)),
     description: !!normalize(answers.description) && caseData.keywords.length > 0 && missing.length === 0,
     missing: missing.map(k => k.text),
   };

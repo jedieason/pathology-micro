@@ -31,6 +31,17 @@ test('source typo and explicitly reviewed correction are both accepted',()=>{
  const c=cases[3];assert.equal(grade(c,{description:'Liquefactive necrosis, loosening, microabscess'}).description,true);
  assert.equal(grade(c,{description:'Liquefactive necrosis, loosening, microabscces'}).description,true);
 });
+test('multiple accepted answers for diagnosis or organ are supported when explicitly configured',()=>{
+  const pa0096=cases.find(c=>c.id==='PA0096');
+  assert.ok(pa0096, 'PA0096 should exist in cases');
+  assert.equal(grade(pa0096,{diagnosis:'Infarct'}).diagnosis,true);
+  assert.equal(grade(pa0096,{diagnosis:'Infarction'}).diagnosis,true);
+  assert.equal(grade(pa0096,{diagnosis:'Infract'}).diagnosis,true);
+  assert.equal(grade(pa0096,{diagnosis:'infraction'}).diagnosis,true);
+  assert.equal(grade(pa0096,{diagnosis:'Infarct/Infarction'}).diagnosis,true);
+  assert.equal(grade(pa0096,{diagnosis:'Infarct / Infarction'}).diagnosis,true);
+  assert.equal(grade(pa0096,{diagnosis:'Necrosis'}).diagnosis,false);
+});
 test('empty answers never earn points',()=>{
  for(const c of cases){const r=grade(c,{organ:'!!!',diagnosis:' ',description:''});assert.equal(r.organ||r.diagnosis||r.description,false);}
 });

@@ -17,7 +17,11 @@ data class CaseItem(
     val notes: String? = null,
     val keywords: List<Keyword> = emptyList(),
     val source: CaseSource = CaseSource("", 1),
-    val images: List<CaseImage> = emptyList()
+    val images: List<CaseImage> = emptyList(),
+    val acceptedOrgan: List<String>? = null,
+    val acceptedDiagnosis: List<String>? = null,
+    val acceptedOrgans: List<String>? = null,
+    val acceptedDiagnoses: List<String>? = null
 )
 
 data class Keyword(

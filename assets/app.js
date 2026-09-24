@@ -100,6 +100,13 @@ function renderFeedback(){
       if(c.notes){const note=document.createElement('div');note.className='answer-notes';note.textContent=c.notes;details.append(note);}
       const source=document.createElement('div');source.className='source-note';source.textContent=`${c.id} · 教材 ${c.lesson} · 第 ${c.source.answerPage} 頁`;details.append(source);
       if(c.id==='PA0162'){const note=document.createElement('div');note.className='source-note';note.textContent='microabscces 為教材原文；亦接受 microabscess。';details.append(note);}
+    }else if(f==='diagnosis'){
+      const alts=(c.acceptedDiagnosis||c.acceptedDiagnoses||[]).filter(x=>normalize(x)!==normalize(c.diagnosis));
+      const displayAlts=alts.filter(x=>!['infract','infraction'].includes(normalize(x)));
+      if(displayAlts.length){const note=document.createElement('div');note.className='source-note';note.textContent=`亦接受：${displayAlts.join(' 或 ')}`;details.append(note);}
+    }else if(f==='organ'){
+      const alts=(c.acceptedOrgan||c.acceptedOrgans||[]).filter(x=>normalize(x)!==normalize(c.organ));
+      if(alts.length){const note=document.createElement('div');note.className='source-note';note.textContent=`亦接受：${alts.join(' 或 ')}`;details.append(note);}
     }
     feedback.append(details);
   }

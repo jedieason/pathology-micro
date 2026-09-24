@@ -53,6 +53,10 @@ for index, info in enumerate(page.get_image_info(xrefs=True)):
 ## 3. 完整轉錄答案與黄色標記
 
 - **Organ / Diagnosis：**完整保留答案表字串，含限定詞、逗號、斜線。章節標題和清單不能覆蓋答案表。
+- **多答案與別名處理（重要）：**
+  - 當答案表原文包含斜線表示多選一或等價詞彙（例如 `PA0096` 的 `Infarct/Infarction`），或經核實允許特定同義、名詞/動名詞轉換或拼法容錯時，`diagnosis` 或 `organ` **主欄位仍需保留答案表原文**（作為詳解顯示與可追溯依據）。
+  - 在 case 內新增 `acceptedDiagnosis: [...]` 或 `acceptedOrgan: [...]` 字串陣列，明確列出所有可被接受的獨立寫法（例如 `["Infarct", "Infarction", "Infract", "Infraction"]`）。判分系統會比對原文及該陣列中所有項目的正規化結果。
+  - **嚴禁全域自動切割斜線 `/`**：部分複合名詞（如 `PA0313` 器官 `Intestine/colon`）依教材稽核必須完整鍵入，若自動切割會誤放寬只填 `colon` 通過。所有多答案必須在題庫資料中逐題以 `acceptedDiagnosis` / `acceptedOrgan` 明確宣告。
 - **Description：**保留所有敘述、子項目、中英文括註與「本片無」。可以整理項目符號與換行，不可摘要、補寫或略去未塗黃句子。
 - 表格外的附註存入 `notes`，展開完整答案時顯示。
 - 檢查 PDF annotations；若沒有，黃色可能是內容串流的填色矩形、PPT 文字 highlight、圖層或 raster 像素。渲染答案頁確認每一段黃色覆蓋的精確字元。
@@ -71,7 +75,9 @@ for index, info in enumerate(page.get_image_info(xrefs=True)):
   "id": "教材中的唯一病例編號",
   "lesson": 3,
   "organ": "答案表完整字串",
+  "acceptedOrgan": ["可選器官別名1", "可選器官別名2"],
   "diagnosis": "答案表完整字串",
+  "acceptedDiagnosis": ["可選診斷別名1", "可選診斷別名2"],
   "description": "完整敘述，包含黃色片語與其他內容",
   "notes": "表格外附註，沒有則空字串",
   "keywords": [{"text": "黃色片語", "accepted": ["黃色片語"]}],
