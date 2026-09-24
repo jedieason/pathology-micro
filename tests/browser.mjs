@@ -13,6 +13,7 @@ try{
  const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
  await page.goto(base);await page.waitForSelector('#exercise:not([hidden])');
  await page.locator('#slide').evaluate(img=>img.decode());
+ assert.equal(await page.locator('#slide-spinner').evaluate(el=>el.hidden),true);
  assert.equal(await page.locator('#dots button').count(),5);
  assert.equal(await page.locator('.feedback details').count(),0);
  await page.screenshot({path:'.test-results/desktop.png',fullPage:true});
@@ -20,7 +21,9 @@ try{
  await page.click('#next-image');assert.notEqual(await page.locator('#slide').getAttribute('src'),original);
  await page.click('#prev-image');assert.equal(await page.locator('#slide').getAttribute('src'),original);
  await page.locator('.viewer').focus();await page.keyboard.press('ArrowLeft');assert.match(await page.locator('#image-count').textContent(),/05/);
- await page.click('#open-image');assert.equal(await page.locator('#zoom-dialog').evaluate(d=>d.open),true);await page.keyboard.press('Escape');
+ await page.click('#open-image');assert.equal(await page.locator('#zoom-dialog').evaluate(d=>d.open),true);
+ assert.equal(await page.locator('#zoom-spinner').evaluate(el=>el.hidden),true);
+ await page.keyboard.press('Escape');
  await page.fill('#organ',' KIDNEY! ');await page.fill('#diagnosis','wrong');await page.fill('#description','Preserved cellular outlines. Coagulative-necrosis.');await page.click('#check');
  assert.match(await page.locator('#score').textContent(),/2 \/ 3/);
  assert.equal(await page.locator('[data-field=diagnosis] details').evaluate(e=>e.open),true);

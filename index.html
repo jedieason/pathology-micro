@@ -17,7 +17,7 @@
     <section id="exercise" aria-label="切片題目" hidden>
       <div class="case-meta"><span id="case-number"></span><span id="case-state"></span></div>
       <section class="viewer" aria-label="同一病例的切片照片" tabindex="0">
-        <button id="open-image" class="image-button" aria-label="放大切片"><img id="slide" alt="" draggable="false"><span class="zoom-hint" aria-hidden="true">⤢</span></button>
+        <button id="open-image" class="image-button" aria-label="放大切片"><span id="slide-spinner" class="image-spinner" role="status" aria-label="正在載入切片" hidden></span><img id="slide" alt="" draggable="false"><span class="zoom-hint" aria-hidden="true">⤢</span></button>
         <button class="arrow previous" id="prev-image" aria-label="上一張照片">‹</button><button class="arrow next" id="next-image" aria-label="下一張照片">›</button>
         <div class="image-bottom"><span id="image-count"></span><div id="dots" class="dots" aria-label="選擇照片"></div><span aria-hidden="true"></span></div>
       </section>
@@ -33,7 +33,7 @@
     </section>
     <div id="empty" class="empty" role="status">正在載入切片…</div>
   </main>
-  <dialog id="zoom-dialog" aria-label="放大切片"><div class="zoom-toolbar"><span id="zoom-count"></span><div><button id="zoom-prev" aria-label="放大模式上一張">‹</button><button id="zoom-next" aria-label="放大模式下一張">›</button><button id="zoom-close" aria-label="關閉放大">✕</button></div></div><div class="zoom-body"><img id="zoom-image" alt="放大的病理組織切片"></div></dialog>
+  <dialog id="zoom-dialog" aria-label="放大切片"><div class="zoom-toolbar"><span id="zoom-count"></span><div><button id="zoom-prev" aria-label="放大模式上一張">‹</button><button id="zoom-next" aria-label="放大模式下一張">›</button><button id="zoom-close" aria-label="關閉放大">✕</button></div></div><div class="zoom-body"><span id="zoom-spinner" class="image-spinner" role="status" aria-label="正在載入切片" hidden></span><img id="zoom-image" alt="放大的病理組織切片"></div></dialog>
   <dialog id="reset-dialog" class="reset-dialog"><h2>重新開始練習？</h2><p>將清除此裝置的作答與錯題紀錄。</p><div><button id="reset-cancel" class="text-button">取消</button><button id="reset-confirm" class="primary">清除紀錄</button></div></dialog>
 </body>
 </html>

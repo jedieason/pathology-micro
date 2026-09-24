@@ -18,16 +18,48 @@ function selectList(preferred=currentId){
   currentId=visibleIds.includes(preferred)?preferred:visibleIds[0];
   imageIndex=0; render();
 }
+let slideToken=0;
 function showPhoto(){
   const c=current(); if(!c)return;
-  const item=c.images[imageIndex]; const img=$('#slide');
-  img.src=item.src; img.alt=`第 ${visibleIds.indexOf(currentId)+1} 題，切片照片 ${imageIndex+1} / ${c.images.length}`;
-  img.onerror=()=>{img.alt='圖片載入失敗，請重新整理';};
+  const item=c.images[imageIndex];
+  const img=$('#slide'), slideSpinner=$('#slide-spinner');
+  const zoomImg=$('#zoom-image'), zoomSpinner=$('#zoom-spinner');
+  const token=++slideToken;
+
+  img.alt=`第 ${visibleIds.indexOf(currentId)+1} 題，切片照片 ${imageIndex+1} / ${c.images.length}`;
   $('#image-count').textContent=`${String(imageIndex+1).padStart(2,'0')} / ${String(c.images.length).padStart(2,'0')}`;
   $('#dots').replaceChildren(...c.images.map((_,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label',`照片 ${i+1}`);b.setAttribute('aria-current',String(i===imageIndex));b.onclick=()=>{imageIndex=i;showPhoto();};return b;}));
   for(const id of ['#prev-image','#next-image','#zoom-prev','#zoom-next']) $(id).disabled=c.images.length<2;
-  $('#zoom-image').src=item.src; $('#zoom-image').classList.remove('expanded');
   $('#zoom-count').textContent=`切片 ${imageIndex+1} / ${c.images.length}`;
+
+  const setLoaded=(targetImg,spinner)=>{
+    if(slideToken!==token)return;
+    if(spinner)spinner.hidden=true;
+    targetImg.classList.remove('loading');
+  };
+
+  const bindImage=(targetImg,spinner,onError)=>{
+    targetImg.onload=()=>setLoaded(targetImg,spinner);
+    targetImg.onerror=()=>{
+      setLoaded(targetImg,spinner);
+      if(onError)onError();
+    };
+    if(targetImg.complete&&targetImg.naturalWidth!==0&&(targetImg.getAttribute('src')===item.src||targetImg.src.endsWith(item.src))){
+      setLoaded(targetImg,spinner);
+    }else{
+      if(spinner)spinner.hidden=false;
+      targetImg.classList.add('loading');
+      if(targetImg.getAttribute('src')!==item.src) targetImg.src=item.src;
+      if(targetImg.complete&&targetImg.naturalWidth!==0){
+        setLoaded(targetImg,spinner);
+      }
+    }
+  };
+
+  bindImage(img,slideSpinner,()=>{img.alt='圖片載入失敗，請重新整理';});
+  bindImage(zoomImg,zoomSpinner,null);
+  zoomImg.classList.remove('expanded');
+
   // Preload only the next image of the current case.
   new Image().src=c.images[(imageIndex+1)%c.images.length].src;
 }
