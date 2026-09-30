@@ -67,6 +67,35 @@ test('multiple accepted answers for diagnosis or organ are supported when explic
   assert.equal(grade(pa0096,{diagnosis:'Infarct/Infarction'}).diagnosis,true);
   assert.equal(grade(pa0096,{diagnosis:'Infarct / Infarction'}).diagnosis,true);
   assert.equal(grade(pa0096,{diagnosis:'Necrosis'}).diagnosis,false);
+
+  const pa0218=cases.find(c=>c.id==='PA0218');
+  assert.ok(pa0218, 'PA0218 should exist in cases');
+  assert.equal(grade(pa0218,{diagnosis:'Cytomegalovirus (CMV) infection'}).diagnosis,true);
+  assert.equal(grade(pa0218,{diagnosis:'Cytomegaloviral (CMV) nephritis'}).diagnosis,true);
+  assert.equal(grade(pa0218,{diagnosis:'Cytomegalovirus infection'}).diagnosis,true);
+  assert.equal(grade(pa0218,{diagnosis:'CMV nephritis'}).diagnosis,true);
+  assert.equal(grade(pa0218,{diagnosis:'CMV infection'}).diagnosis,true);
+
+  const pa0306=cases.find(c=>c.id==='PA0306');
+  assert.ok(pa0306, 'PA0306 should exist in cases');
+  assert.equal(grade(pa0306,{organ:'Heart valve'}).organ,true);
+  assert.equal(grade(pa0306,{organ:'Heart'}).organ,true);
+  assert.equal(grade(pa0306,{organ:'Mitral valve'}).organ,true);
+  assert.equal(grade(pa0306,{organ:'Aortic valve'}).organ,true);
+  assert.equal(grade(pa0306,{organ:'Kidney'}).organ,false);
+  assert.equal(grade(pa0306,{description:'Vegetation'}).description,true);
+  assert.equal(grade(pa0306,{description:'Vegetation:'}).description,true);
+
+  const pa0271=cases.find(c=>c.id==='PA0271');
+  assert.ok(pa0271, 'PA0271 should exist in cases');
+  assert.equal(grade(pa0271,{description:'Molluscum bodies'}).description,true);
+  assert.equal(grade(pa0271,{description:'Henderson-Patterson bodies'}).description,true);
+  assert.equal(grade(pa0271,{description:'Molluscum bodies (Henderson-Patterson bodies)'}).description,true);
+
+  const pa0255=cases.find(c=>c.id==='PA0255');
+  assert.ok(pa0255, 'PA0255 should exist in cases');
+  assert.equal(grade(pa0255,{description:'Papillomatosis, Koilocytosis, Acanthosis, Hyperkeratosis, Parakeratosis'}).description,true);
+  assert.equal(grade(pa0255,{description:'Papillomatosis, Koilocytosis'}).description,false);
 });
 test('empty answers never earn points',()=>{
  for(const c of cases){const r=grade(c,{organ:'!!!',diagnosis:' ',description:''});assert.equal(r.organ||r.diagnosis||r.description,false);}

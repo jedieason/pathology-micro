@@ -69,9 +69,16 @@ try{
  await page.fill('#description',l6[0].description);await page.click('#check');
  assert.match(await page.locator('#score').textContent(),/3 \/ 3/);
  await page.screenshot({path:'.test-results/lesson6-desktop.png',fullPage:true});
+ await page.click('#lesson-trigger');await page.locator('#lesson-menu [data-value="7"]').click();
+ assert.equal(await page.locator('#question-position').textContent(),'1 / 4');
+ const l7=cases.filter(c=>c.lesson===7);
+ await page.fill('#organ',l7[0].organ);await page.fill('#diagnosis',l7[0].diagnosis);
+ await page.fill('#description',l7[0].description);await page.click('#check');
+ assert.match(await page.locator('#score').textContent(),/3 \/ 3/);
+ await page.screenshot({path:'.test-results/lesson7-desktop.png',fullPage:true});
  await page.click('#reset');await page.click('#reset-cancel');assert.equal(await page.locator('#reset-dialog').evaluate(d=>d.open),false);
  await page.click('#reset');await page.click('#reset-confirm');assert.equal(await page.evaluate(()=>localStorage.getItem('micro-practice-v1')),'{}');
- await page.click('#shuffle');assert.equal(await page.locator('#question-position').textContent(),'1 / 5');
+ await page.click('#shuffle');assert.equal(await page.locator('#question-position').textContent(),'1 / 4');
  // A project Pages URL must preserve the repository prefix for all resources.
  const project=await context.newPage();
  await project.route('**/repository/**',async route=>{const url=route.request().url().replace('/repository/','/');const response=await route.fetch({url});await route.fulfill({response});});

@@ -2462,6 +2462,483 @@
           "sourceImageSha256": "3143bbc73b53ca7327a3685ec9972d63099db5ad79cf980fb8caeb7b4bc9a195"
         }
       ]
+    },
+    {
+      "id": "PA0255",
+      "lesson": 7,
+      "organ": "Skin",
+      "diagnosis": "Condyloma acuminatum",
+      "description": "1. Papillomatosis\n2. Koilocytosis\n3. Acanthosis\n4. Hyperkeratosis\n5. Parakeratosis",
+      "notes": "←2025年解剖病理專科考試。本題必答關鍵字由 AI 依答案表全部病理特徵選定（使用者授權）。",
+      "keywords": [
+        {
+          "text": "Papillomatosis",
+          "accepted": [
+            "Papillomatosis"
+          ]
+        },
+        {
+          "text": "Koilocytosis",
+          "accepted": [
+            "Koilocytosis"
+          ]
+        },
+        {
+          "text": "Acanthosis",
+          "accepted": [
+            "Acanthosis"
+          ]
+        },
+        {
+          "text": "Hyperkeratosis",
+          "accepted": [
+            "Hyperkeratosis"
+          ]
+        },
+        {
+          "text": "Parakeratosis",
+          "accepted": [
+            "Parakeratosis"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜Infection (1).pdf",
+        "answerPage": 21,
+        "pageRange": [
+          5,
+          23
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0255/01.webp",
+          "page": 11,
+          "imageIndex": 0,
+          "xref": 54,
+          "bbox": [
+            32.472999572753906,
+            48.6409912109375,
+            706.322998046875,
+            471.3909912109375
+          ],
+          "width": 636,
+          "height": 381,
+          "sourceImageSha256": "3c54825fefe5e504c547df9c60fd819acc68e6c33b8bde840cfa81dca468c6f0"
+        },
+        {
+          "src": "assets/images/pa0255/02.webp",
+          "page": 13,
+          "imageIndex": 0,
+          "xref": 61,
+          "bbox": [
+            20.37700080871582,
+            56.79986572265625,
+            868.43701171875,
+            539.9998779296875
+          ],
+          "width": 1520,
+          "height": 859,
+          "sourceImageSha256": "435ca3afab62726e94c4128933826a3e76cdaf0df4a87e91c9c5d9dc606e19c7"
+        },
+        {
+          "src": "assets/images/pa0255/03.webp",
+          "page": 15,
+          "imageIndex": 0,
+          "xref": 68,
+          "bbox": [
+            0.0,
+            52.96099853515625,
+            862.5599975585938,
+            518.52099609375
+          ],
+          "width": 1589,
+          "height": 858,
+          "sourceImageSha256": "f98e3045aed50f0531a1d815adef52c7a4750a668308be044e57fc4f07bd8a90"
+        },
+        {
+          "src": "assets/images/pa0255/04.webp",
+          "page": 19,
+          "imageIndex": 0,
+          "xref": 79,
+          "bbox": [
+            26.30900001525879,
+            18.532989501953125,
+            687.6690063476562,
+            511.2829895019531
+          ],
+          "width": 882,
+          "height": 657,
+          "sourceImageSha256": "37440e5ad1043d47208a66324faca117a82158b9c291c4b14be74129cd6beddb"
+        },
+        {
+          "src": "assets/images/pa0255/05.webp",
+          "page": 20,
+          "imageIndex": 0,
+          "xref": 82,
+          "bbox": [
+            0.0,
+            30.25,
+            612.0,
+            500.5
+          ],
+          "width": 1632,
+          "height": 1254,
+          "sourceImageSha256": "aa434dad98ec5b0bc5b23311198c14dc5a158658c4347acb7b1ea27cd013f544"
+        }
+      ]
+    },
+    {
+      "id": "PA0271",
+      "lesson": 7,
+      "organ": "Skin",
+      "diagnosis": "Molluscum contagiosum",
+      "description": "1. A cup-like lesion with a crater\n2. Epidermal hyperplasia\n3. Molluscum bodies (Henderson-Patterson bodies) in \nthe crater: large, eosinophilic to basophilic intracytoplasmic \ninclusions that push aside nucleus",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Molluscum bodies (Henderson-Patterson bodies)",
+          "accepted": [
+            "Molluscum bodies (Henderson-Patterson bodies)",
+            "Molluscum bodies",
+            "Henderson-Patterson bodies"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜Infection (1).pdf",
+        "answerPage": 33,
+        "pageRange": [
+          24,
+          33
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0271/01.webp",
+          "page": 27,
+          "imageIndex": 0,
+          "xref": 109,
+          "bbox": [
+            42.47999954223633,
+            28.858001708984375,
+            713.0399780273438,
+            515.697998046875
+          ],
+          "width": 944,
+          "height": 786,
+          "sourceImageSha256": "60b29f023c8ed3c8881e9e731cd4bcdc482df9ed69249838c55abdb5472ad548"
+        },
+        {
+          "src": "assets/images/pa0271/02.webp",
+          "page": 28,
+          "imageIndex": 1,
+          "xref": 112,
+          "bbox": [
+            19.8800048828125,
+            26.464996337890625,
+            701.4299926757812,
+            514.8750610351562
+          ],
+          "width": 880,
+          "height": 1228,
+          "sourceImageSha256": "a554df6dc7afb12fd6fe427ea3f55ceef1816c0a8d988b8d3986236637875af2"
+        },
+        {
+          "src": "assets/images/pa0271/03.webp",
+          "page": 29,
+          "imageIndex": 0,
+          "xref": 115,
+          "bbox": [
+            19.88995361328125,
+            -0.0001220703125,
+            359.4599914550781,
+            539.9999389648438
+          ],
+          "width": 1692,
+          "height": 1064,
+          "sourceImageSha256": "7c968b64a9bd20ca35fa4b65ca7bcacf7f23a0b6fa5b51ba75c0e5c34ec61563"
+        },
+        {
+          "src": "assets/images/pa0271/04.webp",
+          "page": 29,
+          "imageIndex": 1,
+          "xref": 116,
+          "bbox": [
+            380.4999694824219,
+            60.409942626953125,
+            757.030029296875,
+            540.0
+          ],
+          "width": 1424,
+          "height": 1118,
+          "sourceImageSha256": "ed4f38285c2a3ffd8ba1be15778dd7f026a5b56909b7a618772f27eb46c83c2b"
+        },
+        {
+          "src": "assets/images/pa0271/05.webp",
+          "page": 32,
+          "imageIndex": 0,
+          "xref": 125,
+          "bbox": [
+            31.290000915527344,
+            -6.103515625e-05,
+            928.7099609375,
+            539.9999389648438
+          ],
+          "width": 1971,
+          "height": 1186,
+          "sourceImageSha256": "378564aa29c5b30840d8ce65443746530418defc44d2883303e52b4a77dc9f15"
+        }
+      ]
+    },
+    {
+      "id": "PA0218",
+      "lesson": 7,
+      "organ": "Kidney",
+      "diagnosis": "Cytomegalovirus (CMV) infection or Cytomegaloviral (CMV) nephritis",
+      "description": "1. Infected cells\n- Cellular and nuclear enlargement\n- Large intranuclear basophilic inclusions with halos/haloes\n- Small cytoplasmic basophilic inclusions\n2. Chronic inflammation \n[此片是慢性發炎，其它案例可能以急性發炎為主要表現]",
+      "notes": "本題必答關鍵字由 AI 依包含體特徵選定（使用者授權）。作答 Cytomegalovirus (CMV) infection、Cytomegaloviral (CMV) nephritis 或其簡稱均判定正確。",
+      "keywords": [
+        {
+          "text": "Large intranuclear basophilic inclusions",
+          "accepted": [
+            "Large intranuclear basophilic inclusions",
+            "intranuclear basophilic inclusions",
+            "intranuclear inclusions",
+            "intranuclear basophilic inclusion",
+            "intranuclear inclusion"
+          ]
+        },
+        {
+          "text": "Small cytoplasmic basophilic inclusions",
+          "accepted": [
+            "Small cytoplasmic basophilic inclusions",
+            "cytoplasmic basophilic inclusions",
+            "cytoplasmic inclusions",
+            "cytoplasmic basophilic inclusion",
+            "cytoplasmic inclusion"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜Infection (1).pdf",
+        "answerPage": 43,
+        "pageRange": [
+          34,
+          43
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0218/01.webp",
+          "page": 37,
+          "imageIndex": 0,
+          "xref": 149,
+          "bbox": [
+            38.25,
+            55.5,
+            681.75,
+            484.5
+          ],
+          "width": 858,
+          "height": 572,
+          "sourceImageSha256": "dd4f21b420896107155848606080b2f8c7525e623fb63b0696ff2e31581b32f4"
+        },
+        {
+          "src": "assets/images/pa0218/02.webp",
+          "page": 40,
+          "imageIndex": 0,
+          "xref": 158,
+          "bbox": [
+            19.884000778198242,
+            28.5899658203125,
+            719.4839477539062,
+            500.5
+          ],
+          "width": 1862,
+          "height": 1256,
+          "sourceImageSha256": "420c6b084ad0490117ad50311ca35bc4a3742cca5837d6c660aa97f85b5189f9"
+        },
+        {
+          "src": "assets/images/pa0218/03.webp",
+          "page": 41,
+          "imageIndex": 0,
+          "xref": 163,
+          "bbox": [
+            0.0,
+            33.628021240234375,
+            724.219970703125,
+            516.9580078125
+          ],
+          "width": 1870,
+          "height": 1248,
+          "sourceImageSha256": "afe105482bc9272f875a55b5bed252c43833aae798b2e3decc0e0f282921bb71"
+        },
+        {
+          "src": "assets/images/pa0218/04.webp",
+          "page": 42,
+          "imageIndex": 0,
+          "xref": 167,
+          "bbox": [
+            16.326000213623047,
+            68.86697387695312,
+            420.08599853515625,
+            484.59698486328125
+          ],
+          "width": 944,
+          "height": 972,
+          "sourceImageSha256": "1b43088ec505c634bc609301c202e7e00bdecb13fb9ca40afed3c36e818427ec"
+        },
+        {
+          "src": "assets/images/pa0218/05.webp",
+          "page": 42,
+          "imageIndex": 1,
+          "xref": 168,
+          "bbox": [
+            432.3299865722656,
+            68.86697387695312,
+            940.1099853515625,
+            484.59698486328125
+          ],
+          "width": 1346,
+          "height": 1102,
+          "sourceImageSha256": "9e1ae728155526a531d3a6f8c8c71cfa6d908c6a68e8354bc2f4d594fab19b2a"
+        }
+      ],
+      "acceptedDiagnosis": [
+        "Cytomegalovirus (CMV) infection",
+        "Cytomegaloviral (CMV) nephritis",
+        "Cytomegalovirus infection",
+        "Cytomegaloviral nephritis",
+        "CMV infection",
+        "CMV nephritis",
+        "Cytomegalovirus (CMV) infection or Cytomegaloviral (CMV) nephritis"
+      ]
+    },
+    {
+      "id": "PA0306",
+      "lesson": 7,
+      "organ": "Heart valve",
+      "diagnosis": "Infective endocarditis",
+      "description": "1. Valve destruction with necrosis\n2. Vegetation: composed of fibrin, bacterial clumps, and \ninflammatory infiltrate (neutrophilic or lymphohistiocytic)\n3. Inflamed granulation tissue\n4. (In chronic lesion): organization and calcification",
+      "notes": "第 4 頁目錄編號為 PA0306 (4)，投影片內文與切片來源標記為 PA0001 (4)。答案表附註「考試寫 Heart valve 即可（哪個瓣膜無法從組織學判定）」，作答 Heart valve、Heart、Mitral valve 或 Aortic valve 均可。",
+      "keywords": [
+        {
+          "text": "Vegetation",
+          "accepted": [
+            "Vegetation",
+            "Vegetation:"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜Infection (1).pdf",
+        "answerPage": 57,
+        "pageRange": [
+          44,
+          59
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0306/01.webp",
+          "page": 48,
+          "imageIndex": 0,
+          "xref": 190,
+          "bbox": [
+            32.15999984741211,
+            49.44000244140625,
+            927.8399658203125,
+            490.55999755859375
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "244387296d06665847a1aed0287430ab7ee0a865bc154a9e4e304ef7faacd50c"
+        },
+        {
+          "src": "assets/images/pa0306/02.webp",
+          "page": 49,
+          "imageIndex": 0,
+          "xref": 193,
+          "bbox": [
+            32.15999984741211,
+            49.44000244140625,
+            927.8399658203125,
+            490.55999755859375
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "349c2ec1f32ad090cb623892028ad2320e586a96793f14bdcfff5fcbacb77a5f"
+        },
+        {
+          "src": "assets/images/pa0306/03.webp",
+          "page": 50,
+          "imageIndex": 0,
+          "xref": 196,
+          "bbox": [
+            32.15999984741211,
+            49.44000244140625,
+            927.8399658203125,
+            490.55999755859375
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "da2a4280a6386c05018584ee8fc7aa8dcf35b820a96f5b8a4f17b3e7f1a9180a"
+        },
+        {
+          "src": "assets/images/pa0306/04.webp",
+          "page": 52,
+          "imageIndex": 0,
+          "xref": 202,
+          "bbox": [
+            0.0,
+            14.291961669921875,
+            960.0,
+            525.7119750976562
+          ],
+          "width": 2000,
+          "height": 1065,
+          "sourceImageSha256": "12a48a02eaf3612b742d2135c8ec4287eef9e42b34afa365b436b3c301e4dce6"
+        },
+        {
+          "src": "assets/images/pa0306/05.webp",
+          "page": 55,
+          "imageIndex": 0,
+          "xref": 212,
+          "bbox": [
+            32.15999984741211,
+            49.44000244140625,
+            927.8399658203125,
+            490.55999755859375
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "d94ce0913824552ec74e0577450d408a320f9340bd1f523dd96c383203faeed2"
+        },
+        {
+          "src": "assets/images/pa0306/06.webp",
+          "page": 56,
+          "imageIndex": 0,
+          "xref": 215,
+          "bbox": [
+            32.15999984741211,
+            49.44000244140625,
+            927.8399658203125,
+            490.55999755859375
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "7a259bf9b2614df7dc174e121c155a6f1dfe1156ba6454175741a45ec0e2eeca"
+        }
+      ],
+      "acceptedOrgan": [
+        "Heart valve",
+        "Heart",
+        "Mitral valve",
+        "Aortic valve"
+      ]
     }
   ]
 }

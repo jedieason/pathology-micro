@@ -153,4 +153,33 @@
 
 可重現匯入腳本為 `scripts/import_lesson6.py`，不執行舊重建程式。
 
+## 教材 7（2026-10-01 匯入）
+
+來源：`pdf/病理學 Micro｜Infection (1).pdf`，59 頁。逐頁渲染核對，並列出每頁內嵌圖片尺寸、bbox（PDF 點座標）及 xref；四個病例的完整答案均採答案表。
+
+- **第 21 頁（PA0255）**：答案表無黃色螢光標記。經使用者授權，由 AI 依答案表全部 5 項病理特徵（`Papillomatosis`、`Koilocytosis`、`Acanthosis`、`Hyperkeratosis`、`Parakeratosis`）選定為必答關鍵字，並於 `notes` 與 `source.keywordBasis` 標明來源。
+- **第 33 頁（PA0271）**：答案表具有明確黃色填色矩形（`draw fill = (1.0, 1.0, 0.0)`）與底線覆蓋 `Molluscum bodies (Henderson-Patterson bodies)`，`accepted` 同時納入 `Molluscum bodies` 與 `Henderson-Patterson bodies`。
+- **第 43 頁（PA0218）**：答案表無黃色螢光標記。經使用者授權，由 AI 依包含體病理核心特徵（`Large intranuclear basophilic inclusions` 與 `Small cytoplasmic basophilic inclusions`）選定為必答關鍵字，並於 `notes` 與 `source.keywordBasis` 標明來源。診斷欄位包含 `or` 多選一，`acceptedDiagnosis` 設定支援 CMV infection 或 CMV nephritis 各種全稱與簡稱。
+- **第 57 頁（PA0306）**：第 4 頁目錄編號為 `PA0306 (4)`，第 44 頁標題與第 46–50 頁切片來源標記為 `PA0001 (4)`，經使用者確認採用病例編號 `PA0306`，附註記錄 PA0001 與玻片號 4。答案表僅 `Vegetation` 具有黃色填色矩形，依使用者授權嚴格採 `Vegetation` 為必答關鍵字（容許 `Vegetation:`）。器官依答案表附註設定 `acceptedOrgan: ["Heart valve", "Heart", "Mitral valve", "Aortic valve"]`。
+
+| 病例 | 病例頁區間 | 取圖頁碼（imageIndex 從 0 起） | 答案頁 | 必答片語 |
+| --- | --- | --- | --- | --- |
+| PA0255 | 5–23 | 11:0, 13:0, 15:0, 19:0, 20:0 | 21 | Papillomatosis；Koilocytosis；Acanthosis；Hyperkeratosis；Parakeratosis |
+| PA0271 | 24–33 | 27:0, 28:1, 29:0, 29:1, 32:0 | 33 | Molluscum bodies (Henderson-Patterson bodies) |
+| PA0218 | 34–43 | 37:0, 40:0, 41:0, 42:0, 42:1 | 43 | Large intranuclear basophilic inclusions；Small cytoplasmic basophilic inclusions |
+| PA0306 | 44–59 | 48:0, 49:0, 50:0, 52:0, 55:0, 56:0 | 57 | Vegetation |
+
+共新增 4 題、21 張原始內嵌切片，所有原始影像 SHA-256 均不同。輸出沿用等比例 WebP、quality 94、長邊最多 2000 px，不放大。逐圖與原頁對照，無診斷文字及正常對照混入；未重寫教材或修補組織。
+
+### 排除與取圖判斷
+
+- 1–2 頁為前次 Suture granuloma 補充；3 頁為單元封面；4 頁為 Case List；58–59 頁為 Take Home Message 總結。
+- 6–7 頁（正常皮膚）、38–39 頁（正常腎臟）、46 頁（正常房室瓣組織層構造）、47 頁（正常主動脈瓣）為正常組織對照，排除。
+- 8 頁（尖型濕疣臨床肉眼照）、25 頁（傳染性軟疣臨床照）、45 頁圖 1（心內膜炎 gross 標本照）為大體或臨床肉眼照，排除。
+- 10 頁（葡萄乾樣核示意圖）、26 頁圖 0, 1, 2, 3（教科書插圖與示意）、28 頁圖 0, 2（教科書插圖）、36 頁（Robbins CMV 示意）、41 頁圖 1（教科書插圖）、45 頁圖 0（心瓣膜示意）為教學插圖與示意，排除。
+- 16 頁與 11 頁共用 xref 54，30 頁與 29 頁共用 xref 115, 116，排除重複。
+- 20 頁圖 1 為微型 icon；21 頁為答案表下方標籤；22–23 頁為答案頁後之臨床延伸病例（48M 膀胱癌病史尿道腫瘤），非本題切片，排除。
+
+可重現匯入腳本為 `scripts/import_lesson7.py`，不執行舊重建程式。
+
 
