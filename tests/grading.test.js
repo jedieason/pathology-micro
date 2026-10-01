@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
-import {grade,normalize,highlightedParts} from '../assets/grading.js';
+import {grade,normalize,highlightedParts,formatScore} from '../assets/grading.js';
 const {cases}=JSON.parse(readFileSync(new URL('../data/cases.json',import.meta.url)));
 test('normalization ignores case, spacing, punctuation and fullwidth differences',()=>{
   assert.equal(normalize(' Ｋｉｄｎｅｙ!\n'), 'kidney');
@@ -110,4 +110,57 @@ test('question bank is complete and all marked text and images are traceable',()
   for(const k of c.keywords){assert.ok(k.accepted.length);assert.ok(k.accepted.every(x=>normalize(x).length));}
   for(const i of c.images){assert.ok(existsSync(new URL('../'+i.src,import.meta.url)));assert.ok(i.page>0&&i.width>0&&i.height>0&&i.sourceImageSha256);}
  }
+});
+test('scores are calculated based on 17-point scale (organ: 2, diagnosis: 5, description: 10 proportional)',()=>{
+  const c=cases[0];
+  const perfect=grade(c,{organ:c.organ,diagnosis:c.diagnosis,description:c.description});
+  assert.equal(perfect.scores.organ,2);
+  assert.equal(perfect.scores.diagnosis,5);
+  assert.equal(perfect.scores.description,10);
+  assert.equal(perfect.score,17);
+
+  const organOnly=grade(c,{organ:c.organ,diagnosis:'wrong',description:''});
+  assert.equal(organOnly.scores.organ,2);
+  assert.equal(organOnly.scores.diagnosis,0);
+  assert.equal(organOnly.scores.description,0);
+  assert.equal(organOnly.score,2);
+
+  const diagOnly=grade(c,{organ:'wrong',diagnosis:c.diagnosis,description:''});
+  assert.equal(diagOnly.scores.organ,0);
+  assert.equal(diagOnly.scores.diagnosis,5);
+  assert.equal(diagOnly.scores.description,0);
+  assert.equal(diagOnly.score,5);
+
+  const descHalf=grade(c,{organ:'wrong',diagnosis:'wrong',description:'coagulative necrosis'});
+  assert.equal(descHalf.scores.description,5);
+  assert.equal(descHalf.score,5);
+
+  const caseWith3Keywords=cases.find(item=>item.keywords.length===3);
+  assert.ok(caseWith3Keywords,'Should have at least one case with 3 keywords');
+  const kw1=caseWith3Keywords.keywords[0].text;
+  const descThird=grade(caseWith3Keywords,{organ:'wrong',diagnosis:'wrong',description:kw1});
+  assert.equal(descThird.scores.description,3.3);
+  assert.equal(descThird.score,3.3);
+
+  const kw2=caseWith3Keywords.keywords[1].text;
+  const descTwoThirds=grade(caseWith3Keywords,{organ:'wrong',diagnosis:'wrong',description:`${kw1} and ${kw2}`});
+  assert.equal(descTwoThirds.scores.description,6.7);
+  assert.equal(descTwoThirds.score,6.7);
+
+  const kw3=caseWith3Keywords.keywords[2].text;
+  const descFullKw=grade(caseWith3Keywords,{organ:'wrong',diagnosis:'wrong',description:`${kw1}, ${kw2}, ${kw3}`});
+  assert.equal(descFullKw.scores.description,10);
+  assert.equal(descFullKw.score,10);
+
+  const combo=grade(caseWith3Keywords,{organ:caseWith3Keywords.organ,diagnosis:caseWith3Keywords.diagnosis,description:kw1});
+  assert.equal(combo.scores.organ,2);
+  assert.equal(combo.scores.diagnosis,5);
+  assert.equal(combo.scores.description,3.3);
+  assert.equal(combo.score,10.3);
+
+  assert.equal(formatScore(17),'17');
+  assert.equal(formatScore(10.3),'10.3');
+  assert.equal(formatScore(0),'0');
+  assert.equal(formatScore(3.3),'3.3');
+  assert.equal(formatScore(7.0),'7');
 });

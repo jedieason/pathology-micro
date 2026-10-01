@@ -1,4 +1,4 @@
-import {grade, highlightedParts, normalize} from './grading.js';
+import {grade, highlightedParts, normalize, formatScore} from './grading.js';
 const $ = s => document.querySelector(s);
 const fields = ['organ','diagnosis','description'];
 const storageKey = 'micro-practice-v1';
@@ -86,7 +86,7 @@ function renderFeedback(){
     $(`#${f}`).setAttribute('aria-invalid',String(!!g&&!g[f]));
     feedback.replaceChildren();
     if(!g)continue;
-    if(f==='description'&&g.missing.length){const p=document.createElement('p');p.className='missing';p.textContent=`缺少關鍵字：${g.missing.join(' · ')}`;feedback.append(p);}
+    if(f==='description'&&g.missing.length){const p=document.createElement('p');p.className='missing';p.textContent=g.scores.description>0?`缺少關鍵字：${g.missing.join(' · ')}（得分 ${formatScore(g.scores.description)} / 10 分）`:`缺少關鍵字：${g.missing.join(' · ')}`;feedback.append(p);}
     const details=document.createElement('details');details.open=!g[f];
     const summary=document.createElement('summary');summary.innerHTML='<span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
     const updateSummary=()=>{const label=details.open?'收合詳解':'顯示詳解';summary.querySelector('span').textContent=label;summary.setAttribute('aria-label',label);};
@@ -110,7 +110,7 @@ function renderFeedback(){
     }
     feedback.append(details);
   }
-  $('#score').textContent=g?`${fields.filter(f=>g[f]).length} / 3`:'';
+  $('#score').textContent=g?`${formatScore(g.score)} / 17`:'';
   $('#retry').hidden=!g;$('#check').setAttribute('aria-label',g?'再次檢查':'檢查答案');$('#check').title=g?'再次檢查':'檢查答案';$('#check').textContent=g?'再次檢查':'檢查答案';
 }
 function answers(){return Object.fromEntries(fields.map(f=>[f,$(`#${f}`).value]));}
