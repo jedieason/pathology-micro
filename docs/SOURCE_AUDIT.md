@@ -182,4 +182,65 @@
 
 可重現匯入腳本為 `scripts/import_lesson7.py`，不執行舊重建程式。
 
+## 教材 8（2026-10-05 匯入）
+
+來源：`pdf/病理學 Micro｜1002 Infection (2).pdf`，58 頁。逐頁渲染核對，並列出每頁內嵌圖片尺寸、bbox（PDF 點座標）及 xref；四個病例的完整答案均採答案表。
+
+- **第 13 頁（PA0251）**：答案表具有明確黃色填色矩形（`draw fill = (1.0, 1.0, 0.0)`）與粗底線覆蓋 `Sulfur granules` 與 `Splendore-Hoeppli phenomenon`，採此兩項為必答關鍵字。第 3 項 `May granulomatous inflammation...` 原文為灰色字（`7E7E7E`），未設為必答。第 2 頁目錄標記器官為 `Ovary`，答案表附註「`此片被病灶佔滿，其實沒有可供辨認為卵巢之組織`」，完整答案保留原文並設定 `acceptedOrgan: ["Ovary", "Ovary (此片被病灶佔滿，其實沒有可供辨認為卵巢之組織)"]`。
+- **第 30 頁（PA0022）**：答案表無黃色螢光標記，但第一項以粗底線明確標記 `Aseptate` 及 `wide-angle`，Take Home Message（第 58 頁）亦總結為 `Aseptate hyphae with wide-angle branching`。採 `Aseptate` 與 `wide-angle branching` 為必答關鍵字，並設定容許詞形與拼法。
+- **第 43 頁（PA0015）**：答案表具有明確黃色填色矩形與粗底線完整覆蓋 `Fungal hyphae with septa and acute-angle branching`，直接採此片語為必答關鍵字，並相容 `septate hyphae with acute-angle branching` 等寫法。
+- **第 56 頁（PA0201）**：答案表無黃色螢光標記。依 Take Home Message（第 58 頁）粗底線重點 `Yeasts & pseudohyphae` 及第 54 頁教學切片標記特徵，選定 `Fungal yeasts and pseudohyphae` 為必答關鍵字，並相容 `pseudohyphae` 等寫法。
+
+| 病例 | 病例頁區間 | 取圖頁碼（imageIndex 從 0 起） | 答案頁 | 必答片語 |
+| --- | --- | --- | --- | --- |
+| PA0251 | 3–13 | 7:0, 8:0, 9:0, 10:0 | 13 | Sulfur granules；Splendore-Hoeppli phenomenon |
+| PA0022 | 14–30 | 18:0, 20:0, 22:0, 23:0, 25:0, 29:0 | 30 | Aseptate；wide-angle branching |
+| PA0015 | 31–43 | 35:0, 36:0, 37:0, 38:0, 39:0, 40:0 | 43 | Fungal hyphae with septa and acute-angle branching |
+| PA0201 | 45–56 | 50:0, 51:0, 52:0, 53:0, 54:0, 55:0 | 56 | Fungal yeasts and pseudohyphae |
+
+共新增 4 題、22 張原始內嵌切片，所有原始影像 SHA-256 均不同。輸出沿用等比例 WebP、quality 94、長邊最多 2000 px，不放大。逐圖與原頁對照，無診斷文字及正常對照混入；未重寫教材或修補組織。
+
+### 排除與取圖判斷
+
+- 1 頁為封面；2 頁為 Case List；57–58 頁為 Take Home Message 總結。
+- 4 頁（放線菌教科書介紹與臨床大體）、5 頁（Sulfur granule 示意圖）、6 頁（文獻手繪 Splendore-Hoeppli 機轉圖）、15 頁（真菌形態速查表手繪示意）、16 頁（毛黴菌臨床黑真菌肉眼照）、33 頁（Aspergillus 培養肉眼照）、34 頁（聖水器命名由來示意圖）、44 頁（答案頁後之毛黴菌對照圖）、46 頁（念珠菌教科書示意）、47 頁（假菌絲比較表）、48 頁（鵝口瘡與尿布疹臨床肉眼照）為教學插圖、示意與大體臨床照，排除。
+- 49 頁（SIU 正常食道組織照）為正常組織對照，排除。
+- 11 頁（ExpertPath HE 切片帶浮水印）、12 頁（ExpertPath GMS 及 Gram 特殊染色）為外部圖庫，排除；PA0251 採用 7–10 頁 NTU microteaching 之 4 張原生切片。
+- 24 頁與 18 頁共用 xref 98；26 頁與 25 頁共用 xref 118；28 頁與 27 頁共用 xref 125，排除重複。26 頁圖 1（xref 122）為粉紅插畫手繪線條，排除。
+- 40 頁圖 1（xref 165）為粉紅手繪示意，排除。41、42 頁為註明「壞掉的hyphae不適合用來判斷」之退化菌絲教學頁，排除。
+
+可重現匯入腳本為 `scripts/import_lesson8.py`，不執行舊重建程式。
+
+## 教材 9（2026-10-05 匯入）
+
+來源：`pdf/病理學 Micro｜1005 Microteaching_20261005_Infection (3).pdf`，57 頁。逐頁渲染核對，並列出每頁內嵌圖片尺寸、bbox（PDF 點座標）及 xref；四個病例的完整答案均採答案表。
+
+- **第 16 頁（PA0316）**：答案表無黃色螢光標記。經使用者授權，由 AI 仿照 Take Home Message 與核心特徵選定必答關鍵字（`thick-walled fungal yeasts` 與 `Granulomatous inflammation`），並於 `notes` 與 `source.keywordBasis` 標明授權來源。答案表原文第一項拼寫為「`Numerus`」，完整答案保留原文並相容「`Numerous`」。
+- **第 28 頁（PA0302）**：答案表具有明確黃色填色矩形（`draw fill = (1.0, 1.0, 0.0)`）與底線覆蓋 `Foamy, granular, eosinophilic exudate`。診斷支援全稱與簡稱（`PJP`、`Pneumocystis pneumonia`）。
+- **第 40 頁（PA0206）**：答案表具有明確黃色填色矩形與底線覆蓋 `Ingested red blood cells`，答案表下方註記專科考試來源存於 `notes`。
+- **第 55 頁（PA0354）**：第 2 頁目錄與第 41 頁標題特別註記「`更新 PA0354 (145)`」，採用病例編號 `PA0354`。答案表原僅塗黃底線 `herpes infection`，經使用者指示擴充 3M 病毒病效應（`Multinucleation`、`Margination of chromatin`、`Molding of nuclei`）為必答關鍵字。器官設定 `acceptedOrgan: ["Oral cavity (mouth floor)", "Oral cavity", "mouth floor", "Oral cavity, mouth floor"]`；診斷設定 `acceptedDiagnosis: ["Herpes virus infection", "Herpes simplex virus infection", "HSV infection", "Herpes infection"]`。
+
+| 病例 | 病例頁區間 | 取圖頁碼（imageIndex 從 0 起） | 答案頁 | 必答片語 |
+| --- | --- | --- | --- | --- |
+| PA0316 | 3–16 | 7:0, 8:0, 9:0, 11:0, 12:0, 15:0 | 16 | thick-walled fungal yeasts；Granulomatous inflammation |
+| PA0302 | 17–29 | 22:0, 23:0, 24:0, 25:0, 26:0, 27:0 | 28 | Foamy, granular, eosinophilic exudate |
+| PA0206 | 30–40 | 35:0, 36:0, 36:1, 37:0, 39:0 | 40 | Ingested red blood cells |
+| PA0354 | 41–55 | 46:0, 48:0, 51:0, 52:0, 54:0 | 55 | herpes infection；Multinucleation；Margination of chromatin；Molding of nuclei |
+
+共新增 4 題、22 張原始內嵌切片，所有原始影像 SHA-256 均不同。輸出沿用等比例 WebP、quality 94、長邊最多 2000 px，不放大。逐圖與原頁對照，無診斷文字及正常對照混入；未重寫教材或修補組織。
+
+### 排除與取圖判斷
+
+- 1 頁為封面；2 頁為 Case List；56–57 頁為 Take Home Message 總結。
+- 6 頁（免疫程度與菌量折線圖）、19–20 頁（Robbins PJP 示意圖）、31 頁（CDC 阿米巴生活史插圖）、33 頁（燒杯狀潰瘍插圖）、34 頁（阿米巴原蟲塗片帶箭頭圖）、37 頁右側（原蟲卡通示意）、42 頁（Pathodoodles HSV 手繪圖）、43–44 頁（外部文獻帶箭頭照片）、45 頁（皮膚水皰帶箭頭照片）均為教學示意與外部文獻圖，排除。
+- 32 頁為阿米巴大體標本照片（gross），排除。
+- 10 頁（Mucicarmine 特殊染色）為特殊染色，本題依互補性挑選 6 張代表性 HE 視野。
+- 14 頁與 13 頁共用 xref 63；47 頁 index 0 與 46 頁共用 xref 222；53 頁與 50 頁共用 xref 234，排除重複。
+- 21 頁為 ExpertPath 外部引用圖（含浮水印與箭頭），排除。
+- 29 頁為形態比較表格，排除。
+- 40 頁下方為 2025 專科考試題目截圖（xref 198），排除。
+
+可重現匯入腳本為 `scripts/import_lesson9.py`，不執行舊重建程式。
+
+
 

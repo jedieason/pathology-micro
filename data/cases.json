@@ -64,9 +64,9 @@
           "imageIndex": 0,
           "xref": 78,
           "bbox": [
-            18.0,
+            18,
             12.460968017578125,
-            711.0,
+            711,
             507.46099853515625
           ],
           "width": 924,
@@ -136,9 +136,9 @@
           "imageIndex": 0,
           "xref": 101,
           "bbox": [
-            0.0,
+            0,
             33.5989990234375,
-            960.0,
+            960,
             506.39898681640625
           ],
           "width": 1866,
@@ -151,9 +151,9 @@
           "imageIndex": 0,
           "xref": 104,
           "bbox": [
-            0.0,
+            0,
             33.5989990234375,
-            960.0,
+            960,
             506.39898681640625
           ],
           "width": 1866,
@@ -166,9 +166,9 @@
           "imageIndex": 0,
           "xref": 107,
           "bbox": [
-            0.0,
+            0,
             33.5989990234375,
-            960.0,
+            960,
             506.39898681640625
           ],
           "width": 1866,
@@ -236,9 +236,9 @@
           "imageIndex": 0,
           "xref": 47,
           "bbox": [
-            0.0,
+            0,
             64.04986572265625,
-            960.0,
+            960,
             539.9998779296875
           ],
           "width": 2000,
@@ -251,9 +251,9 @@
           "imageIndex": 0,
           "xref": 50,
           "bbox": [
-            0.0,
+            0,
             32.0269775390625,
-            960.0,
+            960,
             507.97698974609375
           ],
           "width": 2000,
@@ -266,9 +266,9 @@
           "imageIndex": 0,
           "xref": 53,
           "bbox": [
-            0.0,
+            0,
             32.0269775390625,
-            960.0,
+            960,
             507.97698974609375
           ],
           "width": 2000,
@@ -281,9 +281,9 @@
           "imageIndex": 0,
           "xref": 56,
           "bbox": [
-            0.0,
+            0,
             32.0269775390625,
-            960.0,
+            960,
             507.97698974609375
           ],
           "width": 2000,
@@ -296,9 +296,9 @@
           "imageIndex": 0,
           "xref": 59,
           "bbox": [
-            0.0,
+            0,
             32.0269775390625,
-            960.0,
+            960,
             507.97698974609375
           ],
           "width": 2000,
@@ -311,9 +311,9 @@
           "imageIndex": 0,
           "xref": 62,
           "bbox": [
-            0.0,
+            0,
             32.0269775390625,
-            960.0,
+            960,
             507.97698974609375
           ],
           "width": 2000,
@@ -450,7 +450,7 @@
           "xref": 145,
           "bbox": [
             39.44300079345703,
-            37.0,
+            37,
             385.9429931640625,
             500.5
           ],
@@ -482,7 +482,7 @@
             22.5,
             21.329986572265625,
             697.5,
-            512.0
+            512
           ],
           "width": 900,
           "height": 654,
@@ -600,7 +600,7 @@
             21.33300018310547,
             19.55999755859375,
             696.0029907226562,
-            512.0
+            512
           ],
           "width": 900,
           "height": 657,
@@ -691,7 +691,7 @@
           "xref": 50,
           "bbox": [
             -7.873999857110903e-05,
-            0.0,
+            0,
             707.1299438476562,
             500.5
           ],
@@ -705,8 +705,8 @@
           "imageIndex": 0,
           "xref": 53,
           "bbox": [
-            0.0,
-            0.0,
+            0,
+            0,
             642.780029296875,
             500.5
           ],
@@ -720,9 +720,9 @@
           "imageIndex": 0,
           "xref": 56,
           "bbox": [
-            0.0,
-            0.0,
-            678.0,
+            0,
+            0,
+            678,
             500.5
           ],
           "width": 833,
@@ -773,7 +773,7 @@
           "imageIndex": 0,
           "xref": 82,
           "bbox": [
-            0.0,
+            0,
             -0.0001220703125,
             724.219970703125,
             539.9998779296875
@@ -868,7 +868,7 @@
           "imageIndex": 0,
           "xref": 106,
           "bbox": [
-            0.0,
+            0,
             -6.103515625e-05,
             724.219970703125,
             539.9999389648438
@@ -883,7 +883,7 @@
           "imageIndex": 0,
           "xref": 111,
           "bbox": [
-            0.0,
+            0,
             -0.0001220703125,
             724.219970703125,
             539.9998779296875
@@ -1067,8 +1067,8 @@
           "imageIndex": 0,
           "xref": 69,
           "bbox": [
-            0.0,
-            0.0,
+            0,
+            0,
             724.0499877929688,
             439.7799987792969
           ],
@@ -1138,7 +1138,7 @@
           "imageIndex": 0,
           "xref": 109,
           "bbox": [
-            0.0,
+            0,
             -6.103515625e-05,
             724.219970703125,
             539.9999389648438
@@ -1153,7 +1153,7 @@
           "imageIndex": 0,
           "xref": 112,
           "bbox": [
-            0.0,
+            0,
             -0.0001220703125,
             724.219970703125,
             539.9998779296875
@@ -1168,7 +1168,7 @@
           "imageIndex": 0,
           "xref": 115,
           "bbox": [
-            0.0,
+            0,
             -0.0001220703125,
             724.219970703125,
             539.9998779296875
@@ -1444,7 +1444,7 @@
           "imageIndex": 0,
           "xref": 104,
           "bbox": [
-            0.0,
+            0,
             -0.00421142578125,
             724.219970703125,
             539.8358154296875
@@ -1489,7 +1489,7 @@
           "imageIndex": 0,
           "xref": 130,
           "bbox": [
-            0.0,
+            0,
             -6.103515625e-05,
             722.5800170898438,
             539.9999389648438
@@ -1611,10 +1611,10 @@
           "imageIndex": 0,
           "xref": 175,
           "bbox": [
-            0.0,
-            0.0,
+            0,
+            0,
             724.219970703125,
-            540.0
+            540
           ],
           "width": 1446,
           "height": 1079,
@@ -1688,7 +1688,7 @@
           "imageIndex": 0,
           "xref": 196,
           "bbox": [
-            0.0,
+            0,
             62.196990966796875,
             825.3900146484375,
             491.2669982910156
@@ -1703,7 +1703,7 @@
           "imageIndex": 0,
           "xref": 199,
           "bbox": [
-            0.0,
+            0,
             28.57000732421875,
             715.1599731445312,
             500.5
@@ -1718,7 +1718,7 @@
           "imageIndex": 0,
           "xref": 202,
           "bbox": [
-            0.0,
+            0,
             68.39999389648438,
             473.260009765625,
             438.3800048828125
@@ -1804,9 +1804,9 @@
           "imageIndex": 0,
           "xref": 240,
           "bbox": [
-            0.0,
-            0.0,
-            960.0,
+            0,
+            0,
+            960,
             474.1600036621094
           ],
           "width": 1645,
@@ -1819,7 +1819,7 @@
           "imageIndex": 0,
           "xref": 245,
           "bbox": [
-            0.0,
+            0,
             -0.00030517578125,
             724.219970703125,
             542.4296875
@@ -1834,7 +1834,7 @@
           "imageIndex": 0,
           "xref": 248,
           "bbox": [
-            0.0,
+            0,
             52.96002197265625,
             501.9700012207031,
             439.95001220703125
@@ -1864,7 +1864,7 @@
           "imageIndex": 0,
           "xref": 259,
           "bbox": [
-            0.0,
+            0,
             57.409881591796875,
             720.25,
             539.9998779296875
@@ -1918,7 +1918,7 @@
           "imageIndex": 0,
           "xref": 71,
           "bbox": [
-            0.0,
+            0,
             -1.52587890625e-05,
             327.54998779296875,
             247.79998779296875
@@ -2108,7 +2108,7 @@
           "imageIndex": 0,
           "xref": 119,
           "bbox": [
-            0.0,
+            0,
             63.3798828125,
             836.7000122070312,
             539.9998779296875
@@ -2192,7 +2192,7 @@
           "imageIndex": 0,
           "xref": 146,
           "bbox": [
-            16.0,
+            16,
             9.4520263671875,
             694.5499877929688,
             522.1820068359375
@@ -2241,9 +2241,9 @@
           "imageIndex": 0,
           "xref": 160,
           "bbox": [
-            120.0,
+            120,
             -0.0028076171875,
-            840.0,
+            840,
             542.1171875
           ],
           "width": 1360,
@@ -2256,9 +2256,9 @@
           "imageIndex": 0,
           "xref": 166,
           "bbox": [
-            120.0,
+            120,
             -0.0028076171875,
-            840.0,
+            840,
             542.1171875
           ],
           "width": 1360,
@@ -2271,9 +2271,9 @@
           "imageIndex": 0,
           "xref": 169,
           "bbox": [
-            120.0,
+            120,
             -0.0028076171875,
-            840.0,
+            840,
             542.1171875
           ],
           "width": 1360,
@@ -2286,9 +2286,9 @@
           "imageIndex": 0,
           "xref": 175,
           "bbox": [
-            120.0,
+            120,
             -0.0028076171875,
-            840.0,
+            840,
             542.1171875
           ],
           "width": 1360,
@@ -2301,9 +2301,9 @@
           "imageIndex": 0,
           "xref": 178,
           "bbox": [
-            120.0,
+            120,
             -0.0028076171875,
-            840.0,
+            840,
             542.1171875
           ],
           "width": 1360,
@@ -2316,9 +2316,9 @@
           "imageIndex": 0,
           "xref": 184,
           "bbox": [
-            120.0,
+            120,
             -0.0028076171875,
-            840.0,
+            840,
             542.1171875
           ],
           "width": 1360,
@@ -2395,7 +2395,7 @@
             17.454999923706055,
             10.910003662109375,
             705.4550170898438,
-            520.0
+            520
           ],
           "width": 917,
           "height": 679,
@@ -2548,7 +2548,7 @@
           "imageIndex": 0,
           "xref": 68,
           "bbox": [
-            0.0,
+            0,
             52.96099853515625,
             862.5599975585938,
             518.52099609375
@@ -2578,9 +2578,9 @@
           "imageIndex": 0,
           "xref": 82,
           "bbox": [
-            0.0,
+            0,
             30.25,
-            612.0,
+            612,
             500.5
           ],
           "width": 1632,
@@ -2669,7 +2669,7 @@
             380.4999694824219,
             60.409942626953125,
             757.030029296875,
-            540.0
+            540
           ],
           "width": 1424,
           "height": 1118,
@@ -2767,7 +2767,7 @@
           "imageIndex": 0,
           "xref": 163,
           "bbox": [
-            0.0,
+            0,
             33.628021240234375,
             724.219970703125,
             516.9580078125
@@ -2893,9 +2893,9 @@
           "imageIndex": 0,
           "xref": 202,
           "bbox": [
-            0.0,
+            0,
             14.291961669921875,
-            960.0,
+            960,
             525.7119750976562
           ],
           "width": 2000,
@@ -2938,6 +2938,979 @@
         "Heart",
         "Mitral valve",
         "Aortic valve"
+      ]
+    },
+    {
+      "id": "PA0251",
+      "lesson": 8,
+      "organ": "Ovary (此片被病灶佔滿，其實沒有可供辨認為卵巢之組織)",
+      "diagnosis": "Actinomycosis",
+      "description": "1. Sulfur granules composed of clumped colonies of bacteria \nin center with eosinophilic periphery with club-like \nprojections (Splendore-Hoeppli phenomenon)\n2. Acute and chronic inflammation with abscess formation\n3. May granulomatous inflammation (suppurative \ngranulomatous inflammation)",
+      "notes": "第 2 頁目錄器官為 Ovary，答案表附註「此片被病灶佔滿，其實沒有可供辨認為卵巢之組織」，作答 Ovary 即可。",
+      "keywords": [
+        {
+          "text": "Sulfur granules",
+          "accepted": [
+            "Sulfur granules",
+            "Sulfur granule"
+          ]
+        },
+        {
+          "text": "Splendore-Hoeppli phenomenon",
+          "accepted": [
+            "Splendore-Hoeppli phenomenon",
+            "Splendore-Hoeppli",
+            "Splendore Hoeppli phenomenon",
+            "Splendore Hoeppli"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜1002 Infection (2).pdf",
+        "answerPage": 13,
+        "pageRange": [
+          3,
+          13
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0251/01.webp",
+          "page": 7,
+          "imageIndex": 0,
+          "xref": 38,
+          "bbox": [
+            68.72699737548828,
+            60.850006103515625,
+            606.3670043945312,
+            492.0
+          ],
+          "width": 520,
+          "height": 417,
+          "sourceImageSha256": "68faedeced483cdaa2d47a6e13cec92689e54ef6c34183cc9c0ddbc64e732cfb"
+        },
+        {
+          "src": "assets/images/pa0251/02.webp",
+          "page": 8,
+          "imageIndex": 0,
+          "xref": 41,
+          "bbox": [
+            15.659000396728516,
+            56.68988037109375,
+            801.8189697265625,
+            539.9998779296875
+          ],
+          "width": 1412,
+          "height": 868,
+          "sourceImageSha256": "3bbc1cf55b8edb07c1bc34a55816c1004e7ec001d0e6b2fc64edcf8ccbc536bc"
+        },
+        {
+          "src": "assets/images/pa0251/03.webp",
+          "page": 9,
+          "imageIndex": 0,
+          "xref": 44,
+          "bbox": [
+            0.0,
+            54.593994140625,
+            856.3599853515625,
+            523.0339965820312
+          ],
+          "width": 1576,
+          "height": 862,
+          "sourceImageSha256": "d5854467ac9431de27df45ae5646fef3a8aaf653bf11e34bb7f0ab2654091ad7"
+        },
+        {
+          "src": "assets/images/pa0251/04.webp",
+          "page": 10,
+          "imageIndex": 0,
+          "xref": 47,
+          "bbox": [
+            19.884000778198242,
+            -0.0001220703125,
+            715.8839721679688,
+            539.9998779296875
+          ],
+          "width": 1120,
+          "height": 869,
+          "sourceImageSha256": "a2084327421839f561385b49c4b612138ccea4c052588496660231d2f17b5f68"
+        }
+      ],
+      "acceptedOrgan": [
+        "Ovary",
+        "Ovary (此片被病灶佔滿，其實沒有可供辨認為卵巢之組織)"
+      ]
+    },
+    {
+      "id": "PA0022",
+      "lesson": 8,
+      "organ": "Spleen",
+      "diagnosis": "Mucormycosis",
+      "description": "1. Aseptate hyphae with wide-angle branching\n2. Caseating granulomatous inflammation",
+      "notes": "答案表以粗底線標記 Aseptate 及 wide-angle，Take Home Message 總結重點為 Aseptate hyphae with wide-angle branching。",
+      "keywords": [
+        {
+          "text": "Aseptate",
+          "accepted": [
+            "Aseptate",
+            "Aseptate hyphae",
+            "non-septate",
+            "nonseptate",
+            "aseptate"
+          ]
+        },
+        {
+          "text": "wide-angle branching",
+          "accepted": [
+            "wide-angle branching",
+            "wide angle branching",
+            "wide-angle",
+            "wide angle",
+            "wide-angled branching",
+            "wide angled branching",
+            "right-angle branching",
+            "right angle branching"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜1002 Infection (2).pdf",
+        "answerPage": 30,
+        "pageRange": [
+          14,
+          30
+        ],
+        "keywordBasis": "source-underlined-take-home-message"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0022/01.webp",
+          "page": 18,
+          "imageIndex": 0,
+          "xref": 98,
+          "bbox": [
+            80.5,
+            8.25,
+            663.5,
+            529.25
+          ],
+          "width": 1166,
+          "height": 1042,
+          "sourceImageSha256": "dea2985778bca32c5010ce47b392e5950665b6d57fa31f00f5694a5d21a6cd08"
+        },
+        {
+          "src": "assets/images/pa0022/02.webp",
+          "page": 20,
+          "imageIndex": 0,
+          "xref": 104,
+          "bbox": [
+            0.0,
+            24.75,
+            707.5599975585938,
+            500.5
+          ],
+          "width": 1868,
+          "height": 1256,
+          "sourceImageSha256": "7e1008f78fd41b49c37e52a93bc7eed11c6a8d27879ac819ed9b0aea69d4efe6"
+        },
+        {
+          "src": "assets/images/pa0022/03.webp",
+          "page": 22,
+          "imageIndex": 0,
+          "xref": 110,
+          "bbox": [
+            19.884000778198242,
+            14.365997314453125,
+            687.4639892578125,
+            525.635986328125
+          ],
+          "width": 1640,
+          "height": 1256,
+          "sourceImageSha256": "baa7a38199dabb4a72ee2943b47702a6226681f98e9816140c5806ddbb5b5722"
+        },
+        {
+          "src": "assets/images/pa0022/04.webp",
+          "page": 23,
+          "imageIndex": 0,
+          "xref": 113,
+          "bbox": [
+            15.29699993133545,
+            78.86001586914062,
+            785.9970092773438,
+            461.1400146484375
+          ],
+          "width": 2000,
+          "height": 992,
+          "sourceImageSha256": "5fe65e61b2588afeeda0dc8075ee749385ac63f68257cd8736bdc35c99c0ff40"
+        },
+        {
+          "src": "assets/images/pa0022/05.webp",
+          "page": 25,
+          "imageIndex": 0,
+          "xref": 118,
+          "bbox": [
+            19.884000778198242,
+            15.69598388671875,
+            724.2239990234375,
+            491.95599365234375
+          ],
+          "width": 1822,
+          "height": 1232,
+          "sourceImageSha256": "6fcd69ad562b523469357acd3589a9e34546b5b5cac0ea3da17b8d1af3d54da4"
+        },
+        {
+          "src": "assets/images/pa0022/06.webp",
+          "page": 29,
+          "imageIndex": 0,
+          "xref": 130,
+          "bbox": [
+            19.884000778198242,
+            52.962005615234375,
+            432.3840026855469,
+            510.4620056152344
+          ],
+          "width": 719,
+          "height": 798,
+          "sourceImageSha256": "2328072eeac2c22d2d6893cfbc97e3012553b09f6028aed1bc5d373af168d2fd"
+        }
+      ]
+    },
+    {
+      "id": "PA0015",
+      "lesson": 8,
+      "organ": "Lung",
+      "diagnosis": "Aspergillosis",
+      "description": "1. Fungal hyphae with septa and acute-angle branching\n2. Chronic inflammation\n3. Fibrosis\n4. Anthracosis",
+      "notes": "答案表第一項具黃色螢光填色與粗底線覆蓋。",
+      "keywords": [
+        {
+          "text": "Fungal hyphae with septa and acute-angle branching",
+          "accepted": [
+            "Fungal hyphae with septa and acute-angle branching",
+            "Fungal hyphae with septa and acute angle branching",
+            "septa and acute-angle branching",
+            "septa and acute angle branching",
+            "septate hyphae with acute-angle branching",
+            "septate hyphae with acute angle branching",
+            "acute-angle branching",
+            "acute angle branching"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜1002 Infection (2).pdf",
+        "answerPage": 43,
+        "pageRange": [
+          31,
+          43
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0015/01.webp",
+          "page": 35,
+          "imageIndex": 0,
+          "xref": 149,
+          "bbox": [
+            138.99000549316406,
+            21.480010986328125,
+            701.219970703125,
+            529.25
+          ],
+          "width": 478,
+          "height": 432,
+          "sourceImageSha256": "57e16a87d73f3ba8e18aa48e742f3d42f3e87cc6df7c2156242991e4bd06dd4e"
+        },
+        {
+          "src": "assets/images/pa0015/02.webp",
+          "page": 36,
+          "imageIndex": 0,
+          "xref": 152,
+          "bbox": [
+            18.18199920654297,
+            11.739990234375,
+            727.302001953125,
+            529.25
+          ],
+          "width": 911,
+          "height": 665,
+          "sourceImageSha256": "86365894680626d5488260cb9c3814cde212fcff927743799105ece77119f1f7"
+        },
+        {
+          "src": "assets/images/pa0015/03.webp",
+          "page": 37,
+          "imageIndex": 0,
+          "xref": 155,
+          "bbox": [
+            10.909000396728516,
+            12.3599853515625,
+            723.0289916992188,
+            529.25
+          ],
+          "width": 923,
+          "height": 670,
+          "sourceImageSha256": "d3a7db1446549136b55899a18d76effddd5ac9750d30c2826f83272aef2c94e3"
+        },
+        {
+          "src": "assets/images/pa0015/04.webp",
+          "page": 38,
+          "imageIndex": 0,
+          "xref": 158,
+          "bbox": [
+            15.27299976348877,
+            4.6510009765625,
+            724.2230224609375,
+            529.8309936523438
+          ],
+          "width": 914,
+          "height": 677,
+          "sourceImageSha256": "c87795a5dbc95945f26b63046cf9543d323c46e121e49bae5b8c91218918a1ad"
+        },
+        {
+          "src": "assets/images/pa0015/05.webp",
+          "page": 39,
+          "imageIndex": 0,
+          "xref": 161,
+          "bbox": [
+            17.454999923706055,
+            15.27001953125,
+            728.135009765625,
+            529.25
+          ],
+          "width": 915,
+          "height": 662,
+          "sourceImageSha256": "d67aaca7c01c7e902ac9e6e8cf56fbf1c5bab3c8c6074262ef2d8a90806c7e1a"
+        },
+        {
+          "src": "assets/images/pa0015/06.webp",
+          "page": 40,
+          "imageIndex": 0,
+          "xref": 164,
+          "bbox": [
+            16.0,
+            13.08599853515625,
+            706.9099731445312,
+            507.635986328125
+          ],
+          "width": 922,
+          "height": 659,
+          "sourceImageSha256": "a5bb27e14647051b80537038220930842f7ecc188cd9885a810f6428a102ce0f"
+        }
+      ]
+    },
+    {
+      "id": "PA0201",
+      "lesson": 8,
+      "organ": "Esophagus",
+      "diagnosis": "Candidiasis",
+      "description": "1. Fungal yeasts and pseudohyphae\n2. Hyperkeratosis, parakeratosis\n3. Chronic inflammation\n4. Bacterial clumps",
+      "notes": "答案表無黃色螢光標記，必答關鍵字依 Take Home Message 粗底線重點（Yeasts & pseudohyphae）及玻片教學特徵選定。",
+      "keywords": [
+        {
+          "text": "Fungal yeasts and pseudohyphae",
+          "accepted": [
+            "Fungal yeasts and pseudohyphae",
+            "yeasts and pseudohyphae",
+            "yeast and pseudohyphae",
+            "yeasts & pseudohyphae",
+            "pseudohyphae and yeasts",
+            "pseudohyphae",
+            "pseudohypha"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜1002 Infection (2).pdf",
+        "answerPage": 56,
+        "pageRange": [
+          45,
+          56
+        ],
+        "keywordBasis": "take-home-message-underlined"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0201/01.webp",
+          "page": 50,
+          "imageIndex": 0,
+          "xref": 202,
+          "bbox": [
+            29.25,
+            57.375,
+            690.75,
+            482.625
+          ],
+          "width": 882,
+          "height": 567,
+          "sourceImageSha256": "a488c0d1f3eec2e98c77a37ce09c5f7e19a18fae457bdd44c5385b8c84f36aa6"
+        },
+        {
+          "src": "assets/images/pa0201/02.webp",
+          "page": 51,
+          "imageIndex": 0,
+          "xref": 205,
+          "bbox": [
+            9.649399757385254,
+            17.81298828125,
+            711.0894165039062,
+            501.77301025390625
+          ],
+          "width": 935,
+          "height": 646,
+          "sourceImageSha256": "9be67723e9fe4c62f9d135a2d5375f614697921a5d70af4dba0b796086a044e6"
+        },
+        {
+          "src": "assets/images/pa0201/03.webp",
+          "page": 52,
+          "imageIndex": 0,
+          "xref": 208,
+          "bbox": [
+            18.909000396728516,
+            11.635986328125,
+            705.458984375,
+            507.635986328125
+          ],
+          "width": 915,
+          "height": 662,
+          "sourceImageSha256": "e5f3ba4621ccd67603b4707bddc80415a80655fa1d533ca01f76171ff82a02b8"
+        },
+        {
+          "src": "assets/images/pa0201/04.webp",
+          "page": 53,
+          "imageIndex": 0,
+          "xref": 211,
+          "bbox": [
+            16.726999282836914,
+            10.183013916015625,
+            704.7269897460938,
+            519.2730102539062
+          ],
+          "width": 918,
+          "height": 678,
+          "sourceImageSha256": "6030b4bd291fd72fc8cde4110dd40b6b14fe495fd7348b83a70b4fcdf5da1a32"
+        },
+        {
+          "src": "assets/images/pa0201/05.webp",
+          "page": 54,
+          "imageIndex": 0,
+          "xref": 214,
+          "bbox": [
+            0.0,
+            0.0001220703125,
+            720.0,
+            540.0001220703125
+          ],
+          "width": 1310,
+          "height": 983,
+          "sourceImageSha256": "463a7576fa5ced82c15ccffd41e122c754983f8b2cf357295d77bf18f52136c7"
+        },
+        {
+          "src": "assets/images/pa0201/06.webp",
+          "page": 55,
+          "imageIndex": 0,
+          "xref": 218,
+          "bbox": [
+            16.0,
+            10.90899658203125,
+            701.8200073242188,
+            506.90899658203125
+          ],
+          "width": 915,
+          "height": 661,
+          "sourceImageSha256": "526ce5c993bf197eac4e3d01eeffa6785cf0b3a752c8fbc8a67211e9835976d9"
+        }
+      ]
+    },
+    {
+      "id": "PA0316",
+      "lesson": 9,
+      "organ": "Lung",
+      "diagnosis": "Cryptococcosis",
+      "description": "1. Numerus round to oval, refractile, thick-walled fungal yeasts\n2. Focal necrosis\n3. Granulomatous inflammation (vaguely-formed granuloma / \nmacrophage infiltration with scattered multinucleated giant \ncells)\n4. Infiltration of lymphocytes and plasma cells \n5. Intraalveolar fibrin deposition\n6. Fibrosis",
+      "notes": "本題答案表無黃色螢光標記，經使用者授權由 AI 依 Take Home Message 與核心特徵選定必答關鍵字。答案表原文第一項拼寫為「Numerus」，已保留原文並相容「Numerous」。",
+      "keywords": [
+        {
+          "text": "thick-walled fungal yeasts",
+          "accepted": [
+            "thick-walled fungal yeasts",
+            "fungal yeasts",
+            "refractile, thick-walled fungal yeasts",
+            "thick-walled fungal yeast",
+            "fungal yeast"
+          ]
+        },
+        {
+          "text": "Granulomatous inflammation",
+          "accepted": [
+            "Granulomatous inflammation",
+            "granulomatous"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜1005 Microteaching_20261005_Infection (3).pdf",
+        "answerPage": 16,
+        "pageRange": [
+          3,
+          16
+        ],
+        "keywordBasis": "ai-selected-user-authorized"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0316/01.webp",
+          "page": 7,
+          "imageIndex": 0,
+          "xref": 45,
+          "bbox": [
+            32.15999984741211,
+            49.44000244140625,
+            927.8399658203125,
+            490.55999755859375
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "62f23584429d91f90113af4d995f96571c5a5896ae7792a1496322f2cda829cf"
+        },
+        {
+          "src": "assets/images/pa0316/02.webp",
+          "page": 8,
+          "imageIndex": 0,
+          "xref": 48,
+          "bbox": [
+            32.15999984741211,
+            73.7550048828125,
+            927.8399658203125,
+            514.875
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "121fbbdaa18d14290180d68ba10ffd1aecacd88e736eb3440f9e0628dd4d209e"
+        },
+        {
+          "src": "assets/images/pa0316/03.webp",
+          "page": 9,
+          "imageIndex": 0,
+          "xref": 51,
+          "bbox": [
+            32.15999984741211,
+            49.44000244140625,
+            927.8399658203125,
+            490.55999755859375
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "497d6ae3d0280be2eda42cf512fc80aad35d62401a44ec4504f17a00d526e810"
+        },
+        {
+          "src": "assets/images/pa0316/04.webp",
+          "page": 11,
+          "imageIndex": 0,
+          "xref": 57,
+          "bbox": [
+            32.15999984741211,
+            49.44000244140625,
+            927.8399658203125,
+            490.55999755859375
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "740dfc2d8eca6fd24701bacb51e66488f7158e7e8eae3c350b3c871579a7cc8f"
+        },
+        {
+          "src": "assets/images/pa0316/05.webp",
+          "page": 12,
+          "imageIndex": 0,
+          "xref": 60,
+          "bbox": [
+            32.15999984741211,
+            49.44000244140625,
+            927.8399658203125,
+            490.55999755859375
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "93b299083ed1a77466cdeb7bbc4952628a064f6f827ea4edaa223747deeaf409"
+        },
+        {
+          "src": "assets/images/pa0316/06.webp",
+          "page": 15,
+          "imageIndex": 0,
+          "xref": 68,
+          "bbox": [
+            32.15999984741211,
+            49.44000244140625,
+            927.8399658203125,
+            490.55999755859375
+          ],
+          "width": 1866,
+          "height": 919,
+          "sourceImageSha256": "ecdd1622ede19bc48525b5ba2c965036421a87777519a9c0bcb4889679891d37"
+        }
+      ]
+    },
+    {
+      "id": "PA0302",
+      "lesson": 9,
+      "organ": "Lung",
+      "diagnosis": "Pneumocystis jirovecii pneumonia",
+      "description": "1. Foamy, granular, eosinophilic exudate in the alveolar \nspaces\n2. Interstitial thickening and inflammation\n3. Other finding: focal ossification",
+      "notes": "",
+      "keywords": [
+        {
+          "text": "Foamy, granular, eosinophilic exudate",
+          "accepted": [
+            "Foamy, granular, eosinophilic exudate",
+            "foamy, eosinophilic exudate",
+            "foamy eosinophilic exudate",
+            "eosinophilic foamy exudate",
+            "foamy exudate"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜1005 Microteaching_20261005_Infection (3).pdf",
+        "answerPage": 28,
+        "pageRange": [
+          17,
+          29
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0302/01.webp",
+          "page": 22,
+          "imageIndex": 0,
+          "xref": 94,
+          "bbox": [
+            0,
+            29,
+            960,
+            511
+          ],
+          "width": 1866,
+          "height": 937,
+          "sourceImageSha256": "5f6a2a433a36c6b34d22fdafa96981c8227e048cc4635b2d5e1eb992f496afee"
+        },
+        {
+          "src": "assets/images/pa0302/02.webp",
+          "page": 23,
+          "imageIndex": 0,
+          "xref": 97,
+          "bbox": [
+            0,
+            29,
+            960,
+            511
+          ],
+          "width": 1866,
+          "height": 937,
+          "sourceImageSha256": "91e0ab9d4edf6f5f198ada4e3f941f86b2aab181564749662a923a4707e26470"
+        },
+        {
+          "src": "assets/images/pa0302/03.webp",
+          "page": 24,
+          "imageIndex": 0,
+          "xref": 100,
+          "bbox": [
+            0,
+            29,
+            960,
+            511
+          ],
+          "width": 1866,
+          "height": 937,
+          "sourceImageSha256": "58d777c268ecadda659b3dc6fb47b42f54b7f09cf39f90c06aab4c69058f0d50"
+        },
+        {
+          "src": "assets/images/pa0302/04.webp",
+          "page": 25,
+          "imageIndex": 0,
+          "xref": 103,
+          "bbox": [
+            0,
+            29,
+            960,
+            511
+          ],
+          "width": 1866,
+          "height": 937,
+          "sourceImageSha256": "0bafb562c2a8d1790291ccb0d8e51c97f9cf0e3f5a2c07ff24e6151145f6bafb"
+        },
+        {
+          "src": "assets/images/pa0302/05.webp",
+          "page": 26,
+          "imageIndex": 0,
+          "xref": 106,
+          "bbox": [
+            0,
+            29,
+            960,
+            511
+          ],
+          "width": 1866,
+          "height": 937,
+          "sourceImageSha256": "4e82989c1e750f160e67dd5713d1ee79f5ffe283817522184daeea5754f38997"
+        },
+        {
+          "src": "assets/images/pa0302/06.webp",
+          "page": 27,
+          "imageIndex": 0,
+          "xref": 109,
+          "bbox": [
+            0,
+            29,
+            960,
+            511
+          ],
+          "width": 1866,
+          "height": 937,
+          "sourceImageSha256": "99027c1a7264472bd1d06c34395fbbd65819b72394a7be110b29e1d98319ff93"
+        }
+      ],
+      "acceptedDiagnosis": [
+        "Pneumocystis jirovecii pneumonia",
+        "Pneumocystis jirovecii pneumonia (PJP)",
+        "PJP",
+        "Pneumocystis pneumonia"
+      ]
+    },
+    {
+      "id": "PA0206",
+      "lesson": 9,
+      "organ": "Appendix",
+      "diagnosis": "Amebiasis",
+      "description": "1. Round microorganisms\nFoamy cytoplasm\nRound, eccentric nucleus\nIngested red blood cells\n2. Ulcer with inflamed granulation tissue and acute suppurative \ninflammation (transmural neutrophil infiltration)",
+      "notes": "答案表註記：←2025年解剖病理專科片試。",
+      "keywords": [
+        {
+          "text": "Ingested red blood cells",
+          "accepted": [
+            "Ingested red blood cells",
+            "Ingested RBCs",
+            "Ingested red blood cell"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜1005 Microteaching_20261005_Infection (3).pdf",
+        "answerPage": 40,
+        "pageRange": [
+          30,
+          40
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0206/01.webp",
+          "page": 35,
+          "imageIndex": 0,
+          "xref": 132,
+          "bbox": [
+            155.8699951171875,
+            88.00201416015625,
+            724.5,
+            511.2720031738281
+          ],
+          "width": 978,
+          "height": 728,
+          "sourceImageSha256": "56a75214e6c615fc944ba89742baf5ac17d5bfa56c80c95c1d9f196e8d5a461b"
+        },
+        {
+          "src": "assets/images/pa0206/02.webp",
+          "page": 36,
+          "imageIndex": 0,
+          "xref": 135,
+          "bbox": [
+            8.312591552734375,
+            0,
+            373.9325866699219,
+            540
+          ],
+          "width": 1858,
+          "height": 1258,
+          "sourceImageSha256": "2a0ad7fce5d222b14faea6e3f592f1914bdcb3538117549ac865c5bde36e4290"
+        },
+        {
+          "src": "assets/images/pa0206/03.webp",
+          "page": 36,
+          "imageIndex": 1,
+          "xref": 136,
+          "bbox": [
+            382.7099914550781,
+            74.55099487304688,
+            960,
+            465.45098876953125
+          ],
+          "width": 1846,
+          "height": 1250,
+          "sourceImageSha256": "2c5833f7d191dfea0b032116a9547d0ac9a0632e53da608f5ca5440765832b3c"
+        },
+        {
+          "src": "assets/images/pa0206/04.webp",
+          "page": 37,
+          "imageIndex": 0,
+          "xref": 139,
+          "bbox": [
+            0,
+            25.60198974609375,
+            612,
+            514.4019775390625
+          ],
+          "width": 1540,
+          "height": 1230,
+          "sourceImageSha256": "299eb636d248d3ee1f768c5c30bf911b5b17abc12bdc2ff4c182f7766ad597ee"
+        },
+        {
+          "src": "assets/images/pa0206/05.webp",
+          "page": 39,
+          "imageIndex": 0,
+          "xref": 190,
+          "bbox": [
+            0,
+            0.00018310546875,
+            720,
+            540.0001831054688
+          ],
+          "width": 1124,
+          "height": 843,
+          "sourceImageSha256": "f4bcf31562eb9c2f41f21bcae1f194fe5a0bc9b8f85c3ac053be6b9df17e82c8"
+        }
+      ]
+    },
+    {
+      "id": "PA0354",
+      "lesson": 9,
+      "organ": "Oral cavity (mouth floor)",
+      "diagnosis": "Herpes virus infection",
+      "description": "1. Cytopathic effects compatible with herpes infection\nMultinucleation\nMargination of chromatin\nMolding of nuclei\n2. Ulcer with neutrophil infiltration and necrotic debris",
+      "notes": "投影片註明「更新 PA0354 (145)」。原教材答案表塗黃加底線「herpes infection」，經使用者指示擴充 3M 病毒病效應（Multinucleation、Margination of chromatin、Molding of nuclei）為必答關鍵字。作答 Oral cavity、mouth floor、HSV infection 均可。",
+      "keywords": [
+        {
+          "text": "herpes infection",
+          "accepted": [
+            "herpes infection"
+          ]
+        },
+        {
+          "text": "Multinucleation",
+          "accepted": [
+            "Multinucleation",
+            "multinucleated"
+          ]
+        },
+        {
+          "text": "Margination of chromatin",
+          "accepted": [
+            "Margination of chromatin",
+            "Chromatin margination"
+          ]
+        },
+        {
+          "text": "Molding of nuclei",
+          "accepted": [
+            "Molding of nuclei",
+            "nuclear molding",
+            "molding"
+          ]
+        }
+      ],
+      "source": {
+        "file": "病理學 Micro｜1005 Microteaching_20261005_Infection (3).pdf",
+        "answerPage": 55,
+        "pageRange": [
+          41,
+          55
+        ],
+        "keywordBasis": "source-yellow-highlight-and-user-expanded"
+      },
+      "images": [
+        {
+          "src": "assets/images/pa0354/01.webp",
+          "page": 46,
+          "imageIndex": 0,
+          "xref": 222,
+          "bbox": [
+            120,
+            -0.0001220703125,
+            840,
+            539.9998779296875
+          ],
+          "width": 1920,
+          "height": 1440,
+          "sourceImageSha256": "8b10816575659a75db0efd00599bad3cb543eeb17049f88c3d07ed8a8a68484b"
+        },
+        {
+          "src": "assets/images/pa0354/02.webp",
+          "page": 48,
+          "imageIndex": 0,
+          "xref": 228,
+          "bbox": [
+            120,
+            -0.0001220703125,
+            840,
+            539.9998779296875
+          ],
+          "width": 1920,
+          "height": 1440,
+          "sourceImageSha256": "452886e57a2389c40ac08772adb092bf2a71bf58ecd7ad7cac0862c7828a240e"
+        },
+        {
+          "src": "assets/images/pa0354/03.webp",
+          "page": 51,
+          "imageIndex": 0,
+          "xref": 237,
+          "bbox": [
+            239.1300048828125,
+            -0.0001220703125,
+            959.1300048828125,
+            539.9998779296875
+          ],
+          "width": 1920,
+          "height": 1440,
+          "sourceImageSha256": "23e05d0a0976e74a23eb2aaa65d7401244344c666634d8610717f553141da3f4"
+        },
+        {
+          "src": "assets/images/pa0354/04.webp",
+          "page": 52,
+          "imageIndex": 0,
+          "xref": 241,
+          "bbox": [
+            239.1300048828125,
+            -0.0001220703125,
+            959.1300048828125,
+            539.9998779296875
+          ],
+          "width": 1920,
+          "height": 1440,
+          "sourceImageSha256": "322dba0c9ac0c915a94d88b236e2e7cdddfa29172968b54c5094d5cf3c170e70"
+        },
+        {
+          "src": "assets/images/pa0354/05.webp",
+          "page": 54,
+          "imageIndex": 0,
+          "xref": 246,
+          "bbox": [
+            240,
+            -0.0001220703125,
+            960,
+            539.9998779296875
+          ],
+          "width": 1920,
+          "height": 1440,
+          "sourceImageSha256": "091756d98a701dbe84afdf46e9530daa779489fb5026216ae8c0fe076c12303f"
+        }
+      ],
+      "acceptedDiagnosis": [
+        "Herpes virus infection",
+        "Herpes simplex virus infection",
+        "HSV infection",
+        "Herpes infection"
+      ],
+      "acceptedOrgan": [
+        "Oral cavity (mouth floor)",
+        "Oral cavity",
+        "mouth floor",
+        "Oral cavity, mouth floor"
       ]
     }
   ]

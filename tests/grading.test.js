@@ -96,6 +96,69 @@ test('multiple accepted answers for diagnosis or organ are supported when explic
   assert.ok(pa0255, 'PA0255 should exist in cases');
   assert.equal(grade(pa0255,{description:'Papillomatosis, Koilocytosis, Acanthosis, Hyperkeratosis, Parakeratosis'}).description,true);
   assert.equal(grade(pa0255,{description:'Papillomatosis, Koilocytosis'}).description,false);
+
+  const pa0251=cases.find(c=>c.id==='PA0251');
+  assert.ok(pa0251, 'PA0251 should exist in cases');
+  assert.equal(grade(pa0251,{organ:'Ovary'}).organ,true);
+  assert.equal(grade(pa0251,{organ:'Ovary (此片被病灶佔滿，其實沒有可供辨認為卵巢之組織)'}).organ,true);
+  assert.equal(grade(pa0251,{diagnosis:'Actinomycosis'}).diagnosis,true);
+  assert.equal(grade(pa0251,{description:'Sulfur granules, Splendore-Hoeppli phenomenon'}).description,true);
+  assert.equal(grade(pa0251,{description:'Sulfur granules'}).description,false);
+
+  const pa0022=cases.find(c=>c.id==='PA0022');
+  assert.ok(pa0022, 'PA0022 should exist in cases');
+  assert.equal(grade(pa0022,{organ:'Spleen'}).organ,true);
+  assert.equal(grade(pa0022,{diagnosis:'Mucormycosis'}).diagnosis,true);
+  assert.equal(grade(pa0022,{description:'Aseptate hyphae with wide-angle branching'}).description,true);
+  assert.equal(grade(pa0022,{description:'Aseptate hyphae'}).description,false);
+  assert.equal(grade(pa0022,{description:'wide angle branching'}).description,false);
+
+  const pa0015=cases.find(c=>c.id==='PA0015');
+  assert.ok(pa0015, 'PA0015 should exist in cases');
+  assert.equal(grade(pa0015,{organ:'Lung'}).organ,true);
+  assert.equal(grade(pa0015,{diagnosis:'Aspergillosis'}).diagnosis,true);
+  assert.equal(grade(pa0015,{description:'Fungal hyphae with septa and acute-angle branching'}).description,true);
+  assert.equal(grade(pa0015,{description:'septate hyphae with acute-angle branching'}).description,true);
+  assert.equal(grade(pa0015,{description:'Fungal hyphae'}).description,false);
+
+  const pa0201=cases.find(c=>c.id==='PA0201');
+  assert.ok(pa0201, 'PA0201 should exist in cases');
+  assert.equal(grade(pa0201,{organ:'Esophagus'}).organ,true);
+  assert.equal(grade(pa0201,{diagnosis:'Candidiasis'}).diagnosis,true);
+  assert.equal(grade(pa0201,{description:'Fungal yeasts and pseudohyphae'}).description,true);
+  assert.equal(grade(pa0201,{description:'pseudohyphae'}).description,true);
+  assert.equal(grade(pa0201,{description:'Chronic inflammation'}).description,false);
+
+  const pa0316=cases.find(c=>c.id==='PA0316');
+  assert.ok(pa0316, 'PA0316 should exist in cases');
+  assert.equal(grade(pa0316,{description:'thick-walled fungal yeasts, Granulomatous inflammation'}).description,true);
+  assert.equal(grade(pa0316,{description:'fungal yeasts, granulomatous'}).description,true);
+  assert.equal(grade(pa0316,{description:'thick-walled fungal yeasts'}).description,false);
+
+  const pa0302=cases.find(c=>c.id==='PA0302');
+  assert.ok(pa0302, 'PA0302 should exist in cases');
+  assert.equal(grade(pa0302,{diagnosis:'Pneumocystis jirovecii pneumonia'}).diagnosis,true);
+  assert.equal(grade(pa0302,{diagnosis:'PJP'}).diagnosis,true);
+  assert.equal(grade(pa0302,{diagnosis:'Pneumocystis pneumonia'}).diagnosis,true);
+  assert.equal(grade(pa0302,{description:'Foamy, granular, eosinophilic exudate'}).description,true);
+  assert.equal(grade(pa0302,{description:'eosinophilic foamy exudate'}).description,true);
+
+  const pa0206=cases.find(c=>c.id==='PA0206');
+  assert.ok(pa0206, 'PA0206 should exist in cases');
+  assert.equal(grade(pa0206,{description:'Ingested red blood cells'}).description,true);
+  assert.equal(grade(pa0206,{description:'Ingested RBCs'}).description,true);
+  assert.equal(grade(pa0206,{description:'Foamy cytoplasm'}).description,false);
+
+  const pa0354=cases.find(c=>c.id==='PA0354');
+  assert.ok(pa0354, 'PA0354 should exist in cases');
+  assert.equal(grade(pa0354,{organ:'Oral cavity (mouth floor)'}).organ,true);
+  assert.equal(grade(pa0354,{organ:'Oral cavity'}).organ,true);
+  assert.equal(grade(pa0354,{organ:'mouth floor'}).organ,true);
+  assert.equal(grade(pa0354,{diagnosis:'Herpes virus infection'}).diagnosis,true);
+  assert.equal(grade(pa0354,{diagnosis:'HSV infection'}).diagnosis,true);
+  assert.equal(grade(pa0354,{description:'herpes infection, Multinucleation, Margination of chromatin, Molding of nuclei'}).description,true);
+  assert.equal(grade(pa0354,{description:'herpes infection, multinucleated, Chromatin margination, nuclear molding'}).description,true);
+  assert.equal(grade(pa0354,{description:'herpes infection'}).description,false);
 });
 test('empty answers never earn points',()=>{
  for(const c of cases){const r=grade(c,{organ:'!!!',diagnosis:' ',description:''});assert.equal(r.organ||r.diagnosis||r.description,false);}

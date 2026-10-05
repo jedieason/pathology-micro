@@ -1,6 +1,6 @@
 # Micro · 病理切片刷題
 
-極簡的靜態網頁，使用 Cell injury and adaptation、Inflammation、Hemodynamic derangement 與 Infection 教材建立 **27 題、133 張切片**。不需後端或前端建置工具。
+極簡的靜態網頁，使用 Cell injury and adaptation、Inflammation、Hemodynamic derangement 與 Infection 教材建立 **35 題、177 張切片**。不需後端或前端建置工具。
 
 ## 本機使用
 
@@ -133,6 +133,22 @@ python3 scripts/import_lesson6.py
 
 ```sh
 python3 scripts/import_lesson7.py
+```
+
+### 教材 8 匯入
+
+新增 4 題、22 張切片；原檔放在 `pdf/`。答案表依原教材黃色標記（PA0251、PA0015）及底線重點／Take Home Message 總結（PA0022、PA0201）建置。
+
+```sh
+python3 scripts/import_lesson8.py
+```
+
+### 教材 9 匯入
+
+新增 4 題、22 張切片；原檔放在 `pdf/`。答案表依原教材黃色標記（PA0302、PA0206、PA0354）及經使用者授權由 AI 依 Take Home Message 選定之必答關鍵字（PA0316）建置，PA0354 亦依使用者指示擴充 3M 病毒病效應為必答。
+
+```sh
+python3 scripts/import_lesson9.py
 ```
 
 ## Android 原生 App 與 Google Play 發布
