@@ -1,6 +1,6 @@
 # Micro · 病理切片刷題
 
-極簡的靜態網頁，使用 Cell injury and adaptation、Inflammation、Hemodynamic derangement 與 Infection 教材建立 **35 題、177 張切片**。不需後端或前端建置工具。
+極簡的靜態網頁，使用 Cell injury and adaptation、Inflammation、Hemodynamic derangement 與 Infection 教材、NUS Pathweb 與 PEIR Digital Library 公開切片建立 **345 題、509 張圖片／視野**。不需後端或前端建置工具。
 
 ## 本機使用
 
@@ -14,7 +14,7 @@ npm start
 
 - 左右箭頭、觸控左右滑動、下方圓點：切換同一病例照片。
 - 點切片放大；再點放大圖以原始尺寸查看，捲動檢視。Esc 關閉。影像區聚焦後可按鍵盤左右鍵。
-- 配分總計 17 分：器官（Organ）2 分、診斷（Diagnosis）5 分、描述（Description）10 分（依答對關鍵字比例給分）。答錯的欄位自動展開完整答案；答對也能展開。Description 以黃色標出必答片語。
+- 原教材配分總計 17 分：器官（Organ）2 分、診斷（Diagnosis）5 分、描述（Description）10 分（依答對關鍵字比例給分）。答錯的欄位自動展開完整答案；答對也能展開。Description 以黃色標出必答片語。
 - 切換教材、隨機排序、只看錯題。錯題練習開始時固定本輪題目，避免訂正時題目突然消失；重新切換「只看錯題」會刷新清單。
 - 答案、完成狀態保存在目前瀏覽器的 localStorage。修改答案會清除該題舊判分，需重新檢查。不支援跨裝置同步。
 
@@ -32,6 +32,8 @@ npm start
 Description 必須含有每一段黃色片語；片語間可以自由排序、補充文字，但片語本身正規化後需連續出現。不做語意判讀、否定句理解或單複數推論。肺病例的 `Center:`、`Periphery:` 也屬原稿黃色範圍，因此必答。
 
 教材第二份第 31 頁把 `microabscess` 寫成 `microabscces`。完整答案保留原文，這一個關鍵字明確接受兩種拼法，其餘不自行擴增別名。
+
+NUS Pathweb 與 PEIR Digital Library 單元依使用者選擇，只考 **Organ（2 分）與 Diagnosis（5 分）**，滿分 7 分，不顯示或計算 Description。答對兩欄即完成，不會因未填描述列入錯題。詳解附原始切片連結、來源命名與原教材病例對照。
 
 ## GitHub Pages
 
@@ -143,6 +145,20 @@ python3 scripts/import_lesson7.py
 python3 scripts/import_lesson8.py
 ```
 
+### NUS Pathweb 單元（2026-10-06）
+
+新增 11 題、33 張真實切片視野，每題保留全景、病灶分布與局部細節；包含心／腦梗塞、肺鬱血與淋巴結結核的不同器官對照。原有 35 題與黃色關鍵字完整保留。未找到對應的 diagnosis 不以相似疾病替代。
+
+原圖來自 [NUS Pathweb Slide Viewer](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/)，以檢視器實際載入的 Deep Zoom 原始 JPEG tiles 組成完整矩形視野，移除重疊邊界後存為 WebP；不補圖、不修改組織、不推定顯微鏡倍率。逐張 tile 的 URL、SHA-256、影像座標與來源診斷保存在題庫及 `data/imports/pathweb.json`。完整對照與排除紀錄見 `docs/SOURCE_AUDIT.md`，圖片總覽見 `docs/pathweb-contact-sheet.jpg`。
+
+安全追加匯入（需要 Pillow）：
+
+```sh
+python3 scripts/import_pathweb.py --tile-cache .test-results/pathweb-source-tiles
+```
+
+病例已存在時會停止，避免覆寫；可直接下載來源時會驗證每張 tile 的 SHA-256。NUS 若阻擋直接下載，需由原始檢視器匯出 JPEG tiles 至 `<cache>/<slideId>/<pyramidLevel>/<column>_<row>.jpeg`，不能將阻擋頁面當成圖片，也不能跳過缺失的 tiles。快取不提交。來源版權標示保留為「© National University of Singapore. All Rights Reserved.」，未宣稱為開放授權或本專案原創。
+
 ### 教材 9 匯入
 
 新增 4 題、22 張切片；原檔放在 `pdf/`。答案表依原教材黃色標記（PA0302、PA0206、PA0354）及經使用者授權由 AI 依 Take Home Message 選定之必答關鍵字（PA0316）建置，PA0354 亦依使用者指示擴充 3M 病毒病效應為必答。
@@ -150,6 +166,16 @@ python3 scripts/import_lesson8.py
 ```sh
 python3 scripts/import_lesson9.py
 ```
+
+### PEIR Digital Library 單元（2026-10-06）
+
+新增 **299 題、299 張原始切片圖片**，每張唯一原圖一題，來源圖說對應原教材 24 個病變類別、26 種器官。跨器官例子包括 Candidiasis、CMV、Aspergillosis、Cryptococcosis、Herpes 與 Infarction；採來源診斷名稱，病變類別延伸不當作原教材器官專屬名稱的同義詞。
+
+使用 [PEIR 公開圖庫](https://peir.path.uab.edu/library/) 的 Piwigo API 取得圖說及原始 JPEG，再等比例轉成 WebP，未放大或修補。每題 Diagnosis 詳解附可點擊的原始資料來源頁、完整圖說、作者歸屬及原教材對照，只考 Organ 與 Diagnosis（7 分）。
+
+已選圖片與來源紀錄：`data/imports/peir.json`；排除理由：`data/imports/peir-exclusions.json`；追加匯入：`scripts/import_peir.py`。本次依使用者指示，不再跑測試或網站驗證。
+
+**給後續模型的取圖捷徑：[docs/EXTRACURRICULAR_RESOURCES.md](docs/EXTRACURRICULAR_RESOURCES.md)**，包含 NUS 原始圖塊匯出與 PEIR API 直接下載方法。
 
 ## Android 原生 App 與 Google Play 發布
 

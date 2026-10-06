@@ -111,3 +111,13 @@ for index, info in enumerate(page.get_image_info(xrefs=True)):
 6. 回報新增幾題幾圖、教材頁碼、任何待確認項目。沒有實際發布成功就不要聲稱已部署。
 
 判分核心必須維持：Organ/Diagnosis 正規化後完整相等；Description 正規化後包含所有黃色片語，每組 accepted 擇一。單欄各 1 分，不能因其他欄答錯而一起判錯，也不能把「包含部分關鍵字」當 Description 正確。
+
+## 線上切片單元
+
+NUS Pathweb（lesson 10）與 PEIR Digital Library（lesson 11）依使用者授權設 `answerMode: "organ-diagnosis"`，僅計器官與診斷，滿分 7 分。`description` 為空字串、`keywords` 為空陣列是明確的「不考描述」模式，不能套用到原有教材、也不能用空關鍵字自動送分。原教材維持 17 分。
+
+線上來源使用 `source.type: "web"`、`database`、`url`、`slideId`、`sourceTitle`、`retrievedAt`、`relatedCaseIds`、`answerBasis` 與版權標示；不要杜撰 PDF `answerPage` 或圖片 `page`。照片保存 Deep Zoom `pyramidLevel`、`tileSize`、`overlap`、`bbox`（該 pyramid level 的像素座標）及每張原始 tile 的 URL、尺寸、SHA-256。`sourceImageSha256` 為 row-major 順序原始 JPEG 位元組串接的 SHA-256，`outputSha256` 則為 WebP 檔案 SHA-256。
+
+只組合完整且雜湊核對成功的來源 tiles，依相鄰位置移除 Deep Zoom 的重疊像素；缺檔時停止，不以白色、黑色、低解析圖或生成式內容補洞。不自行標註實際倍率。新病例的標準診斷保留線上來源命名；與原教材形態或器官特定命名的對照，需逐題明列 alias 與限制，不能全域自動套同義詞。
+
+PEIR 的來源為獨立原始 JPEG，沒有 Deep Zoom 欄位。保存 `imageId`、`author`、`attribution` 與完整來源圖說；圖片保存 `url`、`sourceImageId`、`sourceTitle`、原始尺寸與原圖／輸出 SHA-256。PEIR 每張唯一原圖一題（可只有一張），同一 NUS 虛擬切片的不同視野則放同一題。取圖捷徑見 [EXTRACURRICULAR_RESOURCES.md](EXTRACURRICULAR_RESOURCES.md)。2026-10-06 後續匯入依使用者明確指示，不再執行測試或網站驗證。

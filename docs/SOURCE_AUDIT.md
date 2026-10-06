@@ -244,3 +244,79 @@
 
 
 
+
+## NUS Pathweb（2026-10-06 匯入，lesson 10）
+
+來源：[NUS Pathweb Slide Viewer](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/)，Department of Pathology, National University of Singapore。公開目錄共 27 張虛擬切片，本次選取與既有教材 diagnosis 或已明列的形態／命名對照相符的 11 張，建立 **11 題、33 個視野**。不是全部 35 個原教材 diagnosis 都在本目錄找到對應。器官與診斷依目錄明示資料，不由切片顏色猜測病名。
+
+使用者明確選擇「只考 Organ 和 Diagnosis；詳解附來源與原教材對照」。因此本單元滿分 7 分（器官 2、診斷 5），不設 Description 必答、不補寫黃色關鍵字；原 35 題、177 圖與全部原教材答案及黃色標記維持不變。
+
+| 病例／原始連結 | Organ | Pathweb 診斷名稱 | 原教材對照 | 對照限制 |
+| --- | --- | --- | --- | --- |
+| [PATHWEB-M4](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=m4) | Heart | Healed myocardial infarction | PA0335 | 接受 Myocardial infarction, healed；不接受 Acute myocardial infarction |
+| [PATHWEB-M6](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=m6) | Lung | Miliary TB | PA0198 | 來源病因命名，原題為乾酪性肉芽腫形態命名；明列接受 Caseating granulomatous inflammation 作對照，並註明並非所有情境皆等價 |
+| [PATHWEB-M8](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=m8) | Stomach | Peptic ulcer | PA0202 | 接受原教材 Chronic ulcer／Chronic peptic ulcer |
+| [PATHWEB-M9](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=m9) | Appendix | Acute appendicitis | PA0270 | 目錄雖省略器官前綴，Appendicitis 明示闌尾；接受原教材 Acute suppurative appendicitis |
+| [PATHWEB-M11](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=m11) | Liver | Fatty change | PA0074 | 接受 Steatosis 與原教材括號完整寫法 |
+| [PATHWEB-M12](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=m12) | Liver | Chronic venous congestion | PA0076 | 接受 Nutmeg liver／Chronic passive congestion；未接受 Cardiac sclerosis 或 Cirrhosis |
+| [PATHWEB-M14](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=m14) | Lymph node | TB | PA0198 | 與原肺部病例對照不同器官；接受 Tuberculosis 與原教材形態名稱，並註明乾酪性肉芽腫並不一定等於結核 |
+| [PATHWEB-M17](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=m17) | Kidney | Infarct | PA0096 | 接受 Infarction／原教材斜線完整寫法 |
+| [PATHWEB-D40](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=d40) | Brain | Infarct | PA0096；PA0162 延伸對照 | 與腎梗塞作不同器官練習；接受 Cerebrum。未將 Encephalomalacia 列為同義答案，也未推定梗塞病程 |
+
+| [PATHWEB-M3](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=m3) | Heart | Acute myocardial infarction | PA0096 梗塞類別延伸 | 與腎梗塞比較不同器官；不接受 healed myocardial infarction |
+| [PATHWEB-D11](https://medicine.nus.edu.sg/pathweb/wp-content/uploads/slideViewer/osd.html?slideId=d11) | Lung | Chronic venous congestion | PA0076 鬱血類別延伸 | 與肝鬱血比較不同器官；不接受 Nutmeg liver／Congestive splenomegaly |
+
+### 圖片與追溯
+
+逐張檢視原始 viewer 及 [輸出圖片總覽](pathweb-contact-sheet.jpg)。每題 3 圖為同一張虛擬切片不同縮放／位置的視野，不宣稱為 3 張不同玻片，也不宣稱實際顯微鏡倍率。輸出由 viewer 真正載入的 JPEG tiles 按座標組合，tileSize 254、overlap 1，去除重疊像素。以完整矩形為單位，不補洞、不修補組織、不更改顏色；等比例 WebP quality 94，不放大，長邊最多 1270 px。
+
+- 第 1 圖為 pyramid level 10 的全景；第 2 圖為 level 12 的病灶分布；第 3 圖為 level 14 的局部細節。每圖座標與各 tile 雜湊保存在題庫及匯入 manifest，座標單位為對應 pyramid level 的像素。
+- M17 初次置中落在較完整的腎組織，未作最終細節圖；重新在全景定位下方淡染梗塞區，收錄病變視野。
+- M14 初次置中含較多淋巴結外軟組織，未作最終細節圖；重新定位乾酪壞死與周邊肉芽腫邊界。
+- M8 保留潰瘍表面與下方病灶；M9 保留闌尾全層低倍定位及發炎局部。來源本來的組織摺痕、裂隙與掃描邊界未修補。
+- 輸出無診斷標籤、檢視器 UI、正常對照或示意圖混入；3 個視野非同一張圖複製湊數。
+- 原始圖塊 SHA-256 逐一驗證。`sourceImageSha256` 定義為 row-major 原始 JPEG 位元組串接的 SHA-256；`outputSha256` 為可驗證交付圖的 SHA-256。
+
+### 未收錄
+
+M1–M2（冠狀動脈血栓／粥樣硬化）、M5／M7（支氣管肺炎／肺膿瘍）、M10、M13、M15–M16、M18–M25 未收錄。一般肝硬化不等於原教材 Cardiac sclerosis；急性心肌梗塞不等於原 PA0335 的 healed；肺鬱血與原 Nutmeg liver 或 Congestive splenomegaly 的器官特定名稱不能直接互換；Skin granulation tissue 也不等於 Suture granuloma。其餘腫瘤不在本次既有疾病範圍內。M3 與 D11 僅作已明列的病變類別跨器官延伸，詳解保留命名差異。
+
+上述範圍只涵蓋指定公開目錄的匹配切片；[另一完整切片入口](https://medicine.nus.edu.sg/pathweb/registered-users-access/) 需要登入。本次下載每張切片三個視野，不宣稱抓完所有 whole-slide 圖塊或 NUS 全館藏。
+
+來源顯示「© National University of Singapore. All Rights Reserved.」，保留歸屬與原始連結，未宣稱為開放授權；影像權利屬來源。
+
+可重現安全追加匯入：`scripts/import_pathweb.py`；已審閱 manifest：`data/imports/pathweb.json`。直接下載若回傳防護頁即停止，可改用 viewer 已載入的原始 JPEG 匯出快取，仍需通過相同雜湊驗證。
+
+
+## PEIR Digital Library（2026-10-06 匯入，lesson 11）
+
+來源：[PEIR Digital Library](https://peir.path.uab.edu/library/)，University of Alabama at Birmingham。透過公開 Piwigo API 搜尋 77 個疾病／病變相關標籤，合併 1,091 個不重複 photo ID，依來源圖說保留 **299 張組織切片，建立 299 題**；其餘 792 張的原圖說與排除理由存 `data/imports/peir-exclusions.json`。這是本次查詢的收錄範圍，不宣稱涵蓋全館藏或全部 35 個原教材 diagnosis。
+
+對應原教材 24 個病例病變類別，器官共 26 種。每張獨立來源圖一題；同器官及不同器官都保留，不把不同照片當成同一病例。原始 JPEG 位元組完全重複檢查於匯入時執行，本次沒有完全相同原圖；不同染色、倍率與相鄰視野仍可存在。
+
+| 跨器官例子 | PEIR 圖說明示的器官 |
+| --- | --- |
+| Candidiasis | Brain、Colon、Esophagus、Heart、Kidney、Liver、Lung、Skeletal muscle、Spleen、Stomach |
+| Cytomegalovirus infection | Kidney、Liver、Lung、Stomach、Submaxillary gland |
+| Aspergillosis | Brain、Lung、Small intestine |
+| Cryptococcosis | Lung、Lymph node、Skin |
+| Herpes virus infection | Adrenal gland、Brain、Cornea、Esophagus、Liver、Lung、Lymph node、Skin、Tongue |
+| Infarction | Kidney、Lung、Pituitary、Testis；心肌梗塞另保留來源病程名稱 |
+| Tuberculosis | Bone marrow、Brain、Heart、Liver、Lung、Lymph node、Peritoneum、Spleen |
+| Pneumocystis infection | Prostate、Spleen；肺部另稱 Pneumocystis pneumonia |
+| Hemosiderosis／Malaria pigment | 分別提供 Kidney／Brain，與原教材 Liver 對照 |
+| Actinomycosis／Mucormycosis | 分別提供 Brain／Lung，與原教材 Ovary／Spleen 對照 |
+
+### 選圖、命名與追溯
+
+- 標準答案依原始圖說的病變與器官，原文完整保留在 `source.sourceTitle`。高倍圖可能無法單憑照片辨識器官，詳解註明器官採來源圖說；不從臨床病史自行推定取材器官。
+- 排除大體、放射、培養、KOH／Tzanck／血液塗片、來源質疑器官的圖、疑似病原、只有背景病史的診斷及非本次病變類別。來源原有特殊染色保留原貌。
+- Acute myocardial infarction 不接受 healed；Cholestasis 未自行補成 Obstructive cholestasis；Tuberculosis 不全域套用 Caseating granulomatous inflammation；肺外 Pneumocystis infection 不接受 pneumonia。原教材特定答案與黃色關鍵字不變。
+- 原來源歷史名稱 Pneumocystis carinii 保留為來源可接受寫法，人體現代名稱 P. jirovecii 另明列；命名背景見 [CDC DPDx](https://www.cdc.gov/dpdx/pneumocystis/)。不改寫原始圖說。
+- 每題 source 保留 photo ID、原始頁面 URL、完整圖說、作者、歸屬、擷取日期及原教材病例 ID。每圖保留原始 JPEG URL、原始尺寸、SHA-256 及 WebP SHA-256；不杜撰 PDF 頁碼。使用 `element_url` 原始檔，不使用 `derivatives` 縮圖。
+- WebP quality 94、最長邊最多 2000 px，小圖不放大；沒有裁切、去除來源標記、顏色改動、病理組織修補或生成式替代。來源作者與影像權利仍屬原資料庫，未宣稱開放授權。
+- 本單元只考 Organ（2 分）與 Diagnosis（5 分），不設 Description。每題 Diagnosis 詳解附可點擊的原始頁面連結、來源圖說與原教材對照。
+
+本次查詢未收錄與原教材 PA0313、PA0081、PA0220、PA0017、PA0144、PA0208、PA0044、PA0008、PA0059、PA0215、PA0255 相符的圖片；不代表其他館藏或其他查詢一定沒有這些疾病。
+
+下載及安全追加腳本：`scripts/import_peir.py`；逐圖 manifest：`data/imports/peir.json`。取圖捷徑見 [EXTRACURRICULAR_RESOURCES.md](EXTRACURRICULAR_RESOURCES.md)。依使用者明確指示，後續追加與 PEIR 單元不再執行測試、圖片總覽視覺驗證或網站驗證；前段 NUS 初始匯入的檢視紀錄不代表 PEIR 已逐張看圖。

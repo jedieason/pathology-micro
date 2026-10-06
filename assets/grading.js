@@ -16,6 +16,12 @@ export function formatScore(score) {
   const rounded = Math.round((Number(score) || 0) * 10) / 10;
   return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
 }
+export function gradedFields(caseData) {
+  return caseData.answerMode === 'organ-diagnosis' ? ['organ', 'diagnosis'] : ['organ', 'diagnosis', 'description'];
+}
+export function maximumScore(caseData) {
+  return caseData.answerMode === 'organ-diagnosis' ? 7 : 17;
+}
 
 export function grade(caseData, answers) {
   const missing = caseData.keywords.filter(keyword => !keyword.accepted.some(term => normalize(answers.description).includes(normalize(term))));
@@ -27,12 +33,13 @@ export function grade(caseData, answers) {
 
   const organCorrect = !!normOrgan && acceptedOrgans.some(term => normOrgan === normalize(term));
   const diagCorrect = !!normDiag && acceptedDiagnoses.some(term => normDiag === normalize(term));
-  const descFull = !!normDesc && caseData.keywords.length > 0 && missing.length === 0;
+  const descriptionEnabled = gradedFields(caseData).includes('description');
+  const descFull = descriptionEnabled && !!normDesc && caseData.keywords.length > 0 && missing.length === 0;
 
   const organScore = organCorrect ? 2 : 0;
   const diagScore = diagCorrect ? 5 : 0;
   let descScore = 0;
-  if (normDesc && caseData.keywords.length > 0) {
+  if (descriptionEnabled && normDesc && caseData.keywords.length > 0) {
     if (missing.length === 0) {
       descScore = 10;
     } else {

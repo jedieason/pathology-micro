@@ -1,0 +1,3965 @@
+{
+  "retrievedAt": "2026-10-06",
+  "excluded": [
+    {
+      "imageId": 12,
+      "caption": "GROSS: GASTROINTESTINAL: Colon, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 13,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Liver, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 14,
+      "caption": "GROSS: GASTROINTESTINAL: Colon, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 15,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 16,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 17,
+      "caption": "GROSS: GASTROINTESTINAL: Colon, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 31,
+      "caption": "GROSS: URINARY: Kidney, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 37,
+      "caption": "GROSS: RESPIRATORY: Lung, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 38,
+      "caption": "GROSS: RESPIRATORY: Lung, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 43,
+      "caption": "GROSS: GASTROINTESTINAL: Colon, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 47,
+      "caption": "GROSS: NERVOUS: Brain, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 48,
+      "caption": "GROSS: NERVOUS: Brain, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 49,
+      "caption": "GROSS: NERVOUS: Brain, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 149,
+      "caption": "GROSS: RESPIRATORY: Lung, cryptococcosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 169,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus, ulcerations, herpes simplex",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 170,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus, ulcerations, herpes simplex",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 171,
+      "caption": "PATIENT: BODY: Ulcerations, herpes simplex",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 179,
+      "caption": "IMMUNOHISTOCHEMISTRY: NERVOUS: Brain, herpes encephalitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 180,
+      "caption": "IMMUNOHISTOCHEMISTRY: NERVOUS: Brain, herpes encephalitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 182,
+      "caption": "IMMUNOHISTOCHEMISTRY: NERVOUS: Brain, herpes encephalitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 401,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Excellent infarct with embolus at pointer",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 402,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross cut section of lung with hemorrhagic infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 403,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross close-up of hemorrhagic infarct same as slide 6",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 406,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross pleural surface close-up infarct with fibrinous pleuritis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 407,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross hemorrhagic infarct with excellent fibrinous pleuritis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 967,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross ventricular slice old anterior infarct and mural thrombus in ventricle an excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 968,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross ventricular slices old anterior infarct with mural thrombus in ventricle an excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 972,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Candida: Gross Candida esophagitis from case of leukemia an excellent close-up with pseudomembrane",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 974,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Candida: Gross distal esophagus and whole stomach severe membranous esophagitis due to Candida from case of leukemia same as 622",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 975,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross excellent close-up of chronic duodenal ulcer that appears to show vessels in base",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1077,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross median lobe hyperplasia with marked cystitis and bladder hypertrophy ureter appear normal focal hemorrhages in kidneys and hemorrhagic pyelitis indicates pyelonephritis carcinoma in prostate is diagnosis but cannot",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1087,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1093,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion: Gross split picture with liver on one side and a polished nutmeg on the other very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1103,
+      "caption": "HISTOLOGY: HEPATOBILIARY: LIVER: BILIARY: Cholestasis: Micro H&E high mag good example of drug induced cholestasis",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 1105,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross horizontal section ruptured anterolateral infarct a good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1111,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross perforated aortic valve cusp",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1123,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross excellent fixed tissue open artery clearly seen in base",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1127,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross excellent ulcer with perforated artery clearly seen in base same as 788 but not fixed",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1143,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross excellent prepyloric ulcer",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1149,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross acute infarct with rupture septum very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1153,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross very good example acute infarct with ruptured interventricular septum close-up view",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1154,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross acute infarct with rupture interventricular septum very good same as 822",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1170,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross septal and anterior scar mural thrombus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1172,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross transverse section left ventricle looking toward apex with nice aneurysm",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1173,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross anterior wall infarct old with aneurysm looking from apex toward base",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1174,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross external view of collapsed anterior wall aneurysm same as transverse sections 8",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1176,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross old anterior scar with mural thrombus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1180,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross old infarct not well shown at all some aneurysm formation in anterior wall with nice mural thrombus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1181,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross healing infarct weeks of age with excellent necrotic muscle and fibrous organization close-up view",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1195,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross mitral valve with some thickening probably rheumatic has nice small vegetation this is assumed to be endocarditis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1201,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross excellent old rheumatic mitral valvulitis and vegetation same as 864",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1212,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross very good example of acute infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1213,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross excellent acute infarct same as 882",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1225,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross close-up of good healed ulcer",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1246,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross excellent example of infarct that is several weeks or perhaps months of age micro is 916",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1247,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross excellent example of infarct that is several weeks or perhaps months of age micro is 916",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1248,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross excellent example of infarct that is several weeks or perhaps months of age micro is 916",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1366,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1369,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross good infarcts but not the best picture composition",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1384,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross good example healed infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1385,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Fatty Change: Gross good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1386,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross vegetation on mitral valve leaflet good example history no known",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1387,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross good example with artery in base",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1400,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Acute Bacterial Endocarditis: Gross good example in natural color of vegetations on aortic and mitral valves",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1486,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross surgical specimen good necrotizing granuloma with satellite tuberculosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1540,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross good example of nodule protruding into bladder",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1543,
+      "caption": "GROSS: Urinary: Kidney: Acute Tubular Necrosis: Gross good example bilateral cortical necrosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1544,
+      "caption": "GROSS: Urinary: Kidney: Acute Tubular Necrosis: Gross good example cortical necrosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1545,
+      "caption": "GROSS: Urinary: Kidney: Acute Tubular Necrosis: Gross good example bilateral cortical necrosis and uterus with hemorrhage secondary to abortion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1546,
+      "caption": "GROSS: Urinary: Kidney: Acute Tubular Necrosis: Gross good example swollen cortex and dark pyramids",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1547,
+      "caption": "GROSS: Urinary: Kidney: Acute Tubular Necrosis: Gross good example swollen cortex secondary to body burn",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1636,
+      "caption": "GROSS: RESPIRATORY: Lung: Aspergillosis: Gross large cavities with blood clot material, every good example lesion larger than usual",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1637,
+      "caption": "GROSS: RESPIRATORY: Lung: Aspergillosis: Gross close-up of previous very large aspergilloma with portion of clot in lesion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1638,
+      "caption": "GROSS: RESPIRATORY: Lung: Aspergillosis: Gross close-up excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1640,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross good example of extensive tuberculosis with cavitation and fibrosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1641,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross close-up very good example advanced tuberculosis with lung fibrosis and cystic change",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1644,
+      "caption": "GROSS: RESPIRATORY: Lung: Anthracosis: Gross coal black lungs external view",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1646,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross cut surface of lung with excellent hemorrhagic infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1652,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross excellent infarct cut surface",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1686,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross excellent example kidney demonstrates ischemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1700,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross external view of localized pericarditis over an acute infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1703,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross horizontal section healing infarct good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1704,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross old infarct scar in left ventricle typical old inferior infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1706,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross old anterior and inferior infarct scars good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1707,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color good view of chronic peptic ulcer",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1708,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Melanosis: Gross entire mucosa is blue black good but extreme example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1718,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Infarct: Gross good example multiple infarcts associated with portal vein thrombosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1737,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross lesion on non-coronary cusp aortic valve",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1769,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross right aortic cusp vegetation with rupture valve is thickened but underlying disease is unclear probable rheumatic",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1781,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Fatty Change: Gross fixed heart good example except for color tigered myocardium due to anemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1813,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross horizontal sections large anterior acute infarct hemorrhagic appearance due to reflow old posterior subendocardial infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1814,
+      "caption": "GROSS: Male Reproductive: Penis: Ulcer: Gross glans ulcer probable herpes",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1815,
+      "caption": "GROSS: Male Reproductive: Penis: Ulcer: Gross glans ulcers probable herpes",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1827,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Melanosis: Gross excellent focal melanin pigmentation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1828,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Melanosis: Gross excellent close-up focal melanin pigmentation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1829,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross very good example large lesion near middle of lesser curvature",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1830,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross very good close-up view",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1842,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross very good example healed or healing",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1846,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross ulcer bed is filled with blood clot close-up view good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1847,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross excellent view of whole stomach with peptic ulcer filled with blood in lesser curvature",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1854,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross very good example acute transmural",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1855,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross good example external view ruptured infarct near apex",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1856,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross excellent acute transmural lesion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1859,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross external view of pleura with fibrinous exudate very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1860,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross cut surface excellent hemorrhagic infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1866,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross good example photo includes portion of stomach and liver",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1874,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross very good huge area cystic encephalomalacia involving insular cortex and adjacent temporal parietal and frontal lobe",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1881,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross good example old cystic encephalomalacia in right basal ganglia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1900,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross excellent example classic hypertensive hemorrhage in right basal ganglia, natural color ",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1906,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross very good pleural view hemorrhagic",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1908,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross very good close-up typical",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1917,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross nice example small hemorrhagic infarct cut surface",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1932,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross typical hypertensive hemorrhage in left basal ganglia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1936,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross excellent example one or two day lesion natural color",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1937,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross excellent mitral scarring due to rheumatic fever healing infectious lesion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1951,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross aortic valve prosthesis ring infection extending into left atrium",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1956,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross close-up view of mitral vegetations very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1970,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross healed or nearly healed infarct excellent spleen enlarged due to myeloproliferative disorder",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1982,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross excellent acute lesion on aortic valve with small cusp perforation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1985,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross excellent close-up view mitral vegetations",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1988,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross vegetations on mitral valve and left atrial endocardium actinomycosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1989,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross excellent vegetation on aortic valve",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 1993,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross excellent vegetations on mitral valve evidence of rheumatic scarring",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2015,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross good example of small lesion several days old",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2019,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross very good healing infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2021,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross large bland infarct several days of age",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2022,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross excellent old infarct left internal capsule",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2025,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross excellent example acute lesion perforated valve",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2089,
+      "caption": "HISTOLOGY: RESPIRATORY: Lung: Necrotizing Bronchiolitis: Micro low mag H&E terminal respiratory bronchiole with epithelial necrosis probable herpes very good",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 2090,
+      "caption": "HISTOLOGY: RESPIRATORY: Lung: Necrotizing Bronchiolitis: Micro high mag H&E cellular infiltrate with probable herpes virus inclusions",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 2102,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Candida: Gross close-up terminal esophagus multiple necrotic appearing ulcers outstanding example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2121,
+      "caption": "GROSS: RESPIRATORY: Lung: Anthracosis: Gross external black lung",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2122,
+      "caption": "GROSS: RESPIRATORY: Lung: Anthracosis: Gross external black lung",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2138,
+      "caption": "GROSS: HEAD: Face: Herpes Zoster: Gross extensive lesions",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2149,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross extensive aortic valve lesions tigering in heart muscle excellent photo",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2155,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross excellent very large gland hypertrophied bladder",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2156,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross excellent with extension into lateral ventricle",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2174,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross anterior internal capsule lesion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2175,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross median bar bladder hypertrophy good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2205,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Melanosis: Gross close-up melanin pigmentation VA",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2215,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Candida: Gross natural color classic excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2216,
+      "caption": "GROSS: Urinary: Kidney: Infarct Scar: Gross external view multiple scars very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2223,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color large ulcer penetrating into head of pancreas excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2231,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color healing lesion good but not best",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2234,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross coronal section cystic encephalomalacia in caudate and putamen nuclei with moderate hydrocephalus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2238,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color scarred mitral valve with large vegetation VA",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2239,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Candida: Gross natural color massive involvement excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2240,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Candida: Gross natural color many lesions excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2241,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Candida: Gross natural color close-up excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2242,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Candida: Gross natural color massive lesion in esophagus and stomach excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2244,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color external view healed ulcer excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2246,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color large penetrating ulcer excellent VA",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2255,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross excellent cavitary lesion and satellite tubercles",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2261,
+      "caption": "GROSS: ENDOCRINE: Adrenal: Hyperplasia: Gross fixed tissue close-up very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2285,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color penetrating ulcer with duodenitis excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2297,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross infant kidney very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2305,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue large temporoparietal lesion coagulation necrosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2332,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Candida: Gross close-up excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2383,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross well illustrated small cortical infarct natural color close-up",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2384,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross large prepyloric penetrating ulcer and hemorrhagic gastritis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2397,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross excellent close-up penetrating prepyloric ulcer",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2430,
+      "caption": "GROSS: RESPIRATORY: Trachea: Adenoid Cystic Carcinoma: Gross fixed tissue excellent example of tumor up close and necrotizing pneumonia in superior segment of right lower lobe a herpes pneumonia with necrotizing tracheitis 33 year old female A19-88",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2431,
+      "caption": "GROSS: ORAL: Larynx: Herpes Simplex: Gross severe necrotizing lesion in mucosa good example also a micro in file 33 year old female with adenoid cystic carcinoma of trachea A19-88",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2432,
+      "caption": "GROSS: RESPIRATORY: Trachea: Adenoid Cystic Carcinoma: Gross fixed tissue close-up and excellent view of tumor that has infiltrated locally and spread proximal and distal herpes necrotizing tracheitis 33 year old female A19-88",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2433,
+      "caption": "GROSS: RESPIRATORY: Trachea: Adenoid Cystic Carcinoma: Gross cross sections of bronchi showing infiltrating tumor and necrotizing herpes bronchitis excellent 33 year old female A19-88",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2437,
+      "caption": "HISTOLOGY: RESPIRATORY: Trachea: Adenoid Cystic Carcinoma: Micro high mag excellent tumor with herpes simplex inclusions in several nuclei 33 year old female A19-88",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 2438,
+      "caption": "HISTOLOGY: ORAL: Larynx: Herpes Simplex: Micro high mag H&E typical herpes inclusions excellent complication in 33 year old female with adenoid cystic carcinoma of trachea gross also in this file",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 2439,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Subacute small PCA and MCA probably embolic",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2440,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Subacute small PCA and MCA probably embolic",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2441,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Subacute small PCA nd MCA probably embolic",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2453,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Large healed MCA 47 yom had a melanoma diagnosed 7 months before death etiology of brain infarct is unclear patient had seizures attributed to the infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2454,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Large healed MCA 47 yom had a melanoma diagnosed 7 months before death etiology of brain infarct is unclear patient had seizures attributed to the infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2465,
+      "caption": "GROSS: NERVOUS: Brain: Infarcts: Recent small embolic infected territory of (L) MCA 51 yom heart transplant 3 mos before death extensive pulmonary infection",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2466,
+      "caption": "GROSS: NERVOUS: Brain: Infarcts: Recent small embolic infected territory of (L) MCA 51 yom heart transplant 3 mos before death extensive pulmonary infection",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2467,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healed white matter cerebral hemisphere 82 yom with senile dementia Alzheimer type and history of Parkinsonian disorder",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2468,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healed white matter cerebral hemisphere 82 yom with senile dementia Alzheimer type and history of Parkinsonian disorder",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2469,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healed white matter cerebral hemisphere 82 yom with senile dementia Alzheimer type and history of Parkinsonian disorder",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2480,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healing large MCA and PICA probably embolic 64 yof chronic obstructive pulmonary disease and cardiomyopathy with atrial fibrillation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2481,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healing large MCA and PICA probably embolic 64 yof chronic obstructive pulmonary disease and cardiomyopathy with atrial fibrillation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2482,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healing large MCA and PICA probably embolic 64 yof chronic obstructive pulmonary disease and cardiomyopathy with atrial fibrillation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2483,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healing large MCA and PICA probably embolic 64 yof chronic obstructive pulmonary disease and cardiomyopathy with atrial fibrillation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2484,
+      "caption": "GROSS: NERVOUS: Brain: Infarcts: Arterial multiple recent embolic 78 yof without adequate clinical history (ME)",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2485,
+      "caption": "GROSS: NERVOUS: Brain: Infarcts: Arterial multiple recent embolic 78 yof without adequate clinical history (ME)",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2486,
+      "caption": "GROSS: NERVOUS: Brain: Infarcts: Arterial multiple recent embolic 78 yof without adequate clinical history (ME)",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2492,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Arterial large healing cerebellum cerebral hemisphere embolic 38 yom polycystic kidney cholangiocarcinoma nonbacterial vegetations in mitral/ aortic valves",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2493,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Arterial large healing cerebellum cerebral hemisphere embolic 38 yom polycystic kidney cholangiocarcinoma nonbacterial vegetations in mitral/ aortic valves",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2506,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healing large MCA (lacune?) 64 yo coronary atheroma myocardial infarction cardiomegaly history of Parkinson disease since 3 years before death",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2507,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healing large MCA (lacune?) 64 yo coronary atheroma myocardial infarction cardiomegaly history of Parkinson disease since 3 years before death",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2508,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healing large MCA",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2509,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healing large MCA",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2510,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Healing large MCA",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2576,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross mitral valve lesion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2577,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross mitral valve perforated",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 2624,
+      "caption": "HISTOLOGY: CARDIOVASCULAR: HEART: Falciparal Malaria In Myocardial Capillaries",
+      "reason": "主要診斷不符合原教材，或僅背景病史提及"
+    },
+    {
+      "imageId": 2909,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross external view natural color excellent infarct with yellow center and hyperemic margin",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3007,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Fatty Change: Gross close up typical yellow orange natural color case of young alcoholic with lobar pneumonia pneumococcus and Klebsiella",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3008,
+      "caption": "HISTOLOGY: HEPATOBILIARY: LIVER: BILIARY: Fatty Change And Early Cirrhosis: Micro med mag H&E fatty change and early cirrhosis young alcoholic with lobar pneumonia pneumococcus and Klebsiella",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 3009,
+      "caption": "HISTOLOGY: HEPATOBILIARY: LIVER: BILIARY: Fatty Change And Early Cirrhosis: Micro med mag H&E fatty change and early cirrhosis well shown young alcoholic with lobar pneumonia pneumococcus and Klebsiella",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 3015,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Myocardial Infarct Scar: Gross natural color very large old anterior infarct with wall thinning mild aneurysm and endocardial thickening typical lesion well shown",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3018,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross small old cortical infarct well shown",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3021,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed brain well illustrated scar adjacent to lateral ventricle",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3033,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross acute extensive miliary lesions natural color quite good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3034,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross natural color subpleural mass of confluent tubercles with surrounding or satellite granuloma typical lesion well shown",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3054,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color large anterior scar small aneurysm thin mural thrombus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3074,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Melanosis: Gross fixed tissue very well shown",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3075,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Melanosis: Gross natural color close-up excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3076,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Melanosis: Gross natural color excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3106,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross scarring in cortex of one cerebral hemisphere",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3108,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross cystic encephalomalacia internal capsule close-up well shown",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3111,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross perforated ulcer classical lesion natural color excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3133,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross natural color diffusely infiltrating lesion looks like carcinoma except no peribronchial extension this is tuberculous pneumonia very typical",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3134,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue extensive consolidation easily mistaken for carcinoma this is tuberculous pneumonia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3135,
+      "caption": "GROSS: Male Reproductive: Epididymis: Tuberculosis: Gross natural color fibrocaseous mass of tissue",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3136,
+      "caption": "GROSS: Male Reproductive: Epididymis: Tuberculosis: Gross natural color excellent view of cut surface and unopened surface",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3174,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue numerous granulomas and areas with confluent lesions quite good for granulomatous processes in lung",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3191,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion: Gross close-up natural color passive congestion very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3195,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion: Gross close-up excellent nutmeg appearance",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3198,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross close-up natural color excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3217,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross natural color close-up median lobe hyperplasia so-called median bar lesion very good hemorrhagic cystitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3226,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue nicely shown area of old cystic encephalomalacia in a frontal lobe slide  is a recent hemorrhage in this same case",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3296,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross close-up natural color typical lesion immediately distal to pyloric valve",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3358,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross good color large hemorrhagic infarct lateral to basal ganglia with rupture into ventricle",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3403,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross typical small infarct with necrotic central portion infected marantic endocarditis on aortic and mitral valves",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3405,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color close-up excellent yellow infarct marantic endocarditis on aortic and mitral valves",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3466,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color close-up excellent infarcts case of carcinoma of tail of pancreas with DIC and thrombotic nonbacterial endocarditis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3595,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion: Gross natural color fatty change and nutmeg appearance",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3655,
+      "caption": "GROSS: RESPIRATORY: Lung: Miliary Tuberculosis: Gross natural color large caseous lesion medial aspect left upper lobe with miliary lesions well shown in remaining lung hilar node enlargement also well show an excellent illustration of this disease",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3656,
+      "caption": "GROSS: RESPIRATORY: Lung: Miliary Tuberculosis: Gross natural color close-up of large caseous lesion medial aspect of left upper lobe and miliary lesions in surrounding lung hilar node involvement well shown an excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3657,
+      "caption": "GROSS: RESPIRATORY: Lung: Miliary Tuberculosis: Gross natural color right lung with many lesions very good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3658,
+      "caption": "GROSS: RESPIRATORY: Lung: Miliary Tuberculosis: Gross natural color close-up excellent example right upper lobe lesions",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3659,
+      "caption": "GROSS: Male Reproductive: Prostate: Tuberculosis: Gross natural color large caseous lesions easily seen excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3662,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Myocardial Infarct Scar: Gross natural color horizontal section near apex left ventricle circumferential scarring with endocardial thickening",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3663,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Myocardial Infarct Scar: Gross natural color horizontal section ventricles large anterior and septal scar transmural with some bulging of septum into right ventricle very good example of healed transmural infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3664,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue view from vertex of hemispheres no lesion seen",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3665,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue view of whole brain from base cannot see gross lesions",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3666,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue coronal section hemispheres frontal large areas of necrosis parasagittal due to tuberculous vasculitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3667,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue close-up of large areas of necrosis in frontal parasagittal cortex secondary to tuberculous vasculitis excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3668,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue necrosis in parasagittal cortex in parietal area due to tuberculous vasculitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3669,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue coronal section cerebral hemispheres shows parasagittal cortical necrosis secondary to tuberculous vasculitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3670,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue coronal section cerebral hemispheres close-up of basal ganglia area showing cortical necrosis in parasagittal cortex secondary to tuberculous vasculitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3671,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue cortical necrosis in coronal sections secondary to tuberculous meningitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3672,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue coronal sections cerebral hemispheres close-up left temporal lobe cortical necrosis secondary to tuberculous vasculitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3688,
+      "caption": "GROSS: RESPIRATORY: Lung: Candida: Gross fixed tissue but good color typical bulls-eye gross lesions of candida abscesses with vascular thrombi very typical case of myeloproliferative syndrome with pancytopenia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3689,
+      "caption": "GROSS: RESPIRATORY: Lung: Candida: Gross fixed tissue but good color close-up view typical candida bulls-eye lesion with vascular thrombosis case of myeloproliferative syndrome with pancytopenia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3690,
+      "caption": "GROSS: RESPIRATORY: Lung: Candida: Gross fixed tissue but good color typical bulls-eye lesions of candida case of myeloproliferative syndrome with pancytopenia vascular thrombosis readily evident",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3691,
+      "caption": "GROSS: ORAL: Larynx: Candida: Gross natural color large hemorrhagic lesion about left cord due to tube and candida possibly the portal of entry case of myeloproliferative syndrome with pancytopenia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3696,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross natural color excellent view small hemorrhagic infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3697,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross natural color excellent large posterior infarct with yellow central area and peripheral hyperemia involves large segment posterior wall right ventricle also",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3712,
+      "caption": "GROSS: RESPIRATORY: Lung: Candida: Gross natural color large area of hyperemic consolidation with vascular thrombus typical candida pneumonia case of leukemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3713,
+      "caption": "GROSS: RESPIRATORY: Lung: Candida: Gross natural color same as slide  but not as close-up typical candida pneumonia with large area of hyperemic consolidation and vascular thrombosis case of leukemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3714,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross natural color healing posterior lesion probably weeks of age and large anterior lesion partly healed and probably with recent extension good example of severe coronary heart disease",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3720,
+      "caption": "GROSS: NERVOUS: Cerebellum: Infarct: Gross fixed tissue large old cystic lesion in middle of cerebellar hemisphere",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3721,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color old infarct excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3779,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color close-up sharply punched out ulcer and two small ulcers good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3861,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color two large vegetations on mitral valve good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3862,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color close-up view of lesions on mitral valve very good example slide  is same lesions showing entire mitral valve",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3888,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculosis: Gross fixed tissue close-up of body of caudate nucleus with discrete granuloma typical example excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3930,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross natural color coronal section excellent depiction of basal ganglia hemorrhage with rupture into lateral ventricle",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3931,
+      "caption": "GROSS: NERVOUS: Brain: Ischemic Infarct: Gross fixed tissue coronal section with ischemic infarct in temporal lobe good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3934,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross natural color large medial lobar so-called median bar does not show bladder well",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3941,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross natural color enlarged nodular prostate with medial lobe enlargement bladder hypertrophy focal mucosal hemorrhages in bladder mild hydronephrosis very good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3943,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross natural color excellent example cut surface with nodular hyperplasia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3956,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross natural color massively enlarge nodular prostate with median lobe protrusion into floor of bladder, bladder hypertrophy, and normal appearing ureters and kidneys excellent example of BPH",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3959,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color two old and well healed infarcts thickened capsule good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3968,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross natural color coronal section of cerebral hemisphere occipital area with well shown area of old cystic encephalomalacia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3975,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color close-up of aortic valve with large vegetation on anterior leaflet of mitral valve and perforated valve excellent example of classical acute bacterial endocarditis Pneumococcus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3976,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color mitral valve absolutely outstanding photo of large vegetation and leaflet perforation mitral valve Pneumococcus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3978,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color outstanding photo close-up of large mitral vegetation and perforated valve leaflet Pneumococcus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3987,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color sectioned block from kidney seen close-up an outstandingly good example slides  and  are the heart from this case showing a vegetation on the mitral valve with mitral stenosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 3988,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color lesion seen from capsular surface with capsule stripped an excellent example slide  is a close-up view of the cut surface of this infarct and slides  and  are the heart from this case showing a large vegetation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4010,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross fixed tissue good photo of coronal section of cerebral hemispheres with typical hypertensive hemorrhage in basal ganglia extending into lateral ventricle",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4014,
+      "caption": "GROSS: ABDOMEN: Peritoneum: Tuberculosis: Gross natural color close-up of liver with typical gray caseous looking material that can be seen with tuberculous peritonitis this is cold abscess material very typical",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4015,
+      "caption": "GROSS: ABDOMEN: Peritoneum: Tuberculosis: Gross natural color slices of liver and spleen typical tuberculous exudate is present on capsule of liver and spleen contains granulomata slide  is a close-up view of the typical cold abscess exudate on the liver surface",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4020,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color excellent example of old spleen infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4021,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color close-up of huge vegetation on posterior leaflet of mitral valve extending into atrium said to be Strep etiology presumably viridans",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4056,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color excellent photo showing yellow infarct with band of reactive hyperemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4076,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross fixed tissue typical hypertensive hemorrhage into basal ganglion and rupture into ventricle there is an old cortical infarct in the opposite temporal lobe",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4077,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross fixed tissue view of whole brain from base showing blood coming from foramina of Magendie and Luschka into subarachnoid space coronal section of primary hemorrhage is in slide",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4089,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross fixed tissue typical prepyloric peptic ulcer with clean ulcer bed and obvious open artery very good example despite off color of fixed tissue",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4120,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross natural color opened urinary bladder with median lobe protruding into floor of bladder",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4139,
+      "caption": "GROSS: ENDOCRINE: Adrenal: Hyperplasia: Gross fixed tissue cut surface of two hyperplastic adrenals and normal adrenal for comparison good teaching slide case of functional pituitary tumor",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4143,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross fixed tissue close-up of textbook ulcer with sharp margins radiating rugae and clean base with open artery outstanding example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4150,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross fixed tissue coronal section showing typical hypertensive hemorrhage in basal ganglia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4151,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross fixed tissue coronal section showing typical hypertensive hemorrhage in basal ganglia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4152,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross fixed tissue three coronal sections showing typical hypertensive hemorrhage in basal ganglia slides  and  show individual sections from this case",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4247,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color close-up excellent infarcts with yellow center and congested glomeruli",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4284,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color typical acute ulcer and a healed ulcer",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4291,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Necrotizing Enterocolitis: Gross natural color thickened constricted colon with linear ulcerations and mucosal hyperemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4292,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Necrotizing Enterocolitis: Gross natural color inflamed colon with linear ulcerations",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4293,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarcts: Gross natural color external view of spleen with multiple recent infarcts cut surface is slide",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4294,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarcts: Gross natural color cut surface of spleen with multiple recent infarcts very good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4298,
+      "caption": "GROSS: NERVOUS: Brain: Cryptococcal Meningitis: Gross fixed tissue close-up view cloudy meninges",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4352,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculosis: Gross fixed tissue close-up view of tubercles in basal ganglia outstanding example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4353,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculosis: Gross fixed tissue close-up view of tubercle in head of caudate excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4354,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculosis: Gross fixed tissue close-up view of tubercle in pons excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4355,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculosis: Gross fixed tissue close-up view of tubercle in cerebral cortex excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4356,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculosis: Gross fixed tissue coronal section cerebrum obvious lesion in globus pallidus case of miliary tuberculosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4357,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculosis: Gross fixed tissue close-up view of tubercles in basal ganglion excellent example case of miliary tuberculosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4369,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue infarction of basal ganglia due to left middle cerebral artery thrombosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4390,
+      "caption": "GROSS: RESPIRATORY: Lung: Miliary Tuberculosis: Gross natural color surface of lung with numerous lesions excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4391,
+      "caption": "GROSS: RESPIRATORY: Lung: Miliary Tuberculosis: Gross natural color section of lung with numerous lesions excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4400,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color discrete red lesion on ventricular side of mitral valve said to be bacterial endocarditis but looks more like Libman Sacks lesion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4401,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color lesions on mitral valve are discrete red vegetations said to be bacterial endocarditis but look more like Libman Sacks lesions",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4402,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross natural color close-up view of large median lobe extending into floor of bladder",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4403,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia: Gross natural color opened bladder with very large prostate gland and high median lobe extending into floor of bladder inflamed bladder mucosa and very hypertrophied bladder",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4476,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue close-up view of early infarct in basal ganglia and internal capsule very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4513,
+      "caption": "GROSS: ABDOMEN: Peritoneum: Tuberculosis: Gross natural color rather close-up excellent depiction of lesions of tuberculous peritonitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4522,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross fixed tissue opened aortic outflow tract with aortic intimal thickening aortic cusp thickening and ruptured vegetation on right coronary cusp with thickened anterior leaflet mitral valve thought to be jet lesion from aortic cusp?? Cause of cusp",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4533,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color close-up view absolutely excellent view of sharply punched out ulcer with open artery in base",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4574,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross fixed tissue close-up excellent example of sharply punched-out ulcer with open artery in clean base only drawback of this otherwise excellent photo is off color because of fixation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4575,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color excellent illustration of old transmural septal infarct with mummified core and surrounding fibrosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4586,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Miliary Tuberculosis: Gross natural color excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4589,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Aortic valve: Bacterial Endocarditis: Gross essentially natural color obvious vegetation but appear more like pure fibrin scarred valve with rheumatic disease is not really seen",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4590,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Candida: Gross natural color close up of distal esophagus mucosa excellent example candida esophagitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4597,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue horizontal section of ventricle with well sown and typical healed infarct in posterior and lateral wall left ventricle",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4598,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue close-up view of typical old infarct with mummified central mass of myocardium and surrounding scar very typical",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4599,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue close-up view of typical old infarct with thin ventricular wall central mummified myocardium and peripheral scar very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4600,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue but good color still typical old infarct in posterior and lateral wall left ventricle with wall thinning central mummified myocardium and peripheral scar very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4629,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross fixed tissue coronal section cerebral hemisphere and horizontal section pons and cerebellum with large hemorrhage in basal ganglion extending into midbrain",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4655,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross fixed tissue but hemorrhage appears natural color typical hypertensive hemorrhage in basal ganglia on one side",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4656,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross fixed tissue but hemorrhage has natural color coronal section with large and very typical hypertensive hemorrhage in basal ganglia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4755,
+      "caption": "GROSS: ORAL: Lip: Herpes Labialis: Gross natural color good but grotesque",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4758,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross nearly natural color very well illustrated infarcts several days of age",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4759,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross rather natural color well shown infarct in one kidney and simple cyst in the opposite",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4793,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue rather well shown patchy fibrosis in posterior septum",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4794,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color scar in posterior septum extending into right ventricle cannot be sure from this photo whether or not recent extension is present",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4809,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue coronal section cerebral hemispheres with infarct in one basal ganglion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4832,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue view of base of brain with bilateral old infarcts over inferior surface temporal lobes associated with blindness",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4833,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue close-up view of old infarcts over inferior surface of both temporal lobes associated with blindness",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4852,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion And Polished Nutmeg: Gross liver partially fixed split screen with liver on left that is to be honest not a typical passive congestion but it does look very much like the nutmeg on the right half of the screen",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4855,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Fatty Change And Early Cirrhosis: Gross natural color rather close-up showing typical fatty color and in lighting at lower right of micrography micronodularity is evident quite good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4856,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color very good example and very good photo old anterior septal infarct and a lateral and posterior wall infarct both transmural",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4866,
+      "caption": "GROSS: NERVOUS: Brain: Abscess: Gross fixed tissue coronal section cerebral hemispheres brown colored abscess actinomycosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4985,
+      "caption": "GROSS: ABDOMEN: Peritoneum: Tuberculous Peritonitis: Gross natural color very close-up view of typical gross lesions",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4990,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color close-up view of aortic valve with two vegetations history in this case is confusing but apparently infection was present for some time nice photo of vegetations",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4991,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color good photo of vegetation on scarred mitral valve history in case is confusing but apparently infection had been present for some time and was treated",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 4992,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color close-up and excellent view of vegetation on scarred mitral valve confusing history but apparently infection had been present for some time and was treated",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5003,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Melanosis: Gross natural color close-up view excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5027,
+      "caption": "GROSS: RESPIRATORY: Lung: Anthracosis: Gross natural color external posterior view of both lungs with severe anthracosis and bullae best for the anthracosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5060,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Fatty Change: Gross natural color typical faint nodularity suggests early micronodular cirrhosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5068,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color good close-up view of myocardial scar typical for old infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5077,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color close-up very good ischemic infarct probably three or four days of age",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5078,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color ischemic infarct probably three or four days of age",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5081,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color close-up of typical peptic ulcer with clean base",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5085,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross fixed tissue typical sharply punched out ulcer with hemorrhagic base good despite fixation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5096,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color large lesions on noncoronary and left coronary cusps normal valves otherwise",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5097,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color vegetations on anterior leaflet mitral valve case also has large vegetations on aortic valve?",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5116,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color external view of typical ishemic infarct with zone of hyperemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5123,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion: Gross natural color typical nutmeg liver",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5140,
+      "caption": "GROSS: Urinary: Kidney: Acute Tubular Necrosis: Gross natural color infant kidney with typical ischemia gross appearance",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5151,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Fatty Change: Gross natural color close-up view of typical fatty liver associated with shock",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5178,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color reasonably good photo of cortical infarct seen both on cut surface and externally",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5196,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue horizontal section of hemispheres large infarct involving thalamus and occipital cortex due to basilar artery thrombosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5223,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue view of base of brain with thickened leptomeninges well shown over midbrain but pituitary area is a mess",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5254,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color nice small infarct with yellow center and hyperemic border",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5291,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue cortical infarct in Brocas area associated with motor aphasia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5300,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color vegetations on tricuspid valve probably related to line organism Serratia case of sepsis due to pneumococcus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5351,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color external view of kidney with capsule stripped showing massive infarct probably two to three days old",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5459,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color large ulcer bed in duodenum just distal to pyloric valve multiple stress type ulcers in stomach hyperemic gastric mucosa",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5487,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Tuberculous Pericarditis: Gross natural color shaggy hemorrhagic exudate this is much more hemorrhagic than the typical tuberculous pericarditis autopsy number on slide is wrong",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5516,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color dilated first portion aortic arch history of syphilis vegetation on left coronary cusp that has eroded into central fibrous body like a Valsalva aneurysm",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5517,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color close-up of valve in slide  showing better the vegetation on left coronary cusp",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5518,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross fixed tissue close-up of cut into base of left coronary cusp to show vegetation depicted in slides  and  lesion at base of cusp has extend-ed into the central fibrous body like a Valsalva aneurysm",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5533,
+      "caption": "GROSS: ABDOMEN: Omentum: Fat Necrosis: Gross natural color opened abdomen with obvious large area of fat necrosis case of perforated ulcer with peritonitis which cannot be seen in this photo why all the fat necrosis is not clear",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5544,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color large infarct several days of age in one pole",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5563,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color close-up of typical clean ulcer",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5585,
+      "caption": "GROSS: RESPIRATORY: Lung: Pneumocystis: Gross natural color close-up view of small consolidations AIDS case",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5586,
+      "caption": "GROSS: RESPIRATORY: Lung: Pneumocystis: Gross natural color close-up focal consolidations AIDS case",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5587,
+      "caption": "GROSS: RESPIRATORY: Lung: Pneumocystis: Gross natural color close-up shows peripheral localization of consolidation which was typical in this case AIDS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5588,
+      "caption": "GROSS: RESPIRATORY: Lung: Pneumocystis: Gross natural color close-up shows fairly well interlobular septal localization of consolidation all consolidation lesions in this case were at the periphery of the lobules AIDS case",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5591,
+      "caption": "HISTOLOGY: RESPIRATORY: Lung: Pneumocystis: Micro low mag H&E not a consolidated area this case had the infection for several months perhaps a year this slide shows interstitial fibrosis of a chronic process AIDS case",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 5612,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross natural color external view of left ventricle with fibrinous pericarditis and apical hemorrhagic area indicative of impending rupture according to protocol lesion had not ruptured",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5614,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross natural color view of left ventricle apex close-up with hemorrhagic lesion suggesting impending rupture had not ruptured according to protocol see also slide",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5619,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue coronal section cerebral hemispheres with typical hypertensive infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5621,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color several infarcts about three days old photo is not the best but shows lesions OK",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5623,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue hemorrhagic lesion that apparently was ischemic and may have been changed by anticoagulant therapy in any event a typical infarct of the hypertensive type",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5655,
+      "caption": "GROSS: Urinary: Kidney: Acute Tubular Necrosis: Gross natural color typical appearance of renal ischemia pale swollen cortex with congested glomeruli shown rather close-up",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5659,
+      "caption": "GROSS: NERVOUS: Brain: Old Cystic Encephalomalacia: Gross fixed tissue large lesion in cerebrum well shown",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5664,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross natural color typical wedge shaped hemorrhagic infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5696,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue coronal section cerebral hemispheres large infarct in typi-cal location for hypertensive stroke may have been ischemic infarct that hemorrhaged after anticoagulant therapy case of malignant hypertension 43yo BF",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5704,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue close-up of hemorrhagic area thought to have been ischemic infarct that became hemorrhagic with anticoagulant therapy",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5706,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue coronal section cerebral hemispheres bilateral hemorrhage thought to be related to anticoagulant therapy aortic valve prosthesis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5718,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Melanosis: Gross natural color close-up of dark mucosa quite good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5759,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross natural color lesions about scar in middle of right upper lobe very well-shown probably a reactivation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5760,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross natural color close-up view of lesions in left lung",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5761,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross natural color close-up of lesions in right upper lobe",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5772,
+      "caption": "GROSS: Urinary: Kidney: Infarct Scar: Gross natural color one kidney with large old infarct scar",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5829,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color close-up view of superficial ulcer",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5842,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color view of both kidneys with one nearly 3/4ths infarcted quite good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5844,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross fixed tissue close-up view of mitral valve with small vegetation on anterior leaflet Streptococcus viridans",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5863,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross natural color old infarct in region insular cortex",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5867,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color ovoid lesion of tricuspid leaflet Pneumococcus probably a case of marantic endocarditis infected",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5868,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color vegetation on atrial surface mitral valve at valve ring level Pneumococcus almost certainly case of marantic endocarditis infected",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5898,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue close-up of sectioned lung with typical cavities and peribronchial spread",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5899,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue close-up of cut surface of lung with typical caseous lesions",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5901,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue apical caseous lesion excellent photo and typical for this disease",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5903,
+      "caption": "GROSS: Urinary: Kidney: Acute Tubular Necrosis: Gross natural color red-tan cortex and hemorrhagic medullary pyramids case of acute myelogenous leukemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5904,
+      "caption": "GROSS: Urinary: Kidney: Acute Tubular Necrosis: Gross natural color red-tan cortex hemorrhagic medullary pyramids case of acute myelogenous leukemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5915,
+      "caption": "HISTOLOGY: RESPIRATORY: Sputum: Tuberculosis: Micro oil acid fast organisms",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 5917,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross natural color sliced open upper lobe with typical lesions and large cavitary lesion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5922,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color close-up of typical sharply punched out ulcer with clean base rugae not well shown",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5923,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color well shown pyloric ulcer blood clot nearby",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5937,
+      "caption": "GROSS: Urinary: Kidney: Acute Tubular Necrosis Newborn: Gross natural color dark red medullary pyramids cortex is pale but not too much so 3 day old with hyaline membrane disease  gram infant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5953,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross natural color typical lesions grossly and said to be microscopically also but no acid fast organisms seen suspect prior treatment",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 5999,
+      "caption": "GROSS: RESPIRATORY: Lung: Anthracotic Pigment: Gross natural color external view of lung with very well shown anthracotic pigment case of emphysema but this is not too evident in this unopened lung",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6000,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Fatty Change Alcoholism: Gross natural color fatty liver with a faint congestion pattern",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6008,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Abscess: Gross natural color close-up view of left ventricle wall with well defined small abscess Mucor? In leukemic",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6009,
+      "caption": "GROSS: RESPIRATORY: Lung: Abscess: Gross natural color close-up of subpleural abscess said to be Mucor case of lymphocytic leukemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6018,
+      "caption": "GROSS: Urinary: Kidney: Acute Pyelonephritis: Gross natural color kidney studded with abscesses but pyelitis is not evident case of terminal cirrhosis with disseminated Candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6021,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Glial Nodule: Micro med mag H&E focus of large astrocytes case of disseminated Candidiasis in cirrhotic",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 6022,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Glial Nodule: Micro med mag H&E nodule in case of disseminated Candidiasis terminal cirrhosis",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 6023,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Abscess: Micro med mag PAS Candida organisms lesion in H&E was glial nodule see slides  and  case of cirrhosis with disseminated Candidiasis",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 6024,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Abscess: Micro high mag PAS-AB glial nodule with yeast forms case of disseminated Candidiasis in cirrhotic see slides,4,5",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 6025,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Glial Nodule: Micro med mag H&E easily seen nodule is Candida lesion case of disseminated candidiasis in cirrhotic see slide,4,5,6",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 6026,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue close-up of cut surface of lung with typical miliary tuberculosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6067,
+      "caption": "GROSS: NERVOUS: Brain: Old Cystic Encephalomalacia: Gross fixed tissue frontal lobe lesion with frontal artery in photo showing atherosclerosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6080,
+      "caption": "GROSS: LYMPHATIC: Lymph node: Anthracotic Pigment: Gross fixed tissue sectioned carinal nodes shown close-up nodes are filled with black pigment",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6093,
+      "caption": "GROSS: NERVOUS: Brain: Ischemic Infarct: Gross natural color essentially occipital infarct several days of age due to occlusion basilar artery at posterior cerebral",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6094,
+      "caption": "GROSS: NERVOUS: Brain: Ischemic Infarct: Gross essentially natural color several day old infarct due to occlusion basi-lar artery at posterior cerebral",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6095,
+      "caption": "GROSS: NERVOUS: Brain: Ischemic Infarct: Gross essentially natural color close-up view of occipital infarct several days old due to occlusion basilar at posterior cerebral",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6111,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Candida: Gross natural color close-up view of multiple small discrete ulcers with hyperemic borders very good case of AML",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6112,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Candida: Gross natural color close-up view of multiple superficial discrete ulcers with hyperemic borders case of AML",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6135,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color anterior septal healed transmural infarct scar histology of this lesion is",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6136,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color close-up view of anterior septal transmural infarct scar excellent example histology of this lesion is",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6213,
+      "caption": "GROSS: GASTROINTESTINAL: Appendix: Acute Appendicitis: Gross natural color ileum and colon newborn with appendix showing acute inflammation one day old  grams",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6214,
+      "caption": "GROSS: GASTROINTESTINAL: Appendix: Acute Appendicitis: Gross natural color portion ileum and colon with acutely inflamed appendix one day old infant wt  gm",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6218,
+      "caption": "GROSS: GASTROINTESTINAL: Appendix: Acute Appendicitis: Gross natural color appendix in situ one day old  gm infant several other slides in this file",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6252,
+      "caption": "GROSS: RESPIRATORY: Lung: Candida: Gross natural color typical candida lung abscess huge size case of aplastic anemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6288,
+      "caption": "GROSS: GASTROINTESTINAL: Intestine: Necrotizing Enterocolitis In Newborn: Gross natural color good example ischemic gut not the best photo exposure",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6347,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color close-up view excellent with eroded artery  Photo has wrong number in it",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6358,
+      "caption": "GROSS: RESPIRATORY: Lung: Candida: Gross natural color view through pleura of typical Candida lesion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6391,
+      "caption": "GROSS: RESPIRATORY: Lung: Candida: Gross natural color close-up view of typical Candida lesions in lung case of aplastic anemia in young man",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6392,
+      "caption": "GROSS: RESPIRATORY: Lung: Candida: Gross natural color close-up view of typical candida lesion seen through pleura case of aplastic anemia in young man",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6415,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue coronal section cerebral hemispheres with old cystic lesions in internal capsule on one side and centrum semiovale on both sides excellent photo",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6416,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue close-up of internal capsule showing old cystic lesions more distant view of both hemispheres in",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6417,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue coronal section frontal lobes with extensive focal lesions in white matter",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6418,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue close-up of lesions in frontal pole multiple focal scars in white matter excellent example and photo",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6419,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue close-up of basal ganglia with old scars",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6420,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue coronal section of hemispheres with small hemorrhagic lesion in putamen histology is recent infarct could be embolic 79yobf with 28% body burn and sepsis associated with nonbacterial endocarditis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6421,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue coronal section cerebral hemispheres close-up of small hemorrhagic infarct shown in",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6431,
+      "caption": "GROSS: NERVOUS: Brain: Abscess Aspergillus: Gross fixed tissue but good color external view of cerebrum shown rather close-up with purulent material in meninges and hemorrhagic cortex bone marrow transplant case aplastic anemia 41WM",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6432,
+      "caption": "GROSS: RESPIRATORY: Lung: Abscess Aspergillus: Gross fixed tissue but good color small peripheral abscess shown close-up case of bone marrow transplant for aplastic anemia 41WM",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6433,
+      "caption": "GROSS: RESPIRATORY: Lung: Abscess Aspergillus: Gross fixed tissue but good color small abscesses with necrotic centers and hyperemic border quite good case of bone marrow transplant for aplastic anemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6434,
+      "caption": "GROSS: RESPIRATORY: Lung: Abscess Aspergillus: Gross fixed tissue but good color typical abscess lesion case of bone marrow transplant for aplastic anemia 41WM",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6435,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Abscess Aspergillus: Gross fixed tissue horizontal section ventricles with easily seen abscesses and a mural thrombus in the right ventricle overlying a myocardial abscess quite good case of aplastic anemia with bone marrow transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6436,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Abscess Aspergillus: Gross fixed tissue horizontal section of ventricles with well shown hemorrhagic lesions case of aplastic anemia with bone marrow transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6440,
+      "caption": "GROSS: NERVOUS: Brain: Abscess Aspergillus: Gross fixed tissue coronal section cerebral cortex shown up close with hemorrhagic infarct like lesions due to embolization from lung or heart case of aplastic anemia with bone marrow transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6441,
+      "caption": "GROSS: NERVOUS: Brain: Abscess Aspergillus: Gross fixed tissue section through occipital poll of one hemisphere showing hemorrhagic infarct like lesions in cortex case of aplastic anemia with bone marrow transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6462,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue but good color healed posterior infarct involving septum right ventricle and left ventricle close-up photo very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6469,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross natural color essentially frontal section of what appears to be a left lung with large hemorrhagic infarct in upper and lower lobe",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6510,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer Chronic: Gross natural color nice photo showing lesion impinging upon pyloric sphincter with heaped up margins",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6519,
+      "caption": "GROSS: NERVOUS: Brain: Abscesses Aspergillus: Gross fixed tissue coronal section cerebral hemispheres multiple hemorrhagic lesions 18yo female two months post heart transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6520,
+      "caption": "GROSS: NERVOUS: Brain: Abscesses Aspergillus: Gross fixed tissue coronal section hemispheres large and typical hemorrhagic lesions",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6523,
+      "caption": "GROSS: RESPIRATORY: Lung: Abscesses Aspergillus: Gross fixed tissue but excellent color focal hemorrhagic lesions in 18y0f 2mon post heart transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6524,
+      "caption": "GROSS: Urinary: Kidney: Abscesses Aspergillus: Gross natural color view of abscess lesions on surface of kidney very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6525,
+      "caption": "GROSS: RESPIRATORY: Lung: Abscesses Aspergillus: Gross fixed tissue but excellent color rather large abscess lesion with purulent center due to aspergillus 18yof 2mo post heart transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6526,
+      "caption": "GROSS: Urinary: Kidney: Infarct Scar: Gross natural color large infarct scar seen externally quite good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6527,
+      "caption": "GROSS: Urinary: Kidney: Infarct Scar: Gross natural color external view of large infarct scar also kidney has focal small abscesses due to aspergillus 18yof 2mo post heart transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6536,
+      "caption": "GROSS: RESPIRATORY: Lung: Abscesses Aspergillus: Gross fixed tissue but perfect color multiple abscesses in parenchyma with surrounding hyperemia 18yof 2mo heart transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6537,
+      "caption": "GROSS: RESPIRATORY: Lung: Abscesses Aspergillus: Gross fixed tissue but perfect color close-up of abscesses with obviously purulent centers and surrounding hyperemia perfect photo and example 18yof 2mo post heart transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6538,
+      "caption": "GROSS: NERVOUS: Brain: Abscesses Aspergillus: Gross fixed tissue coronal section hemispheres with numerous large hemorrhagic lesions quite good and typical 18yof 2mo post heart transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6539,
+      "caption": "GROSS: NERVOUS: Brain: Abscesses Aspergillus: Gross fixed tissue coronal section hemispheres with many large hemorrhagic lesions quite typical 18yof 2mo post heart transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6540,
+      "caption": "GROSS: NERVOUS: Brain: Abscesses Aspergillus: Gross fixed tissue coronal section occipital pole with multiple periventricular hemorrhagic lesions and tissue dissolution 18yof 2mo post heart transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6542,
+      "caption": "GROSS: NERVOUS: Brain: Abscesses Aspergillus: Gross fixed tissue coronal section hemispheres close-up of typical hemorrhagic lesions 41yom bone marrow transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6543,
+      "caption": "GROSS: NERVOUS: Brain: Abscesses Aspergillus: Gross fixed tissue coronal section hemisphere close-up of typical hemorrhagic lesions quite good 47yom bone marrow transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6544,
+      "caption": "GROSS: NERVOUS: Brain: Abscesses Aspergillus: Gross fixed tissue view of hemispheres from above showing hemorrhagic lesions 47yom bone marrow transplant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6545,
+      "caption": "GROSS: NERVOUS: Brain: Abscesses Aspergillus: Gross fixed tissue coronal section cerebral hemispheres with typical large hemorrhagic lesions quite good 47yom bone marrow transplant for aplastic anemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6560,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color view of both kidneys externally with large infarct at lower pole of one easily seen",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6597,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color section through spleen with large well shown healing infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6599,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross fixed tissue but excellent color section through left lung with large infarct in lower lobe at diaphragm posterior",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6654,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Myocardial Infarct Scar: Gross fixed tissue good photo of severe ischemic heart disease with large old inferior infarct and extensive focal scarring in the anterior portion of the ventricle and septum mural thrombus in apex case of aortic stenosis with valve replacement 13",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6655,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Myocardial Infarct Scar: Gross fixed tissue but quite good shows large old inferior and lateral scar and extensive subendocardial and midmural scarring in anterior septum and LV very good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6718,
+      "caption": "GROSS: Male Reproductive: Prostate: Benign Hyperplasia: Gross natural color opened bladder with median lobe protruding into trigone area also had increase bladder trabeculations very good slide",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6742,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue but good color patchy transmural scar in anterior septum and anterior wall left ventricle quite good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6743,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue but good color typical old patchy scar transmural in anterior septum and anterior wall",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6749,
+      "caption": "GROSS: RESPIRATORY: Lung: Aspergillosis: Gross natural color hemorrhagic lesions in bone marrow transplant patient",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6750,
+      "caption": "GROSS: RESPIRATORY: Lung: Aspergillosis: Gross natural color hemorrhagic lesions and focal consolidation due to aspergillus infection bone marrow transplant patient",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6751,
+      "caption": "GROSS: GASTROINTESTINAL: Small intestine: Aspergillus Infection: Gross natural color opened mucosal surface with focal hemorrhagic lesions bone marrow transplant patient",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6752,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Aspergillus Infection: Gross natural color opened mucosal surface with focal granular yellow lesions bone marrow transplant patient",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6793,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Myocardial Infarct Scar: Gross fixed tissue but not too bad color very large transmural anterior septal and anterior free wall scar 50yowm",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6871,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Ulceration Multiple Small: Gross natural color close-up and good photo cause not clear case of rapidly progressive glomerulonephritis with oral herpes in 62yowf being treated with prednisone and cytoxan",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6884,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue coronal section of cerebral hemispheres close-up view of left basal ganglia and internal capsule with old infarct other slides in file show both hemispheres and illustrate corticospinal tract degeneration on the left infarct 30 months",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6887,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct Scar: Gross natural color old diaphragmatic infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6897,
+      "caption": "GROSS: GASTROINTESTINAL: Small intestine: Necrotizing Enterocolitis: Gross natural color newborn gut is laid out in fold to show very well the skip nature of this lesion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6912,
+      "caption": "GROSS: ABDOMEN: Peritoneum: Tuberculous Peritonitis: Gross natural color opened abdominal cavity with atypically large lesions looking more like metastatic carcinoma",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6913,
+      "caption": "GROSS: LYMPHATIC: Lymph node: Tuberculosis: Gross natural color slice through mass of intestines and mesenteric nodes showing lesions that look more like carcinoma but are in fact tuberculosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6914,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Tuberculous Pericarditis: Gross fixed tissue horizontal section of ventricles showing rather typical epicardial lesion color is not good due to fixation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6925,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Tuberculous Pericarditis: Gross fixed tissue typical lesion shown in two horizontal sections of ventricles there are focal subendocardial hemorrhages due to terminal shock this and one other slide of this are classic except for the color distortion by fixation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 6956,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross partial fixation obscures color but still a good example of high posterior infarct 56 hours old with hemorrhagic myocardium and mural thrombus photos of right coronary artery lesion are in this file",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7017,
+      "caption": "GROSS: GASTROINTESTINAL: Small intestine: Necrotizing Enterocolitis: Gross natural color four loops of bowel with obvious dusky cyanosis very good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7108,
+      "caption": "GROSS: RESPIRATORY: Lung: Miliary Tuberculosis: Gross natural color lungs sliced open showing multiple and typical lesions not the best photo because of highlights but shows lesions very well",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7125,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia Median Bar: Gross natural color close-up view of large median bar type lesion with severe cystitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7126,
+      "caption": "GROSS: Male Reproductive: Prostate: Hyperplasia Median Bar: Gross natural color large median bar type lesion with severe cystitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7136,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color excellent side with four infarcts shown which are several days of age from nonbacterial endocarditis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7138,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer Chronic: Gross fixed tissue close-up slide shows rather well bed of a healed or chronic ulcer exposure is a bit off",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7140,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer Chronic: Gross fixed tissue close-up of sectioned gastric mucosa to show thin but apparently intact mucosa in bed of ulcer intact appearance in slide  correct diagnosis probably is healed peptic ulcer",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7165,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color nicely shown old anterior infarct in horizontal slice of left ventricle with marked thinning of wall and endocardial thickening",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7166,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color horizontal sections apex of left ventricle with large old infarct scar wall thinning endocardial thickening and some mural thrombus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7167,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color horizontal sections of ventricles with large old anterior scar wall thinning endocardial thickening and small apical mural thrombus excellent",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7168,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color almost large anterior infarct with endocardial thickening",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7169,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color opened aortic valve and left ventricular outflow tract showing infarct scar with marked endocardial thickening extending to aortic valve adjacent mural thrombus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7234,
+      "caption": "GROSS: RESPIRATORY: Lung: Pneumonia Aspergillus: Gross fixed tissue but good color consolidation and abscess formation extensive Aspergillus fumigatus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7237,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color large hemorrhagic ulcer immediately distal to pyloric valve in 7yo female child with pineoblastoma",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7239,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color large ulcer in duodenum immediately distal to pyloric valve 7 year old female child with pineoblastoma",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7258,
+      "caption": "GROSS: NERVOUS: Brain: Abscess Aspergillus: Gross fixed tissue coronal section cerebral hemispheres with huge hemorrhagic abscesses",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7267,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color nice photo of typical infarcts caused by emboli from nonbacterial endocarditis 88yom with burns",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7269,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color nice close-up view of typical infarct 88yom with body burns and nonbacterial endocarditis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7270,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color close-up view of infarcts due to nonbacterial endocarditis 88yom with body burns",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7320,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color typical old and rather large infarct seen from external",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7331,
+      "caption": "GROSS: GASTROINTESTINAL: Small intestine: Necrotizing Enterocolitis: Gross natural color nice example unopened gut 31 day infant",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7368,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion: Gross natural color slab of liver very typical probably a shock liver",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7390,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color typical lesion about a week or more of age",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7393,
+      "caption": "GROSS: NERVOUS: Brain: Ischemic Infarct: Gross fixed tissue coronal section cerebral hemispheres large ischemic infarct in distribution of left middle cerebral artery due to embolism for aortic valve nonbacterial endocarditis micro of arterial lesion is slide",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7452,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue horizontal section of cerebral hemispheres large well shown right parieto-occipital area case of attempted repair dissecting aneurysm with annuloaortic ectasia 63yo hypertensive male",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7453,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue close-up view of ischemic infarct located mostly in white matter well shown apparently due to embolism see slide",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7515,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color good close-up of typical renal infarcts burn case with non bacterial endocarditis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7562,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color cut surface with remote and now healed infarct quite typical embolus for aortic valve prosthesis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7580,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Gasserian Ganglion Herpes Zoster: Micro high mag H&E large inclusion cell necrosis",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 7581,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Gasserian Ganglion Herpes Zoster: Micro med mag H&E obvious necrotizing process and one inclusion",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 7604,
+      "caption": "GROSS: NERVOUS: Brain: Encephalomalacia Newborn Following Cardiac Arrest: Gross natural color opened skull showing extensive loss of cortical tissue",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7610,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color typical dark infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7662,
+      "caption": "GROSS: Urinary: Kidney: Candida: Gross natural color external view with capsule removed well shown abscesses",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7664,
+      "caption": "GROSS: Urinary: Kidney: Candida: Gross natural color cut surface with abscesses",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7695,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color excellent old healed infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7716,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color opened stomach with large pyloric ulcer very typical",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7719,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color close-up view of ulcer seen in  in pylorus on lesser curvature perfect example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7829,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color sliced cortex and medulla showing typical acute infarct quite good from thrombotic nonbacterial endocarditis see slide",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7832,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color external view with capsule removed quite good except for slices into parenchyma which have been roughly approximated",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7843,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color essentially opened left atrium looking down onto necrotic lesion in posterior leaflet mitral valve quite good 54yowm diabetic with complicated history etiology uncertain but probably group B strep",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7844,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross fixed tissue but good color view from top of left atrium to mitral valve with large necrotic lesion on posterior leaflet see",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7847,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross essentially natural color rather large necrotic lesion on posterior leaflet mitral valve with apparent perforation see other slides from this case",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7848,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross natural color essentially large necrotic lesion on posterior leaflet mitral valve which unfortunately was cut into two parts for this photo of the opened left atrium and mitral valve still a very good example probably perforated see other slide",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7849,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross essentially natural color complicated case see other slides lesion in this slide appears to be anulus calcification complicated by valve infection",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7850,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color excellent example opened surface",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7855,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color good example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7913,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Nutmegs: Gross photo of cut nutmegs no liver in photo",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7914,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Nutmeg: Gross cut nutmegs at some distance",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7915,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Nutmeg: Gross external surface of nutmegs",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7924,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Fatty Change: Gross natural color close-up of liver surface",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7926,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Stone In Common Bile Duct: Gross natural color opened bile ducts with stone in or very near ampulla",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7939,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Fatty Change: Gross natural color highlights are not too bad otherwise excellent example early cirrhosis is evident in the gross",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7948,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion: Gross close-up of cut surface natural color looks almost exactly like a nutmeg",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 7949,
+      "caption": "HISTOLOGY: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion: Micro low mag H&E good example appears to be necrosis probably would call this shock liver in",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 7974,
+      "caption": "HISTOLOGY: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion Severe: Micro low mag H&E typical would call this shock liver today",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 7980,
+      "caption": "HISTOLOGY: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion Severe: Micro low mag H&E typical very good demonstration of what we now call shock necrosis",
+      "reason": "病因不同／其他主要病變或未直接呈現對照病灶"
+    },
+    {
+      "imageId": 7986,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Passive Congestion Severe: Gross natural color I think typical nutmeg",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8053,
+      "caption": "GROSS: ABDOMEN: Peritoneum: Tuberculous Peritonitis: Gross fixed tissue typical appearance of tuberculous peritonitis except for color being off a bit",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8081,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color close-up excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8092,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color close-up typical",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8154,
+      "caption": "GROSS: Male Reproductive: Prostate: Benign Hyperplasia: Gross natural color good photo nodular lateral lobes large median lobe and hyperemic bladder mucosa with increased trabeculation",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8160,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross fixed tissue close-up view healing anterior septal infarct extending into right ventricle",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8161,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross fixed tissue massive transmural infarct with healing said to be due to traumatic dissection and thrombosis anterior descending artery",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8163,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross fixed tissue horizontal sections of heart with massive transmural healing infarct due to trauma anterior descending coronary artery",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8169,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross fixed tissue massive healing posterior infarct and lateral wall infarct source uncertain must be a transplant case  355",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8196,
+      "caption": "GROSS: NERVOUS: Brain: Hemorrhagic Infarct: Gross natural color large right thalamus hemorrhage with extension into ventricular system typical hypertensive stroke",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8215,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color good illustration chronic peptic ulcer on pyloric valve",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8235,
+      "caption": "HISTOLOGY: RESPIRATORY: Lung: Tuberculosis: Micro high mag acid fast stain giant cell with one well shown acid fast bacillus source unknown called lung just to get it into file",
+      "reason": "培養／塗片、來源器官或診斷有明示疑義"
+    },
+    {
+      "imageId": 8260,
+      "caption": "GROSS: RESPIRATORY: Lung: Aspergillosis: Gross natural color unopened lungs and heart neonate with multiple problems hemorrhagic lungs are typical for this infection",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8299,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis: Gross probably natural color old slide showing mild rheumatic scarring and a rather large thrombus or vegetation referred to as A-53-138 ?? Good teaching slide",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8300,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Nutmeg: Gross natural color cut and polished nutmegs",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8301,
+      "caption": "GROSS: FEMALE REPRODUCTIVE: Fallopian tube: Tuberculosis: Gross fixed tissue",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8302,
+      "caption": "GROSS: ABDOMEN: Omentum: Tuberculosis: Gross fixed tissue",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8303,
+      "caption": "GROSS: GASTROINTESTINAL: Intestine: Tuberculosis: Gross fixed tissue fairly close up view of two small segments",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8304,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Tuberculosis: Gross fixed tissue cut surface congested parenchyma with obvious granulomas",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8306,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross natural color view of base of brain with obviously cloudy meninges and some liquefactive lesion on inferior surface frontal lobes",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8309,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross natural color essentially can see apparent miliary lesions but not easily",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8320,
+      "caption": "HISTOLOGY: LYMPHATIC: Lymph node: Tuberculosis: Micro high mag acid fast stain many intracellular bacterial this probably was an early case of mycobacterium intracellulare infection too many organisms for old time tb",
+      "reason": "培養／塗片、來源器官或診斷有明示疑義"
+    },
+    {
+      "imageId": 8321,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross natural color cut surface hilar nodes show old and probably healed lesions",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8322,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue cut surface of subpleural old and probably healed granuloma Ghon type lesion typical example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8323,
+      "caption": "GROSS: NERVOUS: Brain: Tuberculous Meningitis: Gross fixed tissue poorly fixed but shows in coronal section thickened basal leptomeninges rather typical for tuberculosis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8325,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross natural color cut surface of lung with cavitary tuberculosis and many surrounding granulomas excellent very typical for old time tb",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8326,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue cut surface of lung with excellent depiction of focal consolidation by granulomas",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8327,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue cut-up specimen but shows very well many granulomatous type lesions",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8328,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Herpes Type Inclusion Body: Micro high mag H&E typical intranuclear large eosinophilic inclusion body",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 8330,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Herpes Type Inclusion Body: Micro high mag H&E typical herpes inclusion body",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 8333,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Herpes Like Inclusion Body: Micro high mag H&E excellent example",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 8337,
+      "caption": "HISTOLOGY: NERVOUS: Brain: Herpes Like Inclusion Body: Micro high mag H&E nice example intranuclear inclusions",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 8394,
+      "caption": "HISTOLOGY: HEMATOLOGIC: Blood: Malaria Plasmodium Vivax: Micro oil Wrights excellent tropho",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 8395,
+      "caption": "HISTOLOGY: HEMATOLOGIC: Blood: Malaria Plasmodium Vivax: Micro oil Wrights",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 8396,
+      "caption": "HISTOLOGY: HEMATOLOGIC: Blood: Malaria Plasmodium Vivax: Micro oil Wrights very good",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 8397,
+      "caption": "HISTOLOGY: HEMATOLOGIC: Blood: Malaria Plasmodium Vivax: Micro oil Wrights excellent ring form",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 8398,
+      "caption": "HISTOLOGY: HEMATOLOGIC: Blood: Malaria Plasmodium Vivax: Micro oil Wrights excellent",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 8399,
+      "caption": "HISTOLOGY: HEMATOLOGIC: Blood: Malaria Plasmodium Vivax: Micro oil Wrights excellent",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 8407,
+      "caption": "GROSS: RESPIRATORY: Lung: Confluent Bronchopneumonia: Gross natural color cut surface of lungs close-up very good case of end stage renal disease with terminal infections Candida, Serratia, Herpes, cytomegalovirus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8408,
+      "caption": "GROSS: RESPIRATORY: Lung: Confluent Bronchopneumonia: Gross natural color close-up excellent photo 50yom endstage renal disease complicated by infections with Candida, Serratia, Herpes, Pseudomonas cytomegalovirus",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8412,
+      "caption": "GROSS: NERVOUS: Brain: Cystic Encephalomalacia Associated With Mitral Valve Prolapse: Gross fixed tissue coronal section of brain with small cystic lesions in left basal ganglia 50yowf with mitral prolapse and aortic dissection features of Marfans syndrome but no cystic change in aorta see other slides this case",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8427,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue large healed transmural infarct with hyperemic appearing margin and extensive subendocardial scarring in adjacent myocardium juvenile diabetic 33yom onset age 13",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8428,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue horizontal section ventricles with large lateral wall transmural scar and extensive subendocardial scarring in remainder of LV 33yo type I diabetic onset age 13",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8429,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross natural color old infarct scar with hyperemic margin this lesion often is mistaken in gross for an acute infarct excellent example large lesion see other slides this case 33yom type I diabetes onset age 13",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8438,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue transmural infarct scar with necrotic center and surrounding scar often mistaken for an acute infarct but it is not interesting case see other slide female Hashimotos coronary athero infarct bypass dissection",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8439,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue horizontal section ventricle posterior lesion interesting case see other slides",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8440,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue interesting case see other slides this file",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8476,
+      "caption": "GROSS: RESPIRATORY: Lung: Anthracosis: Gross natural color black lung rather close-up good photo",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8477,
+      "caption": "GROSS: RESPIRATORY: Lung: Anthracosis: Gross natural color cut surface black black lung",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8478,
+      "caption": "GROSS: RESPIRATORY: Lung: Anthracosis: Gross natural color posterior view both lungs very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8511,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue but very good color temporal lobe cortical infarct acute and hemorrhagic case of complex congenital heart disease 3yom 5 days post 3rd surgical procedure embolic lesion",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8537,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue horizontal section ventricle with large anterior infarct and wall thinning without obvious aneurysm mitral insufficiency developed due to this lesion resulting in mitral valve prosthesis and death",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8614,
+      "caption": "GROSS: Urinary: Kidney: Infarct Remote: Gross external view with capsule removed two old and very typical infarct scars 27yobf with dilated cardiomyopathy",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8615,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross natural color essentially small and recent infarct seen in sectioned lung",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8616,
+      "caption": "GROSS: NERVOUS: Brain: Cystic Encephalomalacia: Gross fixed tissue coronal section cerebral hemispheres with rather large cystic scar in left basal ganglia internal capsule 27yobf dilated cardiomyopathy",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8617,
+      "caption": "GROSS: NERVOUS: Brain: Cystic Encephalomalacia: Gross fixed tissue close-up of lesion seen in slide",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8638,
+      "caption": "GROSS: NERVOUS: Brain: Infarct: Gross fixed tissue coronal section cerebral hemispheres ischemic infarct on left some days or weeks old and a small remote one in right insular cortex",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8639,
+      "caption": "GROSS: NERVOUS: Brain: Infarcts: Gross fixed tissue coronal section cerebral hemispheres many remote small infarcts",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8674,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculous Pneumonia: Gross fixed tissue",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8675,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculous Pneumonia: Gross fixed tissue",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8689,
+      "caption": "HISTOLOGY: HEMATOLOGIC: Blood: Malaria Plasmodium Vivax: Micro high mag Wrights excellent",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 8690,
+      "caption": "HISTOLOGY: HEMATOLOGIC: Blood: Malaria Plasmodium Vivax: Micro high mag Wrights excellent",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 8691,
+      "caption": "HISTOLOGY: HEMATOLOGIC: Blood: Malaria Plasmodium Vivax: Micro high mag ring form",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 8751,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross natural color horizontal section ventricles postero-lateral left ventricle infarct well shown about four days old",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8752,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct: Gross natural color horizontal sections of ventricles with easily seen postero-lateral left ventricle infarct about four days old",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8787,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Transmural Healed: Gross fixed tissue but good color well shown posterior wall lesions with thinning of wall",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8840,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue excellent close-up photo of small area of cortical cystic encephalomalacia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8841,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue close-up of small area of cortical cystic encephalomalacia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8850,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color capsule striped away excellent example several infarcts with hyperemic margin",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8851,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color close-up of cut surface of infarcts excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8906,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color cut surface of spleen with one large infarct classical embolus from nonbacterial endocarditis on mitral valve",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8929,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Chronic Passive Congestion: Gross looks like natural color classical nutmeg liver",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8957,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Chronic Passive Congestion: Gross natural color frontal section nutmeg liver really a shock liver",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8984,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color slices of kidney showing cortical infarct several days of age excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 8985,
+      "caption": "GROSS: Urinary: Kidney: Infarct: Gross natural color external view of kidney with capsule stripped excellent example infarcts several days old",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9020,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Herpes: Gross natural color view of liver in situ with multiple small foci of apparent necrosis beneath capsule excellent photo",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9084,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color cut surface of spleen with an infarct several days of age excellent photo",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9092,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross natural color external view of lung with perfect triangular infarct",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9139,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: BILIARY: Infarct: Gross natural color large areas of infarction without appearance of severe congestion liver is brownish color perhaps reflecting fatty change with severe shock history not available",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9150,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color rather close-up view typical and large too many labels in photo but still very good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9155,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color close-up view two ulcers one is more chronic nice pulling in of rugae toward ulcer very typical lesions the more chronic lesion may be in the duodenum picture too close to tell",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9156,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach: Peptic Ulcer: Gross natural color rather close-up view of textbook acute ulcer with rugae pulled into toward ulcer same as in",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9157,
+      "caption": "GROSS: GASTROINTESTINAL: Duodenum: Peptic Ulcer: Gross natural color close-up of typical ulcer with very clean base photo is excellent except for a ruler and number in the way",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9186,
+      "caption": "GROSS: GASTROINTESTINAL: Colon: Melanosis Coli: Gross natural color close-up view of cecum",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9210,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue cut surface of lung upper lobe with subpleural old lesion and some adjacent smaller ones suggesting activation history not known at this time",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9211,
+      "caption": "GROSS: RESPIRATORY: Lung: Tuberculosis: Gross fixed tissue close-up of subpleural old and apparently calcified granuloma and some smaller ones suggesting activation history unknown at this time",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9228,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Healed: Gross natural color photo taken underwater to show greater than usual detail old anterior lesion well shown",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9229,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarcts: Gross natural color three cut sections many lesions several days of age",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9246,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue inferior wall infarct scar with marked thinning of ventricle wall",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9289,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Healed: Gross fixed tissue but good color nice posterior lateral lesion with thinning of ventricular wall very good photo",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9290,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Healed: Gross fixed tissue but good color close-up view",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9299,
+      "caption": "GROSS: GASTROINTESTINAL: Stomach and duodenum: Peptic Ulcer: Gross natural color ulcer in stomach just proximal to pyloric valve and one in duodenum adjacent to valve",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9304,
+      "caption": "GROSS: Urinary: Kidney: Infarct Scar: Gross natural color external view with capsule removed large typical",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9334,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue lateral view of cerebral hemisphere with one scar in or near Brocas area and another above posterior extent of temporal lobe fissure excellent examples",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9335,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue coronal section cerebral hemispheres showing anterior lesion seen in",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9336,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue coronal section cerebral hemispheres showing posterior lesion seen in",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9337,
+      "caption": "GROSS: NERVOUS: Brain: Infarct Remote: Gross fixed tissue coronal section cerebral hemispheres showing posterior lesions seen in",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9392,
+      "caption": "GROSS: GASTROINTESTINAL: Small intestine: Necrotizing Enterocolitis: Gross natural color opened body with dilated gangrenous gut",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9410,
+      "caption": "GROSS: RESPIRATORY: Lung: Anthracosis And Fibrosis: Gross natural color cut surface close-up view quite good",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9411,
+      "caption": "GROSS: RESPIRATORY: Lung: Anthracosis And Fibrosis: Gross natural color cut surface of lung central focus in a lower lobe slide  is a close-up view",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9553,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color large and typically shaped old infarct but far from fibrotic",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9610,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue but not too bad color massive old infarction probably chronic ischemia marked biventricular hypertrophy",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9611,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Scar: Gross fixed tissue but not too bad color large subendocardial scar probably chronic ischemia",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9618,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Bacterial Endocarditis Aortic Valve: Gross fixed tissue large vegetation on normal appearing valve do not know history for this case outlet has obstructive morphology",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9634,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color large yellow lesion probably several weeks of age",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9709,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color congested spleen infarct easily seen",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9711,
+      "caption": "HISTOLOGY: ENDOCRINE: Thyroid: Cytomegalovirus: Micro med mag H&E",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 9722,
+      "caption": "GROSS: HEMATOLOGIC: Spleen: Infarct: Gross natural color several slices with obvious lesion and one external view excellent example",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9749,
+      "caption": "GROSS: RESPIRATORY: Lung: Infarct: Gross natural color close-up of lingular infarct with intact pleura",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9751,
+      "caption": "GROSS: NERVOUS: Brain: Cystic Encephalomalacia: Gross fixed tissue coronal section cerebral hemispheres nice subcortical lesion in region Brocas area",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9775,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Candida: Gross natural color typical",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9776,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus: Candida: Gross natural color close-up typical good photo",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9781,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Remote: Gross fixed tissue horizontal section apex ventricles scar very well shown",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9782,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Infarct Remote: Gross fixed tissue horizontal section ventricles anterior infarct scar very well seen",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9940,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus, herpetic esphagitis (Herpes simplex)",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 9964,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus, herpes esophagitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 10397,
+      "caption": "GROSS: RESPIRATORY: Pneumonia, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 10398,
+      "caption": "GROSS: NERVOUS: Brain, candidiasis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 10569,
+      "caption": "GROSS: CARDIOVASCULAR: HEART: Cryptococcosis, heart",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 10637,
+      "caption": "GROSS: FEMALE REPRODUCTIVE: Vaginal Herpes",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 10638,
+      "caption": "GROSS: Male Reproductive: Penis, Herpes",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 10641,
+      "caption": "GROSS: RESPIRATORY: Pleural cavity, Actinomyces sulfur granules",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 10642,
+      "caption": "GROSS: RESPIRATORY: Pleural cavity, Actinomyces sulfur granules",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 11128,
+      "caption": "GROSS: NERVOUS: Brain, herpes encephalitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 11129,
+      "caption": "GROSS: NERVOUS: Brain, herpes encephalitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 11177,
+      "caption": "IMMUNOHISTOCHEMISTRY: NERVOUS: Brain, herpes simplex encephalitis, immunoperoxidate stain",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 11449,
+      "caption": "GROSS: GASTROINTESTINAL: Mouth, herpes, ulcers",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 11450,
+      "caption": "GROSS: GASTROINTESTINAL: Esophagus, herpes, ulcers",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 11453,
+      "caption": "GROSS: NERVOUS: Brain, herpes encephalitis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 11456,
+      "caption": "PATIENT: BODY: Herpes zoster",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 12569,
+      "caption": "PATIENT: ORAL: Candidiasis-pseudomembraneous",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 12572,
+      "caption": "PATIENT: ORAL: Candidiasis-erythematous",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 12575,
+      "caption": "PATIENT: ORAL: Recurrent herpes labialis",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 12576,
+      "caption": "PATIENT: ORAL: Recurrent intraoral herpes simplex",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 14084,
+      "caption": "RADIOLOGY: ABDOMEN: Case# 33054:  PSOAS/FLANK ABSCESS 2? TO ACTINOMYCOSIS.  Progress evaluation of cystic right retroperitoneal mass.  There is a large right retroperitoneal abscess. It extends from the level of the right renal hilum inferiorly to the right iliacus. From this level it extends posteriorly into and around the gluteal muscles. At the level of the gluteal muscles, the collection measures 6 x 5 cm. There is no associated bone destruction. ",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 14085,
+      "caption": "RADIOLOGY: ABDOMEN: Case# 33054:  PSOAS/FLANK ABSCESS 2? TO ACTINOMYCOSIS.  Progress evaluation of cystic right retroperitoneal mass.  There is a large right retroperitoneal abscess. It extends from the level of the right renal hilum inferiorly to the right iliacus. From this level it extends posteriorly into and around the gluteal muscles. At the level of the gluteal muscles, the collection measures 6 x 5 cm. There is no associated bone destruction. ",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 14086,
+      "caption": "RADIOLOGY: ABDOMEN: Case# 33054:  PSOAS/FLANK ABSCESS 2? TO ACTINOMYCOSIS.  Progress evaluation of cystic right retroperitoneal mass.  There is a large right retroperitoneal abscess. It extends from the level of the right renal hilum inferiorly to the right iliacus. From this level it extends posteriorly into and around the gluteal muscles. At the level of the gluteal muscles, the collection measures 6 x 5 cm. There is no associated bone destruction. ",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 17940,
+      "caption": "HISTOLOGY: NERVOUS: BRAIN: ASTROCYTE, GLIAL SCARRING; MALARIA, BRAIN, OLD CYSTIC CHANGES",
+      "reason": "主要診斷不符合原教材，或僅背景病史提及"
+    },
+    {
+      "imageId": 19873,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX, ORAL IN AIDS PATIENT; LIPS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 19879,
+      "caption": "PATIENT: SKIN: HERPES ZOSTER, SHINGLES IN AIDS PATIENT; LUMBAR REGION",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 19880,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX, ANAL IN AIDS PATIENT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 19881,
+      "caption": "PATIENT: TONGUE: CANDIDIASIS, ORAL IN AIDS PATIENT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 19883,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX, LIP LESION IN AIDS PATIENT; FROM DR. GEORGE BLOZIS OHIO STATE UNIVERSITY",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 19889,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX, MUCOCUTANEOUS, AIDS PATIENT; ONE MONTH DURATION, FROM SOL SILVERMAN, DDS, UCSF",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 19892,
+      "caption": "PATIENT: MOUTH: CANDIDIASIS, ORAL, CHRONIC IN AIDS PATIENT; CREDIT DR. JOHN MOLINARE, PH.D., UNIVERSITY OF DETROIT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 20906,
+      "caption": "PATIENT: MICROBIOLOGY: MOUTH: Oral manifestations of HIV infection and AIDS. Chronic mucocutaneous herpes lesion.; One month duration. Contributed by Sol Silverman, Jr., D.D.S., University of California, San Francisco for the Centers for Disease Control. L-235: 06",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 20907,
+      "caption": "PATIENT: MICROBIOLOGY: MOUTH: Oral manifestations of HIV infection and AIDS. Candidiasis.; Diffuse in 36 year-old male with AIDS, manifested by multiple opportunistic diseases. Contributed by Sol Silverman, Jr., D.D.S., University of California, San Francisco for the Centers for Disease Control. L-235: 07",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 20908,
+      "caption": "PATIENT: MICROBIOLOGY: MOUTH: Oral manifestations of HIV infection and AIDS. Candidiasis, acute pseudomembranous.; Contributed by Sol Silverman, Jr., D.D.S., University of California, San Francisco for the Centers for Disease Control. L-235: 08",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 20909,
+      "caption": "PATIENT: MICROBIOLOGY: TONGUE: Oral manifestations of HIV infection and AIDS. Oral candidiasis, chronic in AIDS patient.; Contributed by Sol Silverman, Jr., D.D.S., University of California, San Francisco for the Centers for Disease Control. L-235: 09",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 20920,
+      "caption": "PATIENT: MICROBIOLOGY: MOUTH: Opportunistic diseases. Soft palate showing extensive oral candidiasis in patient diagnosed with AIDS.; Contributed by Michael Glick, D.M.D., University of Pennsylvania, Philadelphia, PA, for the Centers for Disease Control. L-175(3): 21",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 20921,
+      "caption": "RADIOLOGY: MICROBIOLOGY: LUNG: Opportunistic diseases. Non-encapsulated cryptococcosis.; L-175(3): 23 (PLAIN FILM)",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 20927,
+      "caption": "ELECTRON MICROSCOPY: MICROBIOLOGY: Opportunistic diseases. Herpes simplex. Negative staining; L-175(3): 32",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 20928,
+      "caption": "ELECTRON MICROSCOPY: MICROBIOLOGY: Opportunistic diseases. Herpes simplex in nucleus.; L-175(3): 33",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 20929,
+      "caption": "PATIENT: MICROBIOLOGY: GASTROINTESTINAL: GI: ANUS: Opportunistic diseases. Chronic mucocutaneous perianal herpes infection.; L-175(3): 34",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21046,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX, CUTANEOUS; TYPICAL LABIAL LESION",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21047,
+      "caption": "PATIENT: PHARYNX: HERPES SIMPLEX, PHARYNGEAL; PHARYNGITIS IN IMMUNOSUPPRESSED PATIENT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21048,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX, CUTANEOUS; LABIAL AND CUTANEOUS LESION IN IMMUNOSUPPRESSED PATIENT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21049,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX, CUTANEOUS; AFTER HEALING IN SAME LESION AS PREVIOUS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21050,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX, GENITAL; ULCERATING LESIONS IN IMMUNOSUPPRESSED PATIENT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21052,
+      "caption": "PATIENT: FACE: MUCORMYCOSIS, IMMUNOSUPPRESSED PATIENT; NECROTIZING INFECTION BEGINS IN NOSE, ORBITAL EDEMA",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21070,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX I, PERIORAL; VESICULOBULLOUS DISEASES - I",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21071,
+      "caption": "PATIENT: PENIS: HERPES SIMPLEX II, PARAGENITAL; VESICULOBULLOUS DISEASES - I",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21073,
+      "caption": "PATIENT: SKIN: HERPES ZOSTER; VESICULOBULLOUS DISEASES - I",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21219,
+      "caption": "PATIENT: SKIN: ECZEMA, SECONDARY TO CANDIDIASIS; ECZEMATOUS DISEASES - X",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21257,
+      "caption": "PATIENT: SKIN: EROSION, ORAL, HERPES SIMPLEX; GENITAL AND ORAL EROSIONS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21261,
+      "caption": "PATIENT: MOUTH: CANDIDIASIS, MOUTH; WHITE PLAQUES IN MOUTH",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21336,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX I; VESICULOBULLOUS - I",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21348,
+      "caption": "PATIENT: SKIN: HERPES ZOSTER, DERMATOMAL; VESICULOBULLOUS - I",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21368,
+      "caption": "PATIENT: SKIN: CANDIDIASIS; PUSTULAR DISEASES - II",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 21506,
+      "caption": "PATIENT: SKIN: HERPES, GESTATIONAL; BULLOUS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22041,
+      "caption": "HISTOLOGY: HEMATOLOGIC: BLOOD: MALARIA; PERIPHERAL BLOOD",
+      "reason": "培養／塗片、來源器官或診斷有明示疑義"
+    },
+    {
+      "imageId": 22182,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX; RECURRENT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22183,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX; MOUTH",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22184,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX; FACE, PERIORBITAL",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22185,
+      "caption": "GROSS: SKIN: HERPES SIMPLEX; CLOSE-UP",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22186,
+      "caption": "PATIENT: EYE: HERPES SIMPLEX; KERATITIS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22187,
+      "caption": "PATIENT: HAND: HERPES SIMPLEX, THUMB, HERPETIC WHITLOW",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22188,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX, HAND, WHITLOW ON TWO FINGERS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22189,
+      "caption": "PATIENT: SKIN: HERPES SIMPLEX, NECK, HERPES GLADIATORUM",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22190,
+      "caption": "PATIENT: PENIS: HERPES SIMPLEX, PENIS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22191,
+      "caption": "PATIENT: VULVA: HERPES SIMPLEX, VULVA",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22192,
+      "caption": "HISTOLOGY: SKIN: HERPES SIMPLEX, TZANCK, WRIGHT STAIN, GIANT CELLS",
+      "reason": "培養／塗片、來源器官或診斷有明示疑義"
+    },
+    {
+      "imageId": 22198,
+      "caption": "PATIENT: SKIN: HERPES ZOSTER, TRUNK",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22199,
+      "caption": "PATIENT: SKIN: HERPES ZOSTER, LUMBAR",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22200,
+      "caption": "GROSS: SKIN: HERPES ZOSTER, CLOSE-UP",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22201,
+      "caption": "PATIENT: SKIN: HERPES ZOSTER, OPHTHALMIC TRIGEMINAL",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22202,
+      "caption": "PATIENT: FACE: HERPES ZOSTER, OPHTHALMIC TRIGEMINAL, V1, NASOCILIARY BRANCH",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22203,
+      "caption": "PATIENT: FACE: HERPES ZOSTER, MAXILLARY TRIGEMINAL BRANCH DISTRIBUTION",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22204,
+      "caption": "PATIENT: FACE: HERPES ZOSTER, MANDIBULAR TRIGEMINAL BRANCH, V3",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22205,
+      "caption": "PATIENT: FACE: HERPES ZOSTER, FACIAL NERVE AND BELLS PALSY",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22206,
+      "caption": "PATIENT: THIGH: HERPES ZOSTER, PUSTULES, THIGH",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22260,
+      "caption": "PATIENT: SKIN: CANDIDIASIS, SKINFOLD",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22261,
+      "caption": "PATIENT: BUTTOCK: CANDIDIASIS, GLUTEAL CLEFT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22262,
+      "caption": "PATIENT: MOUTH: CANDIDIASIS, ORAL",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22263,
+      "caption": "PATIENT: PENIS: CANDIDIASIS, PENIS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22264,
+      "caption": "PATIENT: HAND: CANDIDIASIS, PARONYCHIA, THUMB",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22265,
+      "caption": "PATIENT: HAND: CANDIDIASIS, PARONYCHIA, TWO NAILS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22266,
+      "caption": "PATIENT: FOOT: CANDIDIASIS, INTERDIGITAL, DIABETES AND CANDIDIASIS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22267,
+      "caption": "HISTOLOGY: SKIN: CANDIDIASIS, MICROSCOPIC, ORAL, KOH PREP",
+      "reason": "培養／塗片、來源器官或診斷有明示疑義"
+    },
+    {
+      "imageId": 22268,
+      "caption": "PATIENT: LEG: CANDIDIASIS, DISSEMINATED, LEUKEMIC",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22269,
+      "caption": "PATIENT: SKIN: CANDIDIASIS, DISSEMINATED, LEUKEMIA PATIENT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22276,
+      "caption": "PATIENT: SKIN: CRYPTOCOCCOSIS, FOREHEAD, IMMUNOCOMPROMISED PATIENT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22277,
+      "caption": "GROSS: FACE: CRYPTOCOCCOSIS, FOREHEAD, IMMUNOCOMPROMISED PATIENT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22278,
+      "caption": "PATIENT: SKIN: CRYPTOCOCCOSIS, HAND",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22279,
+      "caption": "PATIENT: THIGH: CRYPTOCOCCOSIS, CELLULITIS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22280,
+      "caption": "PATIENT: SKIN: CRYPTOCOCCOSIS, ULCER",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 22589,
+      "caption": "HISTOLOGY: MICROBIOLOGY: URINARY: KIDNEY: PLASMODIUM FALCIPARUM, MALARIA, BLACK WATER FEVER, GLOMERULUS",
+      "reason": "主要診斷不符合原教材，或僅背景病史提及"
+    },
+    {
+      "imageId": 23914,
+      "caption": "GROSS: URINARY: KIDNEY: CANDIDIASIS, DISSEMINATED IN KIDNEY",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 24148,
+      "caption": "PATIENT: EYE: HERPES SIMPLEX KERATITIS, CORNEA",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 24318,
+      "caption": "PATIENT: FACE: HERPES ZOSTER, CORNEA; TRIGEMINAL INVOLVEMENT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 24319,
+      "caption": "HISTOLOGY: EYE: HERPES ZOSTER, CORNEA; STROMAL KERATITIS",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 24320,
+      "caption": "GROSS: EYE: HERPES ZOSTER, CORNEA; CORNEAL MELT",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 24321,
+      "caption": "HISTOLOGY: EYE: HERPES ZOSTER, CORNEA; CORNEAL MELT",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 24322,
+      "caption": "HISTOLOGY: EYE: HERPES ZOSTER, CORNEA; CORNEAL MELT",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 25045,
+      "caption": "CYTOLOGY: CERVIX: CONDYLOMA, CERVICAL SMEARS: GYNECOLOGIC CYTOLOGY",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 25047,
+      "caption": "CYTOLOGY: CERVIX: CONDYLOMA, CERVICAL SMEARS: GYNECOLOGIC CYTOLOGY",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 25052,
+      "caption": "CYTOLOGY: CERVIX: CONDYLOMA, WITH MILD DYSPLASIA, CERVICAL SMEARS: GYNECOLOGIC CYTOLOGY",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 25054,
+      "caption": "CYTOLOGY: CERVIX: ACTINOMYCES-LIKE ORGANISM, CERVICAL SMEARS: GYNECOLOGIC CYTOLOGY",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 25063,
+      "caption": "CYTOLOGY: CERVIX: HERPES, PAP STAIN, CERVICAL SMEARS: GYNECOLOGIC CYTOLOGY",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 25065,
+      "caption": "CYTOLOGY: CERVIX: HERPES, PAP STAIN SMEAR, CERVICAL SMEARS: GYNECOLOGIC CYTOLOGY",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 25084,
+      "caption": "HISTOLOGY: SKIN: HERPES, VESICLE; VARICELLA",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 25092,
+      "caption": "HISTOLOGY: SKIN: HERPES, VESICLE, VARICELLA",
+      "reason": "帶狀疱疹／水痘／疑似或伴隨其他主要診斷，非確定的原教材對照"
+    },
+    {
+      "imageId": 25747,
+      "caption": "HISTOLOGY: HEMATOLOGIC: BLOOD: MALARIA, RING FORMS IN MALARIA; PERIPHERAL BLOOD SMEAR, POOR",
+      "reason": "培養／塗片、來源器官或診斷有明示疑義"
+    },
+    {
+      "imageId": 25765,
+      "caption": "RADIOLOGY: LUNG: HERPES, LUNG INFECTION",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 27161,
+      "caption": "HISTOLOGY: MICROBIOLOGY: NERVOUS: BRAIN: PLASMODIUM FALCIPARUM MALARIA BRAIN VASCULAR LESIONS",
+      "reason": "主要診斷不符合原教材，或僅背景病史提及"
+    },
+    {
+      "imageId": 27323,
+      "caption": "ELECTRON MICROSCOPY: MICROBIOLOGY: EAR: HERPES SIMPLEX, AIDS, EAR",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 27324,
+      "caption": "HISTOLOGY: MICROBIOLOGY: HERPES SIMPLEX, AIDS, GIANT CELLS",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 27328,
+      "caption": "ELECTRON MICROSCOPY: MICROBIOLOGY: HERPES SIMPLEX, AIDS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 27329,
+      "caption": "HISTOLOGY: MICROBIOLOGY: HERPES SIMPLEX, AIDS",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 28520,
+      "caption": "GROSS: NERVOUS: BRAIN: HERPES, SYSTEMIC, NEWBORN BRAIN; A 27-85",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 28523,
+      "caption": "GROSS: NERVOUS: BRAIN: HERPES, SYSTEMIC, NEWBORN BRAIN; NEWBORN BRAIN A 27-85",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 28526,
+      "caption": "GROSS: NERVOUS: BRAIN: HERPES, SYSTEMIC, NEWBORN BRAIN; A 27-85",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 28613,
+      "caption": "HISTOLOGY: NERVOUS: BRAIN: CRYPTOCOCCOSIS, BRAIN, PERIVASCULAR; TO BE DELETED",
+      "reason": "培養／塗片、來源器官或診斷有明示疑義"
+    },
+    {
+      "imageId": 29177,
+      "caption": "PATIENT: MOUTH: HERPES SIMPLEX, GINGIVOSTOMATITIS; HSV-1, NO VESICLES, ONLY SHALLOW ULCERS",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 29178,
+      "caption": "PATIENT: SKIN: ENCEPHALITIS, HERPES SIMPLEX; ONLY 2 VESICLES ON SKIN, NEONATAL HSV-2",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 30214,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: HEPATITIS, HERPES SIMPLEX",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 30223,
+      "caption": "HISTOLOGY: MICROBIOLOGY: MUCOR, CULTURE",
+      "reason": "培養／塗片、來源器官或診斷有明示疑義"
+    },
+    {
+      "imageId": 30229,
+      "caption": "OTHER: MICROBIOLOGY: ACTINOMYCES ISRAELI, CULTURE",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 30239,
+      "caption": "HISTOLOGY: HEMATOLOGIC: BLOOD: MALARIA, PLASMODIUM FALCIPARUM",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 30240,
+      "caption": "HISTOLOGY: HEMATOLOGIC: BLOOD: MALARIA, PLASMODIUM FALCIPARUM",
+      "reason": "未明示器官／非組織性塗片"
+    },
+    {
+      "imageId": 30241,
+      "caption": "HISTOLOGY: NERVOUS: BRAIN: MALARIA CEREBRAL",
+      "reason": "主要診斷不符合原教材，或僅背景病史提及"
+    },
+    {
+      "imageId": 30281,
+      "caption": "GROSS: HEPATOBILIARY: LIVER: HERPES SIMPLEX, LIVER SURFACE",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 31712,
+      "caption": "GROSS: EPIGLOTTIS: CANDIDIASIS, EPIGLOTTIS; 3.3 PATIENT WITH ACUTE LEUKEMIA",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 32083,
+      "caption": "GROSS: FETUS: CANDIDIASIS, UMBILICAL CORD; 8.73 WHITE SPOTS OF COLONIES PRESENT ON CORD SURFACE",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 32212,
+      "caption": "GROSS: NERVOUS: BRAIN: ENCEPHALITIS, HERPES; 11.22 MARKED NECROSIS OF THE RIGHT TEMPORAL LOBE",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 32213,
+      "caption": "GROSS: NERVOUS: BRAIN: MALARIA, CEREBRAL; 11.23 MULTIPLE PETECHIAL HEMORRHAGES THROUGHOUT WHITE MATTER",
+      "reason": "非組織切片分類"
+    },
+    {
+      "imageId": 33448,
+      "caption": "RADIOLOGY: NERVOUS: BRAIN: HERPES VIRUS, ENCEPHALOMALACIA; LONG TERM CONSEQUENCES, SEQUELAE (CT)",
+      "reason": "非組織切片分類"
+    }
+  ]
+}

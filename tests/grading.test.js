@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
-import {grade,normalize,highlightedParts,formatScore} from '../assets/grading.js';
+import {grade,gradedFields,maximumScore,normalize,highlightedParts,formatScore} from '../assets/grading.js';
 const {cases}=JSON.parse(readFileSync(new URL('../data/cases.json',import.meta.url)));
 test('normalization ignores case, spacing, punctuation and fullwidth differences',()=>{
   assert.equal(normalize(' Ｋｉｄｎｅｙ!\n'), 'kidney');
@@ -18,6 +18,7 @@ test('all three fields are scored independently',()=>{
 });
 test('each highlighted phrase is mandatory, including center/periphery',()=>{
  for(const c of cases){
+  if(!gradedFields(c).includes('description'))continue;
   const full=c.keywords.map(k=>k.text).join('; ');
   assert.equal(grade(c,{description:full.toUpperCase()}).description,true,c.id);
   for(let i=0;i<c.keywords.length;i++){
@@ -166,13 +167,45 @@ test('empty answers never earn points',()=>{
 test('question bank is complete and all marked text and images are traceable',()=>{
  assert.equal(new Set(cases.map(c=>c.id)).size,cases.length);
  for(const c of cases){
-  assert.ok(c.images.length>1);assert.ok(c.organ&&c.diagnosis&&c.description&&c.source.answerPage);
+  assert.ok(c.images.length>=(c.source.type==='web'?1:2));assert.ok(c.organ&&c.diagnosis);
+  if(c.source.type==='web'){
+   assert.equal(c.answerMode,'organ-diagnosis');assert.equal(c.description,'');assert.deepEqual(c.keywords,[]);
+   assert.ok(c.source.url&&c.source.slideId&&c.source.retrievedAt&&c.source.relatedCaseIds.length);
+   assert.ok(c.source.relatedCaseIds.every(id=>cases.some(item=>item.id===id&&item.source.type!=='web')));
+   assert.equal(c.source.answerPage,undefined);
+  }else assert.ok(c.description&&c.source.answerPage&&c.keywords.length);
   const parts=highlightedParts(c.description,c.keywords);
   assert.equal(parts.map(p=>p.text).join(''),c.description);
   assert.equal(parts.filter(p=>p.highlighted).length,c.keywords.length);
   for(const k of c.keywords){assert.ok(k.accepted.length);assert.ok(k.accepted.every(x=>normalize(x).length));}
-  for(const i of c.images){assert.ok(existsSync(new URL('../'+i.src,import.meta.url)));assert.ok(i.page>0&&i.width>0&&i.height>0&&i.sourceImageSha256);}
+  for(const i of c.images){
+   assert.ok(existsSync(new URL('../'+i.src,import.meta.url)));assert.ok(i.width>0&&i.height>0&&i.sourceImageSha256);
+   if(c.source.database==='NUS Pathweb'){
+    assert.equal(i.bboxUnit,'pixels-at-pyramid-level');assert.ok(i.pyramidLevel>0&&i.tiles.length&&i.outputSha256);
+    assert.ok(i.tiles.every(t=>t.url.includes(`/slides/${c.source.slideId}_dz_files/${i.pyramidLevel}/`)&&/^[a-f0-9]{64}$/.test(t.sha256)));
+    assert.equal(i.page,undefined);
+   }else if(c.source.type==='web'){
+    assert.ok(i.url&&i.sourceImageId&&i.sourceTitle&&i.outputSha256);
+    assert.equal(i.page,undefined);
+   }else assert.ok(i.page>0);
+  }
  }
+});
+test('Pathweb scores only Organ and Diagnosis and cannot earn description points',()=>{
+ const added=cases.filter(c=>c.lesson===10);assert.equal(added.length,9);
+ for(const c of added){
+  assert.deepEqual(gradedFields(c),['organ','diagnosis']);assert.equal(maximumScore(c),7);
+  const perfect=grade(c,{organ:c.organ,diagnosis:c.diagnosis,description:'anything'});
+  assert.equal(perfect.score,7);assert.equal(perfect.description,false);assert.equal(perfect.scores.description,0);
+  assert.equal(grade(c,{organ:c.organ,diagnosis:'wrong'}).score,2);
+  assert.equal(grade(c,{organ:'wrong',diagnosis:c.diagnosis}).score,5);
+  assert.ok(gradedFields(c).every(f=>perfect[f]));
+ }
+ assert.equal(maximumScore(cases[0]),17);
+ const brain=added.find(c=>c.id==='PATHWEB-D40');
+ assert.equal(grade(brain,{organ:'Cerebrum',diagnosis:'Infarction'}).score,7);
+ assert.equal(grade(brain,{diagnosis:'Encephalomalacia'}).diagnosis,false);
+ assert.equal(grade(added.find(c=>c.id==='PATHWEB-M4'),{diagnosis:'Acute myocardial infarction'}).diagnosis,false);
 });
 test('scores are calculated based on 17-point scale (organ: 2, diagnosis: 5, description: 10 proportional)',()=>{
   const c=cases[0];

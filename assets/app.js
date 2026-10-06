@@ -1,4 +1,4 @@
-import {grade, highlightedParts, normalize, formatScore} from './grading.js';
+import {grade, gradedFields, maximumScore, highlightedParts, normalize, formatScore} from './grading.js';
 const $ = s => document.querySelector(s);
 const fields = ['organ','diagnosis','description'];
 const storageKey = 'micro-practice-v1';
@@ -8,7 +8,7 @@ try { const saved=JSON.parse(localStorage.getItem(storageKey)||'{}'); if(saved &
 function save(){ try{localStorage.setItem(storageKey,JSON.stringify(records));}catch{$('#saved').textContent='此瀏覽器無法保留紀錄';} }
 const current = () => bank.find(c=>c.id===currentId);
 const record = () => records[currentId] || {};
-const isWrong = c => {const r=records[c.id]; return r?.checked && fields.some(f=>!grade(c,r.answers)[f]);};
+const isWrong = c => {const r=records[c.id]; return r?.checked && gradedFields(c).some(f=>!grade(c,r.answers)[f]);};
 function updateStats(){
   const scoped=bank.filter(c=>lesson==='all'||String(c.lesson)===lesson);
   $('#wrong-count').textContent=scoped.filter(isWrong).length;
@@ -79,13 +79,15 @@ function renderFeedback(){
   const c=current(),r=record(),g=r.checked?grade(c,r.answers):null;
   for(const f of fields){
     const field=$(`[data-field="${f}"]`),feedback=field.querySelector('.feedback');
+    const enabled=gradedFields(c).includes(f);
+    field.hidden=!enabled;$(`#${f}`).disabled=!enabled;
     field.classList.toggle('correct',!!g?.[f]);field.classList.toggle('incorrect',!!g&&!g[f]);
     const result=field.querySelector('.result');
     result.replaceChildren();
-    if(g){const symbol=document.createElement('span');symbol.setAttribute('aria-hidden','true');symbol.textContent=g[f]?'✓':'✕';const label=document.createElement('span');label.className='sr-only';label.textContent=g[f]?'正確':'錯誤';result.append(symbol,label);result.title=label.textContent;}else result.removeAttribute('title');
+    if(g&&enabled){const symbol=document.createElement('span');symbol.setAttribute('aria-hidden','true');symbol.textContent=g[f]?'✓':'✕';const label=document.createElement('span');label.className='sr-only';label.textContent=g[f]?'正確':'錯誤';result.append(symbol,label);result.title=label.textContent;}else result.removeAttribute('title');
     $(`#${f}`).setAttribute('aria-invalid',String(!!g&&!g[f]));
     feedback.replaceChildren();
-    if(!g)continue;
+    if(!g||!enabled)continue;
     if(f==='description'&&g.missing.length){const p=document.createElement('p');p.className='missing';p.textContent=g.scores.description>0?`缺少關鍵字：${g.missing.join(' · ')}（得分 ${formatScore(g.scores.description)} / 10 分）`:`缺少關鍵字：${g.missing.join(' · ')}`;feedback.append(p);}
     const details=document.createElement('details');details.open=!g[f];
     const summary=document.createElement('summary');summary.innerHTML='<span></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
@@ -104,17 +106,44 @@ function renderFeedback(){
       const alts=(c.acceptedDiagnosis||c.acceptedDiagnoses||[]).filter(x=>normalize(x)!==normalize(c.diagnosis));
       const displayAlts=alts.filter(x=>!['infract','infraction'].includes(normalize(x)));
       if(displayAlts.length){const note=document.createElement('div');note.className='source-note';note.textContent=`亦接受：${displayAlts.join(' 或 ')}`;details.append(note);}
+      if(c.source.url){
+        if(c.notes){const note=document.createElement('div');note.className='answer-notes';note.textContent=c.notes;details.append(note);}
+        if(c.source.sourceTitle){const note=document.createElement('div');note.className='source-note';note.textContent=`來源圖說：${c.source.sourceTitle}`;details.append(note);}
+        const source=document.createElement('div');source.className='source-note';
+        const link=document.createElement('a');link.href=c.source.url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=`${c.source.database} · ${c.source.slideId.toUpperCase()} · 原始資料來源`;
+        source.append(link);details.append(source);
+        if(c.source.attribution){const note=document.createElement('div');note.className='source-note';note.textContent=c.source.attribution;details.append(note);}
+        for(const id of c.source.relatedCaseIds||[]){
+          const related=bank.find(item=>item.id===id);if(!related)continue;
+          const note=document.createElement('div');note.className='source-note';note.textContent=`原教材對照：${id} · ${related.organ} · ${related.diagnosis}`;details.append(note);
+        }
+      }
     }else if(f==='organ'){
       const alts=(c.acceptedOrgan||c.acceptedOrgans||[]).filter(x=>normalize(x)!==normalize(c.organ));
       if(alts.length){const note=document.createElement('div');note.className='source-note';note.textContent=`亦接受：${alts.join(' 或 ')}`;details.append(note);}
     }
     feedback.append(details);
   }
-  $('#score').textContent=g?`${formatScore(g.score)} / 17`:'';
-  $('#retry').hidden=!g;$('#check').setAttribute('aria-label',g?'再次檢查':'檢查答案');$('#check').title=g?'再次檢查':'檢查答案';$('#check').textContent=g?'再次檢查':'檢查答案';
+  $('#score').textContent=g?`${formatScore(g.score)} / ${maximumScore(c)}`:'';
+  const pos=visibleIds.indexOf(currentId),hasNext=pos>=0&&pos<visibleIds.length-1;
+  const label=r.checked?(hasNext?'下一題':'再次檢查'):'檢查答案';
+  $('#retry').hidden=!g;$('#check').setAttribute('aria-label',label);$('#check').title=label;$('#check').textContent=label;
 }
 function answers(){return Object.fromEntries(fields.map(f=>[f,$(`#${f}`).value]));}
-$('#answer-form').addEventListener('submit',e=>{e.preventDefault();records[currentId]={answers:answers(),checked:true};save();renderFeedback();updateStats();$('#case-state').textContent='✓';});
+$('#answer-form').addEventListener('submit',e=>{
+  e.preventDefault();
+  const r=record();
+  if(r.checked){
+    const pos=visibleIds.indexOf(currentId);
+    if(pos>=0&&pos<visibleIds.length-1){
+      moveCase(1);
+      const enabled=gradedFields(current());
+      $(`#${enabled[0]||'organ'}`).focus();
+      return;
+    }
+  }
+  records[currentId]={answers:answers(),checked:true};save();renderFeedback();updateStats();$('#case-state').textContent='✓';
+});
 $('#answer-form').addEventListener('input',()=>{records[currentId]={answers:answers(),checked:false};save();renderFeedback();updateStats();$('#case-state').textContent='';});
 $('#retry').onclick=()=>{records[currentId]={answers:{},checked:false};save();render();$('#organ').focus();};
 $('#lesson').onchange=e=>{lesson=e.target.value;syncLessonMenu();selectList();};
