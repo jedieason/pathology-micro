@@ -145,6 +145,15 @@ $('#answer-form').addEventListener('submit',e=>{
   }
   records[currentId]={answers:answers(),checked:true};save();renderFeedback();updateStats();$('#case-state').textContent='✓';
 });
+window.addEventListener('keydown',e=>{
+  if((e.metaKey||e.ctrlKey)&&e.key==='Enter'){
+    const form=$('#answer-form');
+    if(form&&!$('#exercise').hidden){
+      e.preventDefault();
+      form.requestSubmit();
+    }
+  }
+});
 $('#answer-form').addEventListener('input',()=>{records[currentId]={answers:answers(),checked:false};save();renderFeedback();updateStats();$('#case-state').textContent='';});
 $('#retry').onclick=()=>{records[currentId]={answers:{},checked:false};save();render();$('#organ').focus();};
 $('#lesson').onchange=e=>{lesson=e.target.value;syncLessonMenu();selectList();};
