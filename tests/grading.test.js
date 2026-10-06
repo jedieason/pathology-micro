@@ -192,7 +192,7 @@ test('question bank is complete and all marked text and images are traceable',()
  }
 });
 test('Pathweb scores only Organ and Diagnosis and cannot earn description points',()=>{
- const added=cases.filter(c=>c.lesson===10);assert.equal(added.length,9);
+ const added=cases.filter(c=>c.lesson===10);assert.equal(added.length,11);
  for(const c of added){
   assert.deepEqual(gradedFields(c),['organ','diagnosis']);assert.equal(maximumScore(c),7);
   const perfect=grade(c,{organ:c.organ,diagnosis:c.diagnosis,description:'anything'});

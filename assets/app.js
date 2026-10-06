@@ -9,12 +9,13 @@ function save(){ try{localStorage.setItem(storageKey,JSON.stringify(records));}c
 const current = () => bank.find(c=>c.id===currentId);
 const record = () => records[currentId] || {};
 const isWrong = c => {const r=records[c.id]; return r?.checked && gradedFields(c).some(f=>!grade(c,r.answers)[f]);};
+const matchLesson = (caseLesson, selectedLesson) => selectedLesson === 'all' ? (Number(caseLesson) >= 1 && Number(caseLesson) <= 9) : String(caseLesson) === selectedLesson;
 function updateStats(){
-  const scoped=bank.filter(c=>lesson==='all'||String(c.lesson)===lesson);
+  const scoped=bank.filter(c=>matchLesson(c.lesson,lesson));
   $('#wrong-count').textContent=scoped.filter(isWrong).length;
 }
 function selectList(preferred=currentId){
-  visibleIds=order.filter(id=>{const c=bank.find(c=>c.id===id);return (lesson==='all'||String(c.lesson)===lesson)&&(!wrongOnly||isWrong(c));});
+  visibleIds=order.filter(id=>{const c=bank.find(c=>c.id===id);return matchLesson(c.lesson,lesson)&&(!wrongOnly||isWrong(c));});
   currentId=visibleIds.includes(preferred)?preferred:visibleIds[0];
   imageIndex=0; render();
 }
@@ -179,7 +180,7 @@ $('#shuffle').onclick=()=>{
   order=bank.map(c=>c.id);
   if(shuffled){
     for(let i=order.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]];}
-    const eligible=order.filter(id=>{const c=bank.find(c=>c.id===id);return (lesson==='all'||String(c.lesson)===lesson)&&(!wrongOnly||isWrong(c));});
+    const eligible=order.filter(id=>{const c=bank.find(c=>c.id===id);return matchLesson(c.lesson,lesson)&&(!wrongOnly||isWrong(c));});
     if(eligible.length>1&&eligible[0]===currentId){const a=order.indexOf(eligible[0]),b=order.indexOf(eligible[1]);[order[a],order[b]]=[order[b],order[a]];}
   }
   $('#shuffle-label').textContent=shuffled?'已隨機':'隨機';
